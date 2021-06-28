@@ -15,4 +15,6 @@ router.get('/api/signOut', auth, user.signOut)
 
 router.get('/api/signOutAll', auth, user.signOutAll)
 
+router.put('/api/update/:userId', auth, user.updateAdmin)
+
 module.exports = router
