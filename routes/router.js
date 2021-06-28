@@ -1,10 +1,18 @@
-const express = require('express');
-const router = express.Router();
-const user = require('../controller/controller');
+const express = require('express')
+const bodyParser = require('body-parser')
+const user = require('../controller/controller')
+const auth = require('../middleware/auth.js')
 
+const jsonParser = bodyParser.json()
 
-router.post('/api/signIn', user.signIn);
+const router = express.Router()
 
-router.post('/api/signUp', user.signUp);
+router.post('/api/signIn',jsonParser, user.signIn)
+
+router.post('/api/signUp',jsonParser, user.signUp)
+
+router.get('/api/signOut', auth, user.signOut)
+
+router.get('/api/signOutAll', auth, user.signOutAll)
 
 module.exports = router

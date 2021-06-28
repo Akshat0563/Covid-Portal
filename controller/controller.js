@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 const bcrypt = require('bcryptjs')
 const User = require('../model/user')
 
-exports.signIn = (req,res) => {
+exports.signIn = async (req,res) => {
 
     if(req.body.email == '' || req.body.password == '') {
         res.status(400).json({message: "No field can be empty!"});
@@ -10,55 +10,58 @@ exports.signIn = (req,res) => {
         return;
     }
 
-    const email = req.body.email;
-    const password = req.body.password;
-    User.findOne({email})
-    .then(user => {
-        if(!user) {
-            res.status(404).json({emailnotfound: "Email not found"});
-        }
-
-        bcrypt.compare(password, user.password)
-        .then(isMatch => {
-            if(isMatch) {
-                return res.status(200).json({message: `login successful`});
-            } else {
-                return res.status(404).json({passwordincorrect: "Password Incorrect"});
-            }
-        });
-    });
+    try{
+        const user = await User.findByCredentials(req.body.email, req.body.password)
+        const token = await user.generateToken()
+        res.send({user, token})
+    }
+    catch(error){
+        console.log(error)
+        res.status(400).send(error)
+    }
 }
 
-exports.signUp = (req, res) => {
-
+exports.signUp = async (req, res) => {
+    console.log(req.body)
     if(req.body.email == '' || req.body.password == '') {
         res.status(400).json({message: "No field can be empty!"});
         console.log('field empty')
         return;
     }
 
-    User.findOne({email: req.body.email})
-    .then(user => {
-        if(user) {
-            return res.status(400).json({email: "Email already exists"});
-        } else {
-            const newUser = new User({
-                email: req.body.email,
-                password: req.body.password
-            });
+    const newUser = new User({
+        email: req.body.email,
+        password: req.body.password,
+        tokens: []
+    })
 
-            const rounds  = 10;
-            bcrypt.genSalt(rounds, (err, salt) => {
-                bcrypt.hash(newUser.password, salt, (err, hash) => {
-                if (err) throw err;
-                newUser.password = hash;
-                newUser
-                    .save()
-                    .then(user => res.json(user))
-                    .catch(err => console.log(err));
-                });
-            });
-        }
+    try{
+        const token = await newUser.generateToken()
+        res.status(201).send({newUser, token})
+    }
+    catch(e){
+        res.status(400).send(e)
+    }
+}
 
-    });
+exports.signOut = async (req,res)=>{
+    try{
+        req.user.tokens = req.user.tokens.filter((tokenObject) => tokenObject.token != req.token)
+        await req.user.save()
+        res.send('Signed Out')
+    }
+    catch(e){
+        res.status(500).send(e)
+    }
+}
+
+exports.signOutAll = async (req,res)=>{
+    try{
+        req.user.tokens = []
+        await req.user.save()
+        res.send('Signed Out from All Sessions')
+    }
+    catch(e){
+        res.status(500).send(e)
+    }
 }
