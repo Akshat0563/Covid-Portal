@@ -19,7 +19,11 @@ var user = new mongoose.Schema({
             type:String,
             required: true
         }
-    }]
+    }],
+    isAdmin: {
+        type: Boolean,
+        default: false
+    }
 })
 
 user.methods.generateToken = async function() {

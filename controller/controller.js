@@ -32,7 +32,7 @@ exports.signUp = async (req, res) => {
     const newUser = new User({
         email: req.body.email,
         password: req.body.password,
-        tokens: []
+        tokens: [],
     })
 
     try{
@@ -63,5 +63,47 @@ exports.signOutAll = async (req,res)=>{
     }
     catch(e){
         res.status(500).send(e)
+    }
+}
+
+exports.updateAdmin = async (req,res)=>{
+
+
+    if(req.user.isAdmin){
+        const username = req.params.username;
+        console.log(username);
+        User.findByIdAndUpdate(req.params.userId,{$set:{isAdmin:true}})
+            //(err,doc)=>{
+            // if(err){
+            //     console.log(err);
+            // }
+            // else if(!doc){
+            //     console.log("User does not exist");
+            //     res.statusCode(404).send;
+            // }
+            // else{
+            //     doc.isAdmin = true;
+            //     doc.save();
+            //     console.log("Admin updated succesfully")
+            // }
+        //}
+        .then(data=> {
+            if(!data) {
+                res.status(404).send({
+                    message: `cannot update author with  Maybe uer not found`
+                }) 
+            } else {
+                
+                res.send(data);
+            }
+        })
+        .catch(err=> {
+            res.status(500).send({
+                message: `Error update author information`
+            })
+        })
+    }
+    else{
+        res.end("You are not authorized to perform this operation");
     }
 }
