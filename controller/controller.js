@@ -72,7 +72,7 @@ exports.updateAdmin = async (req,res)=>{
     if(req.user.isAdmin){
         const username = req.params.username;
         console.log(username);
-        User.findByIdAndUpdate(req.params.userId,{$set:{isAdmin:true}})
+        User.findByIdAndUpdate(req.params.userId,{$set:{isAdmin:true}},{new:true})
             //(err,doc)=>{
             // if(err){
             //     console.log(err);
