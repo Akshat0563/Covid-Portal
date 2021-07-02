@@ -1,0 +1,306 @@
+[
+	{
+		"State": "Total",
+		"State_code": "TT",
+		"Confirmed": "30367153",
+		"Recovered": "29422150",
+		"Deaths": "398554",
+		"Active": "534534"
+	},
+	{
+		"State": "Maharashtra",
+		"State_code": "MH",
+		"Confirmed": "6051633",
+		"Recovered": "5809548",
+		"Deaths": "121804",
+		"Active": "117098"
+	},
+	{
+		"State": "Kerala",
+		"State_code": "KL",
+		"Confirmed": "2910508",
+		"Recovered": "2797779",
+		"Deaths": "13094",
+		"Active": "99177"
+	},
+	{
+		"State": "Karnataka",
+		"State_code": "KA",
+		"Confirmed": "2840428",
+		"Recovered": "2719479",
+		"Deaths": "34929",
+		"Active": "85997"
+	},
+	{
+		"State": "Tamil Nadu",
+		"State_code": "TN",
+		"Confirmed": "2475190",
+		"Recovered": "2403349",
+		"Deaths": "32506",
+		"Active": "39335"
+	},
+	{
+		"State": "Andhra Pradesh",
+		"State_code": "AP",
+		"Confirmed": "1885716",
+		"Recovered": "1832971",
+		"Deaths": "12671",
+		"Active": "40074"
+	},
+	{
+		"State": "Uttar Pradesh",
+		"State_code": "UP",
+		"Confirmed": "1705951",
+		"Recovered": "1680428",
+		"Deaths": "22577",
+		"Active": "2946"
+	},
+	{
+		"State": "West Bengal",
+		"State_code": "WB",
+		"Confirmed": "1498305",
+		"Recovered": "1459510",
+		"Deaths": "17679",
+		"Active": "21116"
+	},
+	{
+		"State": "Delhi",
+		"State_code": "DL",
+		"Confirmed": "1434188",
+		"Recovered": "1407832",
+		"Deaths": "24977",
+		"Active": "1379"
+	},
+	{
+		"State": "Chhattisgarh",
+		"State_code": "CT",
+		"Confirmed": "994077",
+		"Recovered": "974725",
+		"Deaths": "13438",
+		"Active": "5914"
+	},
+	{
+		"State": "Rajasthan",
+		"State_code": "RJ",
+		"Confirmed": "952322",
+		"Recovered": "941839",
+		"Deaths": "8918",
+		"Active": "1565"
+	},
+	{
+		"State": "Odisha",
+		"State_code": "OR",
+		"Confirmed": "909800",
+		"Recovered": "874307",
+		"Deaths": "4071",
+		"Active": "31422"
+	},
+	{
+		"State": "Gujarat",
+		"State_code": "GJ",
+		"Confirmed": "823433",
+		"Recovered": "810147",
+		"Deaths": "10056",
+		"Active": "3230"
+	},
+	{
+		"State": "Madhya Pradesh",
+		"State_code": "MP",
+		"Confirmed": "789771",
+		"Recovered": "780187",
+		"Deaths": "8954",
+		"Active": "630"
+	},
+	{
+		"State": "Haryana",
+		"State_code": "HR",
+		"Confirmed": "768552",
+		"Recovered": "757640",
+		"Deaths": "9417",
+		"Active": "1495"
+	},
+	{
+		"State": "Bihar",
+		"State_code": "BR",
+		"Confirmed": "721654",
+		"Recovered": "710238",
+		"Deaths": "9584",
+		"Active": "1831"
+	},
+	{
+		"State": "Telangana",
+		"State_code": "TG",
+		"Confirmed": "622593",
+		"Recovered": "605455",
+		"Deaths": "3651",
+		"Active": "13487"
+	},
+	{
+		"State": "Punjab",
+		"State_code": "PB",
+		"Confirmed": "595351",
+		"Recovered": "575971",
+		"Deaths": "16033",
+		"Active": "3347"
+	},
+	{
+		"State": "Assam",
+		"State_code": "AS",
+		"Confirmed": "506005",
+		"Recovered": "474457",
+		"Deaths": "4509",
+		"Active": "25692"
+	},
+	{
+		"State": "Jharkhand",
+		"State_code": "JH",
+		"Confirmed": "345525",
+		"Recovered": "339463",
+		"Deaths": "5113",
+		"Active": "949"
+	},
+	{
+		"State": "Uttarakhand",
+		"State_code": "UT",
+		"Confirmed": "339933",
+		"Recovered": "324766",
+		"Deaths": "7095",
+		"Active": "2245"
+	},
+	{
+		"State": "Jammu and Kashmir",
+		"State_code": "JK",
+		"Confirmed": "315298",
+		"Recovered": "306177",
+		"Deaths": "4316",
+		"Active": "4805"
+	},
+	{
+		"State": "Himachal Pradesh",
+		"State_code": "HP",
+		"Confirmed": "201980",
+		"Recovered": "196837",
+		"Deaths": "3461",
+		"Active": "1654"
+	},
+	{
+		"State": "Goa",
+		"State_code": "GA",
+		"Confirmed": "166449",
+		"Recovered": "161160",
+		"Deaths": "3048",
+		"Active": "2241"
+	},
+	{
+		"State": "Puducherry",
+		"State_code": "PY",
+		"Confirmed": "117249",
+		"Recovered": "113146",
+		"Deaths": "1749",
+		"Active": "2354"
+	},
+	{
+		"State": "Manipur",
+		"State_code": "MN",
+		"Confirmed": "69198",
+		"Recovered": "62134",
+		"Deaths": "1141",
+		"Active": "5923"
+	},
+	{
+		"State": "Tripura",
+		"State_code": "TR",
+		"Confirmed": "65767",
+		"Recovered": "61450",
+		"Deaths": "674",
+		"Active": "3620"
+	},
+	{
+		"State": "Chandigarh",
+		"State_code": "CH",
+		"Confirmed": "61656",
+		"Recovered": "60685",
+		"Deaths": "808",
+		"Active": "163"
+	},
+	{
+		"State": "Meghalaya",
+		"State_code": "ML",
+		"Confirmed": "49513",
+		"Recovered": "44459",
+		"Deaths": "838",
+		"Active": "4216"
+	},
+	{
+		"State": "Arunachal Pradesh",
+		"State_code": "AR",
+		"Confirmed": "35571",
+		"Recovered": "32716",
+		"Deaths": "168",
+		"Active": "2687"
+	},
+	{
+		"State": "Nagaland",
+		"State_code": "NL",
+		"Confirmed": "25111",
+		"Recovered": "22534",
+		"Deaths": "493",
+		"Active": "1381"
+	},
+	{
+		"State": "Sikkim",
+		"State_code": "SK",
+		"Confirmed": "20544",
+		"Recovered": "17962",
+		"Deaths": "307",
+		"Active": "2023"
+	},
+	{
+		"State": "Mizoram",
+		"State_code": "MZ",
+		"Confirmed": "20075",
+		"Recovered": "16106",
+		"Deaths": "93",
+		"Active": "3876"
+	},
+	{
+		"State": "Ladakh",
+		"State_code": "LA",
+		"Confirmed": "20038",
+		"Recovered": "19565",
+		"Deaths": "202",
+		"Active": "271"
+	},
+	{
+		"State": "Dadra and Nagar Haveli and Daman and Diu",
+		"State_code": "DN",
+		"Confirmed": "10561",
+		"Recovered": "10483",
+		"Deaths": "4",
+		"Active": "43"
+	},
+	{
+		"State": "Lakshadweep",
+		"State_code": "LD",
+		"Confirmed": "9742",
+		"Recovered": "9349",
+		"Deaths": "48",
+		"Active": "306"
+	},
+	{
+		"State": "Andaman and Nicobar Islands",
+		"State_code": "AN",
+		"Confirmed": "7466",
+		"Recovered": "7296",
+		"Deaths": "128",
+		"Active": "42"
+	},
+	{
+		"State": "State Unassigned",
+		"State_code": "UN",
+		"Confirmed": "0",
+		"Recovered": "0",
+		"Deaths": "0",
+		"Active": "0"
+	}
+]
