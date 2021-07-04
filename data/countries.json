@@ -1,0 +1,18 @@
+[
+    {
+        "Country":"India",
+        "Country_code": "IN",
+		"Confirmed": "30367153",
+		"Recovered": "29422150",
+		"Deaths": "398554",
+		"Active": "534534"
+    },
+    {
+        "Country":"United States of America",
+        "Country_code": "US",
+		"Confirmed": "34588360",
+		"Recovered": "29087424",
+		"Deaths": "621257",
+		"Active": "4879679"
+    }
+]

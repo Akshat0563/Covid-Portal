@@ -1,16 +1,5 @@
 [
 	{
-		"District": "Unassigned",
-		"District_Key": "UN_Unassigned",
-		"State_Code": "UN",
-		"State": "State Unassigned",
-		"Confirmed": "0",
-		"Active": "0",
-		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
-	},
-	{
 		"District": "Nicobars",
 		"District_Key": "AN_Nicobars",
 		"State_Code": "AN",
@@ -18,8 +7,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "North and Middle Andaman",
@@ -29,8 +17,7 @@
 		"Confirmed": "1",
 		"Active": "0",
 		"Recovered": "1",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "South Andaman",
@@ -40,8 +27,7 @@
 		"Confirmed": "51",
 		"Active": "19",
 		"Recovered": "32",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Foreign Evacuees",
@@ -51,8 +37,7 @@
 		"Confirmed": "434",
 		"Active": "0",
 		"Recovered": "434",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Anantapur",
@@ -62,8 +47,7 @@
 		"Confirmed": "153792",
 		"Active": "618",
 		"Recovered": "152128",
-		"Deceased": "1046",
-		"Migrated_Other": "0"
+		"Deaths": "1046"
 	},
 	{
 		"District": "Chittoor",
@@ -73,8 +57,7 @@
 		"Confirmed": "219348",
 		"Active": "6107",
 		"Recovered": "211640",
-		"Deceased": "1601",
-		"Migrated_Other": "0"
+		"Deaths": "1601"
 	},
 	{
 		"District": "East Godavari",
@@ -84,8 +67,7 @@
 		"Confirmed": "262096",
 		"Active": "7381",
 		"Recovered": "253588",
-		"Deceased": "1127",
-		"Migrated_Other": "0"
+		"Deaths": "1127"
 	},
 	{
 		"District": "Guntur",
@@ -95,8 +77,7 @@
 		"Confirmed": "162008",
 		"Active": "2361",
 		"Recovered": "158558",
-		"Deceased": "1089",
-		"Migrated_Other": "0"
+		"Deaths": "1089"
 	},
 	{
 		"District": "Krishna",
@@ -106,8 +87,7 @@
 		"Confirmed": "101386",
 		"Active": "3574",
 		"Recovered": "96700",
-		"Deceased": "1112",
-		"Migrated_Other": "0"
+		"Deaths": "1112"
 	},
 	{
 		"District": "Kurnool",
@@ -117,8 +97,7 @@
 		"Confirmed": "121804",
 		"Active": "820",
 		"Recovered": "120168",
-		"Deceased": "816",
-		"Migrated_Other": "0"
+		"Deaths": "816"
 	},
 	{
 		"District": "Other State",
@@ -128,8 +107,7 @@
 		"Confirmed": "2461",
 		"Active": "0",
 		"Recovered": "2461",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Prakasam",
@@ -139,8 +117,7 @@
 		"Confirmed": "120918",
 		"Active": "4690",
 		"Recovered": "115317",
-		"Deceased": "911",
-		"Migrated_Other": "0"
+		"Deaths": "911"
 	},
 	{
 		"District": "S.P.S. Nellore",
@@ -150,8 +127,7 @@
 		"Confirmed": "127098",
 		"Active": "3315",
 		"Recovered": "122876",
-		"Deceased": "907",
-		"Migrated_Other": "0"
+		"Deaths": "907"
 	},
 	{
 		"District": "Srikakulam",
@@ -161,8 +137,7 @@
 		"Confirmed": "118384",
 		"Active": "2513",
 		"Recovered": "115144",
-		"Deceased": "727",
-		"Migrated_Other": "0"
+		"Deaths": "727"
 	},
 	{
 		"District": "Visakhapatnam",
@@ -172,8 +147,7 @@
 		"Confirmed": "148466",
 		"Active": "1776",
 		"Recovered": "145639",
-		"Deceased": "1051",
-		"Migrated_Other": "0"
+		"Deaths": "1051"
 	},
 	{
 		"District": "Vizianagaram",
@@ -183,8 +157,7 @@
 		"Confirmed": "80096",
 		"Active": "691",
 		"Recovered": "78751",
-		"Deceased": "654",
-		"Migrated_Other": "0"
+		"Deaths": "654"
 	},
 	{
 		"District": "West Godavari",
@@ -194,8 +167,7 @@
 		"Confirmed": "161202",
 		"Active": "4609",
 		"Recovered": "155568",
-		"Deceased": "1025",
-		"Migrated_Other": "0"
+		"Deaths": "1025"
 	},
 	{
 		"District": "Y.S.R. Kadapa",
@@ -205,8 +177,7 @@
 		"Confirmed": "106223",
 		"Active": "1619",
 		"Recovered": "103999",
-		"Deceased": "605",
-		"Migrated_Other": "0"
+		"Deaths": "605"
 	},
 	{
 		"District": "Anjaw",
@@ -216,8 +187,7 @@
 		"Confirmed": "671",
 		"Active": "71",
 		"Recovered": "600",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Changlang",
@@ -227,8 +197,7 @@
 		"Confirmed": "3007",
 		"Active": "166",
 		"Recovered": "2829",
-		"Deceased": "12",
-		"Migrated_Other": "0"
+		"Deaths": "12"
 	},
 	{
 		"District": "East Kameng",
@@ -238,8 +207,7 @@
 		"Confirmed": "810",
 		"Active": "71",
 		"Recovered": "739",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "East Siang",
@@ -249,8 +217,7 @@
 		"Confirmed": "2037",
 		"Active": "165",
 		"Recovered": "1859",
-		"Deceased": "13",
-		"Migrated_Other": "0"
+		"Deaths": "13"
 	},
 	{
 		"District": "Kamle",
@@ -260,8 +227,7 @@
 		"Confirmed": "182",
 		"Active": "20",
 		"Recovered": "162",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Kra Daadi",
@@ -271,8 +237,7 @@
 		"Confirmed": "202",
 		"Active": "34",
 		"Recovered": "168",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Kurung Kumey",
@@ -282,8 +247,7 @@
 		"Confirmed": "417",
 		"Active": "161",
 		"Recovered": "256",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Lepa Rada",
@@ -293,8 +257,7 @@
 		"Confirmed": "491",
 		"Active": "35",
 		"Recovered": "455",
-		"Deceased": "1",
-		"Migrated_Other": "0"
+		"Deaths": "1"
 	},
 	{
 		"District": "Lohit",
@@ -304,8 +267,7 @@
 		"Confirmed": "1623",
 		"Active": "170",
 		"Recovered": "1438",
-		"Deceased": "15",
-		"Migrated_Other": "0"
+		"Deaths": "15"
 	},
 	{
 		"District": "Longding",
@@ -315,8 +277,7 @@
 		"Confirmed": "463",
 		"Active": "55",
 		"Recovered": "408",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Lower Dibang Valley",
@@ -326,8 +287,7 @@
 		"Confirmed": "1678",
 		"Active": "68",
 		"Recovered": "1603",
-		"Deceased": "7",
-		"Migrated_Other": "0"
+		"Deaths": "7"
 	},
 	{
 		"District": "Lower Siang",
@@ -337,8 +297,7 @@
 		"Confirmed": "502",
 		"Active": "30",
 		"Recovered": "466",
-		"Deceased": "6",
-		"Migrated_Other": "0"
+		"Deaths": "6"
 	},
 	{
 		"District": "Lower Subansiri",
@@ -348,8 +307,7 @@
 		"Confirmed": "1510",
 		"Active": "119",
 		"Recovered": "1385",
-		"Deceased": "6",
-		"Migrated_Other": "0"
+		"Deaths": "6"
 	},
 	{
 		"District": "Namsai",
@@ -359,8 +317,7 @@
 		"Confirmed": "1537",
 		"Active": "105",
 		"Recovered": "1422",
-		"Deceased": "10",
-		"Migrated_Other": "0"
+		"Deaths": "10"
 	},
 	{
 		"District": "Pakke Kessang",
@@ -370,8 +327,7 @@
 		"Confirmed": "280",
 		"Active": "43",
 		"Recovered": "237",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Papum Pare",
@@ -381,8 +337,7 @@
 		"Confirmed": "11887",
 		"Active": "692",
 		"Recovered": "11132",
-		"Deceased": "63",
-		"Migrated_Other": "0"
+		"Deaths": "63"
 	},
 	{
 		"District": "Shi Yomi",
@@ -392,8 +347,7 @@
 		"Confirmed": "134",
 		"Active": "3",
 		"Recovered": "131",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Siang",
@@ -403,8 +357,7 @@
 		"Confirmed": "197",
 		"Active": "19",
 		"Recovered": "176",
-		"Deceased": "2",
-		"Migrated_Other": "0"
+		"Deaths": "2"
 	},
 	{
 		"District": "Tawang",
@@ -414,8 +367,7 @@
 		"Confirmed": "1626",
 		"Active": "72",
 		"Recovered": "1541",
-		"Deceased": "13",
-		"Migrated_Other": "0"
+		"Deaths": "13"
 	},
 	{
 		"District": "Tirap",
@@ -425,8 +377,7 @@
 		"Confirmed": "779",
 		"Active": "36",
 		"Recovered": "740",
-		"Deceased": "3",
-		"Migrated_Other": "0"
+		"Deaths": "3"
 	},
 	{
 		"District": "Upper Dibang Valley",
@@ -436,8 +387,7 @@
 		"Confirmed": "222",
 		"Active": "27",
 		"Recovered": "194",
-		"Deceased": "1",
-		"Migrated_Other": "0"
+		"Deaths": "1"
 	},
 	{
 		"District": "Upper Siang",
@@ -447,8 +397,7 @@
 		"Confirmed": "668",
 		"Active": "37",
 		"Recovered": "631",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Upper Subansiri",
@@ -458,8 +407,7 @@
 		"Confirmed": "1226",
 		"Active": "177",
 		"Recovered": "1046",
-		"Deceased": "3",
-		"Migrated_Other": "0"
+		"Deaths": "3"
 	},
 	{
 		"District": "West Kameng",
@@ -469,8 +417,7 @@
 		"Confirmed": "2194",
 		"Active": "259",
 		"Recovered": "1926",
-		"Deceased": "9",
-		"Migrated_Other": "0"
+		"Deaths": "9"
 	},
 	{
 		"District": "West Siang",
@@ -480,8 +427,7 @@
 		"Confirmed": "1228",
 		"Active": "52",
 		"Recovered": "1172",
-		"Deceased": "4",
-		"Migrated_Other": "0"
+		"Deaths": "4"
 	},
 	{
 		"District": "Airport Quarantine",
@@ -491,8 +437,7 @@
 		"Confirmed": "13",
 		"Active": "0",
 		"Recovered": "13",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Baksa",
@@ -502,8 +447,7 @@
 		"Confirmed": "4551",
 		"Active": "4064",
 		"Recovered": "447",
-		"Deceased": "40",
-		"Migrated_Other": "0"
+		"Deaths": "40"
 	},
 	{
 		"District": "Barpeta",
@@ -513,8 +457,7 @@
 		"Confirmed": "9252",
 		"Active": "8110",
 		"Recovered": "1024",
-		"Deceased": "118",
-		"Migrated_Other": "0"
+		"Deaths": "118"
 	},
 	{
 		"District": "Biswanath",
@@ -524,8 +467,7 @@
 		"Confirmed": "5874",
 		"Active": "5466",
 		"Recovered": "379",
-		"Deceased": "29",
-		"Migrated_Other": "0"
+		"Deaths": "29"
 	},
 	{
 		"District": "Bongaigaon",
@@ -535,8 +477,7 @@
 		"Confirmed": "5095",
 		"Active": "4205",
 		"Recovered": "834",
-		"Deceased": "56",
-		"Migrated_Other": "0"
+		"Deaths": "56"
 	},
 	{
 		"District": "Cachar",
@@ -546,8 +487,7 @@
 		"Confirmed": "21969",
 		"Active": "20308",
 		"Recovered": "1498",
-		"Deceased": "163",
-		"Migrated_Other": "0"
+		"Deaths": "163"
 	},
 	{
 		"District": "Charaideo",
@@ -557,8 +497,7 @@
 		"Confirmed": "2358",
 		"Active": "2225",
 		"Recovered": "105",
-		"Deceased": "28",
-		"Migrated_Other": "0"
+		"Deaths": "28"
 	},
 	{
 		"District": "Chirang",
@@ -568,8 +507,7 @@
 		"Confirmed": "1897",
 		"Active": "1656",
 		"Recovered": "219",
-		"Deceased": "22",
-		"Migrated_Other": "0"
+		"Deaths": "22"
 	},
 	{
 		"District": "Darrang",
@@ -579,8 +517,7 @@
 		"Confirmed": "8901",
 		"Active": "7091",
 		"Recovered": "1730",
-		"Deceased": "80",
-		"Migrated_Other": "0"
+		"Deaths": "80"
 	},
 	{
 		"District": "Dhemaji",
@@ -590,8 +527,7 @@
 		"Confirmed": "5475",
 		"Active": "5005",
 		"Recovered": "440",
-		"Deceased": "30",
-		"Migrated_Other": "0"
+		"Deaths": "30"
 	},
 	{
 		"District": "Dhubri",
@@ -601,8 +537,7 @@
 		"Confirmed": "7278",
 		"Active": "6024",
 		"Recovered": "1215",
-		"Deceased": "39",
-		"Migrated_Other": "0"
+		"Deaths": "39"
 	},
 	{
 		"District": "Dibrugarh",
@@ -612,8 +547,7 @@
 		"Confirmed": "29320",
 		"Active": "26602",
 		"Recovered": "2409",
-		"Deceased": "309",
-		"Migrated_Other": "0"
+		"Deaths": "309"
 	},
 	{
 		"District": "Dima Hasao",
@@ -623,8 +557,7 @@
 		"Confirmed": "2520",
 		"Active": "2314",
 		"Recovered": "199",
-		"Deceased": "7",
-		"Migrated_Other": "0"
+		"Deaths": "7"
 	},
 	{
 		"District": "Goalpara",
@@ -634,8 +567,7 @@
 		"Confirmed": "8874",
 		"Active": "38",
 		"Recovered": "568",
-		"Deceased": "65",
-		"Migrated_Other": "0"
+		"Deaths": "65"
 	},
 	{
 		"District": "Golaghat",
@@ -645,8 +577,7 @@
 		"Confirmed": "14984",
 		"Active": "13200",
 		"Recovered": "1656",
-		"Deceased": "128",
-		"Migrated_Other": "0"
+		"Deaths": "128"
 	},
 	{
 		"District": "Hailakandi",
@@ -656,8 +587,7 @@
 		"Confirmed": "5730",
 		"Active": "4587",
 		"Recovered": "1116",
-		"Deceased": "27",
-		"Migrated_Other": "0"
+		"Deaths": "27"
 	},
 	{
 		"District": "Hojai",
@@ -667,8 +597,7 @@
 		"Confirmed": "6109",
 		"Active": "4871",
 		"Recovered": "1160",
-		"Deceased": "78",
-		"Migrated_Other": "0"
+		"Deaths": "78"
 	},
 	{
 		"District": "Jorhat",
@@ -678,8 +607,7 @@
 		"Confirmed": "18752",
 		"Active": "16822",
 		"Recovered": "1752",
-		"Deceased": "178",
-		"Migrated_Other": "0"
+		"Deaths": "178"
 	},
 	{
 		"District": "Kamrup",
@@ -689,8 +617,7 @@
 		"Confirmed": "28355",
 		"Active": "26070",
 		"Recovered": "2074",
-		"Deceased": "211",
-		"Migrated_Other": "0"
+		"Deaths": "211"
 	},
 	{
 		"District": "Kamrup Metropolitan",
@@ -700,8 +627,7 @@
 		"Confirmed": "94212",
 		"Active": "78109",
 		"Recovered": "15370",
-		"Deceased": "733",
-		"Migrated_Other": "0"
+		"Deaths": "733"
 	},
 	{
 		"District": "Karbi Anglong",
@@ -711,8 +637,7 @@
 		"Confirmed": "5466",
 		"Active": "4844",
 		"Recovered": "552",
-		"Deceased": "70",
-		"Migrated_Other": "0"
+		"Deaths": "70"
 	},
 	{
 		"District": "Karimganj",
@@ -722,8 +647,7 @@
 		"Confirmed": "6720",
 		"Active": "5698",
 		"Recovered": "955",
-		"Deceased": "67",
-		"Migrated_Other": "0"
+		"Deaths": "67"
 	},
 	{
 		"District": "Kokrajhar",
@@ -733,8 +657,7 @@
 		"Confirmed": "4240",
 		"Active": "3844",
 		"Recovered": "353",
-		"Deceased": "43",
-		"Migrated_Other": "0"
+		"Deaths": "43"
 	},
 	{
 		"District": "Lakhimpur",
@@ -744,8 +667,7 @@
 		"Confirmed": "9256",
 		"Active": "8059",
 		"Recovered": "1135",
-		"Deceased": "62",
-		"Migrated_Other": "0"
+		"Deaths": "62"
 	},
 	{
 		"District": "Majuli",
@@ -755,8 +677,7 @@
 		"Confirmed": "1052",
 		"Active": "965",
 		"Recovered": "80",
-		"Deceased": "7",
-		"Migrated_Other": "0"
+		"Deaths": "7"
 	},
 	{
 		"District": "Morigaon",
@@ -766,8 +687,7 @@
 		"Confirmed": "10545",
 		"Active": "9945",
 		"Recovered": "557",
-		"Deceased": "43",
-		"Migrated_Other": "0"
+		"Deaths": "43"
 	},
 	{
 		"District": "Nagaon",
@@ -777,8 +697,7 @@
 		"Confirmed": "20487",
 		"Active": "17828",
 		"Recovered": "2506",
-		"Deceased": "153",
-		"Migrated_Other": "0"
+		"Deaths": "153"
 	},
 	{
 		"District": "Nalbari",
@@ -788,8 +707,7 @@
 		"Confirmed": "7484",
 		"Active": "6577",
 		"Recovered": "828",
-		"Deceased": "79",
-		"Migrated_Other": "0"
+		"Deaths": "79"
 	},
 	{
 		"District": "Other State",
@@ -799,8 +717,7 @@
 		"Confirmed": "153",
 		"Active": "152",
 		"Recovered": "1",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Sivasagar",
@@ -810,8 +727,7 @@
 		"Confirmed": "6837",
 		"Active": "6248",
 		"Recovered": "473",
-		"Deceased": "116",
-		"Migrated_Other": "0"
+		"Deaths": "116"
 	},
 	{
 		"District": "Sonitpur",
@@ -821,8 +737,7 @@
 		"Confirmed": "16048",
 		"Active": "14168",
 		"Recovered": "1727",
-		"Deceased": "153",
-		"Migrated_Other": "0"
+		"Deaths": "153"
 	},
 	{
 		"District": "South Salmara Mankachar",
@@ -832,8 +747,7 @@
 		"Confirmed": "1758",
 		"Active": "1695",
 		"Recovered": "47",
-		"Deceased": "16",
-		"Migrated_Other": "0"
+		"Deaths": "16"
 	},
 	{
 		"District": "Tinsukia",
@@ -843,8 +757,7 @@
 		"Confirmed": "16883",
 		"Active": "14892",
 		"Recovered": "1798",
-		"Deceased": "193",
-		"Migrated_Other": "0"
+		"Deaths": "193"
 	},
 	{
 		"District": "Udalguri",
@@ -854,8 +767,7 @@
 		"Confirmed": "4403",
 		"Active": "3678",
 		"Recovered": "666",
-		"Deceased": "59",
-		"Migrated_Other": "0"
+		"Deaths": "59"
 	},
 	{
 		"District": "West Karbi Anglong",
@@ -865,8 +777,7 @@
 		"Confirmed": "883",
 		"Active": "844",
 		"Recovered": "37",
-		"Deceased": "2",
-		"Migrated_Other": "0"
+		"Deaths": "2"
 	},
 	{
 		"District": "Araria",
@@ -876,8 +787,7 @@
 		"Confirmed": "14861",
 		"Active": "26",
 		"Recovered": "14719",
-		"Deceased": "116",
-		"Migrated_Other": "0"
+		"Deaths": "116"
 	},
 	{
 		"District": "Arwal",
@@ -887,8 +797,7 @@
 		"Confirmed": "7321",
 		"Active": "22",
 		"Recovered": "7225",
-		"Deceased": "74",
-		"Migrated_Other": "0"
+		"Deaths": "74"
 	},
 	{
 		"District": "Aurangabad",
@@ -898,8 +807,7 @@
 		"Confirmed": "19934",
 		"Active": "6",
 		"Recovered": "19853",
-		"Deceased": "75",
-		"Migrated_Other": "0"
+		"Deaths": "75"
 	},
 	{
 		"District": "Banka",
@@ -909,8 +817,7 @@
 		"Confirmed": "7353",
 		"Active": "4",
 		"Recovered": "7238",
-		"Deceased": "111",
-		"Migrated_Other": "0"
+		"Deaths": "111"
 	},
 	{
 		"District": "Begusarai",
@@ -920,8 +827,7 @@
 		"Confirmed": "27049",
 		"Active": "75",
 		"Recovered": "26519",
-		"Deceased": "455",
-		"Migrated_Other": "0"
+		"Deaths": "455"
 	},
 	{
 		"District": "Bhagalpur",
@@ -931,8 +837,7 @@
 		"Confirmed": "25711",
 		"Active": "36",
 		"Recovered": "25367",
-		"Deceased": "308",
-		"Migrated_Other": "0"
+		"Deaths": "308"
 	},
 	{
 		"District": "Bhojpur",
@@ -942,8 +847,7 @@
 		"Confirmed": "10097",
 		"Active": "11",
 		"Recovered": "9928",
-		"Deceased": "158",
-		"Migrated_Other": "0"
+		"Deaths": "158"
 	},
 	{
 		"District": "Buxar",
@@ -953,8 +857,7 @@
 		"Confirmed": "9228",
 		"Active": "0",
 		"Recovered": "9047",
-		"Deceased": "181",
-		"Migrated_Other": "0"
+		"Deaths": "181"
 	},
 	{
 		"District": "Darbhanga",
@@ -964,8 +867,7 @@
 		"Confirmed": "10756",
 		"Active": "155",
 		"Recovered": "10243",
-		"Deceased": "358",
-		"Migrated_Other": "0"
+		"Deaths": "358"
 	},
 	{
 		"District": "East Champaran",
@@ -975,8 +877,7 @@
 		"Confirmed": "18899",
 		"Active": "121",
 		"Recovered": "18348",
-		"Deceased": "430",
-		"Migrated_Other": "0"
+		"Deaths": "430"
 	},
 	{
 		"District": "Gaya",
@@ -986,8 +887,7 @@
 		"Confirmed": "33857",
 		"Active": "48",
 		"Recovered": "33531",
-		"Deceased": "278",
-		"Migrated_Other": "0"
+		"Deaths": "278"
 	},
 	{
 		"District": "Gopalganj",
@@ -997,8 +897,7 @@
 		"Confirmed": "16624",
 		"Active": "40",
 		"Recovered": "16490",
-		"Deceased": "94",
-		"Migrated_Other": "0"
+		"Deaths": "94"
 	},
 	{
 		"District": "Jamui",
@@ -1008,8 +907,7 @@
 		"Confirmed": "9369",
 		"Active": "17",
 		"Recovered": "9247",
-		"Deceased": "105",
-		"Migrated_Other": "0"
+		"Deaths": "105"
 	},
 	{
 		"District": "Jehanabad",
@@ -1019,8 +917,7 @@
 		"Confirmed": "10751",
 		"Active": "3",
 		"Recovered": "10639",
-		"Deceased": "109",
-		"Migrated_Other": "0"
+		"Deaths": "109"
 	},
 	{
 		"District": "Kaimur",
@@ -1030,8 +927,7 @@
 		"Confirmed": "4962",
 		"Active": "3",
 		"Recovered": "4813",
-		"Deceased": "146",
-		"Migrated_Other": "0"
+		"Deaths": "146"
 	},
 	{
 		"District": "Katihar",
@@ -1041,8 +937,7 @@
 		"Confirmed": "18019",
 		"Active": "58",
 		"Recovered": "17867",
-		"Deceased": "94",
-		"Migrated_Other": "0"
+		"Deaths": "94"
 	},
 	{
 		"District": "Khagaria",
@@ -1052,8 +947,7 @@
 		"Confirmed": "9917",
 		"Active": "33",
 		"Recovered": "9798",
-		"Deceased": "86",
-		"Migrated_Other": "0"
+		"Deaths": "86"
 	},
 	{
 		"District": "Kishanganj",
@@ -1063,8 +957,7 @@
 		"Confirmed": "9953",
 		"Active": "69",
 		"Recovered": "9818",
-		"Deceased": "66",
-		"Migrated_Other": "0"
+		"Deaths": "66"
 	},
 	{
 		"District": "Lakhisarai",
@@ -1074,8 +967,7 @@
 		"Confirmed": "7692",
 		"Active": "41",
 		"Recovered": "7550",
-		"Deceased": "101",
-		"Migrated_Other": "0"
+		"Deaths": "101"
 	},
 	{
 		"District": "Madhepura",
@@ -1085,8 +977,7 @@
 		"Confirmed": "12423",
 		"Active": "62",
 		"Recovered": "12250",
-		"Deceased": "111",
-		"Migrated_Other": "0"
+		"Deaths": "111"
 	},
 	{
 		"District": "Madhubani",
@@ -1096,8 +987,7 @@
 		"Confirmed": "18213",
 		"Active": "37",
 		"Recovered": "17846",
-		"Deceased": "330",
-		"Migrated_Other": "0"
+		"Deaths": "330"
 	},
 	{
 		"District": "Munger",
@@ -1107,8 +997,7 @@
 		"Confirmed": "15055",
 		"Active": "40",
 		"Recovered": "14858",
-		"Deceased": "157",
-		"Migrated_Other": "0"
+		"Deaths": "157"
 	},
 	{
 		"District": "Muzaffarpur",
@@ -1118,8 +1007,7 @@
 		"Confirmed": "31232",
 		"Active": "24",
 		"Recovered": "30591",
-		"Deceased": "617",
-		"Migrated_Other": "0"
+		"Deaths": "617"
 	},
 	{
 		"District": "Nalanda",
@@ -1129,8 +1017,7 @@
 		"Confirmed": "23330",
 		"Active": "72",
 		"Recovered": "22790",
-		"Deceased": "468",
-		"Migrated_Other": "0"
+		"Deaths": "468"
 	},
 	{
 		"District": "Nawada",
@@ -1140,8 +1027,7 @@
 		"Confirmed": "10271",
 		"Active": "19",
 		"Recovered": "10075",
-		"Deceased": "177",
-		"Migrated_Other": "0"
+		"Deaths": "177"
 	},
 	{
 		"District": "Patna",
@@ -1151,8 +1037,7 @@
 		"Confirmed": "146328",
 		"Active": "279",
 		"Recovered": "143727",
-		"Deceased": "2322",
-		"Migrated_Other": "0"
+		"Deaths": "2322"
 	},
 	{
 		"District": "Purnia",
@@ -1162,8 +1047,7 @@
 		"Confirmed": "24236",
 		"Active": "65",
 		"Recovered": "23992",
-		"Deceased": "179",
-		"Migrated_Other": "0"
+		"Deaths": "179"
 	},
 	{
 		"District": "Rohtas",
@@ -1173,8 +1057,7 @@
 		"Confirmed": "13872",
 		"Active": "14",
 		"Recovered": "13589",
-		"Deceased": "269",
-		"Migrated_Other": "0"
+		"Deaths": "269"
 	},
 	{
 		"District": "Saharsa",
@@ -1184,8 +1067,7 @@
 		"Confirmed": "17453",
 		"Active": "80",
 		"Recovered": "17241",
-		"Deceased": "132",
-		"Migrated_Other": "0"
+		"Deaths": "132"
 	},
 	{
 		"District": "Samastipur",
@@ -1195,8 +1077,7 @@
 		"Confirmed": "19806",
 		"Active": "77",
 		"Recovered": "19579",
-		"Deceased": "150",
-		"Migrated_Other": "0"
+		"Deaths": "150"
 	},
 	{
 		"District": "Saran",
@@ -1206,8 +1087,7 @@
 		"Confirmed": "23137",
 		"Active": "104",
 		"Recovered": "22782",
-		"Deceased": "251",
-		"Migrated_Other": "0"
+		"Deaths": "251"
 	},
 	{
 		"District": "Sheikhpura",
@@ -1217,8 +1097,7 @@
 		"Confirmed": "7657",
 		"Active": "13",
 		"Recovered": "7569",
-		"Deceased": "75",
-		"Migrated_Other": "0"
+		"Deaths": "75"
 	},
 	{
 		"District": "Sheohar",
@@ -1228,8 +1107,7 @@
 		"Confirmed": "4370",
 		"Active": "5",
 		"Recovered": "4329",
-		"Deceased": "36",
-		"Migrated_Other": "0"
+		"Deaths": "36"
 	},
 	{
 		"District": "Sitamarhi",
@@ -1239,8 +1117,7 @@
 		"Confirmed": "9111",
 		"Active": "22",
 		"Recovered": "8963",
-		"Deceased": "126",
-		"Migrated_Other": "0"
+		"Deaths": "126"
 	},
 	{
 		"District": "Siwan",
@@ -1250,8 +1127,7 @@
 		"Confirmed": "15130",
 		"Active": "39",
 		"Recovered": "14925",
-		"Deceased": "166",
-		"Migrated_Other": "0"
+		"Deaths": "166"
 	},
 	{
 		"District": "Supaul",
@@ -1261,8 +1137,7 @@
 		"Confirmed": "17126",
 		"Active": "40",
 		"Recovered": "16960",
-		"Deceased": "126",
-		"Migrated_Other": "0"
+		"Deaths": "126"
 	},
 	{
 		"District": "Vaishali",
@@ -1272,8 +1147,7 @@
 		"Confirmed": "19713",
 		"Active": "55",
 		"Recovered": "19466",
-		"Deceased": "191",
-		"Migrated_Other": "1"
+		"Deaths": "191"
 	},
 	{
 		"District": "West Champaran",
@@ -1283,8 +1157,7 @@
 		"Confirmed": "20838",
 		"Active": "16",
 		"Recovered": "20466",
-		"Deceased": "356",
-		"Migrated_Other": "0"
+		"Deaths": "356"
 	},
 	{
 		"District": "Chandigarh",
@@ -1294,8 +1167,7 @@
 		"Confirmed": "61656",
 		"Active": "163",
 		"Recovered": "60685",
-		"Deceased": "808",
-		"Migrated_Other": "0"
+		"Deaths": "808"
 	},
 	{
 		"District": "Other State",
@@ -1305,8 +1177,7 @@
 		"Confirmed": "724",
 		"Active": "27",
 		"Recovered": "566",
-		"Deceased": "131",
-		"Migrated_Other": "0"
+		"Deaths": "131"
 	},
 	{
 		"District": "Balod",
@@ -1316,8 +1187,7 @@
 		"Confirmed": "27133",
 		"Active": "111",
 		"Recovered": "26629",
-		"Deceased": "393",
-		"Migrated_Other": "0"
+		"Deaths": "393"
 	},
 	{
 		"District": "Baloda Bazar",
@@ -1327,8 +1197,7 @@
 		"Confirmed": "42621",
 		"Active": "258",
 		"Recovered": "41896",
-		"Deceased": "467",
-		"Migrated_Other": "0"
+		"Deaths": "467"
 	},
 	{
 		"District": "Balrampur",
@@ -1338,8 +1207,7 @@
 		"Confirmed": "20128",
 		"Active": "247",
 		"Recovered": "19766",
-		"Deceased": "115",
-		"Migrated_Other": "0"
+		"Deaths": "115"
 	},
 	{
 		"District": "Bametara",
@@ -1349,8 +1217,7 @@
 		"Confirmed": "19861",
 		"Active": "167",
 		"Recovered": "19459",
-		"Deceased": "235",
-		"Migrated_Other": "0"
+		"Deaths": "235"
 	},
 	{
 		"District": "Bastar",
@@ -1360,8 +1227,7 @@
 		"Confirmed": "20199",
 		"Active": "526",
 		"Recovered": "19486",
-		"Deceased": "187",
-		"Migrated_Other": "0"
+		"Deaths": "187"
 	},
 	{
 		"District": "Bijapur",
@@ -1371,8 +1237,7 @@
 		"Confirmed": "7499",
 		"Active": "629",
 		"Recovered": "6824",
-		"Deceased": "46",
-		"Migrated_Other": "0"
+		"Deaths": "46"
 	},
 	{
 		"District": "Bilaspur",
@@ -1382,8 +1247,7 @@
 		"Confirmed": "65039",
 		"Active": "85",
 		"Recovered": "63753",
-		"Deceased": "1201",
-		"Migrated_Other": "0"
+		"Deaths": "1201"
 	},
 	{
 		"District": "Dakshin Bastar Dantewada",
@@ -1393,8 +1257,7 @@
 		"Confirmed": "10427",
 		"Active": "269",
 		"Recovered": "10135",
-		"Deceased": "23",
-		"Migrated_Other": "0"
+		"Deaths": "23"
 	},
 	{
 		"District": "Dhamtari",
@@ -1404,8 +1267,7 @@
 		"Confirmed": "26912",
 		"Active": "152",
 		"Recovered": "26225",
-		"Deceased": "535",
-		"Migrated_Other": "0"
+		"Deaths": "535"
 	},
 	{
 		"District": "Durg",
@@ -1415,8 +1277,7 @@
 		"Confirmed": "96157",
 		"Active": "164",
 		"Recovered": "94205",
-		"Deceased": "1788",
-		"Migrated_Other": "0"
+		"Deaths": "1788"
 	},
 	{
 		"District": "Gariaband",
@@ -1426,8 +1287,7 @@
 		"Confirmed": "19546",
 		"Active": "164",
 		"Recovered": "19190",
-		"Deceased": "192",
-		"Migrated_Other": "0"
+		"Deaths": "192"
 	},
 	{
 		"District": "Janjgir Champa",
@@ -1437,8 +1297,7 @@
 		"Confirmed": "56646",
 		"Active": "263",
 		"Recovered": "55576",
-		"Deceased": "807",
-		"Migrated_Other": "0"
+		"Deaths": "807"
 	},
 	{
 		"District": "Jashpur",
@@ -1448,8 +1307,7 @@
 		"Confirmed": "26393",
 		"Active": "238",
 		"Recovered": "25944",
-		"Deceased": "211",
-		"Migrated_Other": "0"
+		"Deaths": "211"
 	},
 	{
 		"District": "Kabeerdham",
@@ -1459,8 +1317,7 @@
 		"Confirmed": "22708",
 		"Active": "78",
 		"Recovered": "22363",
-		"Deceased": "267",
-		"Migrated_Other": "0"
+		"Deaths": "267"
 	},
 	{
 		"District": "Kondagaon",
@@ -1470,8 +1327,7 @@
 		"Confirmed": "12778",
 		"Active": "139",
 		"Recovered": "12543",
-		"Deceased": "96",
-		"Migrated_Other": "0"
+		"Deaths": "96"
 	},
 	{
 		"District": "Korba",
@@ -1481,8 +1337,7 @@
 		"Confirmed": "54233",
 		"Active": "206",
 		"Recovered": "53454",
-		"Deceased": "573",
-		"Migrated_Other": "0"
+		"Deaths": "573"
 	},
 	{
 		"District": "Koriya",
@@ -1492,8 +1347,7 @@
 		"Confirmed": "26664",
 		"Active": "202",
 		"Recovered": "26288",
-		"Deceased": "174",
-		"Migrated_Other": "0"
+		"Deaths": "174"
 	},
 	{
 		"District": "Mahasamund",
@@ -1503,8 +1357,7 @@
 		"Confirmed": "31152",
 		"Active": "107",
 		"Recovered": "30686",
-		"Deceased": "359",
-		"Migrated_Other": "0"
+		"Deaths": "359"
 	},
 	{
 		"District": "Mungeli",
@@ -1514,8 +1367,7 @@
 		"Confirmed": "23814",
 		"Active": "126",
 		"Recovered": "23522",
-		"Deceased": "166",
-		"Migrated_Other": "0"
+		"Deaths": "166"
 	},
 	{
 		"District": "Narayanpur",
@@ -1525,8 +1377,7 @@
 		"Confirmed": "3855",
 		"Active": "76",
 		"Recovered": "3767",
-		"Deceased": "12",
-		"Migrated_Other": "0"
+		"Deaths": "12"
 	},
 	{
 		"District": "Raigarh",
@@ -1536,8 +1387,7 @@
 		"Confirmed": "62103",
 		"Active": "297",
 		"Recovered": "60830",
-		"Deceased": "976",
-		"Migrated_Other": "0"
+		"Deaths": "976"
 	},
 	{
 		"District": "Raipur",
@@ -1547,8 +1397,7 @@
 		"Confirmed": "157164",
 		"Active": "201",
 		"Recovered": "153833",
-		"Deceased": "3130",
-		"Migrated_Other": "0"
+		"Deaths": "3130"
 	},
 	{
 		"District": "Rajnandgaon",
@@ -1558,8 +1407,7 @@
 		"Confirmed": "55904",
 		"Active": "66",
 		"Recovered": "55327",
-		"Deceased": "511",
-		"Migrated_Other": "0"
+		"Deaths": "511"
 	},
 	{
 		"District": "Sukma",
@@ -1569,8 +1417,7 @@
 		"Confirmed": "7206",
 		"Active": "416",
 		"Recovered": "6775",
-		"Deceased": "15",
-		"Migrated_Other": "0"
+		"Deaths": "15"
 	},
 	{
 		"District": "Surajpur",
@@ -1580,8 +1427,7 @@
 		"Confirmed": "28806",
 		"Active": "197",
 		"Recovered": "28387",
-		"Deceased": "222",
-		"Migrated_Other": "0"
+		"Deaths": "222"
 	},
 	{
 		"District": "Surguja",
@@ -1591,8 +1437,7 @@
 		"Confirmed": "33356",
 		"Active": "259",
 		"Recovered": "32855",
-		"Deceased": "242",
-		"Migrated_Other": "0"
+		"Deaths": "242"
 	},
 	{
 		"District": "Uttar Bastar Kanker",
@@ -1602,8 +1447,7 @@
 		"Confirmed": "23112",
 		"Active": "134",
 		"Recovered": "22759",
-		"Deceased": "219",
-		"Migrated_Other": "0"
+		"Deaths": "219"
 	},
 	{
 		"District": "Gaurela Pendra Marwahi",
@@ -1613,8 +1457,7 @@
 		"Confirmed": "11937",
 		"Active": "110",
 		"Recovered": "11682",
-		"Deceased": "145",
-		"Migrated_Other": "0"
+		"Deaths": "145"
 	},
 	{
 		"District": "Central Delhi",
@@ -1624,8 +1467,7 @@
 		"Confirmed": "184",
 		"Active": "184",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "East Delhi",
@@ -1635,8 +1477,7 @@
 		"Confirmed": "38",
 		"Active": "38",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "New Delhi",
@@ -1646,8 +1487,7 @@
 		"Confirmed": "37",
 		"Active": "37",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "North Delhi",
@@ -1657,8 +1497,7 @@
 		"Confirmed": "60",
 		"Active": "60",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "North East Delhi",
@@ -1668,8 +1507,7 @@
 		"Confirmed": "25",
 		"Active": "25",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "North West Delhi",
@@ -1679,8 +1517,7 @@
 		"Confirmed": "32",
 		"Active": "31",
 		"Recovered": "0",
-		"Deceased": "1",
-		"Migrated_Other": "0"
+		"Deaths": "1"
 	},
 	{
 		"District": "Shahdara",
@@ -1690,8 +1527,7 @@
 		"Confirmed": "48",
 		"Active": "48",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "South Delhi",
@@ -1701,8 +1537,7 @@
 		"Confirmed": "70",
 		"Active": "70",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "South East Delhi",
@@ -1712,8 +1547,7 @@
 		"Confirmed": "130",
 		"Active": "130",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "South West Delhi",
@@ -1723,8 +1557,7 @@
 		"Confirmed": "42",
 		"Active": "42",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "West Delhi",
@@ -1734,8 +1567,7 @@
 		"Confirmed": "122",
 		"Active": "122",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Other State",
@@ -1745,8 +1577,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Dadra and Nagar Haveli",
@@ -1756,8 +1587,7 @@
 		"Confirmed": "5843",
 		"Active": "17",
 		"Recovered": "5818",
-		"Deceased": "3",
-		"Migrated_Other": "5"
+		"Deaths": "3"
 	},
 	{
 		"District": "Daman",
@@ -1767,8 +1597,7 @@
 		"Confirmed": "3504",
 		"Active": "22",
 		"Recovered": "3455",
-		"Deceased": "1",
-		"Migrated_Other": "26"
+		"Deaths": "1"
 	},
 	{
 		"District": "Diu",
@@ -1778,8 +1607,7 @@
 		"Confirmed": "1214",
 		"Active": "4",
 		"Recovered": "1210",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Other State",
@@ -1789,8 +1617,7 @@
 		"Confirmed": "200",
 		"Active": "9",
 		"Recovered": "190",
-		"Deceased": "1",
-		"Migrated_Other": "0"
+		"Deaths": "1"
 	},
 	{
 		"District": "North Goa",
@@ -1800,8 +1627,7 @@
 		"Confirmed": "2668",
 		"Active": "1639",
 		"Recovered": "964",
-		"Deceased": "65",
-		"Migrated_Other": "0"
+		"Deaths": "65"
 	},
 	{
 		"District": "South Goa",
@@ -1811,8 +1637,7 @@
 		"Confirmed": "3511",
 		"Active": "1978",
 		"Recovered": "1407",
-		"Deceased": "126",
-		"Migrated_Other": "0"
+		"Deaths": "126"
 	},
 	{
 		"District": "Other State",
@@ -1822,8 +1647,7 @@
 		"Confirmed": "162",
 		"Active": "0",
 		"Recovered": "159",
-		"Deceased": "3",
-		"Migrated_Other": "0"
+		"Deaths": "3"
 	},
 	{
 		"District": "Ahmedabad",
@@ -1833,8 +1657,7 @@
 		"Confirmed": "237663",
 		"Active": "1162",
 		"Recovered": "233099",
-		"Deceased": "3402",
-		"Migrated_Other": "0"
+		"Deaths": "3402"
 	},
 	{
 		"District": "Amreli",
@@ -1844,8 +1667,7 @@
 		"Confirmed": "10758",
 		"Active": "24",
 		"Recovered": "10633",
-		"Deceased": "101",
-		"Migrated_Other": "0"
+		"Deaths": "101"
 	},
 	{
 		"District": "Anand",
@@ -1855,8 +1677,7 @@
 		"Confirmed": "9586",
 		"Active": "20",
 		"Recovered": "9518",
-		"Deceased": "48",
-		"Migrated_Other": "0"
+		"Deaths": "48"
 	},
 	{
 		"District": "Aravalli",
@@ -1866,8 +1687,7 @@
 		"Confirmed": "5182",
 		"Active": "26",
 		"Recovered": "5079",
-		"Deceased": "77",
-		"Migrated_Other": "0"
+		"Deaths": "77"
 	},
 	{
 		"District": "Banaskantha",
@@ -1877,8 +1697,7 @@
 		"Confirmed": "13607",
 		"Active": "20",
 		"Recovered": "13425",
-		"Deceased": "162",
-		"Migrated_Other": "0"
+		"Deaths": "162"
 	},
 	{
 		"District": "Bharuch",
@@ -1888,8 +1707,7 @@
 		"Confirmed": "11386",
 		"Active": "14",
 		"Recovered": "11254",
-		"Deceased": "118",
-		"Migrated_Other": "0"
+		"Deaths": "118"
 	},
 	{
 		"District": "Bhavnagar",
@@ -1899,8 +1717,7 @@
 		"Confirmed": "21383",
 		"Active": "154",
 		"Recovered": "20930",
-		"Deceased": "299",
-		"Migrated_Other": "0"
+		"Deaths": "299"
 	},
 	{
 		"District": "Botad",
@@ -1910,8 +1727,7 @@
 		"Confirmed": "2216",
 		"Active": "11",
 		"Recovered": "2163",
-		"Deceased": "42",
-		"Migrated_Other": "0"
+		"Deaths": "42"
 	},
 	{
 		"District": "Chhota Udaipur",
@@ -1921,8 +1737,7 @@
 		"Confirmed": "3394",
 		"Active": "3",
 		"Recovered": "3353",
-		"Deceased": "38",
-		"Migrated_Other": "0"
+		"Deaths": "38"
 	},
 	{
 		"District": "Dahod",
@@ -1932,8 +1747,7 @@
 		"Confirmed": "9918",
 		"Active": "3",
 		"Recovered": "9877",
-		"Deceased": "38",
-		"Migrated_Other": "0"
+		"Deaths": "38"
 	},
 	{
 		"District": "Dang",
@@ -1943,8 +1757,7 @@
 		"Confirmed": "861",
 		"Active": "1",
 		"Recovered": "842",
-		"Deceased": "18",
-		"Migrated_Other": "0"
+		"Deaths": "18"
 	},
 	{
 		"District": "Devbhumi Dwarka",
@@ -1954,8 +1767,7 @@
 		"Confirmed": "4150",
 		"Active": "20",
 		"Recovered": "4049",
-		"Deceased": "81",
-		"Migrated_Other": "0"
+		"Deaths": "81"
 	},
 	{
 		"District": "Gandhinagar",
@@ -1965,8 +1777,7 @@
 		"Confirmed": "20703",
 		"Active": "290",
 		"Recovered": "20208",
-		"Deceased": "205",
-		"Migrated_Other": "0"
+		"Deaths": "205"
 	},
 	{
 		"District": "Gir Somnath",
@@ -1976,8 +1787,7 @@
 		"Confirmed": "8514",
 		"Active": "148",
 		"Recovered": "8299",
-		"Deceased": "67",
-		"Migrated_Other": "0"
+		"Deaths": "67"
 	},
 	{
 		"District": "Jamnagar",
@@ -1987,8 +1797,7 @@
 		"Confirmed": "34886",
 		"Active": "54",
 		"Recovered": "34355",
-		"Deceased": "477",
-		"Migrated_Other": "0"
+		"Deaths": "477"
 	},
 	{
 		"District": "Junagadh",
@@ -1998,8 +1807,7 @@
 		"Confirmed": "20401",
 		"Active": "96",
 		"Recovered": "20035",
-		"Deceased": "270",
-		"Migrated_Other": "0"
+		"Deaths": "270"
 	},
 	{
 		"District": "Kheda",
@@ -2009,8 +1817,7 @@
 		"Confirmed": "10406",
 		"Active": "16",
 		"Recovered": "10342",
-		"Deceased": "48",
-		"Migrated_Other": "0"
+		"Deaths": "48"
 	},
 	{
 		"District": "Kutch",
@@ -2020,8 +1827,7 @@
 		"Confirmed": "12568",
 		"Active": "18",
 		"Recovered": "12405",
-		"Deceased": "145",
-		"Migrated_Other": "0"
+		"Deaths": "145"
 	},
 	{
 		"District": "Mahisagar",
@@ -2031,8 +1837,7 @@
 		"Confirmed": "8189",
 		"Active": "13",
 		"Recovered": "8104",
-		"Deceased": "72",
-		"Migrated_Other": "0"
+		"Deaths": "72"
 	},
 	{
 		"District": "Mehsana",
@@ -2042,8 +1847,7 @@
 		"Confirmed": "24390",
 		"Active": "62",
 		"Recovered": "24151",
-		"Deceased": "177",
-		"Migrated_Other": "0"
+		"Deaths": "177"
 	},
 	{
 		"District": "Morbi",
@@ -2053,8 +1857,7 @@
 		"Confirmed": "6494",
 		"Active": "1",
 		"Recovered": "6406",
-		"Deceased": "87",
-		"Migrated_Other": "0"
+		"Deaths": "87"
 	},
 	{
 		"District": "Narmada",
@@ -2064,8 +1867,7 @@
 		"Confirmed": "5941",
 		"Active": "5",
 		"Recovered": "5921",
-		"Deceased": "15",
-		"Migrated_Other": "0"
+		"Deaths": "15"
 	},
 	{
 		"District": "Navsari",
@@ -2075,8 +1877,7 @@
 		"Confirmed": "7117",
 		"Active": "24",
 		"Recovered": "7069",
-		"Deceased": "24",
-		"Migrated_Other": "0"
+		"Deaths": "24"
 	},
 	{
 		"District": "Panchmahal",
@@ -2086,8 +1887,7 @@
 		"Confirmed": "11759",
 		"Active": "9",
 		"Recovered": "11680",
-		"Deceased": "70",
-		"Migrated_Other": "0"
+		"Deaths": "70"
 	},
 	{
 		"District": "Patan",
@@ -2097,8 +1897,7 @@
 		"Confirmed": "11621",
 		"Active": "2",
 		"Recovered": "11490",
-		"Deceased": "129",
-		"Migrated_Other": "0"
+		"Deaths": "129"
 	},
 	{
 		"District": "Porbandar",
@@ -2108,8 +1907,7 @@
 		"Confirmed": "3463",
 		"Active": "13",
 		"Recovered": "3431",
-		"Deceased": "19",
-		"Migrated_Other": "0"
+		"Deaths": "19"
 	},
 	{
 		"District": "Rajkot",
@@ -2119,8 +1917,7 @@
 		"Confirmed": "57817",
 		"Active": "81",
 		"Recovered": "57013",
-		"Deceased": "723",
-		"Migrated_Other": "0"
+		"Deaths": "723"
 	},
 	{
 		"District": "Sabarkantha",
@@ -2130,8 +1927,7 @@
 		"Confirmed": "9299",
 		"Active": "16",
 		"Recovered": "9126",
-		"Deceased": "157",
-		"Migrated_Other": "0"
+		"Deaths": "157"
 	},
 	{
 		"District": "Surat",
@@ -2141,8 +1937,7 @@
 		"Confirmed": "143175",
 		"Active": "725",
 		"Recovered": "140500",
-		"Deceased": "1950",
-		"Migrated_Other": "0"
+		"Deaths": "1950"
 	},
 	{
 		"District": "Surendranagar",
@@ -2152,8 +1947,7 @@
 		"Confirmed": "8108",
 		"Active": "6",
 		"Recovered": "7966",
-		"Deceased": "136",
-		"Migrated_Other": "0"
+		"Deaths": "136"
 	},
 	{
 		"District": "Tapi",
@@ -2163,8 +1957,7 @@
 		"Confirmed": "4429",
 		"Active": "3",
 		"Recovered": "4404",
-		"Deceased": "22",
-		"Migrated_Other": "0"
+		"Deaths": "22"
 	},
 	{
 		"District": "Vadodara",
@@ -2174,8 +1967,7 @@
 		"Confirmed": "77674",
 		"Active": "135",
 		"Recovered": "76752",
-		"Deceased": "787",
-		"Migrated_Other": "0"
+		"Deaths": "787"
 	},
 	{
 		"District": "Valsad",
@@ -2185,8 +1977,7 @@
 		"Confirmed": "6213",
 		"Active": "55",
 		"Recovered": "6109",
-		"Deceased": "49",
-		"Migrated_Other": "0"
+		"Deaths": "49"
 	},
 	{
 		"District": "Bilaspur",
@@ -2196,8 +1987,7 @@
 		"Confirmed": "12651",
 		"Active": "135",
 		"Recovered": "12438",
-		"Deceased": "77",
-		"Migrated_Other": "1"
+		"Deaths": "77"
 	},
 	{
 		"District": "Chamba",
@@ -2207,8 +1997,7 @@
 		"Confirmed": "11175",
 		"Active": "249",
 		"Recovered": "10780",
-		"Deceased": "142",
-		"Migrated_Other": "4"
+		"Deaths": "142"
 	},
 	{
 		"District": "Hamirpur",
@@ -2218,8 +2007,7 @@
 		"Confirmed": "14361",
 		"Active": "113",
 		"Recovered": "13993",
-		"Deceased": "254",
-		"Migrated_Other": "1"
+		"Deaths": "254"
 	},
 	{
 		"District": "Kangra",
@@ -2229,8 +2017,7 @@
 		"Confirmed": "45854",
 		"Active": "267",
 		"Recovered": "44554",
-		"Deceased": "1029",
-		"Migrated_Other": "4"
+		"Deaths": "1029"
 	},
 	{
 		"District": "Kinnaur",
@@ -2240,8 +2027,7 @@
 		"Confirmed": "3238",
 		"Active": "37",
 		"Recovered": "3163",
-		"Deceased": "38",
-		"Migrated_Other": "0"
+		"Deaths": "38"
 	},
 	{
 		"District": "Kullu",
@@ -2251,8 +2037,7 @@
 		"Confirmed": "8899",
 		"Active": "130",
 		"Recovered": "8603",
-		"Deceased": "154",
-		"Migrated_Other": "12"
+		"Deaths": "154"
 	},
 	{
 		"District": "Lahaul and Spiti",
@@ -2262,8 +2047,7 @@
 		"Confirmed": "2709",
 		"Active": "16",
 		"Recovered": "2676",
-		"Deceased": "17",
-		"Migrated_Other": "0"
+		"Deaths": "17"
 	},
 	{
 		"District": "Mandi",
@@ -2273,8 +2057,7 @@
 		"Confirmed": "27127",
 		"Active": "199",
 		"Recovered": "26539",
-		"Deceased": "389",
-		"Migrated_Other": "0"
+		"Deaths": "389"
 	},
 	{
 		"District": "Shimla",
@@ -2284,8 +2067,7 @@
 		"Confirmed": "25154",
 		"Active": "246",
 		"Recovered": "24305",
-		"Deceased": "599",
-		"Migrated_Other": "4"
+		"Deaths": "599"
 	},
 	{
 		"District": "Sirmaur",
@@ -2295,8 +2077,7 @@
 		"Confirmed": "15325",
 		"Active": "75",
 		"Recovered": "15040",
-		"Deceased": "210",
-		"Migrated_Other": "0"
+		"Deaths": "210"
 	},
 	{
 		"District": "Solan",
@@ -2306,8 +2087,7 @@
 		"Confirmed": "22203",
 		"Active": "72",
 		"Recovered": "21820",
-		"Deceased": "311",
-		"Migrated_Other": "0"
+		"Deaths": "311"
 	},
 	{
 		"District": "Una",
@@ -2317,8 +2097,7 @@
 		"Confirmed": "13284",
 		"Active": "115",
 		"Recovered": "12926",
-		"Deceased": "241",
-		"Migrated_Other": "2"
+		"Deaths": "241"
 	},
 	{
 		"District": "Foreign Evacuees",
@@ -2328,8 +2107,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Ambala",
@@ -2339,8 +2117,7 @@
 		"Confirmed": "30045",
 		"Active": "47",
 		"Recovered": "29490",
-		"Deceased": "508",
-		"Migrated_Other": "0"
+		"Deaths": "508"
 	},
 	{
 		"District": "Bhiwani",
@@ -2350,8 +2127,7 @@
 		"Confirmed": "22315",
 		"Active": "113",
 		"Recovered": "21623",
-		"Deceased": "579",
-		"Migrated_Other": "0"
+		"Deaths": "579"
 	},
 	{
 		"District": "Charkhi Dadri",
@@ -2361,8 +2137,7 @@
 		"Confirmed": "5063",
 		"Active": "25",
 		"Recovered": "4913",
-		"Deceased": "125",
-		"Migrated_Other": "0"
+		"Deaths": "125"
 	},
 	{
 		"District": "Faridabad",
@@ -2372,8 +2147,7 @@
 		"Confirmed": "99709",
 		"Active": "73",
 		"Recovered": "98920",
-		"Deceased": "716",
-		"Migrated_Other": "0"
+		"Deaths": "716"
 	},
 	{
 		"District": "Fatehabad",
@@ -2383,8 +2157,7 @@
 		"Confirmed": "17786",
 		"Active": "11",
 		"Recovered": "17327",
-		"Deceased": "448",
-		"Migrated_Other": "0"
+		"Deaths": "448"
 	},
 	{
 		"District": "Gurugram",
@@ -2394,8 +2167,7 @@
 		"Confirmed": "180689",
 		"Active": "128",
 		"Recovered": "179663",
-		"Deceased": "898",
-		"Migrated_Other": "0"
+		"Deaths": "898"
 	},
 	{
 		"District": "Hisar",
@@ -2405,8 +2177,7 @@
 		"Confirmed": "53901",
 		"Active": "175",
 		"Recovered": "52719",
-		"Deceased": "1007",
-		"Migrated_Other": "0"
+		"Deaths": "1007"
 	},
 	{
 		"District": "Italians",
@@ -2416,8 +2187,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Jhajjar",
@@ -2427,8 +2197,7 @@
 		"Confirmed": "18788",
 		"Active": "37",
 		"Recovered": "18460",
-		"Deceased": "291",
-		"Migrated_Other": "0"
+		"Deaths": "291"
 	},
 	{
 		"District": "Jind",
@@ -2438,8 +2207,7 @@
 		"Confirmed": "21197",
 		"Active": "87",
 		"Recovered": "20596",
-		"Deceased": "514",
-		"Migrated_Other": "0"
+		"Deaths": "514"
 	},
 	{
 		"District": "Kaithal",
@@ -2449,8 +2217,7 @@
 		"Confirmed": "11161",
 		"Active": "47",
 		"Recovered": "10792",
-		"Deceased": "322",
-		"Migrated_Other": "0"
+		"Deaths": "322"
 	},
 	{
 		"District": "Karnal",
@@ -2460,8 +2227,7 @@
 		"Confirmed": "39884",
 		"Active": "62",
 		"Recovered": "39281",
-		"Deceased": "541",
-		"Migrated_Other": "0"
+		"Deaths": "541"
 	},
 	{
 		"District": "Kurukshetra",
@@ -2471,8 +2237,7 @@
 		"Confirmed": "22041",
 		"Active": "83",
 		"Recovered": "21610",
-		"Deceased": "348",
-		"Migrated_Other": "0"
+		"Deaths": "348"
 	},
 	{
 		"District": "Mahendragarh",
@@ -2482,8 +2247,7 @@
 		"Confirmed": "21678",
 		"Active": "10",
 		"Recovered": "21522",
-		"Deceased": "146",
-		"Migrated_Other": "0"
+		"Deaths": "146"
 	},
 	{
 		"District": "Nuh",
@@ -2493,8 +2257,7 @@
 		"Confirmed": "4997",
 		"Active": "5",
 		"Recovered": "4877",
-		"Deceased": "115",
-		"Migrated_Other": "0"
+		"Deaths": "115"
 	},
 	{
 		"District": "Palwal",
@@ -2504,8 +2267,7 @@
 		"Confirmed": "10820",
 		"Active": "27",
 		"Recovered": "10644",
-		"Deceased": "149",
-		"Migrated_Other": "0"
+		"Deaths": "149"
 	},
 	{
 		"District": "Panchkula",
@@ -2515,8 +2277,7 @@
 		"Confirmed": "30581",
 		"Active": "87",
 		"Recovered": "30128",
-		"Deceased": "366",
-		"Migrated_Other": "0"
+		"Deaths": "366"
 	},
 	{
 		"District": "Panipat",
@@ -2526,8 +2287,7 @@
 		"Confirmed": "31110",
 		"Active": "131",
 		"Recovered": "30441",
-		"Deceased": "538",
-		"Migrated_Other": "0"
+		"Deaths": "538"
 	},
 	{
 		"District": "Rewari",
@@ -2537,8 +2297,7 @@
 		"Confirmed": "20239",
 		"Active": "40",
 		"Recovered": "19990",
-		"Deceased": "209",
-		"Migrated_Other": "0"
+		"Deaths": "209"
 	},
 	{
 		"District": "Rohtak",
@@ -2548,8 +2307,7 @@
 		"Confirmed": "25798",
 		"Active": "94",
 		"Recovered": "25206",
-		"Deceased": "498",
-		"Migrated_Other": "0"
+		"Deaths": "498"
 	},
 	{
 		"District": "Sirsa",
@@ -2559,8 +2317,7 @@
 		"Confirmed": "29188",
 		"Active": "149",
 		"Recovered": "28591",
-		"Deceased": "448",
-		"Migrated_Other": "0"
+		"Deaths": "448"
 	},
 	{
 		"District": "Sonipat",
@@ -2570,8 +2327,7 @@
 		"Confirmed": "47069",
 		"Active": "13",
 		"Recovered": "46802",
-		"Deceased": "254",
-		"Migrated_Other": "0"
+		"Deaths": "254"
 	},
 	{
 		"District": "Yamunanagar",
@@ -2581,8 +2337,7 @@
 		"Confirmed": "24493",
 		"Active": "51",
 		"Recovered": "24045",
-		"Deceased": "397",
-		"Migrated_Other": "0"
+		"Deaths": "397"
 	},
 	{
 		"District": "Bokaro",
@@ -2592,8 +2347,7 @@
 		"Confirmed": "19195",
 		"Active": "46",
 		"Recovered": "18871",
-		"Deceased": "278",
-		"Migrated_Other": "0"
+		"Deaths": "278"
 	},
 	{
 		"District": "Chatra",
@@ -2603,8 +2357,7 @@
 		"Confirmed": "6014",
 		"Active": "25",
 		"Recovered": "5936",
-		"Deceased": "53",
-		"Migrated_Other": "0"
+		"Deaths": "53"
 	},
 	{
 		"District": "Deoghar",
@@ -2614,8 +2367,7 @@
 		"Confirmed": "10713",
 		"Active": "42",
 		"Recovered": "10558",
-		"Deceased": "113",
-		"Migrated_Other": "0"
+		"Deaths": "113"
 	},
 	{
 		"District": "Dhanbad",
@@ -2625,8 +2377,7 @@
 		"Confirmed": "16369",
 		"Active": "32",
 		"Recovered": "15958",
-		"Deceased": "379",
-		"Migrated_Other": "0"
+		"Deaths": "379"
 	},
 	{
 		"District": "Dumka",
@@ -2636,8 +2387,7 @@
 		"Confirmed": "4618",
 		"Active": "31",
 		"Recovered": "4540",
-		"Deceased": "47",
-		"Migrated_Other": "0"
+		"Deaths": "47"
 	},
 	{
 		"District": "East Singhbhum",
@@ -2647,8 +2397,7 @@
 		"Confirmed": "51521",
 		"Active": "108",
 		"Recovered": "50377",
-		"Deceased": "1036",
-		"Migrated_Other": "0"
+		"Deaths": "1036"
 	},
 	{
 		"District": "Garhwa",
@@ -2658,8 +2407,7 @@
 		"Confirmed": "6839",
 		"Active": "26",
 		"Recovered": "6719",
-		"Deceased": "94",
-		"Migrated_Other": "0"
+		"Deaths": "94"
 	},
 	{
 		"District": "Giridih",
@@ -2669,8 +2417,7 @@
 		"Confirmed": "8936",
 		"Active": "20",
 		"Recovered": "8786",
-		"Deceased": "130",
-		"Migrated_Other": "0"
+		"Deaths": "130"
 	},
 	{
 		"District": "Godda",
@@ -2680,8 +2427,7 @@
 		"Confirmed": "5793",
 		"Active": "7",
 		"Recovered": "5699",
-		"Deceased": "87",
-		"Migrated_Other": "0"
+		"Deaths": "87"
 	},
 	{
 		"District": "Gumla",
@@ -2691,8 +2437,7 @@
 		"Confirmed": "9824",
 		"Active": "35",
 		"Recovered": "9752",
-		"Deceased": "37",
-		"Migrated_Other": "0"
+		"Deaths": "37"
 	},
 	{
 		"District": "Hazaribagh",
@@ -2702,8 +2447,7 @@
 		"Confirmed": "19529",
 		"Active": "58",
 		"Recovered": "19285",
-		"Deceased": "186",
-		"Migrated_Other": "0"
+		"Deaths": "186"
 	},
 	{
 		"District": "Jamtara",
@@ -2713,8 +2457,7 @@
 		"Confirmed": "5502",
 		"Active": "24",
 		"Recovered": "5418",
-		"Deceased": "60",
-		"Migrated_Other": "0"
+		"Deaths": "60"
 	},
 	{
 		"District": "Khunti",
@@ -2724,8 +2467,7 @@
 		"Confirmed": "7753",
 		"Active": "7",
 		"Recovered": "7650",
-		"Deceased": "96",
-		"Migrated_Other": "0"
+		"Deaths": "96"
 	},
 	{
 		"District": "Koderma",
@@ -2735,8 +2477,7 @@
 		"Confirmed": "12784",
 		"Active": "7",
 		"Recovered": "12641",
-		"Deceased": "136",
-		"Migrated_Other": "0"
+		"Deaths": "136"
 	},
 	{
 		"District": "Latehar",
@@ -2746,8 +2487,7 @@
 		"Confirmed": "7770",
 		"Active": "26",
 		"Recovered": "7687",
-		"Deceased": "57",
-		"Migrated_Other": "0"
+		"Deaths": "57"
 	},
 	{
 		"District": "Lohardaga",
@@ -2757,8 +2497,7 @@
 		"Confirmed": "6655",
 		"Active": "27",
 		"Recovered": "6540",
-		"Deceased": "88",
-		"Migrated_Other": "0"
+		"Deaths": "88"
 	},
 	{
 		"District": "Pakur",
@@ -2768,8 +2507,7 @@
 		"Confirmed": "2541",
 		"Active": "0",
 		"Recovered": "2529",
-		"Deceased": "12",
-		"Migrated_Other": "0"
+		"Deaths": "12"
 	},
 	{
 		"District": "Palamu",
@@ -2779,8 +2517,7 @@
 		"Confirmed": "12249",
 		"Active": "12",
 		"Recovered": "12127",
-		"Deceased": "110",
-		"Migrated_Other": "0"
+		"Deaths": "110"
 	},
 	{
 		"District": "Ramgarh",
@@ -2790,8 +2527,7 @@
 		"Confirmed": "13795",
 		"Active": "10",
 		"Recovered": "13589",
-		"Deceased": "196",
-		"Migrated_Other": "0"
+		"Deaths": "196"
 	},
 	{
 		"District": "Ranchi",
@@ -2801,8 +2537,7 @@
 		"Confirmed": "85151",
 		"Active": "252",
 		"Recovered": "83315",
-		"Deceased": "1584",
-		"Migrated_Other": "0"
+		"Deaths": "1584"
 	},
 	{
 		"District": "Sahibganj",
@@ -2812,8 +2547,7 @@
 		"Confirmed": "4726",
 		"Active": "15",
 		"Recovered": "4669",
-		"Deceased": "42",
-		"Migrated_Other": "0"
+		"Deaths": "42"
 	},
 	{
 		"District": "Saraikela-Kharsawan",
@@ -2823,8 +2557,7 @@
 		"Confirmed": "7188",
 		"Active": "27",
 		"Recovered": "7094",
-		"Deceased": "67",
-		"Migrated_Other": "0"
+		"Deaths": "67"
 	},
 	{
 		"District": "Simdega",
@@ -2834,8 +2567,7 @@
 		"Confirmed": "7107",
 		"Active": "92",
 		"Recovered": "6923",
-		"Deceased": "92",
-		"Migrated_Other": "0"
+		"Deaths": "92"
 	},
 	{
 		"District": "West Singhbhum",
@@ -2845,8 +2577,7 @@
 		"Confirmed": "12953",
 		"Active": "20",
 		"Recovered": "12800",
-		"Deceased": "133",
-		"Migrated_Other": "0"
+		"Deaths": "133"
 	},
 	{
 		"District": "Anantnag",
@@ -2856,8 +2587,7 @@
 		"Confirmed": "16034",
 		"Active": "284",
 		"Recovered": "15550",
-		"Deceased": "200",
-		"Migrated_Other": "0"
+		"Deaths": "200"
 	},
 	{
 		"District": "Bandipora",
@@ -2867,8 +2597,7 @@
 		"Confirmed": "9292",
 		"Active": "161",
 		"Recovered": "9031",
-		"Deceased": "100",
-		"Migrated_Other": "0"
+		"Deaths": "100"
 	},
 	{
 		"District": "Baramulla",
@@ -2878,8 +2607,7 @@
 		"Confirmed": "23212",
 		"Active": "272",
 		"Recovered": "22662",
-		"Deceased": "278",
-		"Migrated_Other": "0"
+		"Deaths": "278"
 	},
 	{
 		"District": "Budgam",
@@ -2889,8 +2617,7 @@
 		"Confirmed": "22525",
 		"Active": "276",
 		"Recovered": "22045",
-		"Deceased": "204",
-		"Migrated_Other": "0"
+		"Deaths": "204"
 	},
 	{
 		"District": "Doda",
@@ -2900,8 +2627,7 @@
 		"Confirmed": "6799",
 		"Active": "256",
 		"Recovered": "6430",
-		"Deceased": "113",
-		"Migrated_Other": "0"
+		"Deaths": "113"
 	},
 	{
 		"District": "Ganderbal",
@@ -2911,8 +2637,7 @@
 		"Confirmed": "9579",
 		"Active": "193",
 		"Recovered": "9310",
-		"Deceased": "76",
-		"Migrated_Other": "0"
+		"Deaths": "76"
 	},
 	{
 		"District": "Jammu",
@@ -2922,8 +2647,7 @@
 		"Confirmed": "52373",
 		"Active": "616",
 		"Recovered": "50624",
-		"Deceased": "1133",
-		"Migrated_Other": "0"
+		"Deaths": "1133"
 	},
 	{
 		"District": "Kathua",
@@ -2933,8 +2657,7 @@
 		"Confirmed": "9202",
 		"Active": "42",
 		"Recovered": "9011",
-		"Deceased": "149",
-		"Migrated_Other": "0"
+		"Deaths": "149"
 	},
 	{
 		"District": "Kishtwar",
@@ -2944,8 +2667,7 @@
 		"Confirmed": "4455",
 		"Active": "132",
 		"Recovered": "4281",
-		"Deceased": "42",
-		"Migrated_Other": "0"
+		"Deaths": "42"
 	},
 	{
 		"District": "Kulgam",
@@ -2955,8 +2677,7 @@
 		"Confirmed": "11025",
 		"Active": "201",
 		"Recovered": "10709",
-		"Deceased": "115",
-		"Migrated_Other": "0"
+		"Deaths": "115"
 	},
 	{
 		"District": "Kupwara",
@@ -2966,8 +2687,7 @@
 		"Confirmed": "13786",
 		"Active": "304",
 		"Recovered": "13317",
-		"Deceased": "165",
-		"Migrated_Other": "0"
+		"Deaths": "165"
 	},
 	{
 		"District": "Mirpur",
@@ -2977,8 +2697,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Muzaffarabad",
@@ -2988,8 +2707,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Pulwama",
@@ -2999,8 +2717,7 @@
 		"Confirmed": "14854",
 		"Active": "221",
 		"Recovered": "14442",
-		"Deceased": "191",
-		"Migrated_Other": "0"
+		"Deaths": "191"
 	},
 	{
 		"District": "Punch",
@@ -3010,8 +2727,7 @@
 		"Confirmed": "6084",
 		"Active": "237",
 		"Recovered": "5756",
-		"Deceased": "91",
-		"Migrated_Other": "0"
+		"Deaths": "91"
 	},
 	{
 		"District": "Rajouri",
@@ -3021,8 +2737,7 @@
 		"Confirmed": "10694",
 		"Active": "166",
 		"Recovered": "10309",
-		"Deceased": "219",
-		"Migrated_Other": "0"
+		"Deaths": "219"
 	},
 	{
 		"District": "Ramban",
@@ -3032,8 +2747,7 @@
 		"Confirmed": "5828",
 		"Active": "105",
 		"Recovered": "5660",
-		"Deceased": "63",
-		"Migrated_Other": "0"
+		"Deaths": "63"
 	},
 	{
 		"District": "Reasi",
@@ -3043,8 +2757,7 @@
 		"Confirmed": "5865",
 		"Active": "297",
 		"Recovered": "5525",
-		"Deceased": "43",
-		"Migrated_Other": "0"
+		"Deaths": "43"
 	},
 	{
 		"District": "Samba",
@@ -3054,8 +2767,7 @@
 		"Confirmed": "7059",
 		"Active": "25",
 		"Recovered": "6916",
-		"Deceased": "118",
-		"Migrated_Other": "0"
+		"Deaths": "118"
 	},
 	{
 		"District": "Shopiyan",
@@ -3065,8 +2777,7 @@
 		"Confirmed": "5551",
 		"Active": "17",
 		"Recovered": "5476",
-		"Deceased": "58",
-		"Migrated_Other": "0"
+		"Deaths": "58"
 	},
 	{
 		"District": "Srinagar",
@@ -3076,8 +2787,7 @@
 		"Confirmed": "69916",
 		"Active": "908",
 		"Recovered": "68181",
-		"Deceased": "827",
-		"Migrated_Other": "0"
+		"Deaths": "827"
 	},
 	{
 		"District": "Udhampur",
@@ -3087,8 +2797,7 @@
 		"Confirmed": "11165",
 		"Active": "92",
 		"Recovered": "10942",
-		"Deceased": "131",
-		"Migrated_Other": "0"
+		"Deaths": "131"
 	},
 	{
 		"District": "Bagalkote",
@@ -3098,8 +2807,7 @@
 		"Confirmed": "34974",
 		"Active": "414",
 		"Recovered": "34246",
-		"Deceased": "314",
-		"Migrated_Other": "0"
+		"Deaths": "314"
 	},
 	{
 		"District": "Ballari",
@@ -3109,8 +2817,7 @@
 		"Confirmed": "96992",
 		"Active": "708",
 		"Recovered": "94680",
-		"Deceased": "1604",
-		"Migrated_Other": "0"
+		"Deaths": "1604"
 	},
 	{
 		"District": "Belagavi",
@@ -3120,8 +2827,7 @@
 		"Confirmed": "75706",
 		"Active": "1642",
 		"Recovered": "73287",
-		"Deceased": "777",
-		"Migrated_Other": "0"
+		"Deaths": "777"
 	},
 	{
 		"District": "Bengaluru Rural",
@@ -3131,8 +2837,7 @@
 		"Confirmed": "59552",
 		"Active": "1497",
 		"Recovered": "57247",
-		"Deceased": "808",
-		"Migrated_Other": "0"
+		"Deaths": "808"
 	},
 	{
 		"District": "Bengaluru Urban",
@@ -3142,8 +2847,7 @@
 		"Confirmed": "1212746",
 		"Active": "52445",
 		"Recovered": "1144685",
-		"Deceased": "15615",
-		"Migrated_Other": "1"
+		"Deaths": "15615"
 	},
 	{
 		"District": "Bidar",
@@ -3153,8 +2857,7 @@
 		"Confirmed": "24172",
 		"Active": "35",
 		"Recovered": "23741",
-		"Deceased": "392",
-		"Migrated_Other": "4"
+		"Deaths": "392"
 	},
 	{
 		"District": "Chamarajanagara",
@@ -3164,8 +2867,7 @@
 		"Confirmed": "31160",
 		"Active": "565",
 		"Recovered": "30131",
-		"Deceased": "453",
-		"Migrated_Other": "11"
+		"Deaths": "453"
 	},
 	{
 		"District": "Chikkaballapura",
@@ -3175,8 +2877,7 @@
 		"Confirmed": "43127",
 		"Active": "781",
 		"Recovered": "41961",
-		"Deceased": "384",
-		"Migrated_Other": "1"
+		"Deaths": "384"
 	},
 	{
 		"District": "Chikkamagaluru",
@@ -3186,8 +2887,7 @@
 		"Confirmed": "45541",
 		"Active": "1730",
 		"Recovered": "43468",
-		"Deceased": "343",
-		"Migrated_Other": "0"
+		"Deaths": "343"
 	},
 	{
 		"District": "Chitradurga",
@@ -3197,8 +2897,7 @@
 		"Confirmed": "35101",
 		"Active": "861",
 		"Recovered": "34061",
-		"Deceased": "179",
-		"Migrated_Other": "0"
+		"Deaths": "179"
 	},
 	{
 		"District": "Dakshina Kannada",
@@ -3208,8 +2907,7 @@
 		"Confirmed": "92513",
 		"Active": "5038",
 		"Recovered": "86295",
-		"Deceased": "1177",
-		"Migrated_Other": "3"
+		"Deaths": "1177"
 	},
 	{
 		"District": "Davanagere",
@@ -3219,8 +2917,7 @@
 		"Confirmed": "49498",
 		"Active": "1466",
 		"Recovered": "47491",
-		"Deceased": "541",
-		"Migrated_Other": "0"
+		"Deaths": "541"
 	},
 	{
 		"District": "Dharwad",
@@ -3230,8 +2927,7 @@
 		"Confirmed": "59924",
 		"Active": "561",
 		"Recovered": "58162",
-		"Deceased": "1200",
-		"Migrated_Other": "1"
+		"Deaths": "1200"
 	},
 	{
 		"District": "Gadag",
@@ -3241,8 +2937,7 @@
 		"Confirmed": "25796",
 		"Active": "225",
 		"Recovered": "25269",
-		"Deceased": "302",
-		"Migrated_Other": "0"
+		"Deaths": "302"
 	},
 	{
 		"District": "Hassan",
@@ -3252,8 +2947,7 @@
 		"Confirmed": "101560",
 		"Active": "3546",
 		"Recovered": "96909",
-		"Deceased": "1103",
-		"Migrated_Other": "2"
+		"Deaths": "1103"
 	},
 	{
 		"District": "Haveri",
@@ -3263,8 +2957,7 @@
 		"Confirmed": "21642",
 		"Active": "221",
 		"Recovered": "20829",
-		"Deceased": "592",
-		"Migrated_Other": "0"
+		"Deaths": "592"
 	},
 	{
 		"District": "Kalaburagi",
@@ -3274,8 +2967,7 @@
 		"Confirmed": "61303",
 		"Active": "253",
 		"Recovered": "60240",
-		"Deceased": "810",
-		"Migrated_Other": "0"
+		"Deaths": "810"
 	},
 	{
 		"District": "Kodagu",
@@ -3285,8 +2977,7 @@
 		"Confirmed": "30237",
 		"Active": "1674",
 		"Recovered": "28296",
-		"Deceased": "267",
-		"Migrated_Other": "0"
+		"Deaths": "267"
 	},
 	{
 		"District": "Kolar",
@@ -3296,8 +2987,7 @@
 		"Confirmed": "43978",
 		"Active": "833",
 		"Recovered": "42671",
-		"Deceased": "474",
-		"Migrated_Other": "0"
+		"Deaths": "474"
 	},
 	{
 		"District": "Koppal",
@@ -3307,8 +2997,7 @@
 		"Confirmed": "34862",
 		"Active": "401",
 		"Recovered": "33955",
-		"Deceased": "506",
-		"Migrated_Other": "0"
+		"Deaths": "506"
 	},
 	{
 		"District": "Mandya",
@@ -3318,8 +3007,7 @@
 		"Confirmed": "70108",
 		"Active": "1174",
 		"Recovered": "68387",
-		"Deceased": "547",
-		"Migrated_Other": "0"
+		"Deaths": "547"
 	},
 	{
 		"District": "Mysuru",
@@ -3329,8 +3017,7 @@
 		"Confirmed": "166207",
 		"Active": "4285",
 		"Recovered": "159759",
-		"Deceased": "2163",
-		"Migrated_Other": "0"
+		"Deaths": "2163"
 	},
 	{
 		"District": "Other State",
@@ -3340,8 +3027,7 @@
 		"Confirmed": "36",
 		"Active": "0",
 		"Recovered": "33",
-		"Deceased": "3",
-		"Migrated_Other": "0"
+		"Deaths": "3"
 	},
 	{
 		"District": "Raichur",
@@ -3351,8 +3037,7 @@
 		"Confirmed": "39773",
 		"Active": "145",
 		"Recovered": "39306",
-		"Deceased": "322",
-		"Migrated_Other": "0"
+		"Deaths": "322"
 	},
 	{
 		"District": "Ramanagara",
@@ -3362,8 +3047,7 @@
 		"Confirmed": "23640",
 		"Active": "186",
 		"Recovered": "23160",
-		"Deceased": "294",
-		"Migrated_Other": "0"
+		"Deaths": "294"
 	},
 	{
 		"District": "Shivamogga",
@@ -3373,8 +3057,7 @@
 		"Confirmed": "63925",
 		"Active": "1633",
 		"Recovered": "61305",
-		"Deceased": "987",
-		"Migrated_Other": "0"
+		"Deaths": "987"
 	},
 	{
 		"District": "Tumakuru",
@@ -3384,8 +3067,7 @@
 		"Confirmed": "114818",
 		"Active": "1610",
 		"Recovered": "112188",
-		"Deceased": "1020",
-		"Migrated_Other": "0"
+		"Deaths": "1020"
 	},
 	{
 		"District": "Udupi",
@@ -3395,8 +3077,7 @@
 		"Confirmed": "66289",
 		"Active": "987",
 		"Recovered": "64910",
-		"Deceased": "392",
-		"Migrated_Other": "0"
+		"Deaths": "392"
 	},
 	{
 		"District": "Uttara Kannada",
@@ -3406,8 +3087,7 @@
 		"Confirmed": "51851",
 		"Active": "788",
 		"Recovered": "50381",
-		"Deceased": "682",
-		"Migrated_Other": "0"
+		"Deaths": "682"
 	},
 	{
 		"District": "Vijayapura",
@@ -3417,8 +3097,7 @@
 		"Confirmed": "35978",
 		"Active": "183",
 		"Recovered": "35323",
-		"Deceased": "472",
-		"Migrated_Other": "0"
+		"Deaths": "472"
 	},
 	{
 		"District": "Yadgir",
@@ -3428,8 +3107,7 @@
 		"Confirmed": "27419",
 		"Active": "110",
 		"Recovered": "27103",
-		"Deceased": "206",
-		"Migrated_Other": "0"
+		"Deaths": "206"
 	},
 	{
 		"District": "Other State",
@@ -3439,8 +3117,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Alappuzha",
@@ -3450,8 +3127,7 @@
 		"Confirmed": "198498",
 		"Active": "6647",
 		"Recovered": "190812",
-		"Deceased": "1000",
-		"Migrated_Other": "39"
+		"Deaths": "1000"
 	},
 	{
 		"District": "Ernakulam",
@@ -3461,8 +3137,7 @@
 		"Confirmed": "355327",
 		"Active": "14227",
 		"Recovered": "339772",
-		"Deceased": "1269",
-		"Migrated_Other": "59"
+		"Deaths": "1269"
 	},
 	{
 		"District": "Idukki",
@@ -3472,8 +3147,7 @@
 		"Confirmed": "82735",
 		"Active": "4541",
 		"Recovered": "78046",
-		"Deceased": "141",
-		"Migrated_Other": "7"
+		"Deaths": "141"
 	},
 	{
 		"District": "Kannur",
@@ -3483,8 +3157,7 @@
 		"Confirmed": "159676",
 		"Active": "4547",
 		"Recovered": "154243",
-		"Deceased": "836",
-		"Migrated_Other": "50"
+		"Deaths": "836"
 	},
 	{
 		"District": "Kasaragod",
@@ -3494,8 +3167,7 @@
 		"Confirmed": "85183",
 		"Active": "6393",
 		"Recovered": "78548",
-		"Deceased": "230",
-		"Migrated_Other": "12"
+		"Deaths": "230"
 	},
 	{
 		"District": "Kollam",
@@ -3505,8 +3177,7 @@
 		"Confirmed": "229301",
 		"Active": "4204",
 		"Recovered": "224198",
-		"Deceased": "863",
-		"Migrated_Other": "36"
+		"Deaths": "863"
 	},
 	{
 		"District": "Kottayam",
@@ -3516,8 +3187,7 @@
 		"Confirmed": "196909",
 		"Active": "3778",
 		"Recovered": "192570",
-		"Deceased": "549",
-		"Migrated_Other": "12"
+		"Deaths": "549"
 	},
 	{
 		"District": "Kozhikode",
@@ -3527,8 +3197,7 @@
 		"Confirmed": "308652",
 		"Active": "8810",
 		"Recovered": "298484",
-		"Deceased": "1317",
-		"Migrated_Other": "41"
+		"Deaths": "1317"
 	},
 	{
 		"District": "Malappuram",
@@ -3538,8 +3207,7 @@
 		"Confirmed": "334508",
 		"Active": "10723",
 		"Recovered": "322762",
-		"Deceased": "995",
-		"Migrated_Other": "28"
+		"Deaths": "995"
 	},
 	{
 		"District": "Palakkad",
@@ -3549,8 +3217,7 @@
 		"Confirmed": "207324",
 		"Active": "6695",
 		"Recovered": "199481",
-		"Deceased": "1132",
-		"Migrated_Other": "16"
+		"Deaths": "1132"
 	},
 	{
 		"District": "Pathanamthitta",
@@ -3560,8 +3227,7 @@
 		"Confirmed": "117092",
 		"Active": "6244",
 		"Recovered": "110417",
-		"Deceased": "420",
-		"Migrated_Other": "11"
+		"Deaths": "420"
 	},
 	{
 		"District": "Thiruvananthapuram",
@@ -3571,8 +3237,7 @@
 		"Confirmed": "298633",
 		"Active": "9464",
 		"Recovered": "286300",
-		"Deceased": "2759",
-		"Migrated_Other": "110"
+		"Deaths": "2759"
 	},
 	{
 		"District": "Thrissur",
@@ -3582,8 +3247,7 @@
 		"Confirmed": "272087",
 		"Active": "9225",
 		"Recovered": "261473",
-		"Deceased": "1363",
-		"Migrated_Other": "26"
+		"Deaths": "1363"
 	},
 	{
 		"District": "Wayanad",
@@ -3593,8 +3257,7 @@
 		"Confirmed": "64583",
 		"Active": "3679",
 		"Recovered": "60673",
-		"Deceased": "220",
-		"Migrated_Other": "11"
+		"Deaths": "220"
 	},
 	{
 		"District": "Kargil",
@@ -3604,8 +3267,7 @@
 		"Confirmed": "3493",
 		"Active": "43",
 		"Recovered": "3392",
-		"Deceased": "58",
-		"Migrated_Other": "0"
+		"Deaths": "58"
 	},
 	{
 		"District": "Leh",
@@ -3615,8 +3277,7 @@
 		"Confirmed": "16545",
 		"Active": "228",
 		"Recovered": "16173",
-		"Deceased": "144",
-		"Migrated_Other": "0"
+		"Deaths": "144"
 	},
 	{
 		"District": "Lakshadweep",
@@ -3626,8 +3287,7 @@
 		"Confirmed": "9742",
 		"Active": "307",
 		"Recovered": "9349",
-		"Deceased": "47",
-		"Migrated_Other": "39"
+		"Deaths": "47"
 	},
 	{
 		"District": "Ahmednagar",
@@ -3637,8 +3297,7 @@
 		"Confirmed": "267478",
 		"Active": "3408",
 		"Recovered": "258614",
-		"Deceased": "5455",
-		"Migrated_Other": "1"
+		"Deaths": "5455"
 	},
 	{
 		"District": "Akola",
@@ -3648,8 +3307,7 @@
 		"Confirmed": "58842",
 		"Active": "481",
 		"Recovered": "57007",
-		"Deceased": "1350",
-		"Migrated_Other": "4"
+		"Deaths": "1350"
 	},
 	{
 		"District": "Amravati",
@@ -3659,8 +3317,7 @@
 		"Confirmed": "94003",
 		"Active": "427",
 		"Recovered": "92052",
-		"Deceased": "1522",
-		"Migrated_Other": "2"
+		"Deaths": "1522"
 	},
 	{
 		"District": "Aurangabad",
@@ -3670,8 +3327,7 @@
 		"Confirmed": "151167",
 		"Active": "1220",
 		"Recovered": "146349",
-		"Deceased": "3584",
-		"Migrated_Other": "14"
+		"Deaths": "3584"
 	},
 	{
 		"District": "Beed",
@@ -3681,8 +3337,7 @@
 		"Confirmed": "93006",
 		"Active": "2778",
 		"Recovered": "87706",
-		"Deceased": "2515",
-		"Migrated_Other": "7"
+		"Deaths": "2515"
 	},
 	{
 		"District": "Bhandara",
@@ -3692,8 +3347,7 @@
 		"Confirmed": "60054",
 		"Active": "642",
 		"Recovered": "58287",
-		"Deceased": "1115",
-		"Migrated_Other": "10"
+		"Deaths": "1115"
 	},
 	{
 		"District": "Buldhana",
@@ -3703,8 +3357,7 @@
 		"Confirmed": "83896",
 		"Active": "268",
 		"Recovered": "82935",
-		"Deceased": "687",
-		"Migrated_Other": "6"
+		"Deaths": "687"
 	},
 	{
 		"District": "Chandrapur",
@@ -3714,8 +3367,7 @@
 		"Confirmed": "87902",
 		"Active": "269",
 		"Recovered": "86077",
-		"Deceased": "1554",
-		"Migrated_Other": "2"
+		"Deaths": "1554"
 	},
 	{
 		"District": "Dhule",
@@ -3725,8 +3377,7 @@
 		"Confirmed": "45798",
 		"Active": "725",
 		"Recovered": "44417",
-		"Deceased": "644",
-		"Migrated_Other": "12"
+		"Deaths": "644"
 	},
 	{
 		"District": "Gadchiroli",
@@ -3736,8 +3387,7 @@
 		"Confirmed": "29547",
 		"Active": "225",
 		"Recovered": "28648",
-		"Deceased": "646",
-		"Migrated_Other": "28"
+		"Deaths": "646"
 	},
 	{
 		"District": "Gondia",
@@ -3747,8 +3397,7 @@
 		"Confirmed": "40421",
 		"Active": "150",
 		"Recovered": "39706",
-		"Deceased": "558",
-		"Migrated_Other": "7"
+		"Deaths": "558"
 	},
 	{
 		"District": "Hingoli",
@@ -3758,8 +3407,7 @@
 		"Confirmed": "18277",
 		"Active": "109",
 		"Recovered": "17721",
-		"Deceased": "446",
-		"Migrated_Other": "1"
+		"Deaths": "446"
 	},
 	{
 		"District": "Jalgaon",
@@ -3769,8 +3417,7 @@
 		"Confirmed": "139174",
 		"Active": "932",
 		"Recovered": "135579",
-		"Deceased": "2630",
-		"Migrated_Other": "33"
+		"Deaths": "2630"
 	},
 	{
 		"District": "Jalna",
@@ -3780,8 +3427,7 @@
 		"Confirmed": "59729",
 		"Active": "851",
 		"Recovered": "57727",
-		"Deceased": "1150",
-		"Migrated_Other": "1"
+		"Deaths": "1150"
 	},
 	{
 		"District": "Kolhapur",
@@ -3791,8 +3437,7 @@
 		"Confirmed": "154671",
 		"Active": "10612",
 		"Recovered": "139378",
-		"Deceased": "4678",
-		"Migrated_Other": "3"
+		"Deaths": "4678"
 	},
 	{
 		"District": "Latur",
@@ -3802,8 +3447,7 @@
 		"Confirmed": "89849",
 		"Active": "727",
 		"Recovered": "86883",
-		"Deceased": "2233",
-		"Migrated_Other": "6"
+		"Deaths": "2233"
 	},
 	{
 		"District": "Mumbai",
@@ -3813,8 +3457,7 @@
 		"Confirmed": "721516",
 		"Active": "12684",
 		"Recovered": "691114",
-		"Deceased": "15426",
-		"Migrated_Other": "2292"
+		"Deaths": "15426"
 	},
 	{
 		"District": "Mumbai Suburban",
@@ -3824,8 +3467,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Nagpur",
@@ -3835,8 +3477,7 @@
 		"Confirmed": "492464",
 		"Active": "3498",
 		"Recovered": "480444",
-		"Deceased": "8451",
-		"Migrated_Other": "71"
+		"Deaths": "8451"
 	},
 	{
 		"District": "Nanded",
@@ -3846,8 +3487,7 @@
 		"Confirmed": "90380",
 		"Active": "826",
 		"Recovered": "86887",
-		"Deceased": "2660",
-		"Migrated_Other": "7"
+		"Deaths": "2660"
 	},
 	{
 		"District": "Nandurbar",
@@ -3857,8 +3497,7 @@
 		"Confirmed": "39028",
 		"Active": "370",
 		"Recovered": "37708",
-		"Deceased": "947",
-		"Migrated_Other": "3"
+		"Deaths": "947"
 	},
 	{
 		"District": "Nashik",
@@ -3868,8 +3507,7 @@
 		"Confirmed": "398260",
 		"Active": "3340",
 		"Recovered": "387144",
-		"Deceased": "7775",
-		"Migrated_Other": "1"
+		"Deaths": "7775"
 	},
 	{
 		"District": "Osmanabad",
@@ -3879,8 +3517,7 @@
 		"Confirmed": "61821",
 		"Active": "679",
 		"Recovered": "59340",
-		"Deceased": "1702",
-		"Migrated_Other": "100"
+		"Deaths": "1702"
 	},
 	{
 		"District": "Other State",
@@ -3890,8 +3527,7 @@
 		"Confirmed": "146",
 		"Active": "26",
 		"Recovered": "0",
-		"Deceased": "118",
-		"Migrated_Other": "2"
+		"Deaths": "118"
 	},
 	{
 		"District": "Palghar",
@@ -3901,8 +3537,7 @@
 		"Confirmed": "124965",
 		"Active": "1445",
 		"Recovered": "120809",
-		"Deceased": "2698",
-		"Migrated_Other": "13"
+		"Deaths": "2698"
 	},
 	{
 		"District": "Parbhani",
@@ -3912,8 +3547,7 @@
 		"Confirmed": "51712",
 		"Active": "561",
 		"Recovered": "49961",
-		"Deceased": "1176",
-		"Migrated_Other": "14"
+		"Deaths": "1176"
 	},
 	{
 		"District": "Pune",
@@ -3923,8 +3557,7 @@
 		"Confirmed": "1053583",
 		"Active": "16467",
 		"Recovered": "1020226",
-		"Deceased": "16688",
-		"Migrated_Other": "202"
+		"Deaths": "16688"
 	},
 	{
 		"District": "Raigad",
@@ -3934,8 +3567,7 @@
 		"Confirmed": "167622",
 		"Active": "5458",
 		"Recovered": "158643",
-		"Deceased": "3519",
-		"Migrated_Other": "2"
+		"Deaths": "3519"
 	},
 	{
 		"District": "Ratnagiri",
@@ -3945,8 +3577,7 @@
 		"Confirmed": "61355",
 		"Active": "5616",
 		"Recovered": "54000",
-		"Deceased": "1735",
-		"Migrated_Other": "4"
+		"Deaths": "1735"
 	},
 	{
 		"District": "Sangli",
@@ -3956,8 +3587,7 @@
 		"Confirmed": "153135",
 		"Active": "10353",
 		"Recovered": "138785",
-		"Deceased": "3993",
-		"Migrated_Other": "4"
+		"Deaths": "3993"
 	},
 	{
 		"District": "Satara",
@@ -3967,8 +3597,7 @@
 		"Confirmed": "192146",
 		"Active": "7596",
 		"Recovered": "179906",
-		"Deceased": "4619",
-		"Migrated_Other": "25"
+		"Deaths": "4619"
 	},
 	{
 		"District": "Sindhudurg",
@@ -3978,8 +3607,7 @@
 		"Confirmed": "41120",
 		"Active": "4677",
 		"Recovered": "35419",
-		"Deceased": "1008",
-		"Migrated_Other": "16"
+		"Deaths": "1008"
 	},
 	{
 		"District": "Solapur",
@@ -3989,8 +3617,7 @@
 		"Confirmed": "173733",
 		"Active": "2821",
 		"Recovered": "166248",
-		"Deceased": "4579",
-		"Migrated_Other": "85"
+		"Deaths": "4579"
 	},
 	{
 		"District": "Thane",
@@ -4000,8 +3627,7 @@
 		"Confirmed": "579084",
 		"Active": "15935",
 		"Recovered": "552731",
-		"Deceased": "10385",
-		"Migrated_Other": "33"
+		"Deaths": "10385"
 	},
 	{
 		"District": "Wardha",
@@ -4011,8 +3637,7 @@
 		"Confirmed": "58453",
 		"Active": "529",
 		"Recovered": "56567",
-		"Deceased": "1192",
-		"Migrated_Other": "165"
+		"Deaths": "1192"
 	},
 	{
 		"District": "Washim",
@@ -4022,8 +3647,7 @@
 		"Confirmed": "41360",
 		"Active": "304",
 		"Recovered": "40423",
-		"Deceased": "630",
-		"Migrated_Other": "3"
+		"Deaths": "630"
 	},
 	{
 		"District": "Yavatmal",
@@ -4033,8 +3657,7 @@
 		"Confirmed": "75936",
 		"Active": "89",
 		"Recovered": "74107",
-		"Deceased": "1736",
-		"Migrated_Other": "4"
+		"Deaths": "1736"
 	},
 	{
 		"District": "East Garo Hills",
@@ -4044,8 +3667,7 @@
 		"Confirmed": "1298",
 		"Active": "246",
 		"Recovered": "1046",
-		"Deceased": "6",
-		"Migrated_Other": "0"
+		"Deaths": "6"
 	},
 	{
 		"District": "East Jaintia Hills",
@@ -4055,8 +3677,7 @@
 		"Confirmed": "1735",
 		"Active": "115",
 		"Recovered": "1601",
-		"Deceased": "19",
-		"Migrated_Other": "0"
+		"Deaths": "19"
 	},
 	{
 		"District": "East Khasi Hills",
@@ -4066,8 +3687,7 @@
 		"Confirmed": "26563",
 		"Active": "1356",
 		"Recovered": "24585",
-		"Deceased": "622",
-		"Migrated_Other": "0"
+		"Deaths": "622"
 	},
 	{
 		"District": "North Garo Hills",
@@ -4077,8 +3697,7 @@
 		"Confirmed": "1098",
 		"Active": "255",
 		"Recovered": "837",
-		"Deceased": "6",
-		"Migrated_Other": "0"
+		"Deaths": "6"
 	},
 	{
 		"District": "Ribhoi",
@@ -4088,8 +3707,7 @@
 		"Confirmed": "5520",
 		"Active": "585",
 		"Recovered": "4902",
-		"Deceased": "33",
-		"Migrated_Other": "0"
+		"Deaths": "33"
 	},
 	{
 		"District": "South Garo Hills",
@@ -4099,8 +3717,7 @@
 		"Confirmed": "800",
 		"Active": "82",
 		"Recovered": "714",
-		"Deceased": "4",
-		"Migrated_Other": "0"
+		"Deaths": "4"
 	},
 	{
 		"District": "South West Garo Hills",
@@ -4110,8 +3727,7 @@
 		"Confirmed": "1475",
 		"Active": "110",
 		"Recovered": "1353",
-		"Deceased": "12",
-		"Migrated_Other": "0"
+		"Deaths": "12"
 	},
 	{
 		"District": "South West Khasi Hills",
@@ -4121,8 +3737,7 @@
 		"Confirmed": "1074",
 		"Active": "173",
 		"Recovered": "896",
-		"Deceased": "5",
-		"Migrated_Other": "0"
+		"Deaths": "5"
 	},
 	{
 		"District": "West Garo Hills",
@@ -4132,8 +3747,7 @@
 		"Confirmed": "5142",
 		"Active": "519",
 		"Recovered": "4582",
-		"Deceased": "41",
-		"Migrated_Other": "0"
+		"Deaths": "41"
 	},
 	{
 		"District": "West Jaintia Hills",
@@ -4143,8 +3757,7 @@
 		"Confirmed": "3619",
 		"Active": "616",
 		"Recovered": "2927",
-		"Deceased": "76",
-		"Migrated_Other": "0"
+		"Deaths": "76"
 	},
 	{
 		"District": "West Khasi Hills",
@@ -4154,8 +3767,7 @@
 		"Confirmed": "1189",
 		"Active": "159",
 		"Recovered": "1016",
-		"Deceased": "14",
-		"Migrated_Other": "0"
+		"Deaths": "14"
 	},
 	{
 		"District": "CAPF Personnel",
@@ -4165,8 +3777,7 @@
 		"Confirmed": "3013",
 		"Active": "1330",
 		"Recovered": "1681",
-		"Deceased": "2",
-		"Migrated_Other": "0"
+		"Deaths": "2"
 	},
 	{
 		"District": "Bishnupur",
@@ -4176,8 +3787,7 @@
 		"Confirmed": "4221",
 		"Active": "4087",
 		"Recovered": "58",
-		"Deceased": "76",
-		"Migrated_Other": "0"
+		"Deaths": "76"
 	},
 	{
 		"District": "Chandel",
@@ -4187,8 +3797,7 @@
 		"Confirmed": "843",
 		"Active": "823",
 		"Recovered": "4",
-		"Deceased": "16",
-		"Migrated_Other": "0"
+		"Deaths": "16"
 	},
 	{
 		"District": "Churachandpur",
@@ -4198,8 +3807,7 @@
 		"Confirmed": "4917",
 		"Active": "4772",
 		"Recovered": "58",
-		"Deceased": "87",
-		"Migrated_Other": "0"
+		"Deaths": "87"
 	},
 	{
 		"District": "Imphal East",
@@ -4209,8 +3817,7 @@
 		"Confirmed": "14570",
 		"Active": "14141",
 		"Recovered": "150",
-		"Deceased": "279",
-		"Migrated_Other": "0"
+		"Deaths": "279"
 	},
 	{
 		"District": "Imphal West",
@@ -4220,8 +3827,7 @@
 		"Confirmed": "23100",
 		"Active": "22680",
 		"Recovered": "52",
-		"Deceased": "368",
-		"Migrated_Other": "0"
+		"Deaths": "368"
 	},
 	{
 		"District": "Jiribam",
@@ -4231,8 +3837,7 @@
 		"Confirmed": "677",
 		"Active": "673",
 		"Recovered": "2",
-		"Deceased": "2",
-		"Migrated_Other": "0"
+		"Deaths": "2"
 	},
 	{
 		"District": "Kakching",
@@ -4242,8 +3847,7 @@
 		"Confirmed": "3340",
 		"Active": "3253",
 		"Recovered": "27",
-		"Deceased": "60",
-		"Migrated_Other": "0"
+		"Deaths": "60"
 	},
 	{
 		"District": "Kamjong",
@@ -4253,8 +3857,7 @@
 		"Confirmed": "379",
 		"Active": "360",
 		"Recovered": "17",
-		"Deceased": "2",
-		"Migrated_Other": "0"
+		"Deaths": "2"
 	},
 	{
 		"District": "Kangpokpi",
@@ -4264,8 +3867,7 @@
 		"Confirmed": "1196",
 		"Active": "1152",
 		"Recovered": "19",
-		"Deceased": "25",
-		"Migrated_Other": "0"
+		"Deaths": "25"
 	},
 	{
 		"District": "Noney",
@@ -4275,8 +3877,7 @@
 		"Confirmed": "478",
 		"Active": "457",
 		"Recovered": "18",
-		"Deceased": "3",
-		"Migrated_Other": "0"
+		"Deaths": "3"
 	},
 	{
 		"District": "Pherzawl",
@@ -4286,8 +3887,7 @@
 		"Confirmed": "110",
 		"Active": "95",
 		"Recovered": "15",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Senapati",
@@ -4297,8 +3897,7 @@
 		"Confirmed": "1114",
 		"Active": "1088",
 		"Recovered": "21",
-		"Deceased": "5",
-		"Migrated_Other": "0"
+		"Deaths": "5"
 	},
 	{
 		"District": "Tamenglong",
@@ -4308,8 +3907,7 @@
 		"Confirmed": "2010",
 		"Active": "1968",
 		"Recovered": "32",
-		"Deceased": "10",
-		"Migrated_Other": "0"
+		"Deaths": "10"
 	},
 	{
 		"District": "Tengnoupal",
@@ -4319,8 +3917,7 @@
 		"Confirmed": "625",
 		"Active": "609",
 		"Recovered": "13",
-		"Deceased": "3",
-		"Migrated_Other": "0"
+		"Deaths": "3"
 	},
 	{
 		"District": "Thoubal",
@@ -4330,8 +3927,7 @@
 		"Confirmed": "5589",
 		"Active": "5469",
 		"Recovered": "23",
-		"Deceased": "97",
-		"Migrated_Other": "0"
+		"Deaths": "97"
 	},
 	{
 		"District": "Ukhrul",
@@ -4341,8 +3937,7 @@
 		"Confirmed": "1220",
 		"Active": "1187",
 		"Recovered": "18",
-		"Deceased": "15",
-		"Migrated_Other": "0"
+		"Deaths": "15"
 	},
 	{
 		"District": "Agar Malwa",
@@ -4352,8 +3947,7 @@
 		"Confirmed": "3303",
 		"Active": "6",
 		"Recovered": "3234",
-		"Deceased": "63",
-		"Migrated_Other": "0"
+		"Deaths": "63"
 	},
 	{
 		"District": "Alirajpur",
@@ -4363,8 +3957,7 @@
 		"Confirmed": "3501",
 		"Active": "2",
 		"Recovered": "3452",
-		"Deceased": "47",
-		"Migrated_Other": "0"
+		"Deaths": "47"
 	},
 	{
 		"District": "Anuppur",
@@ -4374,8 +3967,7 @@
 		"Confirmed": "9229",
 		"Active": "4",
 		"Recovered": "9136",
-		"Deceased": "89",
-		"Migrated_Other": "0"
+		"Deaths": "89"
 	},
 	{
 		"District": "Ashoknagar",
@@ -4385,8 +3977,7 @@
 		"Confirmed": "3655",
 		"Active": "0",
 		"Recovered": "3612",
-		"Deceased": "43",
-		"Migrated_Other": "0"
+		"Deaths": "43"
 	},
 	{
 		"District": "Balaghat",
@@ -4396,8 +3987,7 @@
 		"Confirmed": "9080",
 		"Active": "5",
 		"Recovered": "9011",
-		"Deceased": "64",
-		"Migrated_Other": "0"
+		"Deaths": "64"
 	},
 	{
 		"District": "Barwani",
@@ -4407,8 +3997,7 @@
 		"Confirmed": "8355",
 		"Active": "10",
 		"Recovered": "8255",
-		"Deceased": "90",
-		"Migrated_Other": "0"
+		"Deaths": "90"
 	},
 	{
 		"District": "Betul",
@@ -4418,8 +4007,7 @@
 		"Confirmed": "12871",
 		"Active": "21",
 		"Recovered": "12583",
-		"Deceased": "267",
-		"Migrated_Other": "0"
+		"Deaths": "267"
 	},
 	{
 		"District": "Bhind",
@@ -4429,8 +4017,7 @@
 		"Confirmed": "2992",
 		"Active": "1",
 		"Recovered": "2959",
-		"Deceased": "32",
-		"Migrated_Other": "0"
+		"Deaths": "32"
 	},
 	{
 		"District": "Bhopal",
@@ -4440,8 +4027,7 @@
 		"Confirmed": "123123",
 		"Active": "146",
 		"Recovered": "122005",
-		"Deceased": "972",
-		"Migrated_Other": "0"
+		"Deaths": "972"
 	},
 	{
 		"District": "Burhanpur",
@@ -4451,8 +4037,7 @@
 		"Confirmed": "2568",
 		"Active": "0",
 		"Recovered": "2529",
-		"Deceased": "39",
-		"Migrated_Other": "0"
+		"Deaths": "39"
 	},
 	{
 		"District": "Chhatarpur",
@@ -4462,8 +4047,7 @@
 		"Confirmed": "7597",
 		"Active": "1",
 		"Recovered": "7505",
-		"Deceased": "91",
-		"Migrated_Other": "0"
+		"Deaths": "91"
 	},
 	{
 		"District": "Chhindwara",
@@ -4473,8 +4057,7 @@
 		"Confirmed": "6731",
 		"Active": "5",
 		"Recovered": "6606",
-		"Deceased": "120",
-		"Migrated_Other": "0"
+		"Deaths": "120"
 	},
 	{
 		"District": "Damoh",
@@ -4484,8 +4067,7 @@
 		"Confirmed": "8093",
 		"Active": "74",
 		"Recovered": "7839",
-		"Deceased": "180",
-		"Migrated_Other": "0"
+		"Deaths": "180"
 	},
 	{
 		"District": "Datia",
@@ -4495,8 +4077,7 @@
 		"Confirmed": "6953",
 		"Active": "8",
 		"Recovered": "6867",
-		"Deceased": "78",
-		"Migrated_Other": "0"
+		"Deaths": "78"
 	},
 	{
 		"District": "Dewas",
@@ -4506,8 +4087,7 @@
 		"Confirmed": "7723",
 		"Active": "0",
 		"Recovered": "7672",
-		"Deceased": "51",
-		"Migrated_Other": "0"
+		"Deaths": "51"
 	},
 	{
 		"District": "Dhar",
@@ -4517,8 +4097,7 @@
 		"Confirmed": "12520",
 		"Active": "9",
 		"Recovered": "12381",
-		"Deceased": "130",
-		"Migrated_Other": "0"
+		"Deaths": "130"
 	},
 	{
 		"District": "Dindori",
@@ -4528,8 +4107,7 @@
 		"Confirmed": "4618",
 		"Active": "3",
 		"Recovered": "4586",
-		"Deceased": "29",
-		"Migrated_Other": "0"
+		"Deaths": "29"
 	},
 	{
 		"District": "Guna",
@@ -4539,8 +4117,7 @@
 		"Confirmed": "5131",
 		"Active": "3",
 		"Recovered": "5084",
-		"Deceased": "44",
-		"Migrated_Other": "0"
+		"Deaths": "44"
 	},
 	{
 		"District": "Gwalior",
@@ -4550,8 +4127,7 @@
 		"Confirmed": "53062",
 		"Active": "10",
 		"Recovered": "52419",
-		"Deceased": "633",
-		"Migrated_Other": "0"
+		"Deaths": "633"
 	},
 	{
 		"District": "Harda",
@@ -4561,8 +4137,7 @@
 		"Confirmed": "5052",
 		"Active": "7",
 		"Recovered": "4950",
-		"Deceased": "95",
-		"Migrated_Other": "0"
+		"Deaths": "95"
 	},
 	{
 		"District": "Hoshangabad",
@@ -4572,8 +4147,7 @@
 		"Confirmed": "10669",
 		"Active": "9",
 		"Recovered": "10561",
-		"Deceased": "99",
-		"Migrated_Other": "0"
+		"Deaths": "99"
 	},
 	{
 		"District": "Indore",
@@ -4583,8 +4157,7 @@
 		"Confirmed": "152833",
 		"Active": "112",
 		"Recovered": "151331",
-		"Deceased": "1390",
-		"Migrated_Other": "0"
+		"Deaths": "1390"
 	},
 	{
 		"District": "Jabalpur",
@@ -4594,8 +4167,7 @@
 		"Confirmed": "50566",
 		"Active": "12",
 		"Recovered": "49889",
-		"Deceased": "665",
-		"Migrated_Other": "0"
+		"Deaths": "665"
 	},
 	{
 		"District": "Jhabua",
@@ -4605,8 +4177,7 @@
 		"Confirmed": "7685",
 		"Active": "2",
 		"Recovered": "7619",
-		"Deceased": "64",
-		"Migrated_Other": "0"
+		"Deaths": "64"
 	},
 	{
 		"District": "Katni",
@@ -4616,8 +4187,7 @@
 		"Confirmed": "9362",
 		"Active": "1",
 		"Recovered": "9241",
-		"Deceased": "120",
-		"Migrated_Other": "0"
+		"Deaths": "120"
 	},
 	{
 		"District": "Khandwa",
@@ -4627,8 +4197,7 @@
 		"Confirmed": "4040",
 		"Active": "0",
 		"Recovered": "3946",
-		"Deceased": "94",
-		"Migrated_Other": "0"
+		"Deaths": "94"
 	},
 	{
 		"District": "Khargone",
@@ -4638,8 +4207,7 @@
 		"Confirmed": "13956",
 		"Active": "4",
 		"Recovered": "13713",
-		"Deceased": "239",
-		"Migrated_Other": "0"
+		"Deaths": "239"
 	},
 	{
 		"District": "Mandla",
@@ -4649,8 +4217,7 @@
 		"Confirmed": "5184",
 		"Active": "0",
 		"Recovered": "5159",
-		"Deceased": "25",
-		"Migrated_Other": "0"
+		"Deaths": "25"
 	},
 	{
 		"District": "Mandsaur",
@@ -4660,8 +4227,7 @@
 		"Confirmed": "8636",
 		"Active": "4",
 		"Recovered": "8548",
-		"Deceased": "84",
-		"Migrated_Other": "0"
+		"Deaths": "84"
 	},
 	{
 		"District": "Morena",
@@ -4671,8 +4237,7 @@
 		"Confirmed": "8231",
 		"Active": "2",
 		"Recovered": "8134",
-		"Deceased": "95",
-		"Migrated_Other": "0"
+		"Deaths": "95"
 	},
 	{
 		"District": "Narsinghpur",
@@ -4682,8 +4247,7 @@
 		"Confirmed": "11197",
 		"Active": "7",
 		"Recovered": "11109",
-		"Deceased": "81",
-		"Migrated_Other": "0"
+		"Deaths": "81"
 	},
 	{
 		"District": "Neemuch",
@@ -4693,8 +4257,7 @@
 		"Confirmed": "7915",
 		"Active": "7",
 		"Recovered": "7824",
-		"Deceased": "84",
-		"Migrated_Other": "0"
+		"Deaths": "84"
 	},
 	{
 		"District": "Niwari",
@@ -4704,8 +4267,7 @@
 		"Confirmed": "3704",
 		"Active": "4",
 		"Recovered": "3652",
-		"Deceased": "48",
-		"Migrated_Other": "0"
+		"Deaths": "48"
 	},
 	{
 		"District": "Other Region",
@@ -4715,8 +4277,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Panna",
@@ -4726,8 +4287,7 @@
 		"Confirmed": "7313",
 		"Active": "7",
 		"Recovered": "7243",
-		"Deceased": "63",
-		"Migrated_Other": "0"
+		"Deaths": "63"
 	},
 	{
 		"District": "Raisen",
@@ -4737,8 +4297,7 @@
 		"Confirmed": "9226",
 		"Active": "13",
 		"Recovered": "9019",
-		"Deceased": "194",
-		"Migrated_Other": "0"
+		"Deaths": "194"
 	},
 	{
 		"District": "Rajgarh",
@@ -4748,8 +4307,7 @@
 		"Confirmed": "8668",
 		"Active": "23",
 		"Recovered": "8478",
-		"Deceased": "167",
-		"Migrated_Other": "0"
+		"Deaths": "167"
 	},
 	{
 		"District": "Ratlam",
@@ -4759,8 +4317,7 @@
 		"Confirmed": "17833",
 		"Active": "23",
 		"Recovered": "17425",
-		"Deceased": "385",
-		"Migrated_Other": "0"
+		"Deaths": "385"
 	},
 	{
 		"District": "Rewa",
@@ -4770,8 +4327,7 @@
 		"Confirmed": "16428",
 		"Active": "13",
 		"Recovered": "16260",
-		"Deceased": "155",
-		"Migrated_Other": "0"
+		"Deaths": "155"
 	},
 	{
 		"District": "Sagar",
@@ -4781,8 +4337,7 @@
 		"Confirmed": "16546",
 		"Active": "15",
 		"Recovered": "16151",
-		"Deceased": "380",
-		"Migrated_Other": "0"
+		"Deaths": "380"
 	},
 	{
 		"District": "Satna",
@@ -4792,8 +4347,7 @@
 		"Confirmed": "11962",
 		"Active": "2",
 		"Recovered": "11827",
-		"Deceased": "133",
-		"Migrated_Other": "0"
+		"Deaths": "133"
 	},
 	{
 		"District": "Sehore",
@@ -4803,8 +4357,7 @@
 		"Confirmed": "10131",
 		"Active": "4",
 		"Recovered": "10057",
-		"Deceased": "70",
-		"Migrated_Other": "0"
+		"Deaths": "70"
 	},
 	{
 		"District": "Seoni",
@@ -4814,8 +4367,7 @@
 		"Confirmed": "6767",
 		"Active": "8",
 		"Recovered": "6731",
-		"Deceased": "28",
-		"Migrated_Other": "0"
+		"Deaths": "28"
 	},
 	{
 		"District": "Shahdol",
@@ -4825,8 +4377,7 @@
 		"Confirmed": "10079",
 		"Active": "6",
 		"Recovered": "9955",
-		"Deceased": "118",
-		"Migrated_Other": "0"
+		"Deaths": "118"
 	},
 	{
 		"District": "Shajapur",
@@ -4836,8 +4387,7 @@
 		"Confirmed": "6348",
 		"Active": "11",
 		"Recovered": "6271",
-		"Deceased": "66",
-		"Migrated_Other": "0"
+		"Deaths": "66"
 	},
 	{
 		"District": "Sheopur",
@@ -4847,8 +4397,7 @@
 		"Confirmed": "3998",
 		"Active": "1",
 		"Recovered": "3919",
-		"Deceased": "78",
-		"Migrated_Other": "0"
+		"Deaths": "78"
 	},
 	{
 		"District": "Shivpuri",
@@ -4858,8 +4407,7 @@
 		"Confirmed": "12386",
 		"Active": "4",
 		"Recovered": "12257",
-		"Deceased": "125",
-		"Migrated_Other": "0"
+		"Deaths": "125"
 	},
 	{
 		"District": "Sidhi",
@@ -4869,8 +4417,7 @@
 		"Confirmed": "9219",
 		"Active": "0",
 		"Recovered": "9132",
-		"Deceased": "87",
-		"Migrated_Other": "0"
+		"Deaths": "87"
 	},
 	{
 		"District": "Singrauli",
@@ -4880,8 +4427,7 @@
 		"Confirmed": "8788",
 		"Active": "2",
 		"Recovered": "8704",
-		"Deceased": "82",
-		"Migrated_Other": "0"
+		"Deaths": "82"
 	},
 	{
 		"District": "Tikamgarh",
@@ -4891,8 +4437,7 @@
 		"Confirmed": "6856",
 		"Active": "3",
 		"Recovered": "6740",
-		"Deceased": "113",
-		"Migrated_Other": "0"
+		"Deaths": "113"
 	},
 	{
 		"District": "Ujjain",
@@ -4902,8 +4447,7 @@
 		"Confirmed": "18892",
 		"Active": "12",
 		"Recovered": "18708",
-		"Deceased": "172",
-		"Migrated_Other": "0"
+		"Deaths": "172"
 	},
 	{
 		"District": "Umaria",
@@ -4913,8 +4457,7 @@
 		"Confirmed": "6287",
 		"Active": "2",
 		"Recovered": "6222",
-		"Deceased": "63",
-		"Migrated_Other": "0"
+		"Deaths": "63"
 	},
 	{
 		"District": "Vidisha",
@@ -4924,8 +4467,7 @@
 		"Confirmed": "11909",
 		"Active": "2",
 		"Recovered": "11677",
-		"Deceased": "230",
-		"Migrated_Other": "0"
+		"Deaths": "230"
 	},
 	{
 		"District": "Aizawl",
@@ -4935,8 +4477,7 @@
 		"Confirmed": "14020",
 		"Active": "2895",
 		"Recovered": "11046",
-		"Deceased": "79",
-		"Migrated_Other": "0"
+		"Deaths": "79"
 	},
 	{
 		"District": "Champhai",
@@ -4946,8 +4487,7 @@
 		"Confirmed": "258",
 		"Active": "20",
 		"Recovered": "237",
-		"Deceased": "1",
-		"Migrated_Other": "0"
+		"Deaths": "1"
 	},
 	{
 		"District": "Hnahthial",
@@ -4957,8 +4497,7 @@
 		"Confirmed": "64",
 		"Active": "32",
 		"Recovered": "32",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Khawzawl",
@@ -4968,8 +4507,7 @@
 		"Confirmed": "97",
 		"Active": "5",
 		"Recovered": "92",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Kolasib",
@@ -4979,8 +4517,7 @@
 		"Confirmed": "1346",
 		"Active": "325",
 		"Recovered": "1015",
-		"Deceased": "6",
-		"Migrated_Other": "0"
+		"Deaths": "6"
 	},
 	{
 		"District": "Lawngtlai",
@@ -4990,8 +4527,7 @@
 		"Confirmed": "1425",
 		"Active": "252",
 		"Recovered": "1173",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Lunglei",
@@ -5001,8 +4537,7 @@
 		"Confirmed": "1370",
 		"Active": "181",
 		"Recovered": "1189",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Mamit",
@@ -5012,8 +4547,7 @@
 		"Confirmed": "296",
 		"Active": "41",
 		"Recovered": "253",
-		"Deceased": "2",
-		"Migrated_Other": "0"
+		"Deaths": "2"
 	},
 	{
 		"District": "Saiha",
@@ -5023,8 +4557,7 @@
 		"Confirmed": "337",
 		"Active": "80",
 		"Recovered": "257",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Saitual",
@@ -5034,8 +4567,7 @@
 		"Confirmed": "165",
 		"Active": "11",
 		"Recovered": "152",
-		"Deceased": "2",
-		"Migrated_Other": "0"
+		"Deaths": "2"
 	},
 	{
 		"District": "Serchhip",
@@ -5045,8 +4577,7 @@
 		"Confirmed": "697",
 		"Active": "34",
 		"Recovered": "660",
-		"Deceased": "3",
-		"Migrated_Other": "0"
+		"Deaths": "3"
 	},
 	{
 		"District": "Others",
@@ -5056,8 +4587,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Dimapur",
@@ -5067,8 +4597,7 @@
 		"Confirmed": "12319",
 		"Active": "339",
 		"Recovered": "11161",
-		"Deceased": "317",
-		"Migrated_Other": "502"
+		"Deaths": "317"
 	},
 	{
 		"District": "Kiphire",
@@ -5078,8 +4607,7 @@
 		"Confirmed": "165",
 		"Active": "23",
 		"Recovered": "134",
-		"Deceased": "7",
-		"Migrated_Other": "1"
+		"Deaths": "7"
 	},
 	{
 		"District": "Kohima",
@@ -5089,8 +4617,7 @@
 		"Confirmed": "7557",
 		"Active": "385",
 		"Recovered": "6977",
-		"Deceased": "83",
-		"Migrated_Other": "112"
+		"Deaths": "83"
 	},
 	{
 		"District": "Longleng",
@@ -5100,8 +4627,7 @@
 		"Confirmed": "150",
 		"Active": "15",
 		"Recovered": "122",
-		"Deceased": "2",
-		"Migrated_Other": "11"
+		"Deaths": "2"
 	},
 	{
 		"District": "Mokokchung",
@@ -5111,8 +4637,7 @@
 		"Confirmed": "1352",
 		"Active": "263",
 		"Recovered": "1018",
-		"Deceased": "31",
-		"Migrated_Other": "40"
+		"Deaths": "31"
 	},
 	{
 		"District": "Mon",
@@ -5122,8 +4647,7 @@
 		"Confirmed": "997",
 		"Active": "63",
 		"Recovered": "910",
-		"Deceased": "9",
-		"Migrated_Other": "15"
+		"Deaths": "9"
 	},
 	{
 		"District": "Peren",
@@ -5133,8 +4657,7 @@
 		"Confirmed": "685",
 		"Active": "73",
 		"Recovered": "608",
-		"Deceased": "1",
-		"Migrated_Other": "3"
+		"Deaths": "1"
 	},
 	{
 		"District": "Phek",
@@ -5144,8 +4667,7 @@
 		"Confirmed": "381",
 		"Active": "33",
 		"Recovered": "328",
-		"Deceased": "17",
-		"Migrated_Other": "3"
+		"Deaths": "17"
 	},
 	{
 		"District": "Tuensang",
@@ -5155,8 +4677,7 @@
 		"Confirmed": "821",
 		"Active": "104",
 		"Recovered": "707",
-		"Deceased": "7",
-		"Migrated_Other": "3"
+		"Deaths": "7"
 	},
 	{
 		"District": "Wokha",
@@ -5166,8 +4687,7 @@
 		"Confirmed": "215",
 		"Active": "23",
 		"Recovered": "181",
-		"Deceased": "6",
-		"Migrated_Other": "5"
+		"Deaths": "6"
 	},
 	{
 		"District": "Zunheboto",
@@ -5177,8 +4697,7 @@
 		"Confirmed": "469",
 		"Active": "60",
 		"Recovered": "388",
-		"Deceased": "13",
-		"Migrated_Other": "8"
+		"Deaths": "13"
 	},
 	{
 		"District": "State Pool",
@@ -5188,8 +4707,7 @@
 		"Confirmed": "23550",
 		"Active": "865",
 		"Recovered": "22685",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Others",
@@ -5199,8 +4717,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Angul",
@@ -5210,8 +4727,7 @@
 		"Confirmed": "40256",
 		"Active": "716",
 		"Recovered": "39365",
-		"Deceased": "175",
-		"Migrated_Other": "0"
+		"Deaths": "175"
 	},
 	{
 		"District": "Balangir",
@@ -5221,8 +4737,7 @@
 		"Confirmed": "22889",
 		"Active": "191",
 		"Recovered": "22616",
-		"Deceased": "82",
-		"Migrated_Other": "0"
+		"Deaths": "82"
 	},
 	{
 		"District": "Balasore",
@@ -5232,8 +4747,7 @@
 		"Confirmed": "33572",
 		"Active": "2983",
 		"Recovered": "30453",
-		"Deceased": "136",
-		"Migrated_Other": "0"
+		"Deaths": "136"
 	},
 	{
 		"District": "Bargarh",
@@ -5243,8 +4757,7 @@
 		"Confirmed": "30168",
 		"Active": "391",
 		"Recovered": "29639",
-		"Deceased": "138",
-		"Migrated_Other": "0"
+		"Deaths": "138"
 	},
 	{
 		"District": "Bhadrak",
@@ -5254,8 +4767,7 @@
 		"Confirmed": "22548",
 		"Active": "1636",
 		"Recovered": "20858",
-		"Deceased": "54",
-		"Migrated_Other": "0"
+		"Deaths": "54"
 	},
 	{
 		"District": "Boudh",
@@ -5265,8 +4777,7 @@
 		"Confirmed": "12196",
 		"Active": "282",
 		"Recovered": "11831",
-		"Deceased": "83",
-		"Migrated_Other": "0"
+		"Deaths": "83"
 	},
 	{
 		"District": "Cuttack",
@@ -5276,8 +4787,7 @@
 		"Confirmed": "76652",
 		"Active": "4116",
 		"Recovered": "72247",
-		"Deceased": "289",
-		"Migrated_Other": "0"
+		"Deaths": "289"
 	},
 	{
 		"District": "Deogarh",
@@ -5287,8 +4797,7 @@
 		"Confirmed": "5991",
 		"Active": "46",
 		"Recovered": "5913",
-		"Deceased": "32",
-		"Migrated_Other": "0"
+		"Deaths": "32"
 	},
 	{
 		"District": "Dhenkanal",
@@ -5298,8 +4807,7 @@
 		"Confirmed": "17366",
 		"Active": "723",
 		"Recovered": "16579",
-		"Deceased": "64",
-		"Migrated_Other": "0"
+		"Deaths": "64"
 	},
 	{
 		"District": "Gajapati",
@@ -5309,8 +4817,7 @@
 		"Confirmed": "9256",
 		"Active": "122",
 		"Recovered": "9063",
-		"Deceased": "71",
-		"Migrated_Other": "0"
+		"Deaths": "71"
 	},
 	{
 		"District": "Ganjam",
@@ -5320,8 +4827,7 @@
 		"Confirmed": "33046",
 		"Active": "138",
 		"Recovered": "32563",
-		"Deceased": "345",
-		"Migrated_Other": "0"
+		"Deaths": "345"
 	},
 	{
 		"District": "Jagatsinghpur",
@@ -5331,8 +4837,7 @@
 		"Confirmed": "22280",
 		"Active": "1146",
 		"Recovered": "21060",
-		"Deceased": "74",
-		"Migrated_Other": "0"
+		"Deaths": "74"
 	},
 	{
 		"District": "Jajpur",
@@ -5342,8 +4847,7 @@
 		"Confirmed": "36886",
 		"Active": "2566",
 		"Recovered": "34278",
-		"Deceased": "42",
-		"Migrated_Other": "0"
+		"Deaths": "42"
 	},
 	{
 		"District": "Jharsuguda",
@@ -5353,8 +4857,7 @@
 		"Confirmed": "23308",
 		"Active": "110",
 		"Recovered": "23076",
-		"Deceased": "122",
-		"Migrated_Other": "0"
+		"Deaths": "122"
 	},
 	{
 		"District": "Kalahandi",
@@ -5364,8 +4867,7 @@
 		"Confirmed": "23799",
 		"Active": "258",
 		"Recovered": "23370",
-		"Deceased": "171",
-		"Migrated_Other": "0"
+		"Deaths": "171"
 	},
 	{
 		"District": "Kandhamal",
@@ -5375,8 +4877,7 @@
 		"Confirmed": "10722",
 		"Active": "318",
 		"Recovered": "10356",
-		"Deceased": "48",
-		"Migrated_Other": "0"
+		"Deaths": "48"
 	},
 	{
 		"District": "Kendrapara",
@@ -5386,8 +4887,7 @@
 		"Confirmed": "20581",
 		"Active": "962",
 		"Recovered": "19537",
-		"Deceased": "82",
-		"Migrated_Other": "0"
+		"Deaths": "82"
 	},
 	{
 		"District": "Kendujhar",
@@ -5397,8 +4897,7 @@
 		"Confirmed": "18976",
 		"Active": "514",
 		"Recovered": "18392",
-		"Deceased": "70",
-		"Migrated_Other": "0"
+		"Deaths": "70"
 	},
 	{
 		"District": "Khordha",
@@ -5408,8 +4907,7 @@
 		"Confirmed": "135559",
 		"Active": "5203",
 		"Recovered": "129699",
-		"Deceased": "657",
-		"Migrated_Other": "0"
+		"Deaths": "657"
 	},
 	{
 		"District": "Koraput",
@@ -5419,8 +4917,7 @@
 		"Confirmed": "18071",
 		"Active": "795",
 		"Recovered": "17218",
-		"Deceased": "58",
-		"Migrated_Other": "0"
+		"Deaths": "58"
 	},
 	{
 		"District": "Malkangiri",
@@ -5430,8 +4927,7 @@
 		"Confirmed": "10550",
 		"Active": "612",
 		"Recovered": "9895",
-		"Deceased": "43",
-		"Migrated_Other": "0"
+		"Deaths": "43"
 	},
 	{
 		"District": "Mayurbhanj",
@@ -5441,8 +4937,7 @@
 		"Confirmed": "35528",
 		"Active": "1604",
 		"Recovered": "33793",
-		"Deceased": "131",
-		"Migrated_Other": "0"
+		"Deaths": "131"
 	},
 	{
 		"District": "Nabarangapur",
@@ -5452,8 +4947,7 @@
 		"Confirmed": "23018",
 		"Active": "347",
 		"Recovered": "22625",
-		"Deceased": "46",
-		"Migrated_Other": "0"
+		"Deaths": "46"
 	},
 	{
 		"District": "Nayagarh",
@@ -5463,8 +4957,7 @@
 		"Confirmed": "20309",
 		"Active": "1227",
 		"Recovered": "18986",
-		"Deceased": "96",
-		"Migrated_Other": "0"
+		"Deaths": "96"
 	},
 	{
 		"District": "Nuapada",
@@ -5474,8 +4967,7 @@
 		"Confirmed": "22614",
 		"Active": "82",
 		"Recovered": "22463",
-		"Deceased": "69",
-		"Migrated_Other": "0"
+		"Deaths": "69"
 	},
 	{
 		"District": "Puri",
@@ -5485,8 +4977,7 @@
 		"Confirmed": "39621",
 		"Active": "1841",
 		"Recovered": "37548",
-		"Deceased": "232",
-		"Migrated_Other": "0"
+		"Deaths": "232"
 	},
 	{
 		"District": "Rayagada",
@@ -5496,8 +4987,7 @@
 		"Confirmed": "18965",
 		"Active": "515",
 		"Recovered": "18306",
-		"Deceased": "144",
-		"Migrated_Other": "0"
+		"Deaths": "144"
 	},
 	{
 		"District": "Sambalpur",
@@ -5507,8 +4997,7 @@
 		"Confirmed": "29734",
 		"Active": "234",
 		"Recovered": "29381",
-		"Deceased": "119",
-		"Migrated_Other": "0"
+		"Deaths": "119"
 	},
 	{
 		"District": "Subarnapur",
@@ -5518,8 +5007,7 @@
 		"Confirmed": "12700",
 		"Active": "239",
 		"Recovered": "12420",
-		"Deceased": "41",
-		"Migrated_Other": "0"
+		"Deaths": "41"
 	},
 	{
 		"District": "Sundargarh",
@@ -5529,8 +5017,7 @@
 		"Confirmed": "59089",
 		"Active": "640",
 		"Recovered": "58092",
-		"Deceased": "357",
-		"Migrated_Other": "0"
+		"Deaths": "357"
 	},
 	{
 		"District": "Amritsar",
@@ -5540,8 +5027,7 @@
 		"Confirmed": "46707",
 		"Active": "294",
 		"Recovered": "44849",
-		"Deceased": "1564",
-		"Migrated_Other": "0"
+		"Deaths": "1564"
 	},
 	{
 		"District": "Barnala",
@@ -5551,8 +5037,7 @@
 		"Confirmed": "5859",
 		"Active": "74",
 		"Recovered": "5549",
-		"Deceased": "236",
-		"Migrated_Other": "0"
+		"Deaths": "236"
 	},
 	{
 		"District": "Bathinda",
@@ -5562,8 +5047,7 @@
 		"Confirmed": "41160",
 		"Active": "308",
 		"Recovered": "39832",
-		"Deceased": "1020",
-		"Migrated_Other": "0"
+		"Deaths": "1020"
 	},
 	{
 		"District": "Faridkot",
@@ -5573,8 +5057,7 @@
 		"Confirmed": "13689",
 		"Active": "169",
 		"Recovered": "13216",
-		"Deceased": "304",
-		"Migrated_Other": "0"
+		"Deaths": "304"
 	},
 	{
 		"District": "Fatehgarh Sahib",
@@ -5584,8 +5067,7 @@
 		"Confirmed": "8690",
 		"Active": "42",
 		"Recovered": "8382",
-		"Deceased": "266",
-		"Migrated_Other": "0"
+		"Deaths": "266"
 	},
 	{
 		"District": "Fazilka",
@@ -5595,8 +5077,7 @@
 		"Confirmed": "19971",
 		"Active": "213",
 		"Recovered": "19242",
-		"Deceased": "516",
-		"Migrated_Other": "0"
+		"Deaths": "516"
 	},
 	{
 		"District": "Ferozepur",
@@ -5606,8 +5087,7 @@
 		"Confirmed": "14040",
 		"Active": "142",
 		"Recovered": "13426",
-		"Deceased": "472",
-		"Migrated_Other": "0"
+		"Deaths": "472"
 	},
 	{
 		"District": "Gurdaspur",
@@ -5617,8 +5097,7 @@
 		"Confirmed": "22056",
 		"Active": "175",
 		"Recovered": "21088",
-		"Deceased": "793",
-		"Migrated_Other": "0"
+		"Deaths": "793"
 	},
 	{
 		"District": "Hoshiarpur",
@@ -5628,8 +5107,7 @@
 		"Confirmed": "30437",
 		"Active": "167",
 		"Recovered": "29306",
-		"Deceased": "964",
-		"Migrated_Other": "0"
+		"Deaths": "964"
 	},
 	{
 		"District": "Jalandhar",
@@ -5639,8 +5117,7 @@
 		"Confirmed": "62704",
 		"Active": "263",
 		"Recovered": "60964",
-		"Deceased": "1477",
-		"Migrated_Other": "0"
+		"Deaths": "1477"
 	},
 	{
 		"District": "Kapurthala",
@@ -5650,8 +5127,7 @@
 		"Confirmed": "17577",
 		"Active": "91",
 		"Recovered": "16950",
-		"Deceased": "536",
-		"Migrated_Other": "0"
+		"Deaths": "536"
 	},
 	{
 		"District": "Ludhiana",
@@ -5661,8 +5137,7 @@
 		"Confirmed": "86949",
 		"Active": "345",
 		"Recovered": "84517",
-		"Deceased": "2087",
-		"Migrated_Other": "0"
+		"Deaths": "2087"
 	},
 	{
 		"District": "Mansa",
@@ -5672,8 +5147,7 @@
 		"Confirmed": "15470",
 		"Active": "108",
 		"Recovered": "15087",
-		"Deceased": "275",
-		"Migrated_Other": "0"
+		"Deaths": "275"
 	},
 	{
 		"District": "Moga",
@@ -5683,8 +5157,7 @@
 		"Confirmed": "8551",
 		"Active": "24",
 		"Recovered": "8299",
-		"Deceased": "228",
-		"Migrated_Other": "0"
+		"Deaths": "228"
 	},
 	{
 		"District": "Pathankot",
@@ -5694,8 +5167,7 @@
 		"Confirmed": "18485",
 		"Active": "100",
 		"Recovered": "17976",
-		"Deceased": "409",
-		"Migrated_Other": "0"
+		"Deaths": "409"
 	},
 	{
 		"District": "Patiala",
@@ -5705,8 +5177,7 @@
 		"Confirmed": "48468",
 		"Active": "170",
 		"Recovered": "46967",
-		"Deceased": "1331",
-		"Migrated_Other": "0"
+		"Deaths": "1331"
 	},
 	{
 		"District": "Rupnagar",
@@ -5716,8 +5187,7 @@
 		"Confirmed": "12829",
 		"Active": "33",
 		"Recovered": "12382",
-		"Deceased": "414",
-		"Migrated_Other": "0"
+		"Deaths": "414"
 	},
 	{
 		"District": "S.A.S. Nagar",
@@ -5727,8 +5197,7 @@
 		"Confirmed": "68234",
 		"Active": "265",
 		"Recovered": "66922",
-		"Deceased": "1047",
-		"Migrated_Other": "0"
+		"Deaths": "1047"
 	},
 	{
 		"District": "Sangrur",
@@ -5738,8 +5207,7 @@
 		"Confirmed": "15577",
 		"Active": "138",
 		"Recovered": "14582",
-		"Deceased": "857",
-		"Migrated_Other": "0"
+		"Deaths": "857"
 	},
 	{
 		"District": "Shahid Bhagat Singh Nagar",
@@ -5749,8 +5217,7 @@
 		"Confirmed": "11387",
 		"Active": "21",
 		"Recovered": "11010",
-		"Deceased": "356",
-		"Migrated_Other": "0"
+		"Deaths": "356"
 	},
 	{
 		"District": "Sri Muktsar Sahib",
@@ -5760,8 +5227,7 @@
 		"Confirmed": "18599",
 		"Active": "135",
 		"Recovered": "17947",
-		"Deceased": "517",
-		"Migrated_Other": "0"
+		"Deaths": "517"
 	},
 	{
 		"District": "Tarn Taran",
@@ -5771,8 +5237,7 @@
 		"Confirmed": "7912",
 		"Active": "70",
 		"Recovered": "7478",
-		"Deceased": "364",
-		"Migrated_Other": "0"
+		"Deaths": "364"
 	},
 	{
 		"District": "Karaikal",
@@ -5782,8 +5247,7 @@
 		"Confirmed": "14533",
 		"Active": "318",
 		"Recovered": "13997",
-		"Deceased": "218",
-		"Migrated_Other": "0"
+		"Deaths": "218"
 	},
 	{
 		"District": "Mahe",
@@ -5793,8 +5257,7 @@
 		"Confirmed": "4526",
 		"Active": "92",
 		"Recovered": "4401",
-		"Deceased": "33",
-		"Migrated_Other": "0"
+		"Deaths": "33"
 	},
 	{
 		"District": "Puducherry",
@@ -5804,8 +5267,7 @@
 		"Confirmed": "91674",
 		"Active": "1878",
 		"Recovered": "88400",
-		"Deceased": "1396",
-		"Migrated_Other": "0"
+		"Deaths": "1396"
 	},
 	{
 		"District": "Yanam",
@@ -5815,8 +5277,7 @@
 		"Confirmed": "6516",
 		"Active": "66",
 		"Recovered": "6348",
-		"Deceased": "102",
-		"Migrated_Other": "0"
+		"Deaths": "102"
 	},
 	{
 		"District": "Ajmer",
@@ -5826,8 +5287,7 @@
 		"Confirmed": "37669",
 		"Active": "20",
 		"Recovered": "37239",
-		"Deceased": "410",
-		"Migrated_Other": "0"
+		"Deaths": "410"
 	},
 	{
 		"District": "Alwar",
@@ -5837,8 +5297,7 @@
 		"Confirmed": "59461",
 		"Active": "419",
 		"Recovered": "58738",
-		"Deceased": "304",
-		"Migrated_Other": "0"
+		"Deaths": "304"
 	},
 	{
 		"District": "Banswara",
@@ -5848,8 +5307,7 @@
 		"Confirmed": "9989",
 		"Active": "2",
 		"Recovered": "9885",
-		"Deceased": "102",
-		"Migrated_Other": "0"
+		"Deaths": "102"
 	},
 	{
 		"District": "Baran",
@@ -5859,8 +5317,7 @@
 		"Confirmed": "11988",
 		"Active": "4",
 		"Recovered": "11923",
-		"Deceased": "61",
-		"Migrated_Other": "0"
+		"Deaths": "61"
 	},
 	{
 		"District": "Barmer",
@@ -5870,8 +5327,7 @@
 		"Confirmed": "15508",
 		"Active": "21",
 		"Recovered": "15302",
-		"Deceased": "185",
-		"Migrated_Other": "0"
+		"Deaths": "185"
 	},
 	{
 		"District": "Bharatpur",
@@ -5881,8 +5337,7 @@
 		"Confirmed": "19571",
 		"Active": "10",
 		"Recovered": "19302",
-		"Deceased": "259",
-		"Migrated_Other": "0"
+		"Deaths": "259"
 	},
 	{
 		"District": "Bhilwara",
@@ -5892,8 +5347,7 @@
 		"Confirmed": "29765",
 		"Active": "13",
 		"Recovered": "29596",
-		"Deceased": "156",
-		"Migrated_Other": "0"
+		"Deaths": "156"
 	},
 	{
 		"District": "Bikaner",
@@ -5903,8 +5357,7 @@
 		"Confirmed": "40258",
 		"Active": "55",
 		"Recovered": "39661",
-		"Deceased": "542",
-		"Migrated_Other": "0"
+		"Deaths": "542"
 	},
 	{
 		"District": "BSF Camp",
@@ -5914,8 +5367,7 @@
 		"Confirmed": "85",
 		"Active": "0",
 		"Recovered": "85",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Bundi",
@@ -5925,8 +5377,7 @@
 		"Confirmed": "7966",
 		"Active": "0",
 		"Recovered": "7919",
-		"Deceased": "47",
-		"Migrated_Other": "0"
+		"Deaths": "47"
 	},
 	{
 		"District": "Chittorgarh",
@@ -5936,8 +5387,7 @@
 		"Confirmed": "19799",
 		"Active": "20",
 		"Recovered": "19642",
-		"Deceased": "137",
-		"Migrated_Other": "0"
+		"Deaths": "137"
 	},
 	{
 		"District": "Churu",
@@ -5947,8 +5397,7 @@
 		"Confirmed": "16706",
 		"Active": "16",
 		"Recovered": "16583",
-		"Deceased": "107",
-		"Migrated_Other": "0"
+		"Deaths": "107"
 	},
 	{
 		"District": "Dausa",
@@ -5958,8 +5407,7 @@
 		"Confirmed": "13312",
 		"Active": "14",
 		"Recovered": "13238",
-		"Deceased": "60",
-		"Migrated_Other": "0"
+		"Deaths": "60"
 	},
 	{
 		"District": "Dholpur",
@@ -5969,8 +5417,7 @@
 		"Confirmed": "11004",
 		"Active": "5",
 		"Recovered": "10951",
-		"Deceased": "48",
-		"Migrated_Other": "0"
+		"Deaths": "48"
 	},
 	{
 		"District": "Dungarpur",
@@ -5980,8 +5427,7 @@
 		"Confirmed": "18404",
 		"Active": "2",
 		"Recovered": "18271",
-		"Deceased": "131",
-		"Migrated_Other": "0"
+		"Deaths": "131"
 	},
 	{
 		"District": "Evacuees",
@@ -5991,8 +5437,7 @@
 		"Confirmed": "61",
 		"Active": "0",
 		"Recovered": "61",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Ganganagar",
@@ -6002,8 +5447,7 @@
 		"Confirmed": "19277",
 		"Active": "78",
 		"Recovered": "19052",
-		"Deceased": "147",
-		"Migrated_Other": "0"
+		"Deaths": "147"
 	},
 	{
 		"District": "Hanumangarh",
@@ -6013,8 +5457,7 @@
 		"Confirmed": "16006",
 		"Active": "46",
 		"Recovered": "15849",
-		"Deceased": "111",
-		"Migrated_Other": "0"
+		"Deaths": "111"
 	},
 	{
 		"District": "Italians",
@@ -6024,8 +5467,7 @@
 		"Confirmed": "2",
 		"Active": "0",
 		"Recovered": "2",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Jaipur",
@@ -6035,8 +5477,7 @@
 		"Confirmed": "187181",
 		"Active": "289",
 		"Recovered": "184923",
-		"Deceased": "1969",
-		"Migrated_Other": "0"
+		"Deaths": "1969"
 	},
 	{
 		"District": "Jaisalmer",
@@ -6046,8 +5487,7 @@
 		"Confirmed": "13623",
 		"Active": "12",
 		"Recovered": "13545",
-		"Deceased": "66",
-		"Migrated_Other": "0"
+		"Deaths": "66"
 	},
 	{
 		"District": "Jalore",
@@ -6057,8 +5497,7 @@
 		"Confirmed": "10060",
 		"Active": "2",
 		"Recovered": "9986",
-		"Deceased": "72",
-		"Migrated_Other": "0"
+		"Deaths": "72"
 	},
 	{
 		"District": "Jhalawar",
@@ -6068,8 +5507,7 @@
 		"Confirmed": "13593",
 		"Active": "23",
 		"Recovered": "13383",
-		"Deceased": "187",
-		"Migrated_Other": "0"
+		"Deaths": "187"
 	},
 	{
 		"District": "Jhunjhunu",
@@ -6079,8 +5517,7 @@
 		"Confirmed": "14788",
 		"Active": "31",
 		"Recovered": "14599",
-		"Deceased": "158",
-		"Migrated_Other": "0"
+		"Deaths": "158"
 	},
 	{
 		"District": "Jodhpur",
@@ -6090,8 +5527,7 @@
 		"Confirmed": "112275",
 		"Active": "130",
 		"Recovered": "111042",
-		"Deceased": "1103",
-		"Migrated_Other": "0"
+		"Deaths": "1103"
 	},
 	{
 		"District": "Karauli",
@@ -6101,8 +5537,7 @@
 		"Confirmed": "7151",
 		"Active": "12",
 		"Recovered": "7069",
-		"Deceased": "70",
-		"Migrated_Other": "0"
+		"Deaths": "70"
 	},
 	{
 		"District": "Kota",
@@ -6112,8 +5547,7 @@
 		"Confirmed": "57032",
 		"Active": "19",
 		"Recovered": "56564",
-		"Deceased": "449",
-		"Migrated_Other": "0"
+		"Deaths": "449"
 	},
 	{
 		"District": "Nagaur",
@@ -6123,8 +5557,7 @@
 		"Confirmed": "17681",
 		"Active": "45",
 		"Recovered": "17460",
-		"Deceased": "176",
-		"Migrated_Other": "0"
+		"Deaths": "176"
 	},
 	{
 		"District": "Other State",
@@ -6134,8 +5567,7 @@
 		"Confirmed": "189",
 		"Active": "0",
 		"Recovered": "150",
-		"Deceased": "39",
-		"Migrated_Other": "0"
+		"Deaths": "39"
 	},
 	{
 		"District": "Pali",
@@ -6145,8 +5577,7 @@
 		"Confirmed": "27299",
 		"Active": "25",
 		"Recovered": "26987",
-		"Deceased": "287",
-		"Migrated_Other": "0"
+		"Deaths": "287"
 	},
 	{
 		"District": "Pratapgarh",
@@ -6156,8 +5587,7 @@
 		"Confirmed": "7135",
 		"Active": "19",
 		"Recovered": "7055",
-		"Deceased": "61",
-		"Migrated_Other": "0"
+		"Deaths": "61"
 	},
 	{
 		"District": "Rajsamand",
@@ -6167,8 +5597,7 @@
 		"Confirmed": "17017",
 		"Active": "19",
 		"Recovered": "16829",
-		"Deceased": "169",
-		"Migrated_Other": "0"
+		"Deaths": "169"
 	},
 	{
 		"District": "Sawai Madhopur",
@@ -6178,8 +5607,7 @@
 		"Confirmed": "10592",
 		"Active": "15",
 		"Recovered": "10516",
-		"Deceased": "61",
-		"Migrated_Other": "0"
+		"Deaths": "61"
 	},
 	{
 		"District": "Sikar",
@@ -6189,8 +5617,7 @@
 		"Confirmed": "30538",
 		"Active": "81",
 		"Recovered": "30122",
-		"Deceased": "335",
-		"Migrated_Other": "0"
+		"Deaths": "335"
 	},
 	{
 		"District": "Sirohi",
@@ -6200,8 +5627,7 @@
 		"Confirmed": "13711",
 		"Active": "29",
 		"Recovered": "13603",
-		"Deceased": "79",
-		"Migrated_Other": "0"
+		"Deaths": "79"
 	},
 	{
 		"District": "Tonk",
@@ -6211,8 +5637,7 @@
 		"Confirmed": "9456",
 		"Active": "30",
 		"Recovered": "9334",
-		"Deceased": "92",
-		"Migrated_Other": "0"
+		"Deaths": "92"
 	},
 	{
 		"District": "Udaipur",
@@ -6222,8 +5647,7 @@
 		"Confirmed": "56170",
 		"Active": "59",
 		"Recovered": "55373",
-		"Deceased": "738",
-		"Migrated_Other": "0"
+		"Deaths": "738"
 	},
 	{
 		"District": "East Sikkim",
@@ -6233,8 +5657,7 @@
 		"Confirmed": "13093",
 		"Active": "7950",
 		"Recovered": "4917",
-		"Deceased": "148",
-		"Migrated_Other": "78"
+		"Deaths": "148"
 	},
 	{
 		"District": "North Sikkim",
@@ -6244,8 +5667,7 @@
 		"Confirmed": "666",
 		"Active": "584",
 		"Recovered": "72",
-		"Deceased": "1",
-		"Migrated_Other": "9"
+		"Deaths": "1"
 	},
 	{
 		"District": "South Sikkim",
@@ -6255,8 +5677,7 @@
 		"Confirmed": "4173",
 		"Active": "3718",
 		"Recovered": "438",
-		"Deceased": "2",
-		"Migrated_Other": "15"
+		"Deaths": "2"
 	},
 	{
 		"District": "West Sikkim",
@@ -6266,8 +5687,7 @@
 		"Confirmed": "2680",
 		"Active": "2499",
 		"Recovered": "137",
-		"Deceased": "19",
-		"Migrated_Other": "25"
+		"Deaths": "19"
 	},
 	{
 		"District": "Foreign Evacuees",
@@ -6277,8 +5697,7 @@
 		"Confirmed": "33",
 		"Active": "33",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Other State",
@@ -6288,8 +5707,7 @@
 		"Confirmed": "250",
 		"Active": "250",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Adilabad",
@@ -6299,8 +5717,7 @@
 		"Confirmed": "6950",
 		"Active": "6935",
 		"Recovered": "15",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Bhadradri Kothagudem",
@@ -6310,8 +5727,7 @@
 		"Confirmed": "17303",
 		"Active": "17299",
 		"Recovered": "4",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Hyderabad",
@@ -6321,8 +5737,7 @@
 		"Confirmed": "133475",
 		"Active": "133147",
 		"Recovered": "305",
-		"Deceased": "23",
-		"Migrated_Other": "0"
+		"Deaths": "23"
 	},
 	{
 		"District": "Jagtial",
@@ -6332,8 +5747,7 @@
 		"Confirmed": "16005",
 		"Active": "16003",
 		"Recovered": "2",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Jangaon",
@@ -6343,8 +5757,7 @@
 		"Confirmed": "7185",
 		"Active": "7184",
 		"Recovered": "1",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Jayashankar Bhupalapally",
@@ -6354,8 +5767,7 @@
 		"Confirmed": "6340",
 		"Active": "6340",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Jogulamba Gadwal",
@@ -6365,8 +5777,7 @@
 		"Confirmed": "7058",
 		"Active": "7032",
 		"Recovered": "25",
-		"Deceased": "1",
-		"Migrated_Other": "0"
+		"Deaths": "1"
 	},
 	{
 		"District": "Kamareddy",
@@ -6376,8 +5787,7 @@
 		"Confirmed": "11414",
 		"Active": "11406",
 		"Recovered": "8",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Karimnagar",
@@ -6387,8 +5797,7 @@
 		"Confirmed": "26903",
 		"Active": "26887",
 		"Recovered": "16",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Khammam",
@@ -6398,8 +5807,7 @@
 		"Confirmed": "24633",
 		"Active": "24630",
 		"Recovered": "3",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Komaram Bheem",
@@ -6409,8 +5817,7 @@
 		"Confirmed": "4331",
 		"Active": "4329",
 		"Recovered": "2",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Mahabubabad",
@@ -6420,8 +5827,7 @@
 		"Confirmed": "12080",
 		"Active": "12079",
 		"Recovered": "1",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Mahabubnagar",
@@ -6431,8 +5837,7 @@
 		"Confirmed": "15866",
 		"Active": "15858",
 		"Recovered": "8",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Mancherial",
@@ -6442,8 +5847,7 @@
 		"Confirmed": "14602",
 		"Active": "14601",
 		"Recovered": "0",
-		"Deceased": "1",
-		"Migrated_Other": "0"
+		"Deaths": "1"
 	},
 	{
 		"District": "Medak",
@@ -6453,8 +5857,7 @@
 		"Confirmed": "8215",
 		"Active": "8211",
 		"Recovered": "4",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Medchal Malkajgiri",
@@ -6464,8 +5867,7 @@
 		"Confirmed": "43644",
 		"Active": "43634",
 		"Recovered": "9",
-		"Deceased": "1",
-		"Migrated_Other": "0"
+		"Deaths": "1"
 	},
 	{
 		"District": "Mulugu",
@@ -6475,8 +5877,7 @@
 		"Confirmed": "6123",
 		"Active": "6121",
 		"Recovered": "2",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Nagarkurnool",
@@ -6486,8 +5887,7 @@
 		"Confirmed": "12001",
 		"Active": "11999",
 		"Recovered": "2",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Nalgonda",
@@ -6497,8 +5897,7 @@
 		"Confirmed": "26769",
 		"Active": "26757",
 		"Recovered": "12",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Narayanpet",
@@ -6508,8 +5907,7 @@
 		"Confirmed": "3205",
 		"Active": "3204",
 		"Recovered": "0",
-		"Deceased": "1",
-		"Migrated_Other": "0"
+		"Deaths": "1"
 	},
 	{
 		"District": "Nirmal",
@@ -6519,8 +5917,7 @@
 		"Confirmed": "7120",
 		"Active": "7107",
 		"Recovered": "13",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Nizamabad",
@@ -6530,8 +5927,7 @@
 		"Confirmed": "20480",
 		"Active": "20450",
 		"Recovered": "30",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Peddapalli",
@@ -6541,8 +5937,7 @@
 		"Confirmed": "13796",
 		"Active": "13795",
 		"Recovered": "1",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Rajanna Sircilla",
@@ -6552,8 +5947,7 @@
 		"Confirmed": "11095",
 		"Active": "11093",
 		"Recovered": "2",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Ranga Reddy",
@@ -6563,8 +5957,7 @@
 		"Confirmed": "47007",
 		"Active": "46988",
 		"Recovered": "17",
-		"Deceased": "2",
-		"Migrated_Other": "0"
+		"Deaths": "2"
 	},
 	{
 		"District": "Sangareddy",
@@ -6574,8 +5967,7 @@
 		"Confirmed": "18684",
 		"Active": "18678",
 		"Recovered": "6",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Siddipet",
@@ -6585,8 +5977,7 @@
 		"Confirmed": "18389",
 		"Active": "18388",
 		"Recovered": "1",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Suryapet",
@@ -6596,8 +5987,7 @@
 		"Confirmed": "15961",
 		"Active": "15937",
 		"Recovered": "24",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Vikarabad",
@@ -6607,8 +5997,7 @@
 		"Confirmed": "10772",
 		"Active": "10756",
 		"Recovered": "15",
-		"Deceased": "1",
-		"Migrated_Other": "0"
+		"Deaths": "1"
 	},
 	{
 		"District": "Wanaparthy",
@@ -6618,8 +6007,7 @@
 		"Confirmed": "9426",
 		"Active": "9426",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Warangal Rural",
@@ -6629,8 +6017,7 @@
 		"Confirmed": "9921",
 		"Active": "9921",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Warangal Urban",
@@ -6640,8 +6027,7 @@
 		"Confirmed": "24038",
 		"Active": "24015",
 		"Recovered": "23",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Yadadri Bhuvanagiri",
@@ -6651,8 +6037,7 @@
 		"Confirmed": "10464",
 		"Active": "10464",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Railway Quarantine",
@@ -6662,8 +6047,7 @@
 		"Confirmed": "428",
 		"Active": "0",
 		"Recovered": "428",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Airport Quarantine",
@@ -6673,8 +6057,7 @@
 		"Confirmed": "2080",
 		"Active": "2",
 		"Recovered": "2076",
-		"Deceased": "2",
-		"Migrated_Other": "0"
+		"Deaths": "2"
 	},
 	{
 		"District": "Other State",
@@ -6684,8 +6067,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Ariyalur",
@@ -6695,8 +6077,7 @@
 		"Confirmed": "14806",
 		"Active": "557",
 		"Recovered": "14043",
-		"Deceased": "206",
-		"Migrated_Other": "0"
+		"Deaths": "206"
 	},
 	{
 		"District": "Chengalpattu",
@@ -6706,8 +6087,7 @@
 		"Confirmed": "156677",
 		"Active": "2191",
 		"Recovered": "152134",
-		"Deceased": "2352",
-		"Migrated_Other": "0"
+		"Deaths": "2352"
 	},
 	{
 		"District": "Chennai",
@@ -6717,8 +6097,7 @@
 		"Confirmed": "532272",
 		"Active": "3307",
 		"Recovered": "520793",
-		"Deceased": "8172",
-		"Migrated_Other": "0"
+		"Deaths": "8172"
 	},
 	{
 		"District": "Coimbatore",
@@ -6728,8 +6107,7 @@
 		"Confirmed": "218990",
 		"Active": "4676",
 		"Recovered": "212285",
-		"Deceased": "2029",
-		"Migrated_Other": "0"
+		"Deaths": "2029"
 	},
 	{
 		"District": "Cuddalore",
@@ -6739,8 +6117,7 @@
 		"Confirmed": "57842",
 		"Active": "1042",
 		"Recovered": "56042",
-		"Deceased": "758",
-		"Migrated_Other": "0"
+		"Deaths": "758"
 	},
 	{
 		"District": "Dharmapuri",
@@ -6750,8 +6127,7 @@
 		"Confirmed": "24388",
 		"Active": "793",
 		"Recovered": "23390",
-		"Deceased": "205",
-		"Migrated_Other": "0"
+		"Deaths": "205"
 	},
 	{
 		"District": "Dindigul",
@@ -6761,8 +6137,7 @@
 		"Confirmed": "31561",
 		"Active": "307",
 		"Recovered": "30666",
-		"Deceased": "588",
-		"Migrated_Other": "0"
+		"Deaths": "588"
 	},
 	{
 		"District": "Erode",
@@ -6772,8 +6147,7 @@
 		"Confirmed": "89212",
 		"Active": "4163",
 		"Recovered": "84461",
-		"Deceased": "588",
-		"Migrated_Other": "0"
+		"Deaths": "588"
 	},
 	{
 		"District": "Kallakurichi",
@@ -6783,8 +6157,7 @@
 		"Confirmed": "26949",
 		"Active": "984",
 		"Recovered": "25771",
-		"Deceased": "194",
-		"Migrated_Other": "0"
+		"Deaths": "194"
 	},
 	{
 		"District": "Kancheepuram",
@@ -6794,8 +6167,7 @@
 		"Confirmed": "70164",
 		"Active": "597",
 		"Recovered": "68394",
-		"Deceased": "1173",
-		"Migrated_Other": "0"
+		"Deaths": "1173"
 	},
 	{
 		"District": "Kanyakumari",
@@ -6805,8 +6177,7 @@
 		"Confirmed": "58886",
 		"Active": "485",
 		"Recovered": "57419",
-		"Deceased": "982",
-		"Migrated_Other": "0"
+		"Deaths": "982"
 	},
 	{
 		"District": "Karur",
@@ -6816,8 +6187,7 @@
 		"Confirmed": "21997",
 		"Active": "593",
 		"Recovered": "21062",
-		"Deceased": "342",
-		"Migrated_Other": "0"
+		"Deaths": "342"
 	},
 	{
 		"District": "Krishnagiri",
@@ -6827,8 +6197,7 @@
 		"Confirmed": "39761",
 		"Active": "1045",
 		"Recovered": "38414",
-		"Deceased": "302",
-		"Migrated_Other": "0"
+		"Deaths": "302"
 	},
 	{
 		"District": "Madurai",
@@ -6838,8 +6207,7 @@
 		"Confirmed": "72211",
 		"Active": "627",
 		"Recovered": "70479",
-		"Deceased": "1105",
-		"Migrated_Other": "0"
+		"Deaths": "1105"
 	},
 	{
 		"District": "Nagapattinam",
@@ -6849,8 +6217,7 @@
 		"Confirmed": "17805",
 		"Active": "287",
 		"Recovered": "17252",
-		"Deceased": "266",
-		"Migrated_Other": "0"
+		"Deaths": "266"
 	},
 	{
 		"District": "Namakkal",
@@ -6860,8 +6227,7 @@
 		"Confirmed": "44499",
 		"Active": "1727",
 		"Recovered": "42354",
-		"Deceased": "418",
-		"Migrated_Other": "0"
+		"Deaths": "418"
 	},
 	{
 		"District": "Nilgiris",
@@ -6871,8 +6237,7 @@
 		"Confirmed": "28266",
 		"Active": "654",
 		"Recovered": "27448",
-		"Deceased": "164",
-		"Migrated_Other": "0"
+		"Deaths": "164"
 	},
 	{
 		"District": "Perambalur",
@@ -6882,8 +6247,7 @@
 		"Confirmed": "11034",
 		"Active": "264",
 		"Recovered": "10573",
-		"Deceased": "197",
-		"Migrated_Other": "0"
+		"Deaths": "197"
 	},
 	{
 		"District": "Pudukkottai",
@@ -6893,8 +6257,7 @@
 		"Confirmed": "26900",
 		"Active": "576",
 		"Recovered": "26003",
-		"Deceased": "321",
-		"Migrated_Other": "0"
+		"Deaths": "321"
 	},
 	{
 		"District": "Ramanathapuram",
@@ -6904,8 +6267,7 @@
 		"Confirmed": "19605",
 		"Active": "258",
 		"Recovered": "19017",
-		"Deceased": "330",
-		"Migrated_Other": "0"
+		"Deaths": "330"
 	},
 	{
 		"District": "Ranipet",
@@ -6915,8 +6277,7 @@
 		"Confirmed": "40848",
 		"Active": "647",
 		"Recovered": "39484",
-		"Deceased": "717",
-		"Migrated_Other": "0"
+		"Deaths": "717"
 	},
 	{
 		"District": "Salem",
@@ -6926,8 +6287,7 @@
 		"Confirmed": "87569",
 		"Active": "2021",
 		"Recovered": "84085",
-		"Deceased": "1463",
-		"Migrated_Other": "0"
+		"Deaths": "1463"
 	},
 	{
 		"District": "Sivaganga",
@@ -6937,8 +6297,7 @@
 		"Confirmed": "17624",
 		"Active": "619",
 		"Recovered": "16816",
-		"Deceased": "189",
-		"Migrated_Other": "0"
+		"Deaths": "189"
 	},
 	{
 		"District": "Tenkasi",
@@ -6948,8 +6307,7 @@
 		"Confirmed": "26399",
 		"Active": "269",
 		"Recovered": "25666",
-		"Deceased": "464",
-		"Migrated_Other": "0"
+		"Deaths": "464"
 	},
 	{
 		"District": "Thanjavur",
@@ -6959,8 +6317,7 @@
 		"Confirmed": "63378",
 		"Active": "1992",
 		"Recovered": "60681",
-		"Deceased": "705",
-		"Migrated_Other": "0"
+		"Deaths": "705"
 	},
 	{
 		"District": "Theni",
@@ -6970,8 +6327,7 @@
 		"Confirmed": "42274",
 		"Active": "474",
 		"Recovered": "41309",
-		"Deceased": "491",
-		"Migrated_Other": "0"
+		"Deaths": "491"
 	},
 	{
 		"District": "Thiruvallur",
@@ -6981,8 +6337,7 @@
 		"Confirmed": "110920",
 		"Active": "853",
 		"Recovered": "108364",
-		"Deceased": "1703",
-		"Migrated_Other": "0"
+		"Deaths": "1703"
 	},
 	{
 		"District": "Thiruvarur",
@@ -6992,8 +6347,7 @@
 		"Confirmed": "36743",
 		"Active": "613",
 		"Recovered": "35805",
-		"Deceased": "325",
-		"Migrated_Other": "0"
+		"Deaths": "325"
 	},
 	{
 		"District": "Thoothukkudi",
@@ -7003,8 +6357,7 @@
 		"Confirmed": "54256",
 		"Active": "319",
 		"Recovered": "53560",
-		"Deceased": "377",
-		"Migrated_Other": "0"
+		"Deaths": "377"
 	},
 	{
 		"District": "Tiruchirappalli",
@@ -7014,8 +6367,7 @@
 		"Confirmed": "69039",
 		"Active": "1033",
 		"Recovered": "67104",
-		"Deceased": "902",
-		"Migrated_Other": "0"
+		"Deaths": "902"
 	},
 	{
 		"District": "Tirunelveli",
@@ -7025,8 +6377,7 @@
 		"Confirmed": "47165",
 		"Active": "359",
 		"Recovered": "46396",
-		"Deceased": "410",
-		"Migrated_Other": "0"
+		"Deaths": "410"
 	},
 	{
 		"District": "Tirupathur",
@@ -7036,8 +6387,7 @@
 		"Confirmed": "27527",
 		"Active": "410",
 		"Recovered": "26546",
-		"Deceased": "571",
-		"Migrated_Other": "0"
+		"Deaths": "571"
 	},
 	{
 		"District": "Tiruppur",
@@ -7047,8 +6397,7 @@
 		"Confirmed": "82103",
 		"Active": "1722",
 		"Recovered": "79631",
-		"Deceased": "750",
-		"Migrated_Other": "0"
+		"Deaths": "750"
 	},
 	{
 		"District": "Tiruvannamalai",
@@ -7058,8 +6407,7 @@
 		"Confirmed": "49140",
 		"Active": "1001",
 		"Recovered": "47543",
-		"Deceased": "596",
-		"Migrated_Other": "0"
+		"Deaths": "596"
 	},
 	{
 		"District": "Vellore",
@@ -7069,8 +6417,7 @@
 		"Confirmed": "46876",
 		"Active": "491",
 		"Recovered": "45343",
-		"Deceased": "1042",
-		"Migrated_Other": "0"
+		"Deaths": "1042"
 	},
 	{
 		"District": "Viluppuram",
@@ -7080,8 +6427,7 @@
 		"Confirmed": "42399",
 		"Active": "460",
 		"Recovered": "41609",
-		"Deceased": "330",
-		"Migrated_Other": "0"
+		"Deaths": "330"
 	},
 	{
 		"District": "Virudhunagar",
@@ -7091,8 +6437,7 @@
 		"Confirmed": "44464",
 		"Active": "616",
 		"Recovered": "43321",
-		"Deceased": "527",
-		"Migrated_Other": "0"
+		"Deaths": "527"
 	},
 	{
 		"District": "Mayiladuthurai",
@@ -7102,8 +6447,7 @@
 		"Confirmed": "20133",
 		"Active": "301",
 		"Recovered": "19582",
-		"Deceased": "250",
-		"Migrated_Other": "0"
+		"Deaths": "250"
 	},
 	{
 		"District": "Dhalai",
@@ -7113,8 +6457,7 @@
 		"Confirmed": "5626",
 		"Active": "400",
 		"Recovered": "5194",
-		"Deceased": "31",
-		"Migrated_Other": "1"
+		"Deaths": "31"
 	},
 	{
 		"District": "Gomati",
@@ -7124,8 +6467,7 @@
 		"Confirmed": "5899",
 		"Active": "371",
 		"Recovered": "5465",
-		"Deceased": "62",
-		"Migrated_Other": "1"
+		"Deaths": "62"
 	},
 	{
 		"District": "Khowai",
@@ -7135,8 +6477,7 @@
 		"Confirmed": "3550",
 		"Active": "274",
 		"Recovered": "3232",
-		"Deceased": "44",
-		"Migrated_Other": "0"
+		"Deaths": "44"
 	},
 	{
 		"District": "North Tripura",
@@ -7146,8 +6487,7 @@
 		"Confirmed": "5776",
 		"Active": "508",
 		"Recovered": "5236",
-		"Deceased": "25",
-		"Migrated_Other": "7"
+		"Deaths": "25"
 	},
 	{
 		"District": "Sipahijala",
@@ -7157,8 +6497,7 @@
 		"Confirmed": "5284",
 		"Active": "216",
 		"Recovered": "4998",
-		"Deceased": "70",
-		"Migrated_Other": "0"
+		"Deaths": "70"
 	},
 	{
 		"District": "South Tripura",
@@ -7168,8 +6507,7 @@
 		"Confirmed": "7598",
 		"Active": "373",
 		"Recovered": "7183",
-		"Deceased": "39",
-		"Migrated_Other": "3"
+		"Deaths": "39"
 	},
 	{
 		"District": "Unokoti",
@@ -7179,8 +6517,7 @@
 		"Confirmed": "5842",
 		"Active": "403",
 		"Recovered": "5395",
-		"Deceased": "44",
-		"Migrated_Other": "0"
+		"Deaths": "44"
 	},
 	{
 		"District": "West Tripura",
@@ -7190,8 +6527,7 @@
 		"Confirmed": "26192",
 		"Active": "1075",
 		"Recovered": "24747",
-		"Deceased": "359",
-		"Migrated_Other": "11"
+		"Deaths": "359"
 	},
 	{
 		"District": "Agra",
@@ -7201,8 +6537,7 @@
 		"Confirmed": "25703",
 		"Active": "66",
 		"Recovered": "25183",
-		"Deceased": "454",
-		"Migrated_Other": "0"
+		"Deaths": "454"
 	},
 	{
 		"District": "Aligarh",
@@ -7212,8 +6547,7 @@
 		"Confirmed": "21269",
 		"Active": "18",
 		"Recovered": "21143",
-		"Deceased": "108",
-		"Migrated_Other": "0"
+		"Deaths": "108"
 	},
 	{
 		"District": "Ambedkar Nagar",
@@ -7223,8 +6557,7 @@
 		"Confirmed": "5021",
 		"Active": "33",
 		"Recovered": "4840",
-		"Deceased": "148",
-		"Migrated_Other": "0"
+		"Deaths": "148"
 	},
 	{
 		"District": "Amethi",
@@ -7234,8 +6567,7 @@
 		"Confirmed": "9945",
 		"Active": "33",
 		"Recovered": "9788",
-		"Deceased": "124",
-		"Migrated_Other": "0"
+		"Deaths": "124"
 	},
 	{
 		"District": "Amroha",
@@ -7245,8 +6577,7 @@
 		"Confirmed": "16596",
 		"Active": "6",
 		"Recovered": "16387",
-		"Deceased": "203",
-		"Migrated_Other": "0"
+		"Deaths": "203"
 	},
 	{
 		"District": "Auraiya",
@@ -7256,8 +6587,7 @@
 		"Confirmed": "10070",
 		"Active": "22",
 		"Recovered": "9852",
-		"Deceased": "196",
-		"Migrated_Other": "0"
+		"Deaths": "196"
 	},
 	{
 		"District": "Ayodhya",
@@ -7267,8 +6597,7 @@
 		"Confirmed": "16884",
 		"Active": "11",
 		"Recovered": "16583",
-		"Deceased": "290",
-		"Migrated_Other": "0"
+		"Deaths": "290"
 	},
 	{
 		"District": "Azamgarh",
@@ -7278,8 +6607,7 @@
 		"Confirmed": "17850",
 		"Active": "46",
 		"Recovered": "17579",
-		"Deceased": "225",
-		"Migrated_Other": "0"
+		"Deaths": "225"
 	},
 	{
 		"District": "Baghpat",
@@ -7289,8 +6617,7 @@
 		"Confirmed": "9093",
 		"Active": "23",
 		"Recovered": "8931",
-		"Deceased": "139",
-		"Migrated_Other": "0"
+		"Deaths": "139"
 	},
 	{
 		"District": "Bahraich",
@@ -7300,8 +6627,7 @@
 		"Confirmed": "11519",
 		"Active": "33",
 		"Recovered": "11308",
-		"Deceased": "178",
-		"Migrated_Other": "0"
+		"Deaths": "178"
 	},
 	{
 		"District": "Ballia",
@@ -7311,8 +6637,7 @@
 		"Confirmed": "21595",
 		"Active": "10",
 		"Recovered": "21353",
-		"Deceased": "232",
-		"Migrated_Other": "0"
+		"Deaths": "232"
 	},
 	{
 		"District": "Balrampur",
@@ -7322,8 +6647,7 @@
 		"Confirmed": "7476",
 		"Active": "18",
 		"Recovered": "7321",
-		"Deceased": "137",
-		"Migrated_Other": "0"
+		"Deaths": "137"
 	},
 	{
 		"District": "Banda",
@@ -7333,8 +6657,7 @@
 		"Confirmed": "10972",
 		"Active": "20",
 		"Recovered": "10800",
-		"Deceased": "152",
-		"Migrated_Other": "0"
+		"Deaths": "152"
 	},
 	{
 		"District": "Barabanki",
@@ -7344,8 +6667,7 @@
 		"Confirmed": "19796",
 		"Active": "23",
 		"Recovered": "19550",
-		"Deceased": "223",
-		"Migrated_Other": "0"
+		"Deaths": "223"
 	},
 	{
 		"District": "Bareilly",
@@ -7355,8 +6677,7 @@
 		"Confirmed": "43922",
 		"Active": "81",
 		"Recovered": "43467",
-		"Deceased": "374",
-		"Migrated_Other": "0"
+		"Deaths": "374"
 	},
 	{
 		"District": "Basti",
@@ -7366,8 +6687,7 @@
 		"Confirmed": "11701",
 		"Active": "17",
 		"Recovered": "11354",
-		"Deceased": "330",
-		"Migrated_Other": "0"
+		"Deaths": "330"
 	},
 	{
 		"District": "Bhadohi",
@@ -7377,8 +6697,7 @@
 		"Confirmed": "7709",
 		"Active": "12",
 		"Recovered": "7535",
-		"Deceased": "162",
-		"Migrated_Other": "0"
+		"Deaths": "162"
 	},
 	{
 		"District": "Bijnor",
@@ -7388,8 +6707,7 @@
 		"Confirmed": "14776",
 		"Active": "18",
 		"Recovered": "14651",
-		"Deceased": "107",
-		"Migrated_Other": "0"
+		"Deaths": "107"
 	},
 	{
 		"District": "Budaun",
@@ -7399,8 +6717,7 @@
 		"Confirmed": "14904",
 		"Active": "10",
 		"Recovered": "14796",
-		"Deceased": "98",
-		"Migrated_Other": "0"
+		"Deaths": "98"
 	},
 	{
 		"District": "Bulandshahr",
@@ -7410,8 +6727,7 @@
 		"Confirmed": "20133",
 		"Active": "63",
 		"Recovered": "19833",
-		"Deceased": "237",
-		"Migrated_Other": "0"
+		"Deaths": "237"
 	},
 	{
 		"District": "Chandauli",
@@ -7421,8 +6737,7 @@
 		"Confirmed": "16175",
 		"Active": "11",
 		"Recovered": "15810",
-		"Deceased": "354",
-		"Migrated_Other": "0"
+		"Deaths": "354"
 	},
 	{
 		"District": "Chitrakoot",
@@ -7432,8 +6747,7 @@
 		"Confirmed": "7099",
 		"Active": "4",
 		"Recovered": "7016",
-		"Deceased": "79",
-		"Migrated_Other": "0"
+		"Deaths": "79"
 	},
 	{
 		"District": "Deoria",
@@ -7443,8 +6757,7 @@
 		"Confirmed": "20172",
 		"Active": "36",
 		"Recovered": "19918",
-		"Deceased": "218",
-		"Migrated_Other": "0"
+		"Deaths": "218"
 	},
 	{
 		"District": "Etah",
@@ -7454,8 +6767,7 @@
 		"Confirmed": "9959",
 		"Active": "54",
 		"Recovered": "9811",
-		"Deceased": "94",
-		"Migrated_Other": "0"
+		"Deaths": "94"
 	},
 	{
 		"District": "Etawah",
@@ -7465,8 +6777,7 @@
 		"Confirmed": "13931",
 		"Active": "20",
 		"Recovered": "13619",
-		"Deceased": "292",
-		"Migrated_Other": "0"
+		"Deaths": "292"
 	},
 	{
 		"District": "Farrukhabad",
@@ -7476,8 +6787,7 @@
 		"Confirmed": "10328",
 		"Active": "9",
 		"Recovered": "10126",
-		"Deceased": "193",
-		"Migrated_Other": "0"
+		"Deaths": "193"
 	},
 	{
 		"District": "Fatehpur",
@@ -7487,8 +6797,7 @@
 		"Confirmed": "6787",
 		"Active": "11",
 		"Recovered": "6638",
-		"Deceased": "138",
-		"Migrated_Other": "0"
+		"Deaths": "138"
 	},
 	{
 		"District": "Firozabad",
@@ -7498,8 +6807,7 @@
 		"Confirmed": "8699",
 		"Active": "21",
 		"Recovered": "8543",
-		"Deceased": "135",
-		"Migrated_Other": "0"
+		"Deaths": "135"
 	},
 	{
 		"District": "Gautam Buddha Nagar",
@@ -7509,8 +6817,7 @@
 		"Confirmed": "63050",
 		"Active": "73",
 		"Recovered": "62511",
-		"Deceased": "466",
-		"Migrated_Other": "0"
+		"Deaths": "466"
 	},
 	{
 		"District": "Ghaziabad",
@@ -7520,8 +6827,7 @@
 		"Confirmed": "55533",
 		"Active": "35",
 		"Recovered": "55037",
-		"Deceased": "461",
-		"Migrated_Other": "0"
+		"Deaths": "461"
 	},
 	{
 		"District": "Ghazipur",
@@ -7531,8 +6837,7 @@
 		"Confirmed": "21584",
 		"Active": "43",
 		"Recovered": "21270",
-		"Deceased": "271",
-		"Migrated_Other": "0"
+		"Deaths": "271"
 	},
 	{
 		"District": "Gonda",
@@ -7542,8 +6847,7 @@
 		"Confirmed": "12251",
 		"Active": "36",
 		"Recovered": "11957",
-		"Deceased": "258",
-		"Migrated_Other": "0"
+		"Deaths": "258"
 	},
 	{
 		"District": "Gorakhpur",
@@ -7553,8 +6857,7 @@
 		"Confirmed": "59274",
 		"Active": "49",
 		"Recovered": "58383",
-		"Deceased": "842",
-		"Migrated_Other": "0"
+		"Deaths": "842"
 	},
 	{
 		"District": "Hamirpur",
@@ -7564,8 +6867,7 @@
 		"Confirmed": "5217",
 		"Active": "10",
 		"Recovered": "5105",
-		"Deceased": "102",
-		"Migrated_Other": "0"
+		"Deaths": "102"
 	},
 	{
 		"District": "Hapur",
@@ -7575,8 +6877,7 @@
 		"Confirmed": "12592",
 		"Active": "17",
 		"Recovered": "12359",
-		"Deceased": "216",
-		"Migrated_Other": "0"
+		"Deaths": "216"
 	},
 	{
 		"District": "Hardoi",
@@ -7586,8 +6887,7 @@
 		"Confirmed": "13737",
 		"Active": "27",
 		"Recovered": "13363",
-		"Deceased": "347",
-		"Migrated_Other": "0"
+		"Deaths": "347"
 	},
 	{
 		"District": "Hathras",
@@ -7597,8 +6897,7 @@
 		"Confirmed": "2911",
 		"Active": "15",
 		"Recovered": "2853",
-		"Deceased": "43",
-		"Migrated_Other": "0"
+		"Deaths": "43"
 	},
 	{
 		"District": "Jalaun",
@@ -7608,8 +6907,7 @@
 		"Confirmed": "11649",
 		"Active": "18",
 		"Recovered": "11431",
-		"Deceased": "200",
-		"Migrated_Other": "0"
+		"Deaths": "200"
 	},
 	{
 		"District": "Jaunpur",
@@ -7619,8 +6917,7 @@
 		"Confirmed": "22530",
 		"Active": "45",
 		"Recovered": "22253",
-		"Deceased": "232",
-		"Migrated_Other": "0"
+		"Deaths": "232"
 	},
 	{
 		"District": "Jhansi",
@@ -7630,8 +6927,7 @@
 		"Confirmed": "36506",
 		"Active": "20",
 		"Recovered": "35825",
-		"Deceased": "661",
-		"Migrated_Other": "0"
+		"Deaths": "661"
 	},
 	{
 		"District": "Kannauj",
@@ -7641,8 +6937,7 @@
 		"Confirmed": "9201",
 		"Active": "14",
 		"Recovered": "9074",
-		"Deceased": "113",
-		"Migrated_Other": "0"
+		"Deaths": "113"
 	},
 	{
 		"District": "Kanpur Dehat",
@@ -7652,8 +6947,7 @@
 		"Confirmed": "6161",
 		"Active": "8",
 		"Recovered": "6043",
-		"Deceased": "110",
-		"Migrated_Other": "0"
+		"Deaths": "110"
 	},
 	{
 		"District": "Kanpur Nagar",
@@ -7663,8 +6957,7 @@
 		"Confirmed": "82755",
 		"Active": "56",
 		"Recovered": "80800",
-		"Deceased": "1899",
-		"Migrated_Other": "0"
+		"Deaths": "1899"
 	},
 	{
 		"District": "Kasganj",
@@ -7674,8 +6967,7 @@
 		"Confirmed": "4245",
 		"Active": "9",
 		"Recovered": "4183",
-		"Deceased": "53",
-		"Migrated_Other": "0"
+		"Deaths": "53"
 	},
 	{
 		"District": "Kaushambi",
@@ -7685,8 +6977,7 @@
 		"Confirmed": "4406",
 		"Active": "5",
 		"Recovered": "4333",
-		"Deceased": "68",
-		"Migrated_Other": "0"
+		"Deaths": "68"
 	},
 	{
 		"District": "Kushinagar",
@@ -7696,8 +6987,7 @@
 		"Confirmed": "15573",
 		"Active": "144",
 		"Recovered": "15204",
-		"Deceased": "225",
-		"Migrated_Other": "0"
+		"Deaths": "225"
 	},
 	{
 		"District": "Lakhimpur Kheri",
@@ -7707,8 +6997,7 @@
 		"Confirmed": "24368",
 		"Active": "93",
 		"Recovered": "23988",
-		"Deceased": "287",
-		"Migrated_Other": "0"
+		"Deaths": "287"
 	},
 	{
 		"District": "Lalitpur",
@@ -7718,8 +7007,7 @@
 		"Confirmed": "12730",
 		"Active": "21",
 		"Recovered": "12584",
-		"Deceased": "125",
-		"Migrated_Other": "0"
+		"Deaths": "125"
 	},
 	{
 		"District": "Lucknow",
@@ -7729,8 +7017,7 @@
 		"Confirmed": "238287",
 		"Active": "259",
 		"Recovered": "235384",
-		"Deceased": "2644",
-		"Migrated_Other": "0"
+		"Deaths": "2644"
 	},
 	{
 		"District": "Maharajganj",
@@ -7740,8 +7027,7 @@
 		"Confirmed": "12349",
 		"Active": "11",
 		"Recovered": "12204",
-		"Deceased": "134",
-		"Migrated_Other": "0"
+		"Deaths": "134"
 	},
 	{
 		"District": "Mahoba",
@@ -7751,8 +7037,7 @@
 		"Confirmed": "4264",
 		"Active": "0",
 		"Recovered": "4178",
-		"Deceased": "86",
-		"Migrated_Other": "0"
+		"Deaths": "86"
 	},
 	{
 		"District": "Mainpuri",
@@ -7762,8 +7047,7 @@
 		"Confirmed": "9997",
 		"Active": "91",
 		"Recovered": "9731",
-		"Deceased": "175",
-		"Migrated_Other": "0"
+		"Deaths": "175"
 	},
 	{
 		"District": "Mathura",
@@ -7773,8 +7057,7 @@
 		"Confirmed": "20249",
 		"Active": "77",
 		"Recovered": "19808",
-		"Deceased": "364",
-		"Migrated_Other": "0"
+		"Deaths": "364"
 	},
 	{
 		"District": "Mau",
@@ -7784,8 +7067,7 @@
 		"Confirmed": "8308",
 		"Active": "23",
 		"Recovered": "8205",
-		"Deceased": "80",
-		"Migrated_Other": "0"
+		"Deaths": "80"
 	},
 	{
 		"District": "Meerut",
@@ -7795,8 +7077,7 @@
 		"Confirmed": "69332",
 		"Active": "116",
 		"Recovered": "68320",
-		"Deceased": "896",
-		"Migrated_Other": "0"
+		"Deaths": "896"
 	},
 	{
 		"District": "Mirzapur",
@@ -7806,8 +7087,7 @@
 		"Confirmed": "11064",
 		"Active": "16",
 		"Recovered": "10937",
-		"Deceased": "111",
-		"Migrated_Other": "0"
+		"Deaths": "111"
 	},
 	{
 		"District": "Moradabad",
@@ -7817,8 +7097,7 @@
 		"Confirmed": "39053",
 		"Active": "17",
 		"Recovered": "38688",
-		"Deceased": "348",
-		"Migrated_Other": "0"
+		"Deaths": "348"
 	},
 	{
 		"District": "Muzaffarnagar",
@@ -7828,8 +7107,7 @@
 		"Confirmed": "30935",
 		"Active": "121",
 		"Recovered": "30547",
-		"Deceased": "267",
-		"Migrated_Other": "0"
+		"Deaths": "267"
 	},
 	{
 		"District": "Pilibhit",
@@ -7839,8 +7117,7 @@
 		"Confirmed": "11016",
 		"Active": "20",
 		"Recovered": "10810",
-		"Deceased": "186",
-		"Migrated_Other": "0"
+		"Deaths": "186"
 	},
 	{
 		"District": "Pratapgarh",
@@ -7850,8 +7127,7 @@
 		"Confirmed": "16004",
 		"Active": "24",
 		"Recovered": "15819",
-		"Deceased": "161",
-		"Migrated_Other": "0"
+		"Deaths": "161"
 	},
 	{
 		"District": "Prayagraj",
@@ -7861,8 +7137,7 @@
 		"Confirmed": "78369",
 		"Active": "152",
 		"Recovered": "77156",
-		"Deceased": "1061",
-		"Migrated_Other": "0"
+		"Deaths": "1061"
 	},
 	{
 		"District": "Rae Bareli",
@@ -7872,8 +7147,7 @@
 		"Confirmed": "17042",
 		"Active": "89",
 		"Recovered": "16634",
-		"Deceased": "319",
-		"Migrated_Other": "0"
+		"Deaths": "319"
 	},
 	{
 		"District": "Rampur",
@@ -7883,8 +7157,7 @@
 		"Confirmed": "11790",
 		"Active": "26",
 		"Recovered": "11618",
-		"Deceased": "146",
-		"Migrated_Other": "0"
+		"Deaths": "146"
 	},
 	{
 		"District": "Saharanpur",
@@ -7894,8 +7167,7 @@
 		"Confirmed": "32740",
 		"Active": "42",
 		"Recovered": "32281",
-		"Deceased": "417",
-		"Migrated_Other": "0"
+		"Deaths": "417"
 	},
 	{
 		"District": "Sambhal",
@@ -7905,8 +7177,7 @@
 		"Confirmed": "9443",
 		"Active": "14",
 		"Recovered": "9324",
-		"Deceased": "105",
-		"Migrated_Other": "0"
+		"Deaths": "105"
 	},
 	{
 		"District": "Sant Kabir Nagar",
@@ -7916,8 +7187,7 @@
 		"Confirmed": "8147",
 		"Active": "24",
 		"Recovered": "8026",
-		"Deceased": "97",
-		"Migrated_Other": "0"
+		"Deaths": "97"
 	},
 	{
 		"District": "Shahjahanpur",
@@ -7927,8 +7197,7 @@
 		"Confirmed": "20332",
 		"Active": "19",
 		"Recovered": "19890",
-		"Deceased": "423",
-		"Migrated_Other": "0"
+		"Deaths": "423"
 	},
 	{
 		"District": "Shamli",
@@ -7938,8 +7207,7 @@
 		"Confirmed": "12953",
 		"Active": "42",
 		"Recovered": "12866",
-		"Deceased": "45",
-		"Migrated_Other": "0"
+		"Deaths": "45"
 	},
 	{
 		"District": "Shrawasti",
@@ -7949,8 +7217,7 @@
 		"Confirmed": "4383",
 		"Active": "8",
 		"Recovered": "4340",
-		"Deceased": "35",
-		"Migrated_Other": "0"
+		"Deaths": "35"
 	},
 	{
 		"District": "Siddharthnagar",
@@ -7960,8 +7227,7 @@
 		"Confirmed": "9340",
 		"Active": "50",
 		"Recovered": "9191",
-		"Deceased": "99",
-		"Migrated_Other": "0"
+		"Deaths": "99"
 	},
 	{
 		"District": "Sitapur",
@@ -7971,8 +7237,7 @@
 		"Confirmed": "12345",
 		"Active": "20",
 		"Recovered": "12145",
-		"Deceased": "180",
-		"Migrated_Other": "0"
+		"Deaths": "180"
 	},
 	{
 		"District": "Sonbhadra",
@@ -7982,8 +7247,7 @@
 		"Confirmed": "16774",
 		"Active": "41",
 		"Recovered": "16482",
-		"Deceased": "251",
-		"Migrated_Other": "0"
+		"Deaths": "251"
 	},
 	{
 		"District": "Sultanpur",
@@ -7993,8 +7257,7 @@
 		"Confirmed": "14827",
 		"Active": "18",
 		"Recovered": "14672",
-		"Deceased": "137",
-		"Migrated_Other": "0"
+		"Deaths": "137"
 	},
 	{
 		"District": "Unnao",
@@ -8004,8 +7267,7 @@
 		"Confirmed": "14955",
 		"Active": "24",
 		"Recovered": "14690",
-		"Deceased": "241",
-		"Migrated_Other": "0"
+		"Deaths": "241"
 	},
 	{
 		"District": "Varanasi",
@@ -8015,8 +7277,7 @@
 		"Confirmed": "85296",
 		"Active": "135",
 		"Recovered": "84191",
-		"Deceased": "970",
-		"Migrated_Other": "0"
+		"Deaths": "970"
 	},
 	{
 		"District": "Almora",
@@ -8026,8 +7287,7 @@
 		"Confirmed": "12019",
 		"Active": "93",
 		"Recovered": "11189",
-		"Deceased": "140",
-		"Migrated_Other": "597"
+		"Deaths": "140"
 	},
 	{
 		"District": "Bageshwar",
@@ -8037,8 +7297,7 @@
 		"Confirmed": "5649",
 		"Active": "195",
 		"Recovered": "5381",
-		"Deceased": "48",
-		"Migrated_Other": "25"
+		"Deaths": "48"
 	},
 	{
 		"District": "Chamoli",
@@ -8048,8 +7307,7 @@
 		"Confirmed": "12056",
 		"Active": "105",
 		"Recovered": "11689",
-		"Deceased": "60",
-		"Migrated_Other": "202"
+		"Deaths": "60"
 	},
 	{
 		"District": "Champawat",
@@ -8059,8 +7317,7 @@
 		"Confirmed": "7480",
 		"Active": "82",
 		"Recovered": "7178",
-		"Deceased": "53",
-		"Migrated_Other": "167"
+		"Deaths": "53"
 	},
 	{
 		"District": "Dehradun",
@@ -8070,8 +7327,7 @@
 		"Confirmed": "111223",
 		"Active": "745",
 		"Recovered": "106410",
-		"Deceased": "3491",
-		"Migrated_Other": "577"
+		"Deaths": "3491"
 	},
 	{
 		"District": "Haridwar",
@@ -8081,8 +7337,7 @@
 		"Confirmed": "51080",
 		"Active": "199",
 		"Recovered": "48606",
-		"Deceased": "972",
-		"Migrated_Other": "1303"
+		"Deaths": "972"
 	},
 	{
 		"District": "Nainital",
@@ -8092,8 +7347,7 @@
 		"Confirmed": "38797",
 		"Active": "147",
 		"Recovered": "37610",
-		"Deceased": "912",
-		"Migrated_Other": "128"
+		"Deaths": "912"
 	},
 	{
 		"District": "Pauri Garhwal",
@@ -8103,8 +7357,7 @@
 		"Confirmed": "17479",
 		"Active": "151",
 		"Recovered": "16354",
-		"Deceased": "272",
-		"Migrated_Other": "702"
+		"Deaths": "272"
 	},
 	{
 		"District": "Pithoragarh",
@@ -8114,8 +7367,7 @@
 		"Confirmed": "9945",
 		"Active": "288",
 		"Recovered": "9523",
-		"Deceased": "122",
-		"Migrated_Other": "12"
+		"Deaths": "122"
 	},
 	{
 		"District": "Rudraprayag",
@@ -8125,8 +7377,7 @@
 		"Confirmed": "8613",
 		"Active": "83",
 		"Recovered": "8310",
-		"Deceased": "84",
-		"Migrated_Other": "136"
+		"Deaths": "84"
 	},
 	{
 		"District": "Tehri Garhwal",
@@ -8136,8 +7387,7 @@
 		"Confirmed": "15748",
 		"Active": "61",
 		"Recovered": "14693",
-		"Deceased": "106",
-		"Migrated_Other": "888"
+		"Deaths": "106"
 	},
 	{
 		"District": "Udham Singh Nagar",
@@ -8147,8 +7397,7 @@
 		"Confirmed": "37535",
 		"Active": "52",
 		"Recovered": "35960",
-		"Deceased": "761",
-		"Migrated_Other": "762"
+		"Deaths": "761"
 	},
 	{
 		"District": "Uttarkashi",
@@ -8158,8 +7407,7 @@
 		"Confirmed": "12309",
 		"Active": "44",
 		"Recovered": "11863",
-		"Deceased": "74",
-		"Migrated_Other": "328"
+		"Deaths": "74"
 	},
 	{
 		"District": "Alipurduar",
@@ -8169,8 +7417,7 @@
 		"Confirmed": "14163",
 		"Active": "369",
 		"Recovered": "13696",
-		"Deceased": "98",
-		"Migrated_Other": "0"
+		"Deaths": "98"
 	},
 	{
 		"District": "Bankura",
@@ -8180,8 +7427,7 @@
 		"Confirmed": "33225",
 		"Active": "823",
 		"Recovered": "32145",
-		"Deceased": "257",
-		"Migrated_Other": "0"
+		"Deaths": "257"
 	},
 	{
 		"District": "Birbhum",
@@ -8191,8 +7437,7 @@
 		"Confirmed": "39990",
 		"Active": "228",
 		"Recovered": "39480",
-		"Deceased": "282",
-		"Migrated_Other": "0"
+		"Deaths": "282"
 	},
 	{
 		"District": "Cooch Behar",
@@ -8202,8 +7447,7 @@
 		"Confirmed": "25842",
 		"Active": "1070",
 		"Recovered": "24682",
-		"Deceased": "90",
-		"Migrated_Other": "0"
+		"Deaths": "90"
 	},
 	{
 		"District": "Dakshin Dinajpur",
@@ -8213,8 +7457,7 @@
 		"Confirmed": "16581",
 		"Active": "224",
 		"Recovered": "16190",
-		"Deceased": "167",
-		"Migrated_Other": "0"
+		"Deaths": "167"
 	},
 	{
 		"District": "Darjeeling",
@@ -8224,8 +7467,7 @@
 		"Confirmed": "50558",
 		"Active": "1833",
 		"Recovered": "48270",
-		"Deceased": "455",
-		"Migrated_Other": "0"
+		"Deaths": "455"
 	},
 	{
 		"District": "Hooghly",
@@ -8235,8 +7477,7 @@
 		"Confirmed": "80005",
 		"Active": "1265",
 		"Recovered": "77871",
-		"Deceased": "869",
-		"Migrated_Other": "0"
+		"Deaths": "869"
 	},
 	{
 		"District": "Howrah",
@@ -8246,8 +7487,7 @@
 		"Confirmed": "92979",
 		"Active": "1272",
 		"Recovered": "90242",
-		"Deceased": "1465",
-		"Migrated_Other": "0"
+		"Deaths": "1465"
 	},
 	{
 		"District": "Jalpaiguri",
@@ -8257,8 +7497,7 @@
 		"Confirmed": "38130",
 		"Active": "1305",
 		"Recovered": "36328",
-		"Deceased": "497",
-		"Migrated_Other": "0"
+		"Deaths": "497"
 	},
 	{
 		"District": "Jhargram",
@@ -8268,8 +7507,7 @@
 		"Confirmed": "10112",
 		"Active": "484",
 		"Recovered": "9604",
-		"Deceased": "24",
-		"Migrated_Other": "0"
+		"Deaths": "24"
 	},
 	{
 		"District": "Kalimpong",
@@ -8279,8 +7517,7 @@
 		"Confirmed": "5650",
 		"Active": "230",
 		"Recovered": "5382",
-		"Deceased": "38",
-		"Migrated_Other": "0"
+		"Deaths": "38"
 	},
 	{
 		"District": "Kolkata",
@@ -8290,8 +7527,7 @@
 		"Confirmed": "307956",
 		"Active": "1701",
 		"Recovered": "301347",
-		"Deceased": "4908",
-		"Migrated_Other": "0"
+		"Deaths": "4908"
 	},
 	{
 		"District": "Malda",
@@ -8301,8 +7537,7 @@
 		"Confirmed": "32459",
 		"Active": "137",
 		"Recovered": "32140",
-		"Deceased": "182",
-		"Migrated_Other": "0"
+		"Deaths": "182"
 	},
 	{
 		"District": "Murshidabad",
@@ -8312,8 +7547,7 @@
 		"Confirmed": "33379",
 		"Active": "148",
 		"Recovered": "32910",
-		"Deceased": "321",
-		"Migrated_Other": "0"
+		"Deaths": "321"
 	},
 	{
 		"District": "Nadia",
@@ -8323,8 +7557,7 @@
 		"Confirmed": "67471",
 		"Active": "1071",
 		"Recovered": "65763",
-		"Deceased": "637",
-		"Migrated_Other": "0"
+		"Deaths": "637"
 	},
 	{
 		"District": "North 24 Parganas",
@@ -8334,8 +7567,7 @@
 		"Confirmed": "315922",
 		"Active": "2560",
 		"Recovered": "308893",
-		"Deceased": "4469",
-		"Migrated_Other": "0"
+		"Deaths": "4469"
 	},
 	{
 		"District": "Other State",
@@ -8345,8 +7577,7 @@
 		"Confirmed": "66",
 		"Active": "0",
 		"Recovered": "63",
-		"Deceased": "3",
-		"Migrated_Other": "0"
+		"Deaths": "3"
 	},
 	{
 		"District": "Paschim Bardhaman",
@@ -8356,8 +7587,7 @@
 		"Confirmed": "55604",
 		"Active": "539",
 		"Recovered": "54729",
-		"Deceased": "336",
-		"Migrated_Other": "0"
+		"Deaths": "336"
 	},
 	{
 		"District": "Paschim Medinipur",
@@ -8367,8 +7597,7 @@
 		"Confirmed": "48474",
 		"Active": "1490",
 		"Recovered": "46521",
-		"Deceased": "463",
-		"Migrated_Other": "0"
+		"Deaths": "463"
 	},
 	{
 		"District": "Purba Bardhaman",
@@ -8378,8 +7607,7 @@
 		"Confirmed": "38887",
 		"Active": "584",
 		"Recovered": "38130",
-		"Deceased": "173",
-		"Migrated_Other": "0"
+		"Deaths": "173"
 	},
 	{
 		"District": "Purba Medinipur",
@@ -8389,8 +7617,7 @@
 		"Confirmed": "58347",
 		"Active": "2061",
 		"Recovered": "55928",
-		"Deceased": "358",
-		"Migrated_Other": "0"
+		"Deaths": "358"
 	},
 	{
 		"District": "Purulia",
@@ -8400,8 +7627,7 @@
 		"Confirmed": "19012",
 		"Active": "70",
 		"Recovered": "18830",
-		"Deceased": "112",
-		"Migrated_Other": "0"
+		"Deaths": "112"
 	},
 	{
 		"District": "South 24 Parganas",
@@ -8411,8 +7637,7 @@
 		"Confirmed": "94437",
 		"Active": "1343",
 		"Recovered": "91848",
-		"Deceased": "1246",
-		"Migrated_Other": "0"
+		"Deaths": "1246"
 	},
 	{
 		"District": "Uttar Dinajpur",
@@ -8422,8 +7647,7 @@
 		"Confirmed": "19056",
 		"Active": "309",
 		"Recovered": "18518",
-		"Deceased": "229",
-		"Migrated_Other": "0"
+		"Deaths": "229"
 	},
 	{
 		"District": "Unknown",
@@ -8433,8 +7657,7 @@
 		"Confirmed": "7414",
 		"Active": "23",
 		"Recovered": "7263",
-		"Deceased": "128",
-		"Migrated_Other": "0"
+		"Deaths": "128"
 	},
 	{
 		"District": "Unknown",
@@ -8444,8 +7667,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8455,8 +7677,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8466,8 +7687,7 @@
 		"Confirmed": "112271",
 		"Active": "-318715",
 		"Recovered": "428534",
-		"Deceased": "1105",
-		"Migrated_Other": "1347"
+		"Deaths": "1105"
 	},
 	{
 		"District": "Unknown",
@@ -8477,8 +7697,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8488,8 +7707,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8499,8 +7717,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8510,8 +7727,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8521,8 +7737,7 @@
 		"Confirmed": "1433400",
 		"Active": "592",
 		"Recovered": "1407832",
-		"Deceased": "24976",
-		"Migrated_Other": "0"
+		"Deaths": "24976"
 	},
 	{
 		"District": "Unknown",
@@ -8532,8 +7747,7 @@
 		"Confirmed": "160070",
 		"Active": "-1385",
 		"Recovered": "158599",
-		"Deceased": "2856",
-		"Migrated_Other": "0"
+		"Deaths": "2856"
 	},
 	{
 		"District": "Unknown",
@@ -8543,8 +7757,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8554,8 +7767,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8565,8 +7777,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8576,8 +7787,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8587,8 +7797,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8598,8 +7807,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8609,8 +7817,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8620,8 +7827,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8631,8 +7837,7 @@
 		"Confirmed": "0",
 		"Active": "-1",
 		"Recovered": "0",
-		"Deceased": "1",
-		"Migrated_Other": "0"
+		"Deaths": "1"
 	},
 	{
 		"District": "Unknown",
@@ -8642,8 +7847,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8653,8 +7857,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8664,8 +7867,7 @@
 		"Confirmed": "1796",
 		"Active": "-58221",
 		"Recovered": "59926",
-		"Deceased": "91",
-		"Migrated_Other": "0"
+		"Deaths": "91"
 	},
 	{
 		"District": "Unknown",
@@ -8675,8 +7877,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8686,8 +7887,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8697,8 +7897,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8708,8 +7907,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8719,8 +7917,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8730,8 +7927,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8741,8 +7937,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8752,8 +7947,7 @@
 		"Confirmed": "-68",
 		"Active": "-12728",
 		"Recovered": "12398",
-		"Deceased": "137",
-		"Migrated_Other": "125"
+		"Deaths": "137"
 	},
 	{
 		"District": "Unknown",
@@ -8763,8 +7957,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8774,8 +7967,7 @@
 		"Confirmed": "1055",
 		"Active": "-607470",
 		"Recovered": "604904",
-		"Deceased": "3621",
-		"Migrated_Other": "0"
+		"Deaths": "3621"
 	},
 	{
 		"District": "Unknown",
@@ -8785,8 +7977,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8796,8 +7987,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8807,8 +7997,7 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	},
 	{
 		"District": "Unknown",
@@ -8818,7 +8007,6 @@
 		"Confirmed": "0",
 		"Active": "0",
 		"Recovered": "0",
-		"Deceased": "0",
-		"Migrated_Other": "0"
+		"Deaths": "0"
 	}
 ]

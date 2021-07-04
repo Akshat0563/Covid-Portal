@@ -1,13 +1,5 @@
 [
 	{
-		"State": "Total",
-		"State_code": "TT",
-		"Confirmed": "30367153",
-		"Recovered": "29422150",
-		"Deaths": "398554",
-		"Active": "534534"
-	},
-	{
 		"State": "Maharashtra",
 		"State_code": "MH",
 		"Confirmed": "6051633",
