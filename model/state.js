@@ -2,10 +2,6 @@ const mongoose = require('mongoose')
 const states_data = require('../data/states.json')
 
 var state = new mongoose.Schema({
-    State_Code: {
-        type: String,
-        required: true
-    },
     State: {
         type: String,
         required: true

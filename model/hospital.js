@@ -6,15 +6,15 @@ var hospital = new mongoose.Schema({
         type: String,
         required: true
     },
-    address: {
+    Address: {
         type: String,
         required: true
     },
-    district: {
+    District: {
         type: String,
         required: true
     },
-    pincode: {
+    Pincode: {
         type: Number,
         required: true
     },

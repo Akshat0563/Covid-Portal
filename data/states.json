@@ -1,7 +1,7 @@
 [
   {
     "State": "Maharashtra",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "6051633",
     "Recovered": "5809548",
     "Deaths": "121804",
@@ -9,7 +9,7 @@
   },
   {
     "State": "Kerala",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "2910508",
     "Recovered": "2797779",
     "Deaths": "13094",
@@ -17,7 +17,7 @@
   },
   {
     "State": "Karnataka",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "2840428",
     "Recovered": "2719479",
     "Deaths": "34929",
@@ -25,7 +25,7 @@
   },
   {
     "State": "Tamil Nadu",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "2475190",
     "Recovered": "2403349",
     "Deaths": "32506",
@@ -33,7 +33,7 @@
   },
   {
     "State": "Andhra Pradesh",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "1885716",
     "Recovered": "1832971",
     "Deaths": "12671",
@@ -41,7 +41,7 @@
   },
   {
     "State": "Uttar Pradesh",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "1705951",
     "Recovered": "1680428",
     "Deaths": "22577",
@@ -49,7 +49,7 @@
   },
   {
     "State": "West Bengal",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "1498305",
     "Recovered": "1459510",
     "Deaths": "17679",
@@ -57,7 +57,7 @@
   },
   {
     "State": "Delhi",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "1434188",
     "Recovered": "1407832",
     "Deaths": "24977",
@@ -65,7 +65,7 @@
   },
   {
     "State": "Chhattisgarh",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "994077",
     "Recovered": "974725",
     "Deaths": "13438",
@@ -73,7 +73,7 @@
   },
   {
     "State": "Rajasthan",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "952322",
     "Recovered": "941839",
     "Deaths": "8918",
@@ -81,7 +81,7 @@
   },
   {
     "State": "Odisha",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "909800",
     "Recovered": "874307",
     "Deaths": "4071",
@@ -89,7 +89,7 @@
   },
   {
     "State": "Gujarat",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "823433",
     "Recovered": "810147",
     "Deaths": "10056",
@@ -97,7 +97,7 @@
   },
   {
     "State": "Madhya Pradesh",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "789771",
     "Recovered": "780187",
     "Deaths": "8954",
@@ -105,7 +105,7 @@
   },
   {
     "State": "Haryana",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "768552",
     "Recovered": "757640",
     "Deaths": "9417",
@@ -113,7 +113,7 @@
   },
   {
     "State": "Bihar",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "721654",
     "Recovered": "710238",
     "Deaths": "9584",
@@ -121,7 +121,7 @@
   },
   {
     "State": "Telangana",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "622593",
     "Recovered": "605455",
     "Deaths": "3651",
@@ -129,7 +129,7 @@
   },
   {
     "State": "Punjab",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "595351",
     "Recovered": "575971",
     "Deaths": "16033",
@@ -137,7 +137,7 @@
   },
   {
     "State": "Assam",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "506005",
     "Recovered": "474457",
     "Deaths": "4509",
@@ -145,7 +145,7 @@
   },
   {
     "State": "Jharkhand",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "345525",
     "Recovered": "339463",
     "Deaths": "5113",
@@ -153,7 +153,7 @@
   },
   {
     "State": "Uttarakhand",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "339933",
     "Recovered": "324766",
     "Deaths": "7095",
@@ -161,7 +161,7 @@
   },
   {
     "State": "Jammu and Kashmir",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "315298",
     "Recovered": "306177",
     "Deaths": "4316",
@@ -169,7 +169,7 @@
   },
   {
     "State": "Himachal Pradesh",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "201980",
     "Recovered": "196837",
     "Deaths": "3461",
@@ -177,7 +177,7 @@
   },
   {
     "State": "Goa",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "166449",
     "Recovered": "161160",
     "Deaths": "3048",
@@ -185,7 +185,7 @@
   },
   {
     "State": "Puducherry",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "117249",
     "Recovered": "113146",
     "Deaths": "1749",
@@ -193,7 +193,7 @@
   },
   {
     "State": "Manipur",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "69198",
     "Recovered": "62134",
     "Deaths": "1141",
@@ -201,7 +201,7 @@
   },
   {
     "State": "Tripura",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "65767",
     "Recovered": "61450",
     "Deaths": "674",
@@ -209,7 +209,7 @@
   },
   {
     "State": "Chandigarh",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "61656",
     "Recovered": "60685",
     "Deaths": "808",
@@ -217,7 +217,7 @@
   },
   {
     "State": "Meghalaya",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "49513",
     "Recovered": "44459",
     "Deaths": "838",
@@ -225,7 +225,7 @@
   },
   {
     "State": "Arunachal Pradesh",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "35571",
     "Recovered": "32716",
     "Deaths": "168",
@@ -233,7 +233,7 @@
   },
   {
     "State": "Nagaland",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "25111",
     "Recovered": "22534",
     "Deaths": "493",
@@ -241,7 +241,7 @@
   },
   {
     "State": "Sikkim",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "20544",
     "Recovered": "17962",
     "Deaths": "307",
@@ -249,7 +249,7 @@
   },
   {
     "State": "Mizoram",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "20075",
     "Recovered": "16106",
     "Deaths": "93",
@@ -257,7 +257,7 @@
   },
   {
     "State": "Ladakh",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "20038",
     "Recovered": "19565",
     "Deaths": "202",
@@ -265,7 +265,7 @@
   },
   {
     "State": "Dadra and Nagar Haveli and Daman and Diu",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "10561",
     "Recovered": "10483",
     "Deaths": "4",
@@ -273,7 +273,7 @@
   },
   {
     "State": "Lakshadweep",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "9742",
     "Recovered": "9349",
     "Deaths": "48",
@@ -281,7 +281,7 @@
   },
   {
     "State": "Andaman and Nicobar Islands",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "7466",
     "Recovered": "7296",
     "Deaths": "128",
@@ -289,7 +289,7 @@
   },
   {
     "State": "State Unassigned",
-    "country_code": "IND",
+    "Country": "India",
     "Confirmed": "0",
     "Recovered": "0",
     "Deaths": "0",
@@ -297,7 +297,7 @@
   },
   {
     "State": "Alabama",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "551,298",
     "Recovered": "0",
     "Deaths": "11,358",
@@ -305,7 +305,7 @@
   },
   {
     "State": "Alaska",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "68,478",
     "Recovered": "65,690",
     "Deaths": "370",
@@ -313,7 +313,7 @@
   },
   {
     "State": "Arizona",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "896,960",
     "Recovered": "865,846",
     "Deaths": "17,979",
@@ -321,7 +321,7 @@
   },
   {
     "State": "Arkansas",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "350,579",
     "Recovered": "340,196",
     "Deaths": "5,913",
@@ -329,7 +329,7 @@
   },
   {
     "State": "California",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "3,821,430",
     "Recovered": "2,074,729",
     "Deaths": "63,758",
@@ -337,7 +337,7 @@
   },
   {
     "State": "Colorado",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "559,534",
     "Recovered": "462,629",
     "Deaths": "7,028",
@@ -345,7 +345,7 @@
   },
   {
     "State": "Connecticut",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "349,476",
     "Recovered": "339,066",
     "Deaths": "8,279",
@@ -353,7 +353,7 @@
   },
   {
     "State": "Delaware",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "109,875",
     "Recovered": "107,431",
     "Deaths": "1,695",
@@ -361,7 +361,7 @@
   },
   {
     "State": "District Of Columbia",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "49,378",
     "Recovered": "34,956",
     "Deaths": "1,141",
@@ -369,7 +369,7 @@
   },
   {
     "State": "Florida",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "2,382,980",
     "Recovered": "2,215,966",
     "Deaths": "37,985",
@@ -377,7 +377,7 @@
   },
   {
     "State": "Georgia",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "1,135,526",
     "Recovered": "1,049,531",
     "Deaths": "21,443",
@@ -385,7 +385,7 @@
   },
   {
     "State": "Hawaii",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "37,995",
     "Recovered": "0",
     "Deaths": "518",
@@ -393,7 +393,7 @@
   },
   {
     "State": "Idaho",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "195,172",
     "Recovered": "115,112",
     "Deaths": "2,158",
@@ -401,7 +401,7 @@
   },
   {
     "State": "Illinois",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "1,392,552",
     "Recovered": "1,355,594",
     "Deaths": "25,696",
@@ -409,7 +409,7 @@
   },
   {
     "State": "Indiana",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "754,724",
     "Recovered": "729,521",
     "Deaths": "13,863",
@@ -417,7 +417,7 @@
   },
   {
     "State": "Iowa",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "405,069",
     "Recovered": "366,325",
     "Deaths": "6,146",
@@ -425,7 +425,7 @@
   },
   {
     "State": "Kansas",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "318,515",
     "Recovered": "308,858",
     "Deaths": "5,159",
@@ -433,7 +433,7 @@
   },
   {
     "State": "Kentucky",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "465,490",
     "Recovered": "53,589",
     "Deaths": "7,229",
@@ -441,7 +441,7 @@
   },
   {
     "State": "Louisiana",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "482,560",
     "Recovered": "0",
     "Deaths": "10,757",
@@ -449,7 +449,7 @@
   },
   {
     "State": "Maine",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "69,118",
     "Recovered": "0",
     "Deaths": "860",
@@ -457,7 +457,7 @@
   },
   {
     "State": "Maryland",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "462,596",
     "Recovered": "11,029",
     "Deaths": "9,749",
@@ -465,7 +465,7 @@
   },
   {
     "State": "Massachusetts",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "710,138",
     "Recovered": "690,792",
     "Deaths": "17,998",
@@ -473,7 +473,7 @@
   },
   {
     "State": "Michigan",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "1,000,375",
     "Recovered": "865,577",
     "Deaths": "21,009",
@@ -481,7 +481,7 @@
   },
   {
     "State": "Minnesota",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "605,660",
     "Recovered": "597,232",
     "Deaths": "7,688",
@@ -489,7 +489,7 @@
   },
   {
     "State": "Mississippi",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "322,186",
     "Recovered": "311,917",
     "Deaths": "7,419",
@@ -497,7 +497,7 @@
   },
   {
     "State": "Missouri",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "622,626",
     "Recovered": "560,298",
     "Deaths": "10,114",
@@ -505,7 +505,7 @@
   },
   {
     "State": "Montana",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "113,873",
     "Recovered": "111,821",
     "Deaths": "1,666",
@@ -513,7 +513,7 @@
   },
   {
     "State": "Nebraska",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "224,682",
     "Recovered": "0",
     "Deaths": "2,260",
@@ -521,7 +521,7 @@
   },
   {
     "State": "Nevada",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "334,763",
     "Recovered": "314,730",
     "Deaths": "5,697",
@@ -529,7 +529,7 @@
   },
   {
     "State": "New Hampshire",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "99,555",
     "Recovered": "98,002",
     "Deaths": "1,372",
@@ -537,7 +537,7 @@
   },
   {
     "State": "New Jersey",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "1,024,225",
     "Recovered": "981,730",
     "Deaths": "26,473",
@@ -545,7 +545,7 @@
   },
   {
     "State": "New Mexico",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "205,715",
     "Recovered": "194,687",
     "Deaths": "4,344",
@@ -553,7 +553,7 @@
   },
   {
     "State": "New York",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "2,174,697",
     "Recovered": "1,971,702",
     "Deaths": "54,039",
@@ -561,7 +561,7 @@
   },
   {
     "State": "North Carolina",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "1,014,359",
     "Recovered": "994,472",
     "Deaths": "13,434",
@@ -569,7 +569,7 @@
   },
   {
     "State": "North Dakota",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "110,736",
     "Recovered": "109,085",
     "Deaths": "1,528",
@@ -577,7 +577,7 @@
   },
   {
     "State": "Ohio",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "1,112,289",
     "Recovered": "1,085,074",
     "Deaths": "20,344",
@@ -585,7 +585,7 @@
   },
   {
     "State": "Oklahoma",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "458,483",
     "Recovered": "449,144",
     "Deaths": "7,388",
@@ -593,7 +593,7 @@
   },
   {
     "State": "Oregon",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "209,035",
     "Recovered": "193,645",
     "Deaths": "2,781",
@@ -601,7 +601,7 @@
   },
   {
     "State": "Pennsylvania",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "1,217,434",
     "Recovered": "1,176,184",
     "Deaths": "27,812",
@@ -609,7 +609,7 @@
   },
   {
     "State": "Rhode Island",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "152,643",
     "Recovered": "9,389",
     "Deaths": "2,730",
@@ -617,7 +617,7 @@
   },
   {
     "State": "South Carolina",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "597,261",
     "Recovered": "571,993",
     "Deaths": "9,830",
@@ -625,7 +625,7 @@
   },
   {
     "State": "South Dakota",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "124,582",
     "Recovered": "122,377",
     "Deaths": "2,038",
@@ -633,7 +633,7 @@
   },
   {
     "State": "Tennessee",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "867,407",
     "Recovered": "852,784",
     "Deaths": "12,571",
@@ -641,7 +641,7 @@
   },
   {
     "State": "Texas",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "3,005,691",
     "Recovered": "2,899,637",
     "Deaths": "52,678",
@@ -649,7 +649,7 @@
   },
   {
     "State": "Utah",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "416,110",
     "Recovered": "406,317",
     "Deaths": "2,378",
@@ -657,7 +657,7 @@
   },
   {
     "State": "Vermont",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "24,419",
     "Recovered": "24,027",
     "Deaths": "258",
@@ -665,7 +665,7 @@
   },
   {
     "State": "Virginia",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "681,072",
     "Recovered": "57,275",
     "Deaths": "11,427",
@@ -673,7 +673,7 @@
   },
   {
     "State": "Washington",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "454,759",
     "Recovered": "226,690",
     "Deaths": "5,987",
@@ -681,7 +681,7 @@
   },
   {
     "State": "West Virginia",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "164,149",
     "Recovered": "159,991",
     "Deaths": "2,899",
@@ -689,7 +689,7 @@
   },
   {
     "State": "Wisconsin",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "677,859",
     "Recovered": "0",
     "Deaths": "8,135",
@@ -697,7 +697,7 @@
   },
   {
     "State": "Wyoming",
-    "country_code": "USA",
+    "Country": "USA",
     "Confirmed": "62,445",
     "Recovered": "61,158",
     "Deaths": "747",
