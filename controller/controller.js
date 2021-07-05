@@ -1,6 +1,10 @@
 const mongoose = require('mongoose')
 const bcrypt = require('bcryptjs')
 const User = require('../model/user')
+const Hospital = require('../model/hospital')
+const District = require('../model/district')
+const State = require('../model/state')
+const Country = require('../model/country')
 
 exports.signIn = async (req,res) => {
 
