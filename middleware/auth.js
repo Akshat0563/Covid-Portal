@@ -18,7 +18,6 @@ const auth = async (req,res,next) => {
     catch(e){
         res.status(405).send(e)
     }
-
 }
 
 module.exports = auth
