@@ -4,649 +4,649 @@
     "District_Key": "GJ_Other State",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "162",
-    "Active": "0",
-    "Recovered": "159",
-    "Deaths": "3"
+    "Confirmed": 162,
+    "Active": 0,
+    "Recovered": 159,
+    "Deaths": 3
   },
   {
     "District": "Ahmedabad",
     "District_Key": "GJ_Ahmedabad",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "237663",
-    "Active": "1162",
-    "Recovered": "233099",
-    "Deaths": "3402"
+    "Confirmed": 237663,
+    "Active": 1162,
+    "Recovered": 233099,
+    "Deaths": 3402
   },
   {
     "District": "Amreli",
     "District_Key": "GJ_Amreli",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "10758",
-    "Active": "24",
-    "Recovered": "10633",
-    "Deaths": "101"
+    "Confirmed": 10758,
+    "Active": 24,
+    "Recovered": 10633,
+    "Deaths": 101
   },
   {
     "District": "Anand",
     "District_Key": "GJ_Anand",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "9586",
-    "Active": "20",
-    "Recovered": "9518",
-    "Deaths": "48"
+    "Confirmed": 9586,
+    "Active": 20,
+    "Recovered": 9518,
+    "Deaths": 48
   },
   {
     "District": "Aravalli",
     "District_Key": "GJ_Aravalli",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "5182",
-    "Active": "26",
-    "Recovered": "5079",
-    "Deaths": "77"
+    "Confirmed": 5182,
+    "Active": 26,
+    "Recovered": 5079,
+    "Deaths": 77
   },
   {
     "District": "Banaskantha",
     "District_Key": "GJ_Banaskantha",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "13607",
-    "Active": "20",
-    "Recovered": "13425",
-    "Deaths": "162"
+    "Confirmed": 13607,
+    "Active": 20,
+    "Recovered": 13425,
+    "Deaths": 162
   },
   {
     "District": "Bharuch",
     "District_Key": "GJ_Bharuch",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "11386",
-    "Active": "14",
-    "Recovered": "11254",
-    "Deaths": "118"
+    "Confirmed": 11386,
+    "Active": 14,
+    "Recovered": 11254,
+    "Deaths": 118
   },
   {
     "District": "Bhavnagar",
     "District_Key": "GJ_Bhavnagar",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "21383",
-    "Active": "154",
-    "Recovered": "20930",
-    "Deaths": "299"
+    "Confirmed": 21383,
+    "Active": 154,
+    "Recovered": 20930,
+    "Deaths": 299
   },
   {
     "District": "Botad",
     "District_Key": "GJ_Botad",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "2216",
-    "Active": "11",
-    "Recovered": "2163",
-    "Deaths": "42"
+    "Confirmed": 2216,
+    "Active": 11,
+    "Recovered": 2163,
+    "Deaths": 42
   },
   {
     "District": "Chhota Udaipur",
     "District_Key": "GJ_Chhota Udaipur",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "3394",
-    "Active": "3",
-    "Recovered": "3353",
-    "Deaths": "38"
+    "Confirmed": 3394,
+    "Active": 3,
+    "Recovered": 3353,
+    "Deaths": 38
   },
   {
     "District": "Dahod",
     "District_Key": "GJ_Dahod",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "9918",
-    "Active": "3",
-    "Recovered": "9877",
-    "Deaths": "38"
+    "Confirmed": 9918,
+    "Active": 3,
+    "Recovered": 9877,
+    "Deaths": 38
   },
   {
     "District": "Dang",
     "District_Key": "GJ_Dang",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "861",
-    "Active": "1",
-    "Recovered": "842",
-    "Deaths": "18"
+    "Confirmed": 861,
+    "Active": 1,
+    "Recovered": 842,
+    "Deaths": 18
   },
   {
     "District": "Devbhumi Dwarka",
     "District_Key": "GJ_Devbhumi Dwarka",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "4150",
-    "Active": "20",
-    "Recovered": "4049",
-    "Deaths": "81"
+    "Confirmed": 4150,
+    "Active": 20,
+    "Recovered": 4049,
+    "Deaths": 81
   },
   {
     "District": "Gandhinagar",
     "District_Key": "GJ_Gandhinagar",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "20703",
-    "Active": "290",
-    "Recovered": "20208",
-    "Deaths": "205"
+    "Confirmed": 20703,
+    "Active": 290,
+    "Recovered": 20208,
+    "Deaths": 205
   },
   {
     "District": "Gir Somnath",
     "District_Key": "GJ_Gir Somnath",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "8514",
-    "Active": "148",
-    "Recovered": "8299",
-    "Deaths": "67"
+    "Confirmed": 8514,
+    "Active": 148,
+    "Recovered": 8299,
+    "Deaths": 67
   },
   {
     "District": "Jamnagar",
     "District_Key": "GJ_Jamnagar",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "34886",
-    "Active": "54",
-    "Recovered": "34355",
-    "Deaths": "477"
+    "Confirmed": 34886,
+    "Active": 54,
+    "Recovered": 34355,
+    "Deaths": 477
   },
   {
     "District": "Junagadh",
     "District_Key": "GJ_Junagadh",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "20401",
-    "Active": "96",
-    "Recovered": "20035",
-    "Deaths": "270"
+    "Confirmed": 20401,
+    "Active": 96,
+    "Recovered": 20035,
+    "Deaths": 270
   },
   {
     "District": "Kheda",
     "District_Key": "GJ_Kheda",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "10406",
-    "Active": "16",
-    "Recovered": "10342",
-    "Deaths": "48"
+    "Confirmed": 10406,
+    "Active": 16,
+    "Recovered": 10342,
+    "Deaths": 48
   },
   {
     "District": "Kutch",
     "District_Key": "GJ_Kutch",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "12568",
-    "Active": "18",
-    "Recovered": "12405",
-    "Deaths": "145"
+    "Confirmed": 12568,
+    "Active": 18,
+    "Recovered": 12405,
+    "Deaths": 145
   },
   {
     "District": "Mahisagar",
     "District_Key": "GJ_Mahisagar",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "8189",
-    "Active": "13",
-    "Recovered": "8104",
-    "Deaths": "72"
+    "Confirmed": 8189,
+    "Active": 13,
+    "Recovered": 8104,
+    "Deaths": 72
   },
   {
     "District": "Mehsana",
     "District_Key": "GJ_Mehsana",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "24390",
-    "Active": "62",
-    "Recovered": "24151",
-    "Deaths": "177"
+    "Confirmed": 24390,
+    "Active": 62,
+    "Recovered": 24151,
+    "Deaths": 177
   },
   {
     "District": "Morbi",
     "District_Key": "GJ_Morbi",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "6494",
-    "Active": "1",
-    "Recovered": "6406",
-    "Deaths": "87"
+    "Confirmed": 6494,
+    "Active": 1,
+    "Recovered": 6406,
+    "Deaths": 87
   },
   {
     "District": "Narmada",
     "District_Key": "GJ_Narmada",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "5941",
-    "Active": "5",
-    "Recovered": "5921",
-    "Deaths": "15"
+    "Confirmed": 5941,
+    "Active": 5,
+    "Recovered": 5921,
+    "Deaths": 15
   },
   {
     "District": "Navsari",
     "District_Key": "GJ_Navsari",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "7117",
-    "Active": "24",
-    "Recovered": "7069",
-    "Deaths": "24"
+    "Confirmed": 7117,
+    "Active": 24,
+    "Recovered": 7069,
+    "Deaths": 24
   },
   {
     "District": "Panchmahal",
     "District_Key": "GJ_Panchmahal",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "11759",
-    "Active": "9",
-    "Recovered": "11680",
-    "Deaths": "70"
+    "Confirmed": 11759,
+    "Active": 9,
+    "Recovered": 11680,
+    "Deaths": 70
   },
   {
     "District": "Patan",
     "District_Key": "GJ_Patan",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "11621",
-    "Active": "2",
-    "Recovered": "11490",
-    "Deaths": "129"
+    "Confirmed": 11621,
+    "Active": 2,
+    "Recovered": 11490,
+    "Deaths": 129
   },
   {
     "District": "Porbandar",
     "District_Key": "GJ_Porbandar",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "3463",
-    "Active": "13",
-    "Recovered": "3431",
-    "Deaths": "19"
+    "Confirmed": 3463,
+    "Active": 13,
+    "Recovered": 3431,
+    "Deaths": 19
   },
   {
     "District": "Rajkot",
     "District_Key": "GJ_Rajkot",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "57817",
-    "Active": "81",
-    "Recovered": "57013",
-    "Deaths": "723"
+    "Confirmed": 57817,
+    "Active": 81,
+    "Recovered": 57013,
+    "Deaths": 723
   },
   {
     "District": "Sabarkantha",
     "District_Key": "GJ_Sabarkantha",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "9299",
-    "Active": "16",
-    "Recovered": "9126",
-    "Deaths": "157"
+    "Confirmed": 9299,
+    "Active": 16,
+    "Recovered": 9126,
+    "Deaths": 157
   },
   {
     "District": "Surat",
     "District_Key": "GJ_Surat",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "143175",
-    "Active": "725",
-    "Recovered": "140500",
-    "Deaths": "1950"
+    "Confirmed": 143175,
+    "Active": 725,
+    "Recovered": 140500,
+    "Deaths": 1950
   },
   {
     "District": "Surendranagar",
     "District_Key": "GJ_Surendranagar",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "8108",
-    "Active": "6",
-    "Recovered": "7966",
-    "Deaths": "136"
+    "Confirmed": 8108,
+    "Active": 6,
+    "Recovered": 7966,
+    "Deaths": 136
   },
   {
     "District": "Tapi",
     "District_Key": "GJ_Tapi",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "4429",
-    "Active": "3",
-    "Recovered": "4404",
-    "Deaths": "22"
+    "Confirmed": 4429,
+    "Active": 3,
+    "Recovered": 4404,
+    "Deaths": 22
   },
   {
     "District": "Vadodara",
     "District_Key": "GJ_Vadodara",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "77674",
-    "Active": "135",
-    "Recovered": "76752",
-    "Deaths": "787"
+    "Confirmed": 77674,
+    "Active": 135,
+    "Recovered": 76752,
+    "Deaths": 787
   },
   {
     "District": "Valsad",
     "District_Key": "GJ_Valsad",
     "State_Code": "GJ",
     "State": "Gujarat",
-    "Confirmed": "6213",
-    "Active": "55",
-    "Recovered": "6109",
-    "Deaths": "49"
+    "Confirmed": 6213,
+    "Active": 55,
+    "Recovered": 6109,
+    "Deaths": 49
   },
   {
     "District": "Bagalkote",
     "District_Key": "KA_Bagalkote",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "34974",
-    "Active": "414",
-    "Recovered": "34246",
-    "Deaths": "314"
+    "Confirmed": 34974,
+    "Active": 414,
+    "Recovered": 34246,
+    "Deaths": 314
   },
   {
     "District": "Ballari",
     "District_Key": "KA_Ballari",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "96992",
-    "Active": "708",
-    "Recovered": "94680",
-    "Deaths": "1604"
+    "Confirmed": 96992,
+    "Active": 708,
+    "Recovered": 94680,
+    "Deaths": 1604
   },
   {
     "District": "Belagavi",
     "District_Key": "KA_Belagavi",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "75706",
-    "Active": "1642",
-    "Recovered": "73287",
-    "Deaths": "777"
+    "Confirmed": 75706,
+    "Active": 1642,
+    "Recovered": 73287,
+    "Deaths": 777
   },
   {
     "District": "Bengaluru Rural",
     "District_Key": "KA_Bengaluru Rural",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "59552",
-    "Active": "1497",
-    "Recovered": "57247",
-    "Deaths": "808"
+    "Confirmed": 59552,
+    "Active": 1497,
+    "Recovered": 57247,
+    "Deaths": 808
   },
   {
     "District": "Bengaluru Urban",
     "District_Key": "KA_Bengaluru Urban",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "1212746",
-    "Active": "52445",
-    "Recovered": "1144685",
-    "Deaths": "15615"
+    "Confirmed": 1212746,
+    "Active": 52445,
+    "Recovered": 1144685,
+    "Deaths": 15615
   },
   {
     "District": "Bidar",
     "District_Key": "KA_Bidar",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "24172",
-    "Active": "35",
-    "Recovered": "23741",
-    "Deaths": "392"
+    "Confirmed": 24172,
+    "Active": 35,
+    "Recovered": 23741,
+    "Deaths": 392
   },
   {
     "District": "Chamarajanagara",
     "District_Key": "KA_Chamarajanagara",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "31160",
-    "Active": "565",
-    "Recovered": "30131",
-    "Deaths": "453"
+    "Confirmed": 31160,
+    "Active": 565,
+    "Recovered": 30131,
+    "Deaths": 453
   },
   {
     "District": "Chikkaballapura",
     "District_Key": "KA_Chikkaballapura",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "43127",
-    "Active": "781",
-    "Recovered": "41961",
-    "Deaths": "384"
+    "Confirmed": 43127,
+    "Active": 781,
+    "Recovered": 41961,
+    "Deaths": 384
   },
   {
     "District": "Chikkamagaluru",
     "District_Key": "KA_Chikkamagaluru",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "45541",
-    "Active": "1730",
-    "Recovered": "43468",
-    "Deaths": "343"
+    "Confirmed": 45541,
+    "Active": 1730,
+    "Recovered": 43468,
+    "Deaths": 343
   },
   {
     "District": "Chitradurga",
     "District_Key": "KA_Chitradurga",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "35101",
-    "Active": "861",
-    "Recovered": "34061",
-    "Deaths": "179"
+    "Confirmed": 35101,
+    "Active": 861,
+    "Recovered": 34061,
+    "Deaths": 179
   },
   {
     "District": "Dakshina Kannada",
     "District_Key": "KA_Dakshina Kannada",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "92513",
-    "Active": "5038",
-    "Recovered": "86295",
-    "Deaths": "1177"
+    "Confirmed": 92513,
+    "Active": 5038,
+    "Recovered": 86295,
+    "Deaths": 1177
   },
   {
     "District": "Davanagere",
     "District_Key": "KA_Davanagere",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "49498",
-    "Active": "1466",
-    "Recovered": "47491",
-    "Deaths": "541"
+    "Confirmed": 49498,
+    "Active": 1466,
+    "Recovered": 47491,
+    "Deaths": 541
   },
   {
     "District": "Dharwad",
     "District_Key": "KA_Dharwad",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "59924",
-    "Active": "561",
-    "Recovered": "58162",
-    "Deaths": "1200"
+    "Confirmed": 59924,
+    "Active": 561,
+    "Recovered": 58162,
+    "Deaths": 1200
   },
   {
     "District": "Gadag",
     "District_Key": "KA_Gadag",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "25796",
-    "Active": "225",
-    "Recovered": "25269",
-    "Deaths": "302"
+    "Confirmed": 25796,
+    "Active": 225,
+    "Recovered": 25269,
+    "Deaths": 302
   },
   {
     "District": "Hassan",
     "District_Key": "KA_Hassan",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "101560",
-    "Active": "3546",
-    "Recovered": "96909",
-    "Deaths": "1103"
+    "Confirmed": 101560,
+    "Active": 3546,
+    "Recovered": 96909,
+    "Deaths": 1103
   },
   {
     "District": "Haveri",
     "District_Key": "KA_Haveri",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "21642",
-    "Active": "221",
-    "Recovered": "20829",
-    "Deaths": "592"
+    "Confirmed": 21642,
+    "Active": 221,
+    "Recovered": 20829,
+    "Deaths": 592
   },
   {
     "District": "Kalaburagi",
     "District_Key": "KA_Kalaburagi",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "61303",
-    "Active": "253",
-    "Recovered": "60240",
-    "Deaths": "810"
+    "Confirmed": 61303,
+    "Active": 253,
+    "Recovered": 60240,
+    "Deaths": 810
   },
   {
     "District": "Kodagu",
     "District_Key": "KA_Kodagu",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "30237",
-    "Active": "1674",
-    "Recovered": "28296",
-    "Deaths": "267"
+    "Confirmed": 30237,
+    "Active": 1674,
+    "Recovered": 28296,
+    "Deaths": 267
   },
   {
     "District": "Kolar",
     "District_Key": "KA_Kolar",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "43978",
-    "Active": "833",
-    "Recovered": "42671",
-    "Deaths": "474"
+    "Confirmed": 43978,
+    "Active": 833,
+    "Recovered": 42671,
+    "Deaths": 474
   },
   {
     "District": "Koppal",
     "District_Key": "KA_Koppal",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "34862",
-    "Active": "401",
-    "Recovered": "33955",
-    "Deaths": "506"
+    "Confirmed": 34862,
+    "Active": 401,
+    "Recovered": 33955,
+    "Deaths": 506
   },
   {
     "District": "Mandya",
     "District_Key": "KA_Mandya",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "70108",
-    "Active": "1174",
-    "Recovered": "68387",
-    "Deaths": "547"
+    "Confirmed": 70108,
+    "Active": 1174,
+    "Recovered": 68387,
+    "Deaths": 547
   },
   {
     "District": "Mysuru",
     "District_Key": "KA_Mysuru",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "166207",
-    "Active": "4285",
-    "Recovered": "159759",
-    "Deaths": "2163"
+    "Confirmed": 166207,
+    "Active": 4285,
+    "Recovered": 159759,
+    "Deaths": 2163
   },
   {
     "District": "Other State",
     "District_Key": "KA_Other State",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "36",
-    "Active": "0",
-    "Recovered": "33",
-    "Deaths": "3"
+    "Confirmed": 36,
+    "Active": 0,
+    "Recovered": 33,
+    "Deaths": 3
   },
   {
     "District": "Raichur",
     "District_Key": "KA_Raichur",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "39773",
-    "Active": "145",
-    "Recovered": "39306",
-    "Deaths": "322"
+    "Confirmed": 39773,
+    "Active": 145,
+    "Recovered": 39306,
+    "Deaths": 322
   },
   {
     "District": "Ramanagara",
     "District_Key": "KA_Ramanagara",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "23640",
-    "Active": "186",
-    "Recovered": "23160",
-    "Deaths": "294"
+    "Confirmed": 23640,
+    "Active": 186,
+    "Recovered": 23160,
+    "Deaths": 294
   },
   {
     "District": "Shivamogga",
     "District_Key": "KA_Shivamogga",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "63925",
-    "Active": "1633",
-    "Recovered": "61305",
-    "Deaths": "987"
+    "Confirmed": 63925,
+    "Active": 1633,
+    "Recovered": 61305,
+    "Deaths": 987
   },
   {
     "District": "Tumakuru",
     "District_Key": "KA_Tumakuru",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "114818",
-    "Active": "1610",
-    "Recovered": "112188",
-    "Deaths": "1020"
+    "Confirmed": 114818,
+    "Active": 1610,
+    "Recovered": 112188,
+    "Deaths": 1020
   },
   {
     "District": "Udupi",
     "District_Key": "KA_Udupi",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "66289",
-    "Active": "987",
-    "Recovered": "64910",
-    "Deaths": "392"
+    "Confirmed": 66289,
+    "Active": 987,
+    "Recovered": 64910,
+    "Deaths": 392
   },
   {
     "District": "Uttara Kannada",
     "District_Key": "KA_Uttara Kannada",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "51851",
-    "Active": "788",
-    "Recovered": "50381",
-    "Deaths": "682"
+    "Confirmed": 51851,
+    "Active": 788,
+    "Recovered": 50381,
+    "Deaths": 682
   },
   {
     "District": "Vijayapura",
     "District_Key": "KA_Vijayapura",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "35978",
-    "Active": "183",
-    "Recovered": "35323",
-    "Deaths": "472"
+    "Confirmed": 35978,
+    "Active": 183,
+    "Recovered": 35323,
+    "Deaths": 472
   },
   {
     "District": "Yadgir",
     "District_Key": "KA_Yadgir",
     "State_Code": "KA",
     "State": "Karnataka",
-    "Confirmed": "27419",
-    "Active": "110",
-    "Recovered": "27103",
-    "Deaths": "206"
+    "Confirmed": 27419,
+    "Active": 110,
+    "Recovered": 27103,
+    "Deaths": 206
   }
 ]
