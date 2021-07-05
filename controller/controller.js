@@ -13,7 +13,6 @@ exports.signIn = async (req,res) => {
         console.log('field empty')
         return;
     }
-
     try{
         const user = await User.findByCredentials(req.body.email, req.body.password)
         const token = await user.generateToken()
@@ -32,13 +31,11 @@ exports.signUp = async (req, res) => {
         console.log('field empty')
         return;
     }
-
     const newUser = new User({
         email: req.body.email,
         password: req.body.password,
         tokens: [],
     })
-
     try{
         const token = await newUser.generateToken()
         res.status(201).send({newUser, token})
@@ -77,20 +74,6 @@ exports.updateAdmin = async (req,res)=>{
         const username = req.params.username;
         console.log(username);
         User.findByIdAndUpdate(req.params.userId,{$set:{isAdmin:true}},{new:true})
-            //(err,doc)=>{
-            // if(err){
-            //     console.log(err);
-            // }
-            // else if(!doc){
-            //     console.log("User does not exist");
-            //     res.statusCode(404).send;
-            // }
-            // else{
-            //     doc.isAdmin = true;
-            //     doc.save();
-            //     console.log("Admin updated succesfully")
-            // }
-        //}
         .then(data=> {
             if(!data) {
                 res.status(404).send({
