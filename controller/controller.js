@@ -95,7 +95,21 @@ exports.updateAdmin = async (req,res)=>{
     }
 }
 
-exports.getCountry = async (req,res) => {
+exports.getCountry = async (req, res) => {
+
+  Country.find({}).then((data) => {
+    if (!data) {
+      res.status(404).send({
+        message: `Cannot find country with this name. Maybe name is wrong`,
+      })
+    } else {
+      res.json(data)
+    }
+  })
+}
+
+exports.getOneCountry = async (req,res) => {
+  
     const countryName = req.params.countryName
 
     Country.findOne({ Country: countryName })
@@ -111,13 +125,14 @@ exports.getCountry = async (req,res) => {
 }
 
 exports.getStates = async (req, res) => {
+
     const countryName = req.params.countryName
     const stateName = req.params.stateName
     
     State.find({ Country: countryName }).then((data) => {
         if (!data) {
         res.status(404).send({
-            message: `Cannot find country with this name. Maybe name is wrong`,
+            message: `Cannot find State with this name. Maybe name is wrong`,
         })
         } else {
         res.json(data)
@@ -132,7 +147,7 @@ exports.getOneState = async (req, res) => {
   State.findOne({ Country: countryName, State: stateName }).then((data) => {
     if (!data) {
       res.status(404).send({
-        message: `Cannot find country with this name. Maybe name is wrong`,
+        message: `Cannot find OneState with this name. Maybe name is wrong`,
       })
     } else {
       res.json(data)
@@ -147,7 +162,7 @@ exports.getDistricts = async (req, res) => {
   District.find({ Country: countryName, State: stateName }).then((data) => {
     if (!data) {
       res.status(404).send({
-        message: `Cannot find country with this name. Maybe name is wrong`,
+        message: `Cannot find District with this name. Maybe name is wrong`,
       })
     } else {
       res.json(data)
@@ -162,7 +177,7 @@ exports.getOneDistrict = async (req, res) => {
   District.findOne({ State: stateName, District: districtName }).then((data) => {
     if (!data) {
       res.status(404).send({
-        message: `Cannot find country with this name. Maybe name is wrong`,
+        message: `Cannot find OneDistrict with this name. Maybe name is wrong`,
       })
     } else {
       res.json(data)
@@ -171,12 +186,11 @@ exports.getOneDistrict = async (req, res) => {
 }
 
 exports.getHospital = async (req, res) => {
-    console.log('Hello')
   Hospital.find({})
   .then((data) => {
     if (!data) {
       res.status(404).send({
-        message: `Cannot find country with this name. Maybe name is wrong`,
+        message: `Cannot find hospital with this name. Maybe name is wrong`,
       })
     } else {
       res.json(data)
@@ -191,7 +205,7 @@ exports.getOneHospital = async (req, res) => {
     (data) => {
       if (!data) {
         res.status(404).send({
-          message: `Cannot find country with this name. Maybe name is wrong`,
+          message: `Cannot find onehospital with this name. Maybe name is wrong`,
         })
       } else {
         res.json(data)
