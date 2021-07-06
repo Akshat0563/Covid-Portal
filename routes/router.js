@@ -16,11 +16,13 @@ router.get('/api/signOutAll', auth, user.signOutAll)
 
 router.put('/api/update/:userId', auth, user.updateAdmin)
 
-router.get('/api/:countryName', user.getCountry)
+router.get('/api/country', user.getCountry)
 
-router.get('/api/:countryName/states', user.getStates)
+router.get('/api/country/:countryName', user.getOneCountry)
 
-router.get('/api/:countryName/states/:stateName',user.getOneState)
+router.get('/api/country/:countryName/states', user.getStates)
+
+router.get('/api/country/:countryName/states/:stateName',user.getOneState)
 
 router.get('/api/states/:stateName/districts', user.getDistricts)
 
@@ -28,7 +30,7 @@ router.get('/api/states/:stateName/districts/:districtName', user.getOneDistrict
 
 router.get('/api/hospitals', user.getHospital)
 
-router.get('/api/:hospitalName', user.getOneHospital)
+router.get('/api/hospitals/:hospitalName', user.getOneHospital)
 
 
 module.exports = router
