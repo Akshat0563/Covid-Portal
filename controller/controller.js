@@ -94,3 +94,123 @@ exports.updateAdmin = async (req,res)=>{
         res.end("You are not authorized to perform this operation");
     }
 }
+
+exports.getCountry = async (req, res) => {
+
+  Country.find({}).then((data) => {
+    if (!data) {
+      res.status(404).send({
+        message: `Cannot find country with this name. Maybe name is wrong`,
+      })
+    } else {
+      res.json(data)
+    }
+  })
+}
+
+exports.getOneCountry = async (req,res) => {
+  
+    const countryName = req.params.countryName
+
+    Country.findOne({ Country: countryName })
+    .then(data => {
+        if (!data) {
+          res.status(404).send({
+            message: `Cannot find country with this name. Maybe name is wrong`,
+          })
+        } else {
+          res.json(data)
+        }
+    })
+}
+
+exports.getStates = async (req, res) => {
+
+    const countryName = req.params.countryName
+    const stateName = req.params.stateName
+    
+    State.find({ Country: countryName }).then((data) => {
+        if (!data) {
+        res.status(404).send({
+            message: `Cannot find State with this name. Maybe name is wrong`,
+        })
+        } else {
+        res.json(data)
+        }
+    })
+}
+
+exports.getOneState = async (req, res) => {
+  const countryName = req.params.countryName
+  const stateName = req.params.stateName
+
+  State.findOne({ Country: countryName, State: stateName }).then((data) => {
+    if (!data) {
+      res.status(404).send({
+        message: `Cannot find OneState with this name. Maybe name is wrong`,
+      })
+    } else {
+      res.json(data)
+    }
+  })
+}
+
+exports.getDistricts = async (req, res) => {
+  const countryName = req.params.countryName
+  const stateName = req.params.stateName
+
+  District.find({ Country: countryName, State: stateName }).then((data) => {
+    if (!data) {
+      res.status(404).send({
+        message: `Cannot find District with this name. Maybe name is wrong`,
+      })
+    } else {
+      res.json(data)
+    }
+  })
+}
+
+exports.getOneDistrict = async (req, res) => {
+  const stateName = req.params.stateName
+  const districtName = req.params.districtName
+
+  District.findOne({ State: stateName, District: districtName }).then((data) => {
+    if (!data) {
+      res.status(404).send({
+        message: `Cannot find OneDistrict with this name. Maybe name is wrong`,
+      })
+    } else {
+      res.json(data)
+    }
+  })
+}
+
+exports.getHospital = async (req, res) => {
+  Hospital.find({})
+  .then((data) => {
+    if (!data) {
+      res.status(404).send({
+        message: `Cannot find hospital with this name. Maybe name is wrong`,
+      })
+    } else {
+      res.json(data)
+    }
+  })
+}
+
+exports.getOneHospital = async (req, res) => {
+  const hospitalName = req.params.hospitalName
+
+  Hospital.findOne({ Hospital: hospitalName }).then(
+    (data) => {
+      if (!data) {
+        res.status(404).send({
+          message: `Cannot find onehospital with this name. Maybe name is wrong`,
+        })
+      } else {
+        res.json(data)
+      }
+    }
+  )
+}
+
