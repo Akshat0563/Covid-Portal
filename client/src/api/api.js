@@ -15,10 +15,10 @@ if(country){
     const {data} = await axios.get(changeableUrl);
     //console.log(data);
     return {
-        confirmed : data.Confirmed,
-        active : data.Active,
-        recovered : data.Recovered,
-        deaths : data.Deaths,
+        confirmed : data.confirmed,
+        active : data.active,
+        recovered : data.recovered,
+        deaths : data.deaths,
         lastUpdate : data.updatedAt
     };
   } catch (error) {}
