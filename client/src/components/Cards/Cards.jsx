@@ -5,6 +5,7 @@ import CountUp from "react-countup";
 import cx from "classnames";
 
 const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
+  //console.log(confirmed, recovered, deaths, lastUpdate);
   if (!confirmed) {
     return "Loading...";
   }
@@ -25,7 +26,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography variant="h5">
               <CountUp
                 start={0}
-                end={confirmed.value}
+                end={confirmed}
                 duration={2.5}
                 separator=","
               />
@@ -50,7 +51,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography variant="h5">
               <CountUp
                 start={0}
-                end={recovered.value}
+                end={recovered}
                 duration={2.5}
                 separator=","
               />
@@ -75,7 +76,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography variant="h5">
               <CountUp
                 start={0}
-                end={deaths.value}
+                end={deaths}
                 duration={2.5}
                 separator=","
               />

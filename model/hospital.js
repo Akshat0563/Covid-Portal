@@ -34,6 +34,6 @@ var hospital = new mongoose.Schema({
 
 const Hospital = mongoose.model('Hospital', hospital)
 
-Hospital.insertMany(hospitals_data, (error, docs) => {})
+//Hospital.insertMany(hospitals_data, (error, docs) => {})
 
 module.exports = Hospital

@@ -1,5 +1,5 @@
 import React, {useState,useEffect} from "react";
-import {fetchDailyData} from "../../api";
+import {fetchDailyData} from "../../api/api";
 import { Line,Bar } from "react-chartjs-2";
 import styles from "./Chart.module.css";
 
@@ -48,7 +48,7 @@ const Chart = ({data:{confirmed,recovered,deaths},country}) => {
            backgroundColor:[
              'rgb(0, 0, 255, 0.5)','rgb(0, 255, 0, 0.5)','rgb(255, 0, 0, 0.5)'
            ],
-           data:[confirmed.value,recovered.value,deaths.value]
+           data:[confirmed,recovered,deaths]
          }]
         }}
          options={{

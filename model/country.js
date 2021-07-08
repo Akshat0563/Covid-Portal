@@ -26,6 +26,6 @@ var country = new mongoose.Schema({
 
 const Country = mongoose.model('Country', country)
 
-Country.insertMany(countries_data, (error, docs) => {})
+//Country.insertMany(countries_data, (error, docs) => {})
 
 module.exports = Country

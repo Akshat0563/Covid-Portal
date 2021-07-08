@@ -30,6 +30,6 @@ var state = new mongoose.Schema({
 
 const State = mongoose.model('State', state)
 
-State.insertMany(states_data, (error, docs) => {})
+//State.insertMany(states_data, (error, docs) => {})
 
 module.exports = State

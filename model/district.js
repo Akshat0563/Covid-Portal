@@ -38,6 +38,6 @@ var district = new mongoose.Schema({
 
 const District = mongoose.model('District', district)
 
-District.insertMany(districts_data, (error, docs) => {})
+//District.insertMany(districts_data, (error, docs) => {})
 
 module.exports = District
