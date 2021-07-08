@@ -2,31 +2,31 @@ const mongoose = require('mongoose')
 const hospitals_data = require('../data/hospitals.json')
 
 var hospital = new mongoose.Schema({
-    Hospital: {
+    hospital: {
         type: String,
         required: true
     },
-    Address: {
+    address: {
         type: String,
         required: true
     },
-    District: {
+    district: {
         type: String,
         required: true
     },
-    Pincode: {
+    pincode: {
         type: Number,
         required: true
     },
-    Beds_total: {
+    beds_total: {
         type: Number,
         required: true
     },
-    Beds_occupied: {
+    beds_occupied: {
         type: Number,
         required: true
     },
-    Beds_available: {
+    beds_available: {
         type: Number,
         required: true
     }

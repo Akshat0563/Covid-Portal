@@ -1,706 +1,706 @@
 [
   {
-    "State": "Maharashtra",
-    "Country": "India",
-    "Confirmed": 6051633,
-    "Recovered": 5809548,
-    "Deaths": 121804,
-    "Active": 117098
-  },
-  {
-    "State": "Kerala",
-    "Country": "India",
-    "Confirmed": 2910508,
-    "Recovered": 2797779,
-    "Deaths": 13094,
-    "Active": 99177
-  },
-  {
-    "State": "Karnataka",
-    "Country": "India",
-    "Confirmed": 2840428,
-    "Recovered": 2719479,
-    "Deaths": 34929,
-    "Active": 85997
-  },
-  {
-    "State": "Tamil Nadu",
-    "Country": "India",
-    "Confirmed": 2475190,
-    "Recovered": 2403349,
-    "Deaths": 32506,
-    "Active": 39335
-  },
-  {
-    "State": "Andhra Pradesh",
-    "Country": "India",
-    "Confirmed": 1885716,
-    "Recovered": 1832971,
-    "Deaths": 12671,
-    "Active": 40074
-  },
-  {
-    "State": "Uttar Pradesh",
-    "Country": "India",
-    "Confirmed": 1705951,
-    "Recovered": 1680428,
-    "Deaths": 22577,
-    "Active": 2946
-  },
-  {
-    "State": "West Bengal",
-    "Country": "India",
-    "Confirmed": 1498305,
-    "Recovered": 1459510,
-    "Deaths": 17679,
-    "Active": 21116
-  },
-  {
-    "State": "Delhi",
-    "Country": "India",
-    "Confirmed": 1434188,
-    "Recovered": 1407832,
-    "Deaths": 24977,
-    "Active": 1379
-  },
-  {
-    "State": "Chhattisgarh",
-    "Country": "India",
-    "Confirmed": 994077,
-    "Recovered": 974725,
-    "Deaths": 13438,
-    "Active": 5914
-  },
-  {
-    "State": "Rajasthan",
-    "Country": "India",
-    "Confirmed": 952322,
-    "Recovered": 941839,
-    "Deaths": 8918,
-    "Active": 1565
-  },
-  {
-    "State": "Odisha",
-    "Country": "India",
-    "Confirmed": 909800,
-    "Recovered": 874307,
-    "Deaths": 4071,
-    "Active": 31422
-  },
-  {
-    "State": "Gujarat",
-    "Country": "India",
-    "Confirmed": 823433,
-    "Recovered": 810147,
-    "Deaths": 10056,
-    "Active": 3230
-  },
-  {
-    "State": "Madhya Pradesh",
-    "Country": "India",
-    "Confirmed": 789771,
-    "Recovered": 780187,
-    "Deaths": 8954,
-    "Active": 630
+    "state": "Maharashtra",
+    "country": "India",
+    "confirmed": 6051633,
+    "recovered": 5809548,
+    "deaths": 121804,
+    "active": 117098
+  },
+  {
+    "state": "Kerala",
+    "country": "India",
+    "confirmed": 2910508,
+    "recovered": 2797779,
+    "deaths": 13094,
+    "active": 99177
+  },
+  {
+    "state": "Karnataka",
+    "country": "India",
+    "confirmed": 2840428,
+    "recovered": 2719479,
+    "deaths": 34929,
+    "active": 85997
+  },
+  {
+    "state": "Tamil Nadu",
+    "country": "India",
+    "confirmed": 2475190,
+    "recovered": 2403349,
+    "deaths": 32506,
+    "active": 39335
+  },
+  {
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "confirmed": 1885716,
+    "recovered": 1832971,
+    "deaths": 12671,
+    "active": 40074
+  },
+  {
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "confirmed": 1705951,
+    "recovered": 1680428,
+    "deaths": 22577,
+    "active": 2946
+  },
+  {
+    "state": "West Bengal",
+    "country": "India",
+    "confirmed": 1498305,
+    "recovered": 1459510,
+    "deaths": 17679,
+    "active": 21116
+  },
+  {
+    "state": "Delhi",
+    "country": "India",
+    "confirmed": 1434188,
+    "recovered": 1407832,
+    "deaths": 24977,
+    "active": 1379
+  },
+  {
+    "state": "Chhattisgarh",
+    "country": "India",
+    "confirmed": 994077,
+    "recovered": 974725,
+    "deaths": 13438,
+    "active": 5914
+  },
+  {
+    "state": "Rajasthan",
+    "country": "India",
+    "confirmed": 952322,
+    "recovered": 941839,
+    "deaths": 8918,
+    "active": 1565
+  },
+  {
+    "state": "Odisha",
+    "country": "India",
+    "confirmed": 909800,
+    "recovered": 874307,
+    "deaths": 4071,
+    "active": 31422
+  },
+  {
+    "state": "Gujarat",
+    "country": "India",
+    "confirmed": 823433,
+    "recovered": 810147,
+    "deaths": 10056,
+    "active": 3230
+  },
+  {
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "confirmed": 789771,
+    "recovered": 780187,
+    "deaths": 8954,
+    "active": 630
   },
   {
-    "State": "Haryana",
-    "Country": "India",
-    "Confirmed": 768552,
-    "Recovered": 757640,
-    "Deaths": 9417,
-    "Active": 1495
+    "state": "Haryana",
+    "country": "India",
+    "confirmed": 768552,
+    "recovered": 757640,
+    "deaths": 9417,
+    "active": 1495
   },
   {
-    "State": "Bihar",
-    "Country": "India",
-    "Confirmed": 721654,
-    "Recovered": 710238,
-    "Deaths": 9584,
-    "Active": 1831
+    "state": "Bihar",
+    "country": "India",
+    "confirmed": 721654,
+    "recovered": 710238,
+    "deaths": 9584,
+    "active": 1831
   },
   {
-    "State": "Telangana",
-    "Country": "India",
-    "Confirmed": 622593,
-    "Recovered": 605455,
-    "Deaths": 3651,
-    "Active": 13487
+    "state": "Telangana",
+    "country": "India",
+    "confirmed": 622593,
+    "recovered": 605455,
+    "deaths": 3651,
+    "active": 13487
   },
   {
-    "State": "Punjab",
-    "Country": "India",
-    "Confirmed": 595351,
-    "Recovered": 575971,
-    "Deaths": 16033,
-    "Active": 3347
+    "state": "Punjab",
+    "country": "India",
+    "confirmed": 595351,
+    "recovered": 575971,
+    "deaths": 16033,
+    "active": 3347
   },
   {
-    "State": "Assam",
-    "Country": "India",
-    "Confirmed": 506005,
-    "Recovered": 474457,
-    "Deaths": 4509,
-    "Active": 25692
+    "state": "Assam",
+    "country": "India",
+    "confirmed": 506005,
+    "recovered": 474457,
+    "deaths": 4509,
+    "active": 25692
   },
   {
-    "State": "Jharkhand",
-    "Country": "India",
-    "Confirmed": 345525,
-    "Recovered": 339463,
-    "Deaths": 5113,
-    "Active": 949
+    "state": "Jharkhand",
+    "country": "India",
+    "confirmed": 345525,
+    "recovered": 339463,
+    "deaths": 5113,
+    "active": 949
   },
   {
-    "State": "Uttarakhand",
-    "Country": "India",
-    "Confirmed": 339933,
-    "Recovered": 324766,
-    "Deaths": 7095,
-    "Active": 2245
+    "state": "Uttarakhand",
+    "country": "India",
+    "confirmed": 339933,
+    "recovered": 324766,
+    "deaths": 7095,
+    "active": 2245
   },
   {
-    "State": "Jammu and Kashmir",
-    "Country": "India",
-    "Confirmed": 315298,
-    "Recovered": 306177,
-    "Deaths": 4316,
-    "Active": 4805
+    "state": "Jammu and Kashmir",
+    "country": "India",
+    "confirmed": 315298,
+    "recovered": 306177,
+    "deaths": 4316,
+    "active": 4805
   },
   {
-    "State": "Himachal Pradesh",
-    "Country": "India",
-    "Confirmed": 201980,
-    "Recovered": 196837,
-    "Deaths": 3461,
-    "Active": 1654
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "confirmed": 201980,
+    "recovered": 196837,
+    "deaths": 3461,
+    "active": 1654
   },
   {
-    "State": "Goa",
-    "Country": "India",
-    "Confirmed": 166449,
-    "Recovered": 161160,
-    "Deaths": 3048,
-    "Active": 2241
+    "state": "Goa",
+    "country": "India",
+    "confirmed": 166449,
+    "recovered": 161160,
+    "deaths": 3048,
+    "active": 2241
   },
   {
-    "State": "Puducherry",
-    "Country": "India",
-    "Confirmed": 117249,
-    "Recovered": 113146,
-    "Deaths": 1749,
-    "Active": 2354
+    "state": "Puducherry",
+    "country": "India",
+    "confirmed": 117249,
+    "recovered": 113146,
+    "deaths": 1749,
+    "active": 2354
   },
   {
-    "State": "Manipur",
-    "Country": "India",
-    "Confirmed": 69198,
-    "Recovered": 62134,
-    "Deaths": 1141,
-    "Active": 5923
+    "state": "Manipur",
+    "country": "India",
+    "confirmed": 69198,
+    "recovered": 62134,
+    "deaths": 1141,
+    "active": 5923
   },
   {
-    "State": "Tripura",
-    "Country": "India",
-    "Confirmed": 65767,
-    "Recovered": 61450,
-    "Deaths": 674,
-    "Active": 3620
+    "state": "Tripura",
+    "country": "India",
+    "confirmed": 65767,
+    "recovered": 61450,
+    "deaths": 674,
+    "active": 3620
   },
   {
-    "State": "Chandigarh",
-    "Country": "India",
-    "Confirmed": 61656,
-    "Recovered": 60685,
-    "Deaths": 808,
-    "Active": 163
+    "state": "Chandigarh",
+    "country": "India",
+    "confirmed": 61656,
+    "recovered": 60685,
+    "deaths": 808,
+    "active": 163
   },
   {
-    "State": "Meghalaya",
-    "Country": "India",
-    "Confirmed": 49513,
-    "Recovered": 44459,
-    "Deaths": 838,
-    "Active": 4216
+    "state": "Meghalaya",
+    "country": "India",
+    "confirmed": 49513,
+    "recovered": 44459,
+    "deaths": 838,
+    "active": 4216
   },
   {
-    "State": "Arunachal Pradesh",
-    "Country": "India",
-    "Confirmed": 35571,
-    "Recovered": 32716,
-    "Deaths": 168,
-    "Active": 2687
+    "state": "Arunachal Pradesh",
+    "country": "India",
+    "confirmed": 35571,
+    "recovered": 32716,
+    "deaths": 168,
+    "active": 2687
   },
   {
-    "State": "Nagaland",
-    "Country": "India",
-    "Confirmed": 25111,
-    "Recovered": 22534,
-    "Deaths": 493,
-    "Active": 1381
+    "state": "Nagaland",
+    "country": "India",
+    "confirmed": 25111,
+    "recovered": 22534,
+    "deaths": 493,
+    "active": 1381
   },
   {
-    "State": "Sikkim",
-    "Country": "India",
-    "Confirmed": 20544,
-    "Recovered": 17962,
-    "Deaths": 307,
-    "Active": 2023
+    "state": "Sikkim",
+    "country": "India",
+    "confirmed": 20544,
+    "recovered": 17962,
+    "deaths": 307,
+    "active": 2023
   },
   {
-    "State": "Mizoram",
-    "Country": "India",
-    "Confirmed": 20075,
-    "Recovered": 16106,
-    "Deaths": 93,
-    "Active": 3876
+    "state": "Mizoram",
+    "country": "India",
+    "confirmed": 20075,
+    "recovered": 16106,
+    "deaths": 93,
+    "active": 3876
   },
   {
-    "State": "Ladakh",
-    "Country": "India",
-    "Confirmed": 20038,
-    "Recovered": 19565,
-    "Deaths": 202,
-    "Active": 271
+    "state": "Ladakh",
+    "country": "India",
+    "confirmed": 20038,
+    "recovered": 19565,
+    "deaths": 202,
+    "active": 271
   },
   {
-    "State": "Dadra and Nagar Haveli and Daman and Diu",
-    "Country": "India",
-    "Confirmed": 10561,
-    "Recovered": 10483,
-    "Deaths": 4,
-    "Active": 43
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "country": "India",
+    "confirmed": 10561,
+    "recovered": 10483,
+    "deaths": 4,
+    "active": 43
   },
   {
-    "State": "Lakshadweep",
-    "Country": "India",
-    "Confirmed": 9742,
-    "Recovered": 9349,
-    "Deaths": 48,
-    "Active": 306
+    "state": "Lakshadweep",
+    "country": "India",
+    "confirmed": 9742,
+    "recovered": 9349,
+    "deaths": 48,
+    "active": 306
   },
   {
-    "State": "Andaman and Nicobar Islands",
-    "Country": "India",
-    "Confirmed": 7466,
-    "Recovered": 7296,
-    "Deaths": 128,
-    "Active": 42
+    "state": "Andaman and Nicobar Islands",
+    "country": "India",
+    "confirmed": 7466,
+    "recovered": 7296,
+    "deaths": 128,
+    "active": 42
   },
   {
-    "State": "State Unassigned",
-    "Country": "India",
-    "Confirmed": 0,
-    "Recovered": 0,
-    "Deaths": 0,
-    "Active": 0
+    "state": "state Unassigned",
+    "country": "India",
+    "confirmed": 0,
+    "recovered": 0,
+    "deaths": 0,
+    "active": 0
   },
   {
-    "State": "Alabama",
-    "Country": "USA",
-    "Confirmed": 551298,
-    "Recovered": 0,
-    "Deaths": 11358,
-    "Active": 0
+    "state": "Alabama",
+    "country": "USA",
+    "confirmed": 551298,
+    "recovered": 0,
+    "deaths": 11358,
+    "active": 0
   },
   {
-    "State": "Alaska",
-    "Country": "USA",
-    "Confirmed": 68478,
-    "Recovered": 65690,
-    "Deaths": 370,
-    "Active": 2418
+    "state": "Alaska",
+    "country": "USA",
+    "confirmed": 68478,
+    "recovered": 65690,
+    "deaths": 370,
+    "active": 2418
   },
   {
-    "State": "Arizona",
-    "Country": "USA",
-    "Confirmed": 896960,
-    "Recovered": 865846,
-    "Deaths": 17979,
-    "Active": 13135
+    "state": "Arizona",
+    "country": "USA",
+    "confirmed": 896960,
+    "recovered": 865846,
+    "deaths": 17979,
+    "active": 13135
   },
   {
-    "State": "Arkansas",
-    "Country": "USA",
-    "Confirmed": 350579,
-    "Recovered": 340196,
-    "Deaths": 5913,
-    "Active": 4470
+    "state": "Arkansas",
+    "country": "USA",
+    "confirmed": 350579,
+    "recovered": 340196,
+    "deaths": 5913,
+    "active": 4470
   },
   {
-    "State": "California",
-    "Country": "USA",
-    "Confirmed": 3821430,
-    "Recovered": 2074729,
-    "Deaths": 63758,
-    "Active": 1682943
+    "state": "California",
+    "country": "USA",
+    "confirmed": 3821430,
+    "recovered": 2074729,
+    "deaths": 63758,
+    "active": 1682943
   },
   {
-    "State": "Colorado",
-    "Country": "USA",
-    "Confirmed": 559534,
-    "Recovered": 462629,
-    "Deaths": 7028,
-    "Active": 89877
+    "state": "Colorado",
+    "country": "USA",
+    "confirmed": 559534,
+    "recovered": 462629,
+    "deaths": 7028,
+    "active": 89877
   },
   {
-    "State": "Connecticut",
-    "Country": "USA",
-    "Confirmed": 349476,
-    "Recovered": 339066,
-    "Deaths": 8279,
-    "Active": 2131
+    "state": "Connecticut",
+    "country": "USA",
+    "confirmed": 349476,
+    "recovered": 339066,
+    "deaths": 8279,
+    "active": 2131
   },
   {
-    "State": "Delaware",
-    "Country": "USA",
-    "Confirmed": 109875,
-    "Recovered": 107431,
-    "Deaths": 1695,
-    "Active": 749
+    "state": "Delaware",
+    "country": "USA",
+    "confirmed": 109875,
+    "recovered": 107431,
+    "deaths": 1695,
+    "active": 749
   },
   {
-    "State": "District Of Columbia",
-    "Country": "USA",
-    "Confirmed": 49378,
-    "Recovered": 34956,
-    "Deaths": 1141,
-    "Active": 13281
+    "state": "District Of Columbia",
+    "country": "USA",
+    "confirmed": 49378,
+    "recovered": 34956,
+    "deaths": 1141,
+    "active": 13281
   },
   {
-    "State": "Florida",
-    "Country": "USA",
-    "Confirmed": 2382980,
-    "Recovered": 2215966,
-    "Deaths": 37985,
-    "Active": 129029
+    "state": "Florida",
+    "country": "USA",
+    "confirmed": 2382980,
+    "recovered": 2215966,
+    "deaths": 37985,
+    "active": 129029
   },
   {
-    "State": "Georgia",
-    "Country": "USA",
-    "Confirmed": 1135526,
-    "Recovered": 1049531,
-    "Deaths": 21443,
-    "Active": 64552
+    "state": "Georgia",
+    "country": "USA",
+    "confirmed": 1135526,
+    "recovered": 1049531,
+    "deaths": 21443,
+    "active": 64552
   },
   {
-    "State": "Hawaii",
-    "Country": "USA",
-    "Confirmed": 37995,
-    "Recovered": 0,
-    "Deaths": 518,
-    "Active": 0
+    "state": "Hawaii",
+    "country": "USA",
+    "confirmed": 37995,
+    "recovered": 0,
+    "deaths": 518,
+    "active": 0
   },
   {
-    "State": "Idaho",
-    "Country": "USA",
-    "Confirmed": 195172,
-    "Recovered": 115112,
-    "Deaths": 2158,
-    "Active": 77902
+    "state": "Idaho",
+    "country": "USA",
+    "confirmed": 195172,
+    "recovered": 115112,
+    "deaths": 2158,
+    "active": 77902
   },
   {
-    "State": "Illinois",
-    "Country": "USA",
-    "Confirmed": 1392552,
-    "Recovered": 1355594,
-    "Deaths": 25696,
-    "Active": 11262
+    "state": "Illinois",
+    "country": "USA",
+    "confirmed": 1392552,
+    "recovered": 1355594,
+    "deaths": 25696,
+    "active": 11262
   },
   {
-    "State": "Indiana",
-    "Country": "USA",
-    "Confirmed": 754724,
-    "Recovered": 729521,
-    "Deaths": 13863,
-    "Active": 11340
+    "state": "Indiana",
+    "country": "USA",
+    "confirmed": 754724,
+    "recovered": 729521,
+    "deaths": 13863,
+    "active": 11340
   },
   {
-    "State": "Iowa",
-    "Country": "USA",
-    "Confirmed": 405069,
-    "Recovered": 366325,
-    "Deaths": 6146,
-    "Active": 32598
+    "state": "Iowa",
+    "country": "USA",
+    "confirmed": 405069,
+    "recovered": 366325,
+    "deaths": 6146,
+    "active": 32598
   },
   {
-    "State": "Kansas",
-    "Country": "USA",
-    "Confirmed": 318515,
-    "Recovered": 308858,
-    "Deaths": 5159,
-    "Active": 4498
+    "state": "Kansas",
+    "country": "USA",
+    "confirmed": 318515,
+    "recovered": 308858,
+    "deaths": 5159,
+    "active": 4498
   },
   {
-    "State": "Kentucky",
-    "Country": "USA",
-    "Confirmed": 465490,
-    "Recovered": 53589,
-    "Deaths": 7229,
-    "Active": 404672
+    "state": "Kentucky",
+    "country": "USA",
+    "confirmed": 465490,
+    "recovered": 53589,
+    "deaths": 7229,
+    "active": 404672
   },
   {
-    "State": "Louisiana",
-    "Country": "USA",
-    "Confirmed": 482560,
-    "Recovered": 0,
-    "Deaths": 10757,
-    "Active": 0
+    "state": "Louisiana",
+    "country": "USA",
+    "confirmed": 482560,
+    "recovered": 0,
+    "deaths": 10757,
+    "active": 0
   },
   {
-    "State": "Maine",
-    "Country": "USA",
-    "Confirmed": 69118,
-    "Recovered": 0,
-    "Deaths": 860,
-    "Active": 0
+    "state": "Maine",
+    "country": "USA",
+    "confirmed": 69118,
+    "recovered": 0,
+    "deaths": 860,
+    "active": 0
   },
   {
-    "State": "Maryland",
-    "Country": "USA",
-    "Confirmed": 462596,
-    "Recovered": 11029,
-    "Deaths": 9749,
-    "Active": 441818
+    "state": "Maryland",
+    "country": "USA",
+    "confirmed": 462596,
+    "recovered": 11029,
+    "deaths": 9749,
+    "active": 441818
   },
   {
-    "State": "Massachusetts",
-    "Country": "USA",
-    "Confirmed": 710138,
-    "Recovered": 690792,
-    "Deaths": 17998,
-    "Active": 1348
+    "state": "Massachusetts",
+    "country": "USA",
+    "confirmed": 710138,
+    "recovered": 690792,
+    "deaths": 17998,
+    "active": 1348
   },
   {
-    "State": "Michigan",
-    "Country": "USA",
-    "Confirmed": 1000375,
-    "Recovered": 865577,
-    "Deaths": 21009,
-    "Active": 113789
+    "state": "Michigan",
+    "country": "USA",
+    "confirmed": 1000375,
+    "recovered": 865577,
+    "deaths": 21009,
+    "active": 113789
   },
   {
-    "State": "Minnesota",
-    "Country": "USA",
-    "Confirmed": 605660,
-    "Recovered": 597232,
-    "Deaths": 7688,
-    "Active": 740
+    "state": "Minnesota",
+    "country": "USA",
+    "confirmed": 605660,
+    "recovered": 597232,
+    "deaths": 7688,
+    "active": 740
   },
   {
-    "State": "Mississippi",
-    "Country": "USA",
-    "Confirmed": 322186,
-    "Recovered": 311917,
-    "Deaths": 7419,
-    "Active": 2850
+    "state": "Mississippi",
+    "country": "USA",
+    "confirmed": 322186,
+    "recovered": 311917,
+    "deaths": 7419,
+    "active": 2850
   },
   {
-    "State": "Missouri",
-    "Country": "USA",
-    "Confirmed": 622626,
-    "Recovered": 560298,
-    "Deaths": 10114,
-    "Active": 52214
+    "state": "Missouri",
+    "country": "USA",
+    "confirmed": 622626,
+    "recovered": 560298,
+    "deaths": 10114,
+    "active": 52214
   },
   {
-    "State": "Montana",
-    "Country": "USA",
-    "Confirmed": 113873,
-    "Recovered": 111821,
-    "Deaths": 1666,
-    "Active": 386
+    "state": "Montana",
+    "country": "USA",
+    "confirmed": 113873,
+    "recovered": 111821,
+    "deaths": 1666,
+    "active": 386
   },
   {
-    "State": "Nebraska",
-    "Country": "USA",
-    "Confirmed": 224682,
-    "Recovered": 0,
-    "Deaths": 2260,
-    "Active": 0
+    "state": "Nebraska",
+    "country": "USA",
+    "confirmed": 224682,
+    "recovered": 0,
+    "deaths": 2260,
+    "active": 0
   },
   {
-    "State": "Nevada",
-    "Country": "USA",
-    "Confirmed": 334763,
-    "Recovered": 314730,
-    "Deaths": 5697,
-    "Active": 14336
+    "state": "Nevada",
+    "country": "USA",
+    "confirmed": 334763,
+    "recovered": 314730,
+    "deaths": 5697,
+    "active": 14336
   },
   {
-    "State": "New Hampshire",
-    "Country": "USA",
-    "Confirmed": 99555,
-    "Recovered": 98002,
-    "Deaths": 1372,
-    "Active": 181
+    "state": "New Hampshire",
+    "country": "USA",
+    "confirmed": 99555,
+    "recovered": 98002,
+    "deaths": 1372,
+    "active": 181
   },
   {
-    "State": "New Jersey",
-    "Country": "USA",
-    "Confirmed": 1024225,
-    "Recovered": 981730,
-    "Deaths": 26473,
-    "Active": 16022
+    "state": "New Jersey",
+    "country": "USA",
+    "confirmed": 1024225,
+    "recovered": 981730,
+    "deaths": 26473,
+    "active": 16022
   },
   {
-    "State": "New Mexico",
-    "Country": "USA",
-    "Confirmed": 205715,
-    "Recovered": 194687,
-    "Deaths": 4344,
-    "Active": 6684
+    "state": "New Mexico",
+    "country": "USA",
+    "confirmed": 205715,
+    "recovered": 194687,
+    "deaths": 4344,
+    "active": 6684
   },
   {
-    "State": "New York",
-    "Country": "USA",
-    "Confirmed": 2174697,
-    "Recovered": 1971702,
-    "Deaths": 54039,
-    "Active": 148956
+    "state": "New York",
+    "country": "USA",
+    "confirmed": 2174697,
+    "recovered": 1971702,
+    "deaths": 54039,
+    "active": 148956
   },
   {
-    "State": "North Carolina",
-    "Country": "USA",
-    "Confirmed": 1014359,
-    "Recovered": 994472,
-    "Deaths": 13434,
-    "Active": 6453
+    "state": "North Carolina",
+    "country": "USA",
+    "confirmed": 1014359,
+    "recovered": 994472,
+    "deaths": 13434,
+    "active": 6453
   },
   {
-    "State": "North Dakota",
-    "Country": "USA",
-    "Confirmed": 110736,
-    "Recovered": 109085,
-    "Deaths": 1528,
-    "Active": 123
+    "state": "North Dakota",
+    "country": "USA",
+    "confirmed": 110736,
+    "recovered": 109085,
+    "deaths": 1528,
+    "active": 123
   },
   {
-    "State": "Ohio",
-    "Country": "USA",
-    "Confirmed": 1112289,
-    "Recovered": 1085074,
-    "Deaths": 20344,
-    "Active": 6871
+    "state": "Ohio",
+    "country": "USA",
+    "confirmed": 1112289,
+    "recovered": 1085074,
+    "deaths": 20344,
+    "active": 6871
   },
   {
-    "State": "Oklahoma",
-    "Country": "USA",
-    "Confirmed": 458483,
-    "Recovered": 449144,
-    "Deaths": 7388,
-    "Active": 1951
+    "state": "Oklahoma",
+    "country": "USA",
+    "confirmed": 458483,
+    "recovered": 449144,
+    "deaths": 7388,
+    "active": 1951
   },
   {
-    "State": "Oregon",
-    "Country": "USA",
-    "Confirmed": 209035,
-    "Recovered": 193645,
-    "Deaths": 2781,
-    "Active": 12609
+    "state": "Oregon",
+    "country": "USA",
+    "confirmed": 209035,
+    "recovered": 193645,
+    "deaths": 2781,
+    "active": 12609
   },
   {
-    "State": "Pennsylvania",
-    "Country": "USA",
-    "Confirmed": 1217434,
-    "Recovered": 1176184,
-    "Deaths": 27812,
-    "Active": 13438
-  },
-  {
-    "State": "Rhode Island",
-    "Country": "USA",
-    "Confirmed": 152643,
-    "Recovered": 9389,
-    "Deaths": 2730,
-    "Active": 140524
-  },
-  {
-    "State": "South Carolina",
-    "Country": "USA",
-    "Confirmed": 597261,
-    "Recovered": 571993,
-    "Deaths": 9830,
-    "Active": 15438
-  },
-  {
-    "State": "South Dakota",
-    "Country": "USA",
-    "Confirmed": 124582,
-    "Recovered": 122377,
-    "Deaths": 2038,
-    "Active": 167
-  },
-  {
-    "State": "Tennessee",
-    "Country": "USA",
-    "Confirmed": 867407,
-    "Recovered": 852784,
-    "Deaths": 12571,
-    "Active": 2052
-  },
-  {
-    "State": "Texas",
-    "Country": "USA",
-    "Confirmed": 3005691,
-    "Recovered": 2899637,
-    "Deaths": 52678,
-    "Active": 53376
-  },
-  {
-    "State": "Utah",
-    "Country": "USA",
-    "Confirmed": 416110,
-    "Recovered": 406317,
-    "Deaths": 2378,
-    "Active": 7415
-  },
-  {
-    "State": "Vermont",
-    "Country": "USA",
-    "Confirmed": 24419,
-    "Recovered": 24027,
-    "Deaths": 258,
-    "Active": 134
-  },
-  {
-    "State": "Virginia",
-    "Country": "USA",
-    "Confirmed": 681072,
-    "Recovered": 57275,
-    "Deaths": 11427,
-    "Active": 612370
-  },
-  {
-    "State": "Washington",
-    "Country": "USA",
-    "Confirmed": 454759,
-    "Recovered": 226690,
-    "Deaths": 5987,
-    "Active": 222082
-  },
-  {
-    "State": "West Virginia",
-    "Country": "USA",
-    "Confirmed": 164149,
-    "Recovered": 159991,
-    "Deaths": 2899,
-    "Active": 1259
-  },
-  {
-    "State": "Wisconsin",
-    "Country": "USA",
-    "Confirmed": 677859,
-    "Recovered": 0,
-    "Deaths": 8135,
-    "Active": 0
-  },
-  {
-    "State": "Wyoming",
-    "Country": "USA",
-    "Confirmed": 62445,
-    "Recovered": 61158,
-    "Deaths": 747,
-    "Active": 540
+    "state": "Pennsylvania",
+    "country": "USA",
+    "confirmed": 1217434,
+    "recovered": 1176184,
+    "deaths": 27812,
+    "active": 13438
+  },
+  {
+    "state": "Rhode Island",
+    "country": "USA",
+    "confirmed": 152643,
+    "recovered": 9389,
+    "deaths": 2730,
+    "active": 140524
+  },
+  {
+    "state": "South Carolina",
+    "country": "USA",
+    "confirmed": 597261,
+    "recovered": 571993,
+    "deaths": 9830,
+    "active": 15438
+  },
+  {
+    "state": "South Dakota",
+    "country": "USA",
+    "confirmed": 124582,
+    "recovered": 122377,
+    "deaths": 2038,
+    "active": 167
+  },
+  {
+    "state": "Tennessee",
+    "country": "USA",
+    "confirmed": 867407,
+    "recovered": 852784,
+    "deaths": 12571,
+    "active": 2052
+  },
+  {
+    "state": "Texas",
+    "country": "USA",
+    "confirmed": 3005691,
+    "recovered": 2899637,
+    "deaths": 52678,
+    "active": 53376
+  },
+  {
+    "state": "Utah",
+    "country": "USA",
+    "confirmed": 416110,
+    "recovered": 406317,
+    "deaths": 2378,
+    "active": 7415
+  },
+  {
+    "state": "Vermont",
+    "country": "USA",
+    "confirmed": 24419,
+    "recovered": 24027,
+    "deaths": 258,
+    "active": 134
+  },
+  {
+    "state": "Virginia",
+    "country": "USA",
+    "confirmed": 681072,
+    "recovered": 57275,
+    "deaths": 11427,
+    "active": 612370
+  },
+  {
+    "state": "Washington",
+    "country": "USA",
+    "confirmed": 454759,
+    "recovered": 226690,
+    "deaths": 5987,
+    "active": 222082
+  },
+  {
+    "state": "West Virginia",
+    "country": "USA",
+    "confirmed": 164149,
+    "recovered": 159991,
+    "deaths": 2899,
+    "active": 1259
+  },
+  {
+    "state": "Wisconsin",
+    "country": "USA",
+    "confirmed": 677859,
+    "recovered": 0,
+    "deaths": 8135,
+    "active": 0
+  },
+  {
+    "state": "Wyoming",
+    "country": "USA",
+    "confirmed": 62445,
+    "recovered": 61158,
+    "deaths": 747,
+    "active": 540
   }
 ]
