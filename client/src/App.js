@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import SignIn from './components/SignUp-SignIn/SignIn';
 import SignUp from './components/SignUp-SignIn/SignUp';
-// import Error from './Error';
+import Hospital from './components/Hospital/hospital';
 import Dashboard from './Dashboard'
 
 function App() {
@@ -21,9 +21,9 @@ function App() {
             <Route path="/SignIn">
               <SignIn />
             </Route>
-            {/* <Route path='*'>
-              <Error />
-            </Route> */}
+            <Route path='/Hospital'>
+              <Hospital />
+            </Route>
           </Switch>
         </Router>
     </>
