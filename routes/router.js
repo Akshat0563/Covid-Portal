@@ -6,9 +6,9 @@ const jsonParser = express.json()
 
 const router = express.Router()
 
-router.post('/api/signIn',jsonParser, user.signIn)
+router.post('/api/signIn', jsonParser, user.signIn)
 
-router.post('/api/signUp',jsonParser, user.signUp)
+router.post('/api/signUp', jsonParser, user.signUp)
 
 router.get('/api/signOut', auth, user.signOut)
 
@@ -20,17 +20,29 @@ router.get('/api/country', user.getCountry)
 
 router.get('/api/country/:countryName', user.getOneCountry)
 
+router.put('/api/country/:countryName', user.updateOneCountry)
+
 router.get('/api/country/:countryName/states', user.getStates)
 
-router.get('/api/country/:countryName/states/:stateName',user.getOneState)
+router.get('/api/country/:countryName/states/:stateName', user.getOneState)
 
 router.get('/api/states/:stateName/districts', user.getDistricts)
 
-router.get('/api/states/:stateName/districts/:districtName', user.getOneDistrict)
+router.get(
+  '/api/states/:stateName/districts/:districtName',
+  user.getOneDistrict
+)
 
 router.get('/api/hospitals', user.getHospital)
 
 router.get('/api/hospitals/:hospitalName', user.getOneHospital)
 
+router.get('/api/guidelines', user.getGuidelines)
+
+router.post('/api/guidelines/:id', jsonParser, user.postGuidelines)
+
+router.put('/api/guidelines/:id', jsonParser, user.updateGuidelines)
+
+router.delete('/api/guidelines/:id', jsonParser, user.deleteGuidelines)
 
 module.exports = router

@@ -5,98 +5,95 @@ const Hospital = require('../model/hospital')
 const District = require('../model/district')
 const State = require('../model/state')
 const Country = require('../model/country')
+const Guideline = require('../model/guidelines')
 
-exports.signIn = async (req,res) => {
-
-    if(req.body.email == '' || req.body.password == '') {
-        res.status(400).json({message: "No field can be empty!"});
-        console.log('field empty')
-        return;
-    }
-    try{
-        const user = await User.findByCredentials(req.body.email, req.body.password)
-        const token = await user.generateToken()
-        res.send({user, token})
-    }
-    catch(error){
-        console.log(error)
-        res.status(400).send(error)
-    }
+exports.signIn = async (req, res) => {
+  if (req.body.email == '' || req.body.password == '') {
+    res.status(400).json({ message: 'No field can be empty!' })
+    console.log('field empty')
+    return
+  }
+  try {
+    const user = await User.findByCredentials(req.body.email, req.body.password)
+    const token = await user.generateToken()
+    res.send({ user, token })
+  } catch (error) {
+    console.log(error)
+    res.status(400).send(error)
+  }
 }
 
 exports.signUp = async (req, res) => {
-    console.log(req.body)
-    if(req.body.email == '' || req.body.password == '') {
-        res.status(400).json({message: "No field can be empty!"});
-        console.log('field empty')
-        return;
-    }
-    const newUser = new User({
-        email: req.body.email,
-        password: req.body.password,
-        tokens: [],
-    })
-    try{
-        const token = await newUser.generateToken()
-        res.status(201).send({newUser, token})
-    }
-    catch(e){
-        res.status(400).send(e)
-    }
+
+  if (req.body.email == '' || req.body.password == '') {
+    res.status(400).json({ message: 'No field can be empty!' })
+    console.log('field empty')
+    return
+  }
+  const newUser = new User({
+    email: req.body.email,
+    password: req.body.password,
+    tokens: [],
+  })
+  try {
+    const token = await newUser.generateToken()
+    res.status(201).send({ newUser, token })
+  } catch (e) {
+    res.status(400).send(e)
+  }
 }
 
-exports.signOut = async (req,res)=>{
-    try{
-        req.user.tokens = req.user.tokens.filter((tokenObject) => tokenObject.token != req.token)
-        await req.user.save()
-        res.send('Signed Out')
-    }
-    catch(e){
-        res.status(500).send(e)
-    }
+exports.signOut = async (req, res) => {
+  try {
+    req.user.tokens = req.user.tokens.filter(
+      (tokenObject) => tokenObject.token != req.token
+    )
+    await req.user.save()
+    res.send('Signed Out')
+  } catch (e) {
+    res.status(500).send(e)
+  }
 }
 
-exports.signOutAll = async (req,res)=>{
-    try{
-        req.user.tokens = []
-        await req.user.save()
-        res.send('Signed Out from All Sessions')
-    }
-    catch(e){
-        res.status(500).send(e)
-    }
+exports.signOutAll = async (req, res) => {
+  try {
+    req.user.tokens = []
+    await req.user.save()
+    res.send('Signed Out from All Sessions')
+  } catch (e) {
+    res.status(500).send(e)
+  }
 }
 
-exports.updateAdmin = async (req,res)=>{
-
-
-    if(req.user.isAdmin){
-        const username = req.params.username;
-        console.log(username);
-        User.findByIdAndUpdate(req.params.userId,{$set:{isAdmin:true}},{new:true})
-        .then(data=> {
-            if(!data) {
-                res.status(404).send({
-                    message: `cannot update author with  Maybe uer not found`
-                }) 
-            } else {
-                
-                res.send(data);
-            }
+exports.updateAdmin = async (req, res) => {
+  if (req.user.isAdmin) {
+    const username = req.params.username
+    console.log(username)
+    User.findByIdAndUpdate(
+      req.params.userId,
+      { $set: { isAdmin: true } },
+      { new: true }
+    )
+      .then((data) => {
+        if (!data) {
+          res.status(404).send({
+            message: `cannot update author with  Maybe uer not found`,
+          })
+        } else {
+          res.send(data)
+        }
+      })
+      .catch((err) => {
+        res.status(500).send({
+          message: `Error update author information`,
         })
-        .catch(err=> {
-            res.status(500).send({
-                message: `Error update author information`
-            })
-        })
-    }
-    else{
-        res.end("You are not authorized to perform this operation");
-    }
+      })
+  } else {
+    res.end('You are not authorized to perform this operation')
+  }
 }
 
 exports.getCountry = async (req, res) => {
-
   Country.find({}).then((data) => {
     if (!data) {
       res.status(404).send({
@@ -108,9 +105,8 @@ exports.getCountry = async (req, res) => {
   })
 }
 
-exports.getOneCountry = async (req,res) => {
-  
-    const countryName = req.params.countryName
+exports.getOneCountry = async (req, res) => {
+  const countryName = req.params.countryName
 
     Country.findOne({ country: countryName })
     .then(data => {
@@ -124,10 +120,36 @@ exports.getOneCountry = async (req,res) => {
     })
 }
 
-exports.getStates = async (req, res) => {
+exports.updateOneCountry = (req, res) => {
+  if (!req.body) {
+    return res
+      .status(400)
+      .send({ message: `Data to be updated cannot be empty` })
+  }
 
-    const countryName = req.params.countryName
-    const stateName = req.params.stateName
+  const id = req.params.countryName
+
+  Country.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
+    .then((data) => {
+      if (!data) {
+        res.status(404).send({
+          message: `cannot update author with ${id}. Maybe uer not found`,
+        })
+      } else {
+        res.send(data)
+      }
+    })
+    .catch((err) => {
+      res.status(500).send({
+        message: `Error update author information`,
+      })
+    })
+}
+
+exports.getStates = async (req, res) => {
+  const countryName = req.params.countryName
+  const stateName = req.params.stateName
+
     
     State.find({ country: countryName }).then((data) => {
         if (!data) {
@@ -174,20 +196,21 @@ exports.getOneDistrict = async (req, res) => {
   const stateName = req.params.stateName
   const districtName = req.params.districtName
 
-  District.findOne({ state: stateName, district: districtName }).then((data) => {
-    if (!data) {
-      res.status(404).send({
-        message: `Cannot find OneDistrict with this name. Maybe name is wrong`,
-      })
-    } else {
-      res.json(data)
+  District.findOne({ state: stateName, district: districtName }).then(
+    (data) => {
+      if (!data) {
+        res.status(404).send({
+          message: `Cannot find OneDistrict with this name. Maybe name is wrong`,
+        })
+      } else {
+        res.json(data)
+      }
     }
-  })
+  )
 }
 
 exports.getHospital = async (req, res) => {
-  Hospital.find({})
-  .then((data) => {
+  Hospital.find({}).then((data) => {
     if (!data) {
       res.status(404).send({
         message: `Cannot find hospital with this name. Maybe name is wrong`,
@@ -210,7 +233,89 @@ exports.getOneHospital = async (req, res) => {
       } else {
         res.json(data)
       }
-    }
-  )
+    })
 }
 
+exports.getGuidelines = async(req,res) => {
+  Guideline.find({}).then((data) => {
+    if (!data) {
+      res.status(404).send({
+        message: `Failed to fetch the guidelines`,
+      })
+    } else {
+      res.send(data)
+    }
+  })
+}
+
+exports.postGuidelines = async (req,res) => {
+  if (req.body.Guideline == '') {
+    res.status(400).json({ message: 'No field can be empty!' })
+    console.log('field empty')
+    return
+  }
+  console.log(req.body.Guideline)
+  const guideline = new Guideline({
+    Guideline: req.body.Guideline
+  })
+  console.log(req.body.Guideline)
+    guideline
+    .save(guideline)
+    .then((data) => {
+      res.send(data)
+    })
+    .catch((err) => {
+      res.status(500).send({
+        message:
+          err.message ||
+          `some error occured while creating a create operation`,
+      })
+    })
+}
+
+exports.updateGuidelines = (req, res) => {
+  if (!req.body) {
+    return res
+      .status(400)
+      .send({ message: `Data to be updated cannot be empty` })
+  }
+
+  const id = req.params.id
+
+  Guideline.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
+    .then((data) => {
+      if (!data) {
+        res.status(404).send({
+          message: `cannot update author with ${id}. Maybe uer not found`,
+        })
+      } else {
+        res.send(data)
+      }
+    })
+    .catch((err) => {
+      res.status(500).send({
+        message: `Error update author information`,
+      })
+    })
+}
+
+exports.deleteGuidelines = (req, res) => {
+  Guideline.findByIdAndRemove(req.params.id)
+  .then(note => {
+      if(!note) {
+          return res.status(404).send({
+              message: "Guideline not found with id " + req.params.id
+          });
+      }
+      res.send({message: "Guideline deleted successfully!"});
+  }).catch(err => {
+      if(err.kind === 'ObjectId' || err.name === 'NotFound') {
+          return res.status(404).send({
+              message: "User not found with id " + req.params.id
+          });                
+      }
+      return res.status(500).send({
+          message: "Could not delete user with id " + req.params.id
+      });
+  });
+};
