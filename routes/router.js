@@ -35,4 +35,12 @@ router.get('/api/hospitals', user.getHospital)
 
 router.get('/api/hospitals/:hospitalName', user.getOneHospital)
 
+router.get('/api/guidelines', user.getGuidelines)
+
+router.post('/api/guidelines/:id', jsonParser, user.postGuidelines)
+
+router.put('/api/guidelines/:id', jsonParser, user.updateGuidelines)
+
+router.delete('/api/guidelines/:id', jsonParser, user.deleteGuidelines)
+
 module.exports = router
