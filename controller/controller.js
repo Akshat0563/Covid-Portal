@@ -120,6 +120,32 @@ exports.getOneCountry = async (req, res) => {
     })
 }
 
+exports.updateOneCountry = (req, res) => {
+  if (!req.body) {
+    return res
+      .status(400)
+      .send({ message: `Data to be updated cannot be empty` })
+  }
+
+  const id = req.params.countryName
+
+  Country.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
+    .then((data) => {
+      if (!data) {
+        res.status(404).send({
+          message: `cannot update author with ${id}. Maybe uer not found`,
+        })
+      } else {
+        res.send(data)
+      }
+    })
+    .catch((err) => {
+      res.status(500).send({
+        message: `Error update author information`,
+      })
+    })
+}
+
 exports.getStates = async (req, res) => {
   const countryName = req.params.countryName
   const stateName = req.params.stateName
