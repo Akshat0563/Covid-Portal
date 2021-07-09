@@ -20,6 +20,8 @@ router.get('/api/country', user.getCountry)
 
 router.get('/api/country/:countryName', user.getOneCountry)
 
+router.put('/api/country/:countryName', user.updateOneCountry)
+
 router.get('/api/country/:countryName/states', user.getStates)
 
 router.get('/api/country/:countryName/states/:stateName', user.getOneState)
