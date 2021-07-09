@@ -1,0 +1,50 @@
+:root {
+  --color1: #2682fc;
+  --color2: #1e75e6;
+}
+
+.body {
+  background: rgb(255, 255, 255);
+}
+/* 
+.hospitalMain {
+  width: 100%;
+  display: flex;
+} */
+
+.hospitalCard {
+  margin: 20px;
+  width: 600px;
+  font-size: 1.05rem;
+  border-radius: 10px;
+  box-shadow: 0 0 25px 12.5px #f1f1f1;
+  overflow: hidden;
+}
+
+.hospitalHeader {
+  padding: 10px 25px;
+  font-size: 1.1rem;
+  color: #fff;
+  transition: 0.5s ease;
+  background-color: var(--color1);
+}
+
+.card__body {
+  padding: 10px 20px;
+}
+
+.card__body > div {
+  padding-top: 10px;
+}
+
+.card__body > span {
+  padding-right: 10px;
+}
+
+.hospitalCard:hover .hospitalHeader {
+  background: var(--color2);
+}
+
+.beds {
+  margin-right: 10px;
+}
