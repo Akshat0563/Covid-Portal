@@ -5,6 +5,7 @@ const Hospital = require('../model/hospital')
 const District = require('../model/district')
 const State = require('../model/state')
 const Country = require('../model/country')
+const Guideline = require('../model/guidelines')
 
 exports.signIn = async (req, res) => {
   if (req.body.email == '' || req.body.password == '') {
@@ -23,7 +24,7 @@ exports.signIn = async (req, res) => {
 }
 
 exports.signUp = async (req, res) => {
-  console.log(req.body)
+
   if (req.body.email == '' || req.body.password == '') {
     res.status(400).json({ message: 'No field can be empty!' })
     console.log('field empty')
@@ -123,8 +124,6 @@ exports.getStates = async (req, res) => {
   const countryName = req.params.countryName
   const stateName = req.params.stateName
 
-    const countryName = req.params.countryName
-    const stateName = req.params.stateName
     
     State.find({ country: countryName }).then((data) => {
         if (!data) {
@@ -210,3 +209,87 @@ exports.getOneHospital = async (req, res) => {
       }
     })
 }
+
+exports.getGuidelines = async(req,res) => {
+  Guideline.find({}).then((data) => {
+    if (!data) {
+      res.status(404).send({
+        message: `Failed to fetch the guidelines`,
+      })
+    } else {
+      res.send(data)
+    }
+  })
+}
+
+exports.postGuidelines = async (req,res) => {
+  if (req.body.Guideline == '') {
+    res.status(400).json({ message: 'No field can be empty!' })
+    console.log('field empty')
+    return
+  }
+  console.log(req.body.Guideline)
+  const guideline = new Guideline({
+    Guideline: req.body.Guideline
+  })
+  console.log(req.body.Guideline)
+    guideline
+    .save(guideline)
+    .then((data) => {
+      res.send(data)
+    })
+    .catch((err) => {
+      res.status(500).send({
+        message:
+          err.message ||
+          `some error occured while creating a create operation`,
+      })
+    })
+}
+
+exports.updateGuidelines = (req, res) => {
+  if (!req.body) {
+    return res
+      .status(400)
+      .send({ message: `Data to be updated cannot be empty` })
+  }
+
+  const id = req.params.id
+
+  Guideline.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
+    .then((data) => {
+      if (!data) {
+        res.status(404).send({
+          message: `cannot update author with ${id}. Maybe uer not found`,
+        })
+      } else {
+        res.send(data)
+      }
+    })
+    .catch((err) => {
+      res.status(500).send({
+        message: `Error update author information`,
+      })
+    })
+}
+
+exports.deleteGuidelines = (req, res) => {
+  Guideline.findByIdAndRemove(req.params.id)
+  .then(note => {
+      if(!note) {
+          return res.status(404).send({
+              message: "Guideline not found with id " + req.params.id
+          });
+      }
+      res.send({message: "Guideline deleted successfully!"});
+  }).catch(err => {
+      if(err.kind === 'ObjectId' || err.name === 'NotFound') {
+          return res.status(404).send({
+              message: "User not found with id " + req.params.id
+          });                
+      }
+      return res.status(500).send({
+          message: "Could not delete user with id " + req.params.id
+      });
+  });
+};
