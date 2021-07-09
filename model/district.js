@@ -2,35 +2,27 @@ const mongoose = require('mongoose')
 const districts_data = require('../data/districts.json')
 
 var district = new mongoose.Schema({
-    District: {
+    district: {
         type: String,
         required: true
     },
-    District_Key: {
+    state: {
         type: String,
         required: true
     },
-    State_Code: {
-        type: String,
-        required: true
-    },
-    State: {
-        type: String,
-        required: true
-    },
-    Confirmed: {
+    confirmed: {
         type: Number,
         required: true
     },
-    Active: {
+    active: {
         type: Number,
         required: true
     },
-    Recovered: {
+    recovered: {
         type: Number,
         required: true
     },
-    Deaths: {
+    deaths: {
         type: Number,
         required: true
     }
