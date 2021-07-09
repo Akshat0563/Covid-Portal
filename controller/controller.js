@@ -107,37 +107,41 @@ exports.getCountry = async (req, res) => {
 exports.getOneCountry = async (req, res) => {
   const countryName = req.params.countryName
 
-  Country.findOne({ Country: countryName }).then((data) => {
-    if (!data) {
-      res.status(404).send({
-        message: `Cannot find country with this name. Maybe name is wrong`,
-      })
-    } else {
-      res.json(data)
-    }
-  })
+    Country.findOne({ country: countryName })
+    .then(data => {
+        if (!data) {
+          res.status(404).send({
+            message: `Cannot find country with this name. Maybe name is wrong`,
+          })
+        } else {
+          res.json(data)
+        }
+    })
 }
 
 exports.getStates = async (req, res) => {
   const countryName = req.params.countryName
   const stateName = req.params.stateName
 
-  State.find({ Country: countryName }).then((data) => {
-    if (!data) {
-      res.status(404).send({
-        message: `Cannot find State with this name. Maybe name is wrong`,
-      })
-    } else {
-      res.json(data)
-    }
-  })
+    const countryName = req.params.countryName
+    const stateName = req.params.stateName
+    
+    State.find({ country: countryName }).then((data) => {
+        if (!data) {
+        res.status(404).send({
+            message: `Cannot find State with this name. Maybe name is wrong`,
+        })
+        } else {
+        res.json(data)
+        }
+    })
 }
 
 exports.getOneState = async (req, res) => {
   const countryName = req.params.countryName
   const stateName = req.params.stateName
 
-  State.findOne({ Country: countryName, State: stateName }).then((data) => {
+  State.findOne({ country: countryName, state: stateName }).then((data) => {
     if (!data) {
       res.status(404).send({
         message: `Cannot find OneState with this name. Maybe name is wrong`,
@@ -152,7 +156,7 @@ exports.getDistricts = async (req, res) => {
   const countryName = req.params.countryName
   const stateName = req.params.stateName
 
-  District.find({ Country: countryName, State: stateName }).then((data) => {
+  District.find({ country: countryName, state: stateName }).then((data) => {
     if (!data) {
       res.status(404).send({
         message: `Cannot find District with this name. Maybe name is wrong`,
@@ -167,7 +171,7 @@ exports.getOneDistrict = async (req, res) => {
   const stateName = req.params.stateName
   const districtName = req.params.districtName
 
-  District.findOne({ State: stateName, District: districtName }).then(
+  District.findOne({ state: stateName, district: districtName }).then(
     (data) => {
       if (!data) {
         res.status(404).send({
@@ -195,13 +199,14 @@ exports.getHospital = async (req, res) => {
 exports.getOneHospital = async (req, res) => {
   const hospitalName = req.params.hospitalName
 
-  Hospital.findOne({ Hospital: hospitalName }).then((data) => {
-    if (!data) {
-      res.status(404).send({
-        message: `Cannot find onehospital with this name. Maybe name is wrong`,
-      })
-    } else {
-      res.json(data)
-    }
-  })
+  Hospital.findOne({ hospital: hospitalName }).then(
+    (data) => {
+      if (!data) {
+        res.status(404).send({
+          message: `Cannot find onehospital with this name. Maybe name is wrong`,
+        })
+      } else {
+        res.json(data)
+      }
+    })
 }

@@ -2,27 +2,27 @@ const mongoose = require('mongoose')
 const states_data = require('../data/states.json')
 
 var state = new mongoose.Schema({
-    State: {
+    state: {
         type: String,
         required: true
     },
-    Country: {
+    country: {
         type: String,
         required: true
     },
-    Confirmed: {
+    confirmed: {
         type: Number,
         required: true
     },
-    Active: {
+    active: {
         type: Number,
         required: true
     },
-    Recovered: {
+    recovered: {
         type: Number,
         required: true
     },
-    Deaths: {
+    deaths: {
         type: Number,
         required: true
     }
@@ -30,6 +30,6 @@ var state = new mongoose.Schema({
 
 const State = mongoose.model('State', state)
 
-State.insertMany(states_data, (error, docs) => {})
+//State.insertMany(states_data, (error, docs) => {})
 
 module.exports = State
