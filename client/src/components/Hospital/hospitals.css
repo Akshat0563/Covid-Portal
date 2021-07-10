@@ -49,6 +49,10 @@
   padding-top: 10px;
 }
 
+.card__body > p {
+  margin-bottom: 5px;
+}
+
 .card__body > span {
   padding-right: 10px;
 }
