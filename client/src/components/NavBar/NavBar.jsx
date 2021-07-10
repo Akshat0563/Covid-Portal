@@ -21,7 +21,7 @@ const NavBar = () => {
                 <nav>
                     <ul>
                     <li className="sidebar-brand"><a href="#">Covid Portal</a></li>
-                    <li className="list"><a href="#">Hospital</a></li>
+                    <li className="list"><a href="./Hospital">Hospital</a></li>
                     <li className="list"><a href="#">Vaccination</a></li>
                     <li className="list"><a href="#">Guideline</a></li>
                     </ul>
