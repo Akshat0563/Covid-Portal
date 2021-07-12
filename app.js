@@ -1,18 +1,20 @@
 const express = require('express')
 const dotenv = require('dotenv')
 
-const app = express();
+const app = express()
 
 const connectDB = require('./database/connection')
 
-dotenv.config({path: 'config.env'})
+dotenv.config({ path: 'config.env' })
 const port = process.env.PORT
 
-connectDB();
+connectDB()
 
-app.use(express.urlencoded({
-    extended:true
-}));
+app.use(
+  express.urlencoded({
+    extended: true,
+  })
+)
 
 app.use((req, res, next) => {
     res.set('Access-Control-Allow-Origin', '*')
@@ -31,5 +33,5 @@ app.get('/', (req,res) => {
 app.use('/', require('./routes/router'))
 
 app.listen(port, () => {
-    console.log(`server is running on port https://localhost:${port}`)
-});
+  console.log(`server is running on port https://localhost:${port}`)
+})

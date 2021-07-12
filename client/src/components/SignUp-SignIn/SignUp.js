@@ -1,45 +1,68 @@
 import React, { useState } from 'react';
 import './SignUp-SignIn.css';
+import image1 from '../../Images/iconfinder_211686_back_arrow_icon.svg';
 
 const SignUp = () => {
   document.title = 'Covid Portal | SignUp'
 
+  // const signInBtn = document.getElementById("signIn");
+  // const signUpBtn = document.getElementById("signUp");
+  // const fistForm = document.getElementById("form1");
+  // const secondForm = document.getElementById("form2");
+  const container = document.querySelector(".container");
+
+  const LeftPanelActive = () => {
+    container.classList.remove("right-panel-active");
+  };
+
+  const RightPanelActive = () => {
+    container.classList.add("right-panel-active");
+  };
+
+  // fistForm.addEventListener("submit", (e) => e.preventDefault());
+  // secondForm.addEventListener("submit", (e) => e.preventDefault());
+
   return (
     <>
-    <div className='container'>
-      <div className='back'><a href="./">Back To Dashboard</a></div>
-        <div className='form-container'>
-          <h2>SignUp</h2>
-          <div className='info'>
-              <small>Already have an Account? <a href="/SignIn">SignIn</a></small>
+    <div class="back">
+      <img src={image1} alt="" />
+      Back to Dashboard
+    </div>
+    <div className='flex'>
+    <div className="container right-panel-active">
+      <div className="container__form container--signup">
+        <form action="#" class="form" id="form1">
+          <h2 className="formtitle">Sign Up</h2>
+          <input type="text" placeholder="User" className="input" />
+          <input type="email" placeholder="Email" className="input" />
+          <input type="password" placeholder="Password" className="input" />
+          <button className="btn">Sign Up</button>
+        </form>
+      </div>
+
+      <div className="container__form container--signin">
+        <form action="#" className="form" id="form2" onSub>
+          <h2 className="formtitle">Sign In</h2>
+          <input type="email" placeholder="Email" className="input" />
+          <input type="password" placeholder="Password" class="input" />
+          <a href="#" className="link">Forgot your password?</a>
+          <button className="btn" onS>Sign In</button>
+        </form>
+      </div>
+
+      <div className="container__overlay">
+        <div className="overlay">
+          <div className="overlay__panel overlay--left">
+            <button className="btn" onClick={()=>LeftPanelActive()}>Sign In</button>
           </div>
-          <form>
-            <div className='username'>
-              <label htmlFor="username">Username</label>
-              <input type='text' name='username'/>
-            </div>
-            <div className='email'>
-              <label htmlFor="email">Email</label>
-              <input type='email' name='email'/>
-            </div>
-            <div className='password'>
-              <label htmlFor="password">Password</label>
-              <input type='password' name='password'/>
-            </div>
-            {/* <div className='info'>
-              <small>Password must have atleast 8 characters.</small>
-            </div> */}
-            <div className='password'>
-              <label htmlFor="confirmpassword">Confirm Password</label>
-              <input type='password' name='confirmpassword'/>
-            </div>
-            <div className='submit'>
-              <button type='submit'>Create Account</button>
-            </div>
-          </form>
+          <div className="overlay__panel overlay--right">
+            <button className="btn" onClick={()=>RightPanelActive()}>Sign Up</button>
+          </div>
         </div>
       </div>
-      </>
+    </div>
+    </div>
+    </>
   );
 };
 
