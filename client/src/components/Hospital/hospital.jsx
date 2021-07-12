@@ -28,7 +28,7 @@ const Hospital = () => {
   }, []);
   console.log(hospitals)
     if (!hospitals) {
-        return "Loading...";
+        return <NavBar/>;
     }
     return (
       <>
