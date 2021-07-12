@@ -10,7 +10,6 @@ const Guideline = require('../model/guidelines')
 exports.signIn = async (req, res) => {
   if (req.body.email == '' || req.body.password == '') {
     res.status(400).json({ message: 'No field can be empty!' })
-    console.log('field empty')
     return
   }
   try {
@@ -18,7 +17,6 @@ exports.signIn = async (req, res) => {
     const token = await user.generateToken()
     res.send({ user, token })
   } catch (error) {
-    console.log(error)
     res.status(400).send(error)
   }
 }
@@ -27,7 +25,6 @@ exports.signUp = async (req, res) => {
 
   if (req.body.email == '' || req.body.password == '') {
     res.status(400).json({ message: 'No field can be empty!' })
-    console.log('field empty')
     return
   }
   const newUser = new User({
@@ -77,7 +74,7 @@ exports.updateAdmin = async (req, res) => {
       .then((data) => {
         if (!data) {
           res.status(404).send({
-            message: `cannot update author with  Maybe uer not found`,
+            message: `Cannot update this user to admin`,
           })
         } else {
           res.send(data)
@@ -85,7 +82,7 @@ exports.updateAdmin = async (req, res) => {
       })
       .catch((err) => {
         res.status(500).send({
-          message: `Error update author information`,
+          message: err,
         })
       })
   } else {
@@ -106,7 +103,7 @@ exports.getCountry = async (req, res) => {
 }
 
 exports.getOneCountry = async (req, res) => {
-  const countryName = req.params.countryName
+  const countryName = req.params.id
 
     Country.findOne({ country: countryName })
     .then(data => {
@@ -127,7 +124,7 @@ exports.updateOneCountry = (req, res) => {
       .send({ message: `Data to be updated cannot be empty` })
   }
 
-  const id = req.params.countryName
+  const id = req.params.id
 
   Country.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
     .then((data) => {
@@ -147,8 +144,8 @@ exports.updateOneCountry = (req, res) => {
 }
 
 exports.getStates = async (req, res) => {
-  const countryName = req.params.countryName
-  const stateName = req.params.stateName
+  const countryName = req.params.countryId
+  const stateName = req.params.stateId
 
     
     State.find({ country: countryName }).then((data) => {
@@ -163,8 +160,8 @@ exports.getStates = async (req, res) => {
 }
 
 exports.getOneState = async (req, res) => {
-  const countryName = req.params.countryName
-  const stateName = req.params.stateName
+  const countryName = req.params.countryId
+  const stateName = req.params.stateId
 
   State.findOne({ country: countryName, state: stateName }).then((data) => {
     if (!data) {
@@ -177,9 +174,34 @@ exports.getOneState = async (req, res) => {
   })
 }
 
+exports.updateOneState = (req, res) => {
+  if (!req.body) {
+    return res
+      .status(400)
+      .send({ message: `Data to be updated cannot be empty` })
+  }
+
+  const id = req.params.id
+
+  State.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
+    .then((data) => {
+      if (!data) {
+        res.status(404).send({
+          message: `cannot update state with ${id}. Maybe State not found`,
+        })
+      } else {
+        res.send(data)
+      }
+    })
+    .catch((err) => {
+      res.status(500).send({
+        message: `Error update State information`,
+      })
+    })
+}
+
 exports.getDistricts = async (req, res) => {
-  const countryName = req.params.countryName
-  const stateName = req.params.stateName
+  const stateName = req.params.stateId
 
   District.find({ country: countryName, state: stateName }).then((data) => {
     if (!data) {
@@ -193,8 +215,8 @@ exports.getDistricts = async (req, res) => {
 }
 
 exports.getOneDistrict = async (req, res) => {
-  const stateName = req.params.stateName
-  const districtName = req.params.districtName
+  const stateName = req.params.stateId
+  const districtName = req.params.districtId
 
   District.findOne({ state: stateName, district: districtName }).then(
     (data) => {
@@ -207,6 +229,32 @@ exports.getOneDistrict = async (req, res) => {
       }
     }
   )
+}
+
+exports.updateOneDistrict = (req, res) => {
+  if (!req.body) {
+    return res
+      .status(400)
+      .send({ message: `Data to be updated cannot be empty` })
+  }
+
+  const id = req.params.id
+
+  District.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
+    .then((data) => {
+      if (!data) {
+        res.status(404).send({
+          message: `cannot update district with ${id}. district not found`,
+        })
+      } else {
+        res.send(data)
+      }
+    })
+    .catch((err) => {
+      res.status(500).send({
+        message: `Error update district information`,
+      })
+    })
 }
 
 exports.getHospital = async (req, res) => {
@@ -222,7 +270,7 @@ exports.getHospital = async (req, res) => {
 }
 
 exports.getOneHospital = async (req, res) => {
-  const hospitalName = req.params.hospitalName
+  const hospitalName = req.params.id
 
   Hospital.findOne({ hospital: hospitalName }).then(
     (data) => {
@@ -233,6 +281,32 @@ exports.getOneHospital = async (req, res) => {
       } else {
         res.json(data)
       }
+    })
+}
+
+exports.updateOneHospital = (req, res) => {
+  if (!req.body) {
+    return res
+      .status(400)
+      .send({ message: `Data to be updated cannot be empty` })
+  }
+
+  const id = req.params.id
+
+  Hospital.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
+    .then((data) => {
+      if (!data) {
+        res.status(404).send({
+          message: `cannot update hospital with ${id}. Hospital not found`,
+        })
+      } else {
+        res.send(data)
+      }
+    })
+    .catch((err) => {
+      res.status(500).send({
+        message: `Error update hospital information`,
+      })
     })
 }
 
@@ -286,7 +360,7 @@ exports.updateGuidelines = (req, res) => {
     .then((data) => {
       if (!data) {
         res.status(404).send({
-          message: `cannot update author with ${id}. Maybe uer not found`,
+          message: `cannot update guidelines with ${id}.`,
         })
       } else {
         res.send(data)
@@ -294,7 +368,7 @@ exports.updateGuidelines = (req, res) => {
     })
     .catch((err) => {
       res.status(500).send({
-        message: `Error update author information`,
+        message: `Error update guideline information`,
       })
     })
 }
