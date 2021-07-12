@@ -18,24 +18,30 @@ router.put('/api/update/:userId', auth, user.updateAdmin)
 
 router.get('/api/country', user.getCountry)
 
-router.get('/api/country/:countryName', user.getOneCountry)
+router.get('/api/country/:id', user.getOneCountry)
 
-router.put('/api/country/:countryName', user.updateOneCountry)
+router.put('/api/country/:id', user.updateOneCountry)
 
-router.get('/api/country/:countryName/states', user.getStates)
+router.get('/api/country/:countryId/states', user.getStates)
 
-router.get('/api/country/:countryName/states/:stateName', user.getOneState)
+router.get('/api/country/:countryId/states/:stateId', user.getOneState)
 
-router.get('/api/states/:stateName/districts', user.getDistricts)
+router.put('/api/state/:id', user.updateOneState)
+
+router.get('/api/states/:stateId/districts', user.getDistricts)
 
 router.get(
-  '/api/states/:stateName/districts/:districtName',
+  '/api/states/:stateId/districts/:districtId',
   user.getOneDistrict
 )
 
+router.put('/api/district/:id', user.updateOneDistrict)
+
 router.get('/api/hospitals', user.getHospital)
 
-router.get('/api/hospitals/:hospitalName', user.getOneHospital)
+router.get('/api/hospitals/:id', user.getOneHospital)
+
+router.put('/api/hospitals/:id', user.updateOneHospital)
 
 router.get('/api/guidelines', user.getGuidelines)
 
