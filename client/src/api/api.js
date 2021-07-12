@@ -3,11 +3,18 @@ import axios from "axios";
 //const url = "https://covid19.mathdro.id/api";
 const url = "http://localhost:2000/api";
 
-export const fetchData = async (country) => {
+export const fetchData = async (country,state,district) => {
 let changeableUrl=url;
 
-if(country){
+
+if(district){
+  changeableUrl=`${url}/states/${state}/districts/${district}`;
+}
+else if(state){
   //changeableUrl=`${url}/countries/${country}`;
+  changeableUrl=`${url}/country/${country}/states/${state}`;
+}
+else{
   changeableUrl=`${url}/country/${country}`;
 }
 
@@ -46,6 +53,38 @@ export const fetchCountries=async()=>{
     const {data} = await axios.get(`${url}/country`);
     const countries = data.map((country)=>country.country);
     return countries;
+  } catch(error){
+
+  }
+}
+
+export const fetchStates=async(country)=>{
+  try{
+    if(country==="India" || country==="USA")
+    {
+      const {data} = await axios.get(`${url}/country/${country}/states`);
+    const states = data.map((state)=>state.state);
+    return states;
+    }
+    else{
+      return [];
+    }
+  } catch(error){
+
+  }
+}
+
+export const fetchDistricts=async(state)=>{
+  try{
+    if(state==="Gujarat" || state==="Karnataka")
+    {
+      const {data} = await axios.get(`${url}/states/${state}/districts`);
+    const districts = data.map((district)=>district.district);
+    return districts;
+    }
+    else{
+      return [];
+    }
   } catch(error){
 
   }
