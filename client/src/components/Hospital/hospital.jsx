@@ -12,6 +12,8 @@ const api = axios.create({
 
 const Hospital = () => {
   const [hospitals, setHospitals] = useState();
+  const [filter, setFilter] = useState();
+  const [search, setSearch] = useState(' ');
 
   const retrieve_hospitals = async () => {
     const response = await api.get();
@@ -24,17 +26,42 @@ const Hospital = () => {
       if (allHospitals) setHospitals(allHospitals);
     };
     getAllHospitals();
-    console.log(hospitals)
+    setSearch('')
   }, []);
-  console.log(hospitals)
-    if (!hospitals) {
-        return <NavBar/>;
+
+  const handleSearch = (event) => {
+    let searchedString = event.target.value.toLowerCase()
+    setSearch(searchedString)
+  }
+
+  useEffect(() => {
+    // console.log(search)
+    // console.log(hospitals)
+    if(hospitals) {
+      let displayedHospitals = hospitals['data'].filter((hospital) => {
+        let name = hospital['hospital'].toLowerCase();
+        let address = hospital['address'].toLowerCase();
+        let district = hospital['district'].toLowerCase();
+        // let pincode = hospital['pincode'].toLowerCase();
+        return name.indexOf(search) !== -1 || address.indexOf(search) !== -1 || district.indexOf(search) !== -1;
+      })
+      setFilter(displayedHospitals)
+      console.log(displayedHospitals)
+    }
+  }, [search, hospitals]);
+
+    if (!hospitals || !filter) {
+        return <>
+        <NavBar/>
+        <input type="text" placeholder="Search Hospital" style={{margin:"80px"}} onChange={handleSearch}/>
+        </>
     }
     return (
       <>
       <NavBar/>
+      <input type="text" placeholder="Search Hospital" style={{margin:"80px"}} onChange={handleSearch}/>
         <div className='hospitalMain'>
-          {hospitals['data'].map((hospital  => 
+          {filter.map((hospital  => 
           // hospital['hospital']
           <div className='hospitalCard'>
             <h1 className='hospitalHeader'>{hospital['hospital']}</h1>
