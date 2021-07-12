@@ -3,7 +3,7 @@ import {fetchDailyData} from "../../api/api";
 import { Line,Bar } from "react-chartjs-2";
 import styles from "./Chart.module.css";
 
-const Chart = ({data:{confirmed,recovered,deaths},country}) => {
+const Chart = ({data:{confirmed,recovered,deaths},country,state,district}) => {
    const [dailyData, setdailyData] = useState([]);
 
   useEffect(()=>{
@@ -12,30 +12,8 @@ const Chart = ({data:{confirmed,recovered,deaths},country}) => {
    }
 
    fetchAPI();
-
+ console.log(country);
   },[]);
-
-  const lineChart=(
-    dailyData.length!==0 ? 
-    (<Line
-      data={{
-        labels: dailyData.map(({date})=>date),
-        datasets:[{
-            data: dailyData.map(({confirmed})=>confirmed),
-            label: 'Infected',
-            bordercolor: 'black',
-            backgroundColor: 'blue',
-            fill : true,
-        },{
-            data: dailyData.map(({deaths})=>deaths),
-            label: 'Deaths',
-            bordercolor: 'red',
-            backgroundColor: 'rgba(255,0,0,0.5)',
-            fill : true,
-        }],
-      }}
-    />):null
-  );
 
   const barChart=(
     confirmed?
@@ -46,22 +24,110 @@ const Chart = ({data:{confirmed,recovered,deaths},country}) => {
          datasets:[{
            label:`Current state in ${country}`,
            backgroundColor:[
-             'rgb(0, 0, 255, 0.5)','rgb(0, 255, 0, 0.5)','rgb(255, 0, 0, 0.5)'
+             '#09a9f3','#43e97b','hsl(352, 93%, 50%)'
            ],
+           borderWidth:1,
+          borderColor:`#777`,
+          hoverBorderWidth:3,
+          hoverBorderColor:`#000`,
            data:[confirmed,recovered,deaths]
          }]
         }}
-         options={{
-           legend: {dispay:false},
-          // title: {display:true, text:`Current state in ${country}`},
-         }}
+       const options= {{
+          scales: {
+               x: [{
+                  grid: {
+                     display: false
+                  }
+               }],
+               yAxes: [{
+                  gridLines: {
+                     display: false
+                  }
+               }],
+               
+          }
+         } }
+      />
+    ):null
+  )
+
+  const barChart1=(
+    confirmed?
+    (
+      <Bar 
+        data={{
+         labels:['Infected','Recovered','Deaths'],
+         datasets:[{
+           label:`Current state in ${state}`,
+           backgroundColor:[
+             '#09a9f3','#43e97b','hsl(352, 93%, 50%)'
+           ],
+           borderWidth:1,
+          borderColor:`#777`,
+          hoverBorderWidth:3,
+          hoverBorderColor:`#000`,
+           data:[confirmed,recovered,deaths]
+         }]
+        }}
+       const options= {{
+          scales: {
+               x: [{
+                  grid: {
+                     display: false
+                  }
+               }],
+               yAxes: [{
+                  gridLines: {
+                     display: false
+                  }
+               }],
+               
+          }
+         } }
+      />
+    ):null
+  )
+  const barChart2=(
+    confirmed?
+    (
+      <Bar 
+        data={{
+         labels:['Infected','Recovered','Deaths'],
+         datasets:[{
+           label:`Current state in ${district}`,
+           backgroundColor:[
+             '#09a9f3','#43e97b','hsl(352, 93%, 50%)'
+           ],
+           borderWidth:1,
+          borderColor:`#777`,
+          hoverBorderWidth:3,
+          hoverBorderColor:`#000`,
+           data:[confirmed,recovered,deaths]
+         }]
+        }}
+       const options= {{
+          scales: {
+               x: [{
+                  grid: {
+                     display: false
+                  }
+               }],
+               yAxes: [{
+                  gridLines: {
+                     display: false
+                  }
+               }],
+               
+          }
+         } }
       />
     ):null
   )
 
   return (
-    <div classname={styles.container}>
-      {country?barChart:lineChart}
+    <div style={{ width: '45%',height: '45%',backgroundColor:'white' }}>
+      {district?barChart2:(state?barChart1:barChart)}
     </div>
   );
 };
