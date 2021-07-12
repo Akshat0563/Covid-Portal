@@ -1,15 +1,19 @@
 import './NavBar.css';
+import { useLocation } from 'react-router-dom'
 
 const NavBar = () => {
     function toggleSidebar() {
         document.getElementById('sidebar').classList.toggle('active');
     }
 
+const location = useLocation();
+console.log(location.pathname)
+
     return (
         <>
             <input type="checkbox" className="openSidebarMenu" id="openSidebarMenu"/>
             
-            <label for="openSidebarMenu" className="sidebarIconToggle">
+            <label htmlFor="openSidebarMenu" className="sidebarIconToggle">
                 <div className="spinner diagonal part-1"></div>
                 <div className="spinner horizontal"></div>
                 <div className="spinner diagonal part-2"></div>
@@ -28,11 +32,12 @@ const NavBar = () => {
                 </nav>
             </div>
             <div className="nav1">
-                <div class="nav">
-                    <ul></ul>
-                    <ul class="navList">
-                        <li class="navItem"><a href="./SignUp">SIGNUP</a></li>
-                        <li class="navItem"><a href="./SignIn">SIGNIN</a></li>
+                <div className="nav">
+                    <ul className="navList">
+                        {location.pathname==='/Hospital' && <li><input type="text" placeholder="Search Hospital" className="inputSearch"/></li>}
+                    </ul>
+                    <ul className="navList">
+                        <li className="navItem"><a href="./SignUp">SIGNUP / SIGNIN</a></li>
                     </ul>
                 </div>
             </div>
