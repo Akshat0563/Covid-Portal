@@ -32,7 +32,8 @@ body {
   align-items: center;
 }
 
-.back {
+.back,
+.back > a {
   color: rgb(38, 136, 216);
   display: flex;
   flex-direction: row;
@@ -40,6 +41,7 @@ body {
   height: 50px;
   width: 100%;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .back > img {

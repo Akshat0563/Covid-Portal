@@ -5,33 +5,26 @@ import image1 from '../../Images/iconfinder_211686_back_arrow_icon.svg';
 const SignUp = () => {
   document.title = 'Covid Portal | SignUp'
 
-  // const signInBtn = document.getElementById("signIn");
-  // const signUpBtn = document.getElementById("signUp");
-  // const fistForm = document.getElementById("form1");
-  // const secondForm = document.getElementById("form2");
-  const container = document.querySelector(".container");
+  const [className1, setClassName1] = useState('');
 
   const LeftPanelActive = () => {
-    container.classList.remove("right-panel-active");
+    setClassName1('')
   };
 
   const RightPanelActive = () => {
-    container.classList.add("right-panel-active");
+    setClassName1("right-panel-active")
   };
-
-  // fistForm.addEventListener("submit", (e) => e.preventDefault());
-  // secondForm.addEventListener("submit", (e) => e.preventDefault());
 
   return (
     <>
-    <div class="back">
+    <div className="back">
       <img src={image1} alt="" />
-      Back to Dashboard
+      <a href="./">Back to Dashboard</a>
     </div>
     <div className='flex'>
-    <div className="container right-panel-active">
+    <div className={"container "+className1}>
       <div className="container__form container--signup">
-        <form action="#" class="form" id="form1">
+        <form action="#" className="form" id="form1">
           <h2 className="formtitle">Sign Up</h2>
           <input type="text" placeholder="User" className="input" />
           <input type="email" placeholder="Email" className="input" />
@@ -41,26 +34,26 @@ const SignUp = () => {
       </div>
 
       <div className="container__form container--signin">
-        <form action="#" className="form" id="form2" onSub>
+        <form action="#" className="form" id="form2">
           <h2 className="formtitle">Sign In</h2>
           <input type="email" placeholder="Email" className="input" />
-          <input type="password" placeholder="Password" class="input" />
+          <input type="password" placeholder="Password" className="input" />
           <a href="#" className="link">Forgot your password?</a>
-          <button className="btn" onS>Sign In</button>
+          <button className="btn">Sign In</button>
         </form>
       </div>
 
       <div className="container__overlay">
         <div className="overlay">
           <div className="overlay__panel overlay--left">
-            <button className="btn" onClick={()=>LeftPanelActive()}>Sign In</button>
+            <button className="btn" onClick={LeftPanelActive}>Sign In</button>
           </div>
           <div className="overlay__panel overlay--right">
-            <button className="btn" onClick={()=>RightPanelActive()}>Sign Up</button>
+            <button className="btn" onClick={RightPanelActive}>Sign Up</button>
           </div>
         </div>
       </div>
-    </div>
+      </div>
     </div>
     </>
   );
