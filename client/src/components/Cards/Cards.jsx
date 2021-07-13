@@ -20,9 +20,12 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           className={cx(styles.card, styles.infected)}
         >
           <CardContent>
-            <Typography color="textSecondary" gutterBottom>
+          <div class="card--infected">
+            <div className="card_header" style={{fontSize:"4px"}}>
+            <Typography color="textSecondary" variant="h5" gutterBottom>
               Infected
             </Typography>
+            </div>
             <Typography variant="h5">
               <CountUp
                 start={0}
@@ -35,6 +38,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2">Number of Cases</Typography>
+            </div>
           </CardContent>
         </Grid>
         <Grid
@@ -45,8 +49,9 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           className={cx(styles.card, styles.recovered)}
         >
           <CardContent>
-            <Typography color="textSecondary" gutterBottom>
+            <Typography color="textSecondary" variant="h5" gutterBottom>
               Recovered
+              
             </Typography>
             <Typography variant="h5">
               <CountUp
@@ -70,7 +75,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           className={cx(styles.card, styles.deaths)}
         >
           <CardContent>
-            <Typography color="textSecondary" gutterBottom>
+            <Typography color="textSecondary" variant="h5" gutterBottom>
               Deaths
             </Typography>
             <Typography variant="h5">
