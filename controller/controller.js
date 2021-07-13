@@ -15,9 +15,9 @@ exports.signIn = async (req, res) => {
   try {
     const user = await User.findByCredentials(req.body.email, req.body.password)
     const token = await user.generateToken()
-    res.send({ user, token })
+    return res.send({ user, token })
   } catch (error) {
-    res.status(400).send(error)
+    return res.status(400).send(error)
   }
 }
 
@@ -34,9 +34,9 @@ exports.signUp = async (req, res) => {
   })
   try {
     const token = await newUser.generateToken()
-    res.status(201).send({ newUser, token })
+    return res.status(201).send({ newUser, token })
   } catch (e) {
-    res.status(400).send(e)
+    return res.status(400).send(e)
   }
 }
 
@@ -46,9 +46,9 @@ exports.signOut = async (req, res) => {
       (tokenObject) => tokenObject.token != req.token
     )
     await req.user.save()
-    res.send('Signed Out')
+    return res.send('Signed Out')
   } catch (e) {
-    res.status(500).send(e)
+    return res.status(500).send(e)
   }
 }
 
@@ -56,9 +56,9 @@ exports.signOutAll = async (req, res) => {
   try {
     req.user.tokens = []
     await req.user.save()
-    res.send('Signed Out from All Sessions')
+    return res.send('Signed Out from All Sessions')
   } catch (e) {
-    res.status(500).send(e)
+    return res.status(500).send(e)
   }
 }
 
@@ -73,31 +73,31 @@ exports.updateAdmin = async (req, res) => {
     )
       .then((data) => {
         if (!data) {
-          res.status(404).send({
+          return res.status(404).send({
             message: `Cannot update this user to admin`,
           })
         } else {
-          res.send(data)
+          return res.send(data)
         }
       })
       .catch((err) => {
-        res.status(500).send({
+        return res.status(500).send({
           message: err,
         })
       })
   } else {
-    res.end('You are not authorized to perform this operation')
+    return res.end('You are not authorized to perform this operation')
   }
 }
 
 exports.getCountry = async (req, res) => {
   Country.find({}).then((data) => {
     if (!data) {
-      res.status(404).send({
+      return res.status(404).send({
         message: `Cannot find country with this name. Maybe name is wrong`,
       })
     } else {
-      res.json(data)
+      return res.json(data)
     }
   })
 }
@@ -108,11 +108,11 @@ exports.getOneCountry = async (req, res) => {
     Country.findOne({ country: countryName })
     .then(data => {
         if (!data) {
-          res.status(404).send({
+          return res.status(404).send({
             message: `Cannot find country with this name. Maybe name is wrong`,
           })
         } else {
-          res.json(data)
+          return res.json(data)
         }
     })
 }
@@ -129,9 +129,9 @@ exports.updateOneCountry = (req, res) => {
   Country.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
     .then((data) => {
       if (!data) {
-        res.status(404).send({
+        return res.status(404).send({
           message: `cannot update author with ${id}. Maybe uer not found`,
-        })
+        }) 
       } else {
         res.send(data)
       }
@@ -145,33 +145,51 @@ exports.updateOneCountry = (req, res) => {
 
 exports.getStates = async (req, res) => {
   const countryName = req.params.countryId
-  const stateName = req.params.stateId
 
-    
-    State.find({ country: countryName }).then((data) => {
-        if (!data) {
-        res.status(404).send({
-            message: `Cannot find State with this name. Maybe name is wrong`,
+    Country.findById(countryName).then((data) => {
+      if (!data) {
+        return res.status(404).send({
+          message: `Cannot find country with this name. Maybe name is wrong`,
         })
-        } else {
-        res.json(data)
-        }
+      } else {
+        State.find({ country: data['country'] }).then((data) => {
+          if (!data) {
+            return res.status(404).send({
+              message: `Cannot find State with this name. Maybe name is wrong`,
+            })
+          } else {
+            return res.json(data)
+          }
+        })
+      }
     })
+    
+    
 }
 
 exports.getOneState = async (req, res) => {
   const countryName = req.params.countryId
   const stateName = req.params.stateId
-
-  State.findOne({ country: countryName, state: stateName }).then((data) => {
+  
+  Country.findById(countryName).then((data) => {
     if (!data) {
-      res.status(404).send({
-        message: `Cannot find OneState with this name. Maybe name is wrong`,
+      return res.status(404).send({
+        message: `Cannot find country with this name. Maybe name is wrong`,
       })
     } else {
-      res.json(data)
+      State.findOne({ country: data['country'], _id: stateName }).then((data) => {
+        if (!data) {
+          return res.status(404).send({
+            message: `Cannot find OneState with this name. Maybe name is wrong`,
+          })
+        } else {
+          return res.json(data)
+        }
+      })
     }
   })
+
+  
 }
 
 exports.updateOneState = (req, res) => {
@@ -186,15 +204,15 @@ exports.updateOneState = (req, res) => {
   State.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
     .then((data) => {
       if (!data) {
-        res.status(404).send({
+        return res.status(404).send({
           message: `cannot update state with ${id}. Maybe State not found`,
         })
       } else {
-        res.send(data)
+        return res.send(data)
       }
     })
     .catch((err) => {
-      res.status(500).send({
+      return res.status(500).send({
         message: `Error update State information`,
       })
     })
@@ -203,13 +221,30 @@ exports.updateOneState = (req, res) => {
 exports.getDistricts = async (req, res) => {
   const stateName = req.params.stateId
 
+  State.findById(stateName).then((data) => {
+    if (!data) {
+      return res.status(404).send({
+        message: `Cannot find country with this name. Maybe name is wrong`,
+      })
+    } else {
+      District.find({ state: data['state'] }).then((data) => {
+        if (!data) {
+          return res.status(404).send({
+            message: `Cannot find State with this name. Maybe name is wrong`,
+          })
+        } else {
+          return res.json(data)
+        }
+      })
+    }
+  })
   District.find({ country: countryName, state: stateName }).then((data) => {
     if (!data) {
-      res.status(404).send({
+      return res.status(404).send({
         message: `Cannot find District with this name. Maybe name is wrong`,
       })
     } else {
-      res.json(data)
+      return res.json(data)
     }
   })
 }
@@ -218,17 +253,25 @@ exports.getOneDistrict = async (req, res) => {
   const stateName = req.params.stateId
   const districtName = req.params.districtId
 
-  District.findOne({ state: stateName, district: districtName }).then(
-    (data) => {
-      if (!data) {
-        res.status(404).send({
-          message: `Cannot find OneDistrict with this name. Maybe name is wrong`,
-        })
-      } else {
-        res.json(data)
-      }
+  State.findById(stateName).then((data) => {
+    if (!data) {
+      return res.status(404).send({
+        message: `Cannot find country with this name. Maybe name is wrong`,
+      })
+    } else {
+      District.findOne({ state: data['state'], _id: districtName }).then(
+        (data) => {
+          if (!data) {
+            return res.status(404).send({
+              message: `Cannot find OneState with this name. Maybe name is wrong`,
+            })
+          } else {
+            return res.json(data)
+          }
+        }
+      )
     }
-  )
+  })
 }
 
 exports.updateOneDistrict = (req, res) => {
@@ -243,15 +286,15 @@ exports.updateOneDistrict = (req, res) => {
   District.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
     .then((data) => {
       if (!data) {
-        res.status(404).send({
+        return res.status(404).send({
           message: `cannot update district with ${id}. district not found`,
         })
       } else {
-        res.send(data)
+        return res.send(data)
       }
     })
     .catch((err) => {
-      res.status(500).send({
+      return res.status(500).send({
         message: `Error update district information`,
       })
     })
@@ -260,11 +303,11 @@ exports.updateOneDistrict = (req, res) => {
 exports.getHospital = async (req, res) => {
   Hospital.find({}).then((data) => {
     if (!data) {
-      res.status(404).send({
+      return res.status(404).send({
         message: `Cannot find hospital with this name. Maybe name is wrong`,
       })
     } else {
-      res.json(data)
+      return res.json(data)
     }
   })
 }
@@ -275,11 +318,11 @@ exports.getOneHospital = async (req, res) => {
   Hospital.findOne({ hospital: hospitalName }).then(
     (data) => {
       if (!data) {
-        res.status(404).send({
+        return res.status(404).send({
           message: `Cannot find onehospital with this name. Maybe name is wrong`,
         })
       } else {
-        res.json(data)
+        return res.json(data)
       }
     })
 }
@@ -296,15 +339,15 @@ exports.updateOneHospital = (req, res) => {
   Hospital.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
     .then((data) => {
       if (!data) {
-        res.status(404).send({
+        return res.status(404).send({
           message: `cannot update hospital with ${id}. Hospital not found`,
         })
       } else {
-        res.send(data)
+        return res.send(data)
       }
     })
     .catch((err) => {
-      res.status(500).send({
+      return res.status(500).send({
         message: `Error update hospital information`,
       })
     })
@@ -313,11 +356,11 @@ exports.updateOneHospital = (req, res) => {
 exports.getGuidelines = async(req,res) => {
   Guideline.find({}).then((data) => {
     if (!data) {
-      res.status(404).send({
+      return res.status(404).send({
         message: `Failed to fetch the guidelines`,
       })
     } else {
-      res.send(data)
+      return res.send(data)
     }
   })
 }
@@ -336,10 +379,10 @@ exports.postGuidelines = async (req,res) => {
     guideline
     .save(guideline)
     .then((data) => {
-      res.send(data)
+      return res.send(data)
     })
     .catch((err) => {
-      res.status(500).send({
+      return res.status(500).send({
         message:
           err.message ||
           `some error occured while creating a create operation`,
@@ -359,15 +402,15 @@ exports.updateGuidelines = (req, res) => {
   Guideline.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
     .then((data) => {
       if (!data) {
-        res.status(404).send({
+        return res.status(404).send({
           message: `cannot update guidelines with ${id}.`,
         })
       } else {
-        res.send(data)
+        return res.send(data)
       }
     })
     .catch((err) => {
-      res.status(500).send({
+      return res.status(500).send({
         message: `Error update guideline information`,
       })
     })
