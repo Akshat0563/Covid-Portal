@@ -7,6 +7,10 @@
   background: rgb(255, 255, 255);
 }
 
+.input {
+  position: fixed;
+}
+
 .hospitalMain {
   display: flex;
   align-items: center;
