@@ -32,13 +32,13 @@ const Hospital = () => {
   };
 
 
-  const updatehospital=async(hospital)=>{
-     const response=await axios.put(`${url}/hospitals`,hospital);
-     setHospitals(hospitals.map((hospital)=>{
-         return hospital._id===editid?{...response.data}:hospital;
-     })
-     );
-  }
+  // const updatehospital=async(hospital)=>{
+  //    const response=await axios.put(`${url}/hospitals/${editid}`,hospital);
+  //    setHospitals(hospitals.map((hospital)=>{
+  //        return hospital._id===editid?{...response.data}:hospital;
+  //    })
+  //    );
+  // }
 
   const update=(e)=>{
        e.preventDefault();
@@ -64,6 +64,16 @@ const Hospital = () => {
     if (!hospitals) {
         return <NavBar/>;
     }
+
+    const updatehospital=async(hospital)=>{
+      console.log(hospitals);
+      const response=await axios.put(`${url}/hospitals`,hospital);
+      setHospitals(hospitals.map((hospital)=>{
+          return hospital._id===editid?{...response.data}:hospital;
+      })
+      );
+   }
+
     return (
     //  let occ="";
       <>

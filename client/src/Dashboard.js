@@ -28,8 +28,8 @@ class Dashboard extends React.Component {
    const fetchedstate=await fetchStates(country);
     this.setState({statelist:fetchedstate});
     this.handleStateChange(country,"");
-  //  this.setState({state:""});
-  //  this.setState({district:""});
+    // this.setState({state:""});
+    // this.setState({district:""});
   }
 
   handleStateChange=async(country,state)=>{
@@ -37,6 +37,7 @@ class Dashboard extends React.Component {
    this.setState({ data: fetchedData, country: country, state: state });
    const fetcheddistrict=await fetchDistricts(state);
    this.setState({districtlist:fetcheddistrict});
+   console.log(this.districtlist);
    this.setState({district:""});
   }
 

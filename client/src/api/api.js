@@ -80,6 +80,7 @@ export const fetchDistricts=async(state)=>{
     {
       const {data} = await axios.get(`${url}/states/${state}/districts`);
     const districts = data.map((district)=>district.district);
+    console.log(districts);
     return districts;
     }
     else{
