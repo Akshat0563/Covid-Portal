@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import './SignUp-SignIn.css';
 import image1 from '../../Images/iconfinder_211686_back_arrow_icon.svg';
+import axios from "axios";
 
 const SignUp = () => {
   document.title = 'Covid Portal | SignUp'
-
+  
   const [className1, setClassName1] = useState('');
+  const [user1, setUser1] = useState({email: '', password: ''});
+  const [user2, setUser2] = useState({email: '', password: ''});
 
   const LeftPanelActive = () => {
     setClassName1('')
@@ -14,6 +17,42 @@ const SignUp = () => {
   const RightPanelActive = () => {
     setClassName1("right-panel-active")
   };
+
+ const handleSignUp = async() => {
+   console.log(user1)
+    const response = await axios.post('http://locahost:2000/api/signUp', user1)
+    console.log(response)
+  }
+
+  const handleSignIn = async() => {
+    const response = await axios.post('http://locahost:2000/api/signIn', user2)
+    console.log(response)
+  }
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+
+    switch (name) {
+      case 'email1':
+        setUser1({ ...user1, email: value });
+        console.log(user1)
+        break;
+      case 'password1':
+        setUser1({ ...user1, password: value });
+        console.log(user1)
+        break;
+      case 'email2':
+        setUser2({ ...user2, email: value });
+        console.log(user2)
+        break;
+      case 'password2':
+        setUser2({ ...user2, password: value });
+        console.log(user2)
+        break;
+      default:
+        break;
+    }
+  }
 
   return (
     <>
@@ -26,20 +65,19 @@ const SignUp = () => {
       <div className="container__form container--signup">
         <form action="#" className="form" id="form1">
           <h2 className="formtitle">Sign Up</h2>
-          <input type="text" placeholder="User" className="input" />
-          <input type="email" placeholder="Email" className="input" />
-          <input type="password" placeholder="Password" className="input" />
-          <button className="btn">Sign Up</button>
+          <input type="email" placeholder="Email" name='email1' className="input" onChange={handleChange} noValidate/>
+          <input type="password" placeholder="Password" name='password1' className="input" onChange={handleChange} noValidate/>
+          <button className="btn" onClick={handleSignUp}>Sign Up</button>
         </form>
       </div>
 
       <div className="container__form container--signin">
         <form action="#" className="form" id="form2">
           <h2 className="formtitle">Sign In</h2>
-          <input type="email" placeholder="Email" className="input" />
-          <input type="password" placeholder="Password" className="input" />
+          <input type="email" placeholder="Email" className="input" name='email2' onChange={handleChange} noValidate/>
+          <input type="password" placeholder="Password" className="input" name='password2' onChange={handleChange} noValidate/>
           <a href="#" className="link">Forgot your password?</a>
-          <button className="btn">Sign In</button>
+          <button className="btn" onClick={handleSignIn}>Sign In</button>
         </form>
       </div>
 

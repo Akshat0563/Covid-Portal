@@ -53,13 +53,13 @@ const Hospital = () => {
     if (!hospitals || !filter) {
         return <>
         <NavBar/>
-        <input type="text" placeholder="Search Hospital" style={{margin:"80px"}} onChange={handleSearch}/>
+        <input type="text" placeholder="Search Hospital" style={{margin:"80px 0px 0px 80px"}} onChange={handleSearch}/>
         </>
     }
     return (
       <>
       <NavBar/>
-      <input type="text" placeholder="Search Hospital" style={{margin:"80px"}} onChange={handleSearch}/>
+      <input type="text" placeholder="Search Hospital" style={{margin:"80px 0px 0px 80px"}} onChange={handleSearch}/>
         <div className='hospitalMain'>
           {filter.map((hospital  => 
           // hospital['hospital']
