@@ -94,7 +94,7 @@ exports.getCountry = async (req, res) => {
   Country.find({}).then((data) => {
     if (!data) {
       return res.status(404).send({
-        message: `Cannot find country with this name. Maybe name is wrong`,
+        message: "Cannot find countries. Check connection to database",
       })
     } else {
       return res.json(data)
@@ -103,148 +103,56 @@ exports.getCountry = async (req, res) => {
 }
 
 exports.getOneCountry = async (req, res) => {
-  const countryName = req.params.id
+  const countryId = req.params.id
 
-    Country.findOne({ country: countryName })
-    .then(data => {
-        if (!data) {
-          return res.status(404).send({
-            message: `Cannot find country with this name. Maybe name is wrong`,
-          })
-        } else {
-          return res.json(data)
-        }
-    })
-}
-
-exports.updateOneCountry = (req, res) => {
-  if (!req.body) {
-    return res
-      .status(400)
-      .send({ message: `Data to be updated cannot be empty` })
-  }
-
-  const id = req.params.id
-
-  Country.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
-    .then((data) => {
+  Country.findById(countryId)
+  .then(data => {
       if (!data) {
         return res.status(404).send({
-          message: `cannot update author with ${id}. Maybe uer not found`,
-        }) 
+          message: `Cannot find country with ID ${countryId}`,
+        })
       } else {
-        res.send(data)
+        return res.json(data)
       }
-    })
-    .catch((err) => {
-      res.status(500).send({
-        message: `Error update author information`,
-      })
-    })
+  })
 }
 
 exports.getStates = async (req, res) => {
-  const countryName = req.params.countryId
-
-    Country.findById(countryName)
-    .then((data) => {
-      if (!data) {
-        return res.status(404).send({
-          message: `Cannot find country with this name. Maybe name is wrong`,
-        })
-      } else {
-        State.find({ country: data['country'] })
-            //.populate('country')
-            .then((data) => {
-          if (!data) {
-            return res.status(404).send({
-              message: `Cannot find State with this name. Maybe name is wrong`,
-            })
-          } else {
-            return res.json(data)
-          }
-        })
-      }
-    })
-    
-    
+  const countryId = req.params.countryId
+  State.find({ country: countryId })
+  .then((data) => {
+    if (!data) {
+      return res.status(404).send({
+        message: "Cannot find States.",
+      })
+    } else {
+      return res.json(data)
+    }
+  })
 }
 
 exports.getOneState = async (req, res) => {
-  const countryName = req.params.countryId
-  const stateName = req.params.stateId
+  const stateId = req.params.id
   
-  Country.findById(countryName).then((data) => {
+  State.findById(stateId)
+  .then((data) => {
     if (!data) {
       return res.status(404).send({
-        message: `Cannot find country with this name. Maybe name is wrong`,
+        message: `Cannot find State with ID ${stateId}`,
       })
     } else {
-      State.findOne({ country: data['country'], _id: stateName }).then((data) => {
-        if (!data) {
-          return res.status(404).send({
-            message: `Cannot find OneState with this name. Maybe name is wrong`,
-          })
-        } else {
           return res.json(data)
-        }
-      })
     }
   })
-
-  
-}
-
-exports.updateOneState = (req, res) => {
-  if (!req.body) {
-    return res
-      .status(400)
-      .send({ message: `Data to be updated cannot be empty` })
-  }
-
-  const id = req.params.id
-
-  State.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
-    .then((data) => {
-      if (!data) {
-        return res.status(404).send({
-          message: `cannot update state with ${id}. Maybe State not found`,
-        })
-      } else {
-        return res.send(data)
-      }
-    })
-    .catch((err) => {
-      return res.status(500).send({
-        message: `Error update State information`,
-      })
-    })
 }
 
 exports.getDistricts = async (req, res) => {
-  const stateName = req.params.stateId
-
-  State.findById(stateName).then((data) => {
+  const stateId = req.params.stateId
+  District.find({ state: stateId })
+  .then((data) => {
     if (!data) {
       return res.status(404).send({
-        message: `Cannot find country with this name. Maybe name is wrong`,
-      })
-    } else {
-      District.find({ state: data['state'] }).then((data) => {
-        if (!data) {
-          return res.status(404).send({
-            message: `Cannot find State with this name. Maybe name is wrong`,
-          })
-        } else {
-          return res.json(data)
-        }
-      })
-    }
-  })
-  District.find({ country: countryName, state: stateName }).then((data) => {
-    if (!data) {
-      return res.status(404).send({
-        message: `Cannot find District with this name. Maybe name is wrong`,
+        message: "Cannot find Districts.",
       })
     } else {
       return res.json(data)
@@ -253,31 +161,21 @@ exports.getDistricts = async (req, res) => {
 }
 
 exports.getOneDistrict = async (req, res) => {
-  const stateName = req.params.stateId
-  const districtName = req.params.districtId
-
-  State.findById(stateName).then((data) => {
+  const districtId = req.params.id
+  
+  District.findById(districtId)
+  .then((data) => {
     if (!data) {
       return res.status(404).send({
-        message: `Cannot find country with this name. Maybe name is wrong`,
+        message: `Cannot find District with ID ${districtId}`,
       })
     } else {
-      District.findOne({ state: data['state'], _id: districtName }).then(
-        (data) => {
-          if (!data) {
-            return res.status(404).send({
-              message: `Cannot find OneState with this name. Maybe name is wrong`,
-            })
-          } else {
-            return res.json(data)
-          }
-        }
-      )
+          return res.json(data)
     }
   })
 }
 
-exports.updateOneDistrict = (req, res) => {
+exports.updateOneDistrict = async (req, res) => {
   if (!req.body) {
     return res
       .status(400)
@@ -286,28 +184,56 @@ exports.updateOneDistrict = (req, res) => {
 
   const id = req.params.id
 
-  District.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
-    .then((data) => {
-      if (!data) {
-        return res.status(404).send({
-          message: `cannot update district with ${id}. district not found`,
-        })
-      } else {
-        return res.send(data)
-      }
-    })
-    .catch((err) => {
-      return res.status(500).send({
-        message: `Error update district information`,
-      })
-    })
+  const getOldData = (document) => {
+    return {
+      confirmed: document.confirmed,
+      deaths: document.deaths,
+      active: document.active,
+      recovered: document.recovered
+    }
+  }
+  const getChanges = (oldData, body) => {
+    const newData = {...oldData, ...body}
+    return {
+      confirmed: newData.confirmed - oldData.confirmed,
+      deaths: newData.deaths - oldData.deaths,
+      active: newData.active - oldData.active,
+      recovered: newData.recovered - oldData.recovered
+    }
+  }
+  const getNewData = (oldData,changes) => {
+    return {
+      confirmed: oldData.confirmed + changes.confirmed,
+      deaths: oldData.deaths + changes.deaths,
+      active: oldData.active + changes.active,
+      recovered: oldData.recovered + changes.recovered
+    }
+  }
+
+
+  try{
+    const oldDistrict = await District.findById(id)
+    const oldState = await State.findById(oldDistrict.state)
+    const oldCountry = await Country.findById(oldState.country)
+    const oldGlobal = await Country.findOne({country:"Global"})
+
+    const changes = getChanges(getOldData(oldDistrict), req.body)
+
+    const newDistrict = await District.findByIdAndUpdate(oldDistrict._id, getNewData(getOldData(oldDistrict), changes), { useFindAndModify: false, new:true })
+    const newState = await State.findByIdAndUpdate(oldState._id, getNewData(getOldData(oldState), changes), { useFindAndModify: false, new:true })
+    const newCountry = await Country.findByIdAndUpdate(oldCountry._id, getNewData(getOldData(oldCountry), changes), { useFindAndModify: false, new:true })
+    const newGlobal = await Country.findByIdAndUpdate(oldGlobal._id, getNewData(getOldData(oldGlobal), changes), { useFindAndModify: false, new:true })
+
+    res.json({district:newDistrict, state:newState, country:newCountry, global:newGlobal})
+  }
+  catch(e){console.log(e)}
 }
 
 exports.getHospital = async (req, res) => {
   Hospital.find({}).then((data) => {
     if (!data) {
       return res.status(404).send({
-        message: `Cannot find hospital with this name. Maybe name is wrong`,
+        message: "Cannot find Hospitals.",
       })
     } else {
       return res.json(data)
@@ -316,13 +242,13 @@ exports.getHospital = async (req, res) => {
 }
 
 exports.getOneHospital = async (req, res) => {
-  const hospitalName = req.params.id
+  const hospitalId = req.params.id
 
-  Hospital.findOne({ hospital: hospitalName }).then(
-    (data) => {
+  Hospital.findById(hospitalId)
+  .then((data) => {
       if (!data) {
         return res.status(404).send({
-          message: `Cannot find onehospital with this name. Maybe name is wrong`,
+          message: `Cannot find Hospital with ID ${hospitalId}`,
         })
       } else {
         return res.json(data)
@@ -339,7 +265,7 @@ exports.updateOneHospital = (req, res) => {
 
   const id = req.params.id
 
-  Hospital.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
+  Hospital.findByIdAndUpdate(id, req.body, { useFindAndModify: false, new:true})
     .then((data) => {
       if (!data) {
         return res.status(404).send({
@@ -369,28 +295,24 @@ exports.getGuidelines = async(req,res) => {
 }
 
 exports.postGuidelines = async (req,res) => {
-  if (req.body.Guideline == '') {
-    res.status(400).json({ message: 'No field can be empty!' })
-    console.log('field empty')
-    return
+  if (req.body.guideline == '') {
+    return res.status(400).json({ message: 'No field can be empty!' })
   }
-  console.log(req.body.Guideline)
   const guideline = new Guideline({
-    Guideline: req.body.Guideline
+    guideline: req.body.guideline
   })
-  console.log(req.body.Guideline)
-    guideline
-    .save(guideline)
-    .then((data) => {
-      return res.send(data)
+  guideline
+  .save(guideline)
+  .then((data) => {
+    return res.send(data)
+  })
+  .catch((err) => {
+    return res.status(500).send({
+      message:
+        err.message ||
+        `An error occured in create operation`,
     })
-    .catch((err) => {
-      return res.status(500).send({
-        message:
-          err.message ||
-          `some error occured while creating a create operation`,
-      })
-    })
+  })
 }
 
 exports.updateGuidelines = (req, res) => {
@@ -401,12 +323,13 @@ exports.updateGuidelines = (req, res) => {
   }
 
   const id = req.params.id
+  const newGuideline = {guideline: req.body.guideline}
 
-  Guideline.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
+  Guideline.findByIdAndUpdate(id, newGuideline, { useFindAndModify: false, new: true })
     .then((data) => {
       if (!data) {
         return res.status(404).send({
-          message: `cannot update guidelines with ${id}.`,
+          message: `Cannot update Guideline with ID ${id}.`,
         })
       } else {
         return res.send(data)

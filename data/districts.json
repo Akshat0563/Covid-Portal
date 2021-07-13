@@ -1,7 +1,7 @@
 [
 	{
 		"district": "Chhota Udaipur",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "3394",
 		"active": "3",
 		"recovered": "3353",
@@ -9,7 +9,7 @@
 	},
 	{
 		"district": "Dahod",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "9918",
 		"active": "3",
 		"recovered": "9877",
@@ -17,7 +17,7 @@
 	},
 	{
 		"district": "Dang",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "861",
 		"active": "1",
 		"recovered": "842",
@@ -25,7 +25,7 @@
 	},
 	{
 		"district": "Devbhumi Dwarka",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "4150",
 		"active": "20",
 		"recovered": "4049",
@@ -33,7 +33,7 @@
 	},
 	{
 		"district": "Gandhinagar",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "20703",
 		"active": "290",
 		"recovered": "20208",
@@ -41,7 +41,7 @@
 	},
 	{
 		"district": "Gir Somnath",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "8514",
 		"active": "148",
 		"recovered": "8299",
@@ -49,7 +49,7 @@
 	},
 	{
 		"district": "Jamnagar",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "34886",
 		"active": "54",
 		"recovered": "34355",
@@ -57,7 +57,7 @@
 	},
 	{
 		"district": "Junagadh",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "20401",
 		"active": "96",
 		"recovered": "20035",
@@ -65,7 +65,7 @@
 	},
 	{
 		"district": "Kheda",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "10406",
 		"active": "16",
 		"recovered": "10342",
@@ -73,7 +73,7 @@
 	},
 	{
 		"district": "Kutch",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "12568",
 		"active": "18",
 		"recovered": "12405",
@@ -81,7 +81,7 @@
 	},
 	{
 		"district": "Mahisagar",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "8189",
 		"active": "13",
 		"recovered": "8104",
@@ -89,7 +89,7 @@
 	},
 	{
 		"district": "Mehsana",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "24390",
 		"active": "62",
 		"recovered": "24151",
@@ -97,7 +97,7 @@
 	},
 	{
 		"district": "Morbi",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "6494",
 		"active": "1",
 		"recovered": "6406",
@@ -105,7 +105,7 @@
 	},
 	{
 		"district": "Narmada",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "5941",
 		"active": "5",
 		"recovered": "5921",
@@ -113,7 +113,7 @@
 	},
 	{
 		"district": "Navsari",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "7117",
 		"active": "24",
 		"recovered": "7069",
@@ -121,7 +121,7 @@
 	},
 	{
 		"district": "Panchmahal",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "11759",
 		"active": "9",
 		"recovered": "11680",
@@ -129,7 +129,7 @@
 	},
 	{
 		"district": "Patan",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "11621",
 		"active": "2",
 		"recovered": "11490",
@@ -137,7 +137,7 @@
 	},
 	{
 		"district": "Porbandar",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "3463",
 		"active": "13",
 		"recovered": "3431",
@@ -145,7 +145,7 @@
 	},
 	{
 		"district": "Rajkot",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "57817",
 		"active": "81",
 		"recovered": "57013",
@@ -153,7 +153,7 @@
 	},
 	{
 		"district": "Sabarkantha",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "9299",
 		"active": "16",
 		"recovered": "9126",
@@ -161,7 +161,7 @@
 	},
 	{
 		"district": "Surat",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "143175",
 		"active": "725",
 		"recovered": "140500",
@@ -169,7 +169,7 @@
 	},
 	{
 		"district": "Surendranagar",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "8108",
 		"active": "6",
 		"recovered": "7966",
@@ -177,7 +177,7 @@
 	},
 	{
 		"district": "Tapi",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "4429",
 		"active": "3",
 		"recovered": "4404",
@@ -185,7 +185,7 @@
 	},
 	{
 		"district": "Vadodara",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "77674",
 		"active": "135",
 		"recovered": "76752",
@@ -193,7 +193,7 @@
 	},
 	{
 		"district": "Valsad",
-		"state": "Gujarat",
+		"state": "60eda0f67a74f523e81e43cd",
 		"confirmed": "6213",
 		"active": "55",
 		"recovered": "6109",
@@ -201,7 +201,7 @@
 	},
 	{
 		"district": "Bagalkote",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "34974",
 		"active": "414",
 		"recovered": "34246",
@@ -209,7 +209,7 @@
 	},
 	{
 		"district": "Ballari",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "96992",
 		"active": "708",
 		"recovered": "94680",
@@ -217,7 +217,7 @@
 	},
 	{
 		"district": "Belagavi",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "75706",
 		"active": "1642",
 		"recovered": "73287",
@@ -225,7 +225,7 @@
 	},
 	{
 		"district": "Bengaluru Rural",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "59552",
 		"active": "1497",
 		"recovered": "57247",
@@ -233,7 +233,7 @@
 	},
 	{
 		"district": "Bengaluru Urban",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "1212746",
 		"active": "52445",
 		"recovered": "1144685",
@@ -241,7 +241,7 @@
 	},
 	{
 		"district": "Bidar",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "24172",
 		"active": "35",
 		"recovered": "23741",
@@ -249,7 +249,7 @@
 	},
 	{
 		"district": "Chamarajanagara",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "31160",
 		"active": "565",
 		"recovered": "30131",
@@ -257,7 +257,7 @@
 	},
 	{
 		"district": "Chikkaballapura",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "43127",
 		"active": "781",
 		"recovered": "41961",
@@ -265,7 +265,7 @@
 	},
 	{
 		"district": "Chikkamagaluru",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "45541",
 		"active": "1730",
 		"recovered": "43468",
@@ -273,7 +273,7 @@
 	},
 	{
 		"district": "Chitradurga",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "35101",
 		"active": "861",
 		"recovered": "34061",
@@ -281,7 +281,7 @@
 	},
 	{
 		"district": "Dakshina Kannada",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "92513",
 		"active": "5038",
 		"recovered": "86295",
@@ -289,7 +289,7 @@
 	},
 	{
 		"district": "Davanagere",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "49498",
 		"active": "1466",
 		"recovered": "47491",
@@ -297,7 +297,7 @@
 	},
 	{
 		"district": "Dharwad",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "59924",
 		"active": "561",
 		"recovered": "58162",
@@ -305,7 +305,7 @@
 	},
 	{
 		"district": "Gadag",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "25796",
 		"active": "225",
 		"recovered": "25269",
@@ -313,7 +313,7 @@
 	},
 	{
 		"district": "Hassan",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "101560",
 		"active": "3546",
 		"recovered": "96909",
@@ -321,7 +321,7 @@
 	},
 	{
 		"district": "Haveri",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "21642",
 		"active": "221",
 		"recovered": "20829",
@@ -329,7 +329,7 @@
 	},
 	{
 		"district": "Kalaburagi",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "61303",
 		"active": "253",
 		"recovered": "60240",
@@ -337,7 +337,7 @@
 	},
 	{
 		"district": "Kodagu",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "30237",
 		"active": "1674",
 		"recovered": "28296",
@@ -345,7 +345,7 @@
 	},
 	{
 		"district": "Kolar",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "43978",
 		"active": "833",
 		"recovered": "42671",
@@ -353,7 +353,7 @@
 	},
 	{
 		"district": "Koppal",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "34862",
 		"active": "401",
 		"recovered": "33955",
@@ -361,7 +361,7 @@
 	},
 	{
 		"district": "Mandya",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "70108",
 		"active": "1174",
 		"recovered": "68387",
@@ -369,7 +369,7 @@
 	},
 	{
 		"district": "Mysuru",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "166207",
 		"active": "4285",
 		"recovered": "159759",
@@ -377,7 +377,7 @@
 	},
 	{
 		"district": "Other State",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "36",
 		"active": "0",
 		"recovered": "33",
@@ -385,7 +385,7 @@
 	},
 	{
 		"district": "Raichur",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "39773",
 		"active": "145",
 		"recovered": "39306",
@@ -393,7 +393,7 @@
 	},
 	{
 		"district": "Ramanagara",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "23640",
 		"active": "186",
 		"recovered": "23160",
@@ -401,7 +401,7 @@
 	},
 	{
 		"district": "Shivamogga",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "63925",
 		"active": "1633",
 		"recovered": "61305",
@@ -409,7 +409,7 @@
 	},
 	{
 		"district": "Tumakuru",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "114818",
 		"active": "1610",
 		"recovered": "112188",
@@ -417,7 +417,7 @@
 	},
 	{
 		"district": "Udupi",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "66289",
 		"active": "987",
 		"recovered": "64910",
@@ -425,7 +425,7 @@
 	},
 	{
 		"district": "Uttara Kannada",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "51851",
 		"active": "788",
 		"recovered": "50381",
@@ -433,7 +433,7 @@
 	},
 	{
 		"district": "Vijayapura",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "35978",
 		"active": "183",
 		"recovered": "35323",
@@ -441,7 +441,7 @@
 	},
 	{
 		"district": "Yadgir",
-		"state": "Karnataka",
+		"state": "60eda0f67a74f523e81e43c4",
 		"confirmed": "27419",
 		"active": "110",
 		"recovered": "27103",

@@ -20,35 +20,32 @@ router.get('/api/country', user.getCountry)
 
 router.get('/api/country/:id', user.getOneCountry)
 
-router.put('/api/country/:id', user.updateOneCountry)
+//router.put('/api/country/:id', user.updateOneCountry)
 
-router.get('/api/country/:countryId/states', user.getStates)
+router.get('/api/country/:countryId/state', user.getStates)
 
-router.get('/api/country/:countryId/states/:stateId', user.getOneState)
+router.get('/api/state/:id', user.getOneState)
 
-router.put('/api/state/:id', user.updateOneState)
+//router.put('/api/state/:id', user.updateOneState)
 
-router.get('/api/states/:stateId/districts', user.getDistricts)
+router.get('/api/state/:stateId/district', user.getDistricts)
 
-router.get(
-  '/api/states/:stateId/districts/:districtId',
-  user.getOneDistrict
-)
+router.get('/api/district/:id', user.getOneDistrict)
 
-router.put('/api/district/:id', user.updateOneDistrict)
+router.put('/api/district/:id', jsonParser, user.updateOneDistrict)
 
-router.get('/api/hospitals', user.getHospital)
+router.get('/api/hospital', user.getHospital)
 
-router.get('/api/hospitals/:id', user.getOneHospital)
+router.get('/api/hospital/:id', user.getOneHospital)
 
-router.put('/api/hospitals/:id', user.updateOneHospital)
+router.put('/api/hospital/:id', jsonParser, user.updateOneHospital)
 
-router.get('/api/guidelines', user.getGuidelines)
+router.get('/api/guideline', user.getGuidelines)
 
-router.post('/api/guidelines/:id', jsonParser, user.postGuidelines)
+router.post('/api/guideline/', jsonParser, user.postGuidelines)
 
-router.put('/api/guidelines/:id', jsonParser, user.updateGuidelines)
+router.put('/api/guideline/:id', jsonParser, user.updateGuidelines)
 
-router.delete('/api/guidelines/:id', jsonParser, user.deleteGuidelines)
+router.delete('/api/guideline/:id', user.deleteGuidelines)
 
 module.exports = router

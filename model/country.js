@@ -1,8 +1,6 @@
 const mongoose = require('mongoose')
-const countries_data = require('../data/countries.json')
 
 var country = new mongoose.Schema({
-    // _id: mongoose.Schema.Types.ObjectId,
     country: {
         type: String,
         required: true,
@@ -27,7 +25,5 @@ var country = new mongoose.Schema({
 }, {timestamps: true})
 
 const Country = mongoose.model('Country', country)
-
-//Country.insertMany(countries_data, (error, docs) => {})
 
 module.exports = Country
