@@ -146,13 +146,16 @@ exports.updateOneCountry = (req, res) => {
 exports.getStates = async (req, res) => {
   const countryName = req.params.countryId
 
-    Country.findById(countryName).then((data) => {
+    Country.findById(countryName)
+    .then((data) => {
       if (!data) {
         return res.status(404).send({
           message: `Cannot find country with this name. Maybe name is wrong`,
         })
       } else {
-        State.find({ country: data['country'] }).then((data) => {
+        State.find({ country: data['country'] })
+            //.populate('country')
+            .then((data) => {
           if (!data) {
             return res.status(404).send({
               message: `Cannot find State with this name. Maybe name is wrong`,

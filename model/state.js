@@ -1,13 +1,17 @@
 const mongoose = require('mongoose')
+const Country = require('./country')
 const states_data = require('../data/states.json')
 
 var state = new mongoose.Schema({
+    _id: mongoose.Schema.Types.ObjectId,
     state: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     country: {
-        type: String,
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Country',
         required: true
     },
     confirmed: {

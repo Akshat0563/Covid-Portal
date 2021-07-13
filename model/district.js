@@ -4,7 +4,8 @@ const districts_data = require('../data/districts.json')
 var district = new mongoose.Schema({
     district: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     state: {
         type: String,

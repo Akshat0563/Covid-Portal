@@ -4,7 +4,8 @@ const hospitals_data = require('../data/hospitals.json')
 var hospital = new mongoose.Schema({
     hospital: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     address: {
         type: String,
