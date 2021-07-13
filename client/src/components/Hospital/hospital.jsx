@@ -67,11 +67,17 @@ const Hospital = () => {
 
     const updatehospital=async(hospital)=>{
       console.log(hospitals);
-      const response=await axios.put(`${url}/hospitals`,hospital);
-      setHospitals(hospitals.map((hospital)=>{
-          return hospital._id===editid?{...response.data}:hospital;
-      })
-      );
+      const getAllHospitals = async () => {
+        const allHospitals = await retrieve_hospitals();
+        if (allHospitals) setHospitals(allHospitals);
+      };
+      const response=await axios.put(`${url}/hospitals/${editid}`,hospital);
+      console.log(response);
+      getAllHospitals();
+      // setHospitals(hospitals.map((hospital)=>{
+      //     return hospital._id===editid?{...response.data}:hospital;
+      // })
+      // );
    }
 
     return (
