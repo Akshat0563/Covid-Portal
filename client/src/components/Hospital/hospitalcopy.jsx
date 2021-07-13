@@ -17,9 +17,9 @@ const Hospital = () => {
   const [hospitals, setHospitals] = useState();
   const [editid, seteditid] = useState("");
   const [edithospital, setedithospital] = useState({
-    Hospital: '',
-    Address: '',
-    District: '',
+    Hospital: "",
+    Address: "",
+    District: "",
     Pincode: null,
     Beds_total: null,
     Beds_occupied: null,
@@ -32,18 +32,16 @@ const Hospital = () => {
   };
 
 
-  // const updatehospital=async(hospital)=>{
-  //    const response=await axios.put(`${url}/hospitals/${editid}`,hospital);
-  //    setHospitals(hospitals.map((hospital)=>{
-  //        return hospital._id===editid?{...response.data}:hospital;
-  //    })
-  //    );
-  // }
+  const updatehospital=async(hospital)=>{
+     const response=await axios.put(`${url}/hospitals`,hospital);
+     setHospitals(hospitals.map((hospital)=>{
+         return hospital._id===editid?{...response.data}:hospital;
+     })
+     );
+  }
 
   const update=(e)=>{
        e.preventDefault();
-       console.log(edithospital);
-       console.log(edithospital.Beds_occupied);
        if(!edithospital.Beds_total || !edithospital.Beds_occupied || !edithospital.Beds_available){
            alert("All the fields are required");
            return;
@@ -64,23 +62,7 @@ const Hospital = () => {
     if (!hospitals) {
         return <NavBar/>;
     }
-
-    const updatehospital=async(hospital)=>{
-      console.log(hospitals);
-      const getAllHospitals = async () => {
-        const allHospitals = await retrieve_hospitals();
-        if (allHospitals) setHospitals(allHospitals);
-      };
-      const response=await axios.put(`${url}/hospitals/${editid}`,hospital);
-      getAllHospitals();
-      // setHospitals(hospitals.map((hospital)=>{
-      //     return hospital._id===editid?{...response.data}:hospital;
-      // })
-      // );
-   }
-
     return (
-    //  let occ="";
       <>
       <NavBar/>
         <div className='hospitalMain'>
@@ -97,45 +79,45 @@ const Hospital = () => {
                 <span className='beds bedstotal'>Beds Total - {hospital['beds_total']}</span>
                 <span className='beds bedsoccupied'>Beds Occupied - {hospital['beds_occupied']}</span>
                 <span className='beds bedsavailable'>Beds Available - {hospital['beds_available']}</span>
-                <button type='submit' onClick={() => seteditid(hospital._id)}>Edit</button>
+                <i
+                className="edit alternate outline icon"
+                style={{ color: "blue", marginTop: "7px" }}
+                onClick={() => seteditid(hospital._id)}
+                ></i>
               </> 
               :<>
-              {console.log(edithospital)}
-               <form onSubmit={update}>
+               <form className="ui form" onSubmit={update}>
           <div className="field">
             <label>Beds Total</label>
             <input
               type="number"
-            //  name="Beds_total"
-              className="form-control"
+              name="Beds_total"
               placeholder="Total Beds"
               value={edithospital.Beds_total}
-              onChange={(e) =>  setedithospital({ Beds_total: e.target.value, Pincode:hospital.pincode, Hospital:hospital.hospital , Address:hospital.address,District:hospital.district })}
+              onChange={(e) =>  setedithospital({ Beds_total: e.target.value , Hospital:hospital.hospital , Address:hospital.address })}
             />
           </div>
           <div className="field">
             <label>Beds Occupied</label>
             <input
               type="number"
-            //  name="Beds_occupied"
-              className="form-control"
+              name="Beds_occupied"
               placeholder="Occupied Beds"
               value={edithospital.Beds_occupied}
-              onChange={(e) => setedithospital({ ...edithospital,Beds_occupied: e.target.value })}
+              onChange={(e) => setedithospital({ Beds_occupied: e.target.value ,District:hospital.district })}
             />
           </div>
           <div className="field">
             <label>Beds Available</label>
             <input
-              type="number"
-            //  name="Beds_available"
-              className="form-control"
+              type="text"
+              name="Beds_available"
               placeholder="Available Beds"
               value={edithospital.Beds_available}
-              onChange={(e) => setedithospital({ ...edithospital,Beds_available: e.target.value })}
+              onChange={(e) => setedithospital({ Beds_available: e.target.value , Pincode:hospital.pincode})}
             />
           </div>
-          <button type="submit" className="ui button blue">Edit</button>
+          <button className="ui button blue">Edit</button>
         </form>
               </>
            }
