@@ -1,13 +1,13 @@
 import './NavBar.css';
 import { useLocation } from 'react-router-dom'
 
-const NavBar = () => {
-    function toggleSidebar() {
-        document.getElementById('sidebar').classList.toggle('active');
-    }
+const NavBars = () => {
+    return <NavBar />
+}
 
-const location = useLocation();
-console.log(location.pathname)
+const NavBar = () => {
+
+    const location = useLocation();
 
     return (
         <>
