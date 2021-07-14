@@ -1,6 +1,5 @@
 
 import React from "react";
-
 import { useEffect, useState } from "react";
 import axios from "axios";
 import './hospitals.css'
@@ -10,7 +9,7 @@ const url = "http://localhost:2000/api";
 
 
 const api = axios.create({
-  baseURL: "http://localhost:2000/api/hospitals",
+  baseURL: "http://localhost:2000/api/hospital",
 });
 
 const Hospital = () => {

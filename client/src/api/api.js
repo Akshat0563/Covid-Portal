@@ -3,20 +3,14 @@ import axios from "axios";
 //const url = "https://covid19.mathdro.id/api";
 const url = "http://localhost:2000/api";
 
-export const fetchData = async (country,state,district) => {
-let changeableUrl=url;
+export const fetchData = async (mode, id) => {
 
+if(mode !== 'country' && mode !== 'state' && mode !== 'district'){
+  console.log('Mode does not match in fetchData')
+  return [];
+}
 
-if(district){
-  changeableUrl=`${url}/states/${state}/districts/${district}`;
-}
-else if(state){
-  //changeableUrl=`${url}/countries/${country}`;
-  changeableUrl=`${url}/country/${country}/states/${state}`;
-}
-else{
-  changeableUrl=`${url}/country/${country}`;
-}
+let changeableUrl = `${url}/${mode}/${id}`
 
   try {
     const {data} = await axios.get(changeableUrl);
@@ -51,42 +45,29 @@ export const fetchDailyData=async()=>{
 export const fetchCountries=async()=>{
   try{
     const {data} = await axios.get(`${url}/country`);
-    const countries = data.map((country)=>country.country);
-    return countries;
+    //const countries = data.map((country)=>country.country);
+    return data;
   } catch(error){
-
+    console.log(error)
   }
 }
 
-export const fetchStates=async(country)=>{
+export const fetchStates=async(countryId)=>{
   try{
-    if(country==="India" || country==="USA")
-    {
-      const {data} = await axios.get(`${url}/country/${country}/states`);
-    const states = data.map((state)=>state.state);
-    return states;
-    }
-    else{
-      return [];
-    }
+    const {data} = await axios.get(`${url}/country/${countryId}/state`);
+    //const states = data.map((state)=>state.state);
+    return data;
   } catch(error){
-
+    console.log(error)
   }
 }
 
-export const fetchDistricts=async(state)=>{
+export const fetchDistricts=async(stateId)=>{
   try{
-    if(state==="Gujarat" || state==="Karnataka")
-    {
-      const {data} = await axios.get(`${url}/states/${state}/districts`);
-    const districts = data.map((district)=>district.district);
-    console.log(districts);
-    return districts;
-    }
-    else{
-      return [];
-    }
+    const {data} = await axios.get(`${url}/state/${stateId}/district`);
+    //const districts = data.map((district)=>district.district);
+    return data;
   } catch(error){
-
+    console.log(error)
   }
 }
