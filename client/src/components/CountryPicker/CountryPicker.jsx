@@ -20,20 +20,20 @@ const CountryPicker = ({handleCountryChange,handleStateChange,handleDistrictChan
     <div>
       <FormControl className={styles.formControl}>
         <NativeSelect className={styles.container} defaultValue="" onChange={(e)=>handleCountryChange(e.target.value)}>
-          <option value="India">India</option>
-          {fetchedCountries.map((country,i)=><option key={i} value={country}>{country}</option>)}
+        <option value="">Select Country</option>
+          {fetchedCountries.map((country,i)=><option key={i} value={country._id}>{country.country}</option>)}
         </NativeSelect>
       </FormControl>
       <FormControl className={styles.formControl} style={{minWidth: 350}}>
         <NativeSelect className={styles.container} defaultValue="" onChange={(e)=>handleStateChange(country,e.target.value)}>
           <option value="">State not Selected</option>
-          {statelist.map((state,i)=><option key={i} value={state}>{state}</option>)}
+          {statelist.map((state,i)=><option key={i} value={state._id}>{state.state}</option>)}
         </NativeSelect>
       </FormControl>
       <FormControl className={styles.formControl} style={{minWidth: 350}}>
         <NativeSelect className={styles.container}  defaultValue="" onChange={(e)=>handleDistrictChange(country,state,e.target.value)}>
           <option value="">District not Selected</option>
-          {districtlist.map((district,i)=><option key={i} value={district}>{district}</option>)}
+          {districtlist.map((district,i)=><option key={i} value={district._id}>{district.district}</option>)}
         </NativeSelect>
       </FormControl>
     </div>
