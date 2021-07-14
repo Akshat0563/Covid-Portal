@@ -91,7 +91,7 @@ exports.updateAdmin = async (req, res) => {
 }
 
 exports.getCountry = async (req, res) => {
-  Country.find({}).then((data) => {
+  Country.find({}).sort({ country : 1}).then((data) => {
     if (!data) {
       return res.status(404).send({
         message: "Cannot find countries. Check connection to database",
@@ -120,6 +120,7 @@ exports.getOneCountry = async (req, res) => {
 exports.getStates = async (req, res) => {
   const countryId = req.params.countryId
   State.find({ country: countryId })
+  .sort({ state : 1})
   .then((data) => {
     if (!data) {
       return res.status(404).send({
@@ -149,6 +150,7 @@ exports.getOneState = async (req, res) => {
 exports.getDistricts = async (req, res) => {
   const stateId = req.params.stateId
   District.find({ state: stateId })
+  .sort({ district : 1})
   .then((data) => {
     if (!data) {
       return res.status(404).send({
@@ -230,7 +232,9 @@ exports.updateOneDistrict = async (req, res) => {
 }
 
 exports.getHospital = async (req, res) => {
-  Hospital.find({}).then((data) => {
+  Hospital.find({})
+  .sort({ hospital : 1})
+  .then((data) => {
     if (!data) {
       return res.status(404).send({
         message: "Cannot find Hospitals.",
