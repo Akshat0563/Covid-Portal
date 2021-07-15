@@ -7,43 +7,43 @@ import { fetchStates } from "./api/api";
 class Dashboard extends React.Component {
   state = {
     data: {},
-    country: 'India',
+    country: '60ed9fa52e6270563025e445', //Global ID
     state: '',
     district: '',
     statelist:[],
-    districtlist:[],
+    districtlist:[]
   };
 
 
   async componentDidMount() {
-    const fetchedData = await fetchData(this.state.country);
+    const fetchedData = await fetchData('country', this.state.country);
     this.setState({ ...this.state, data: fetchedData });
     const fetchedstate=await fetchStates(this.state.country);
     this.setState({...this.state, statelist:fetchedstate});
   }
 
   handleCountryChange=async(country)=>{
-   const fetchedData=await fetchData(country);
-   this.setState({ data: fetchedData, country: country });
-   const fetchedstate=await fetchStates(country);
-    this.setState({statelist:fetchedstate});
-    this.handleStateChange(country,"");
+    const fetchedData=await fetchData('country',country);
+    this.setState({ data: fetchedData, country: country, state: '', district: '', statelist:[], districtlist:[]});
+    const fetchedstate=await fetchStates(country);
+    this.setState({...this.state, statelist:fetchedstate});
+    //this.handleStateChange(country,"");
     // this.setState({state:""});
-    // this.setState({district:""});
+    //this.setState({district:""});
   }
 
   handleStateChange=async(country,state)=>{
-    const fetchedData=await fetchData(country,state);
-   this.setState({ data: fetchedData, country: country, state: state });
-   const fetcheddistrict=await fetchDistricts(state);
-   this.setState({districtlist:fetcheddistrict});
-   console.log(this.districtlist);
-   this.setState({district:""});
+    const fetchedData=await fetchData('state',state);
+    this.setState({ data: fetchedData, country: country, state: state });
+    const fetcheddistrict=await fetchDistricts(state);
+    this.setState({...this.state, districtlist:fetcheddistrict});
+    //console.log(this.districtlist);
+    this.setState({...this.state, district:""});
   }
 
   handleDistrictChange=async(country,state,district)=>{
-    const fetchedData=await fetchData(country,state,district);
-   this.setState({ data: fetchedData, country: country, state: state, district: district });
+    const fetchedData=await fetchData('district',district);
+    this.setState({ ...this.state, data: fetchedData, district: district });
   }
   
   render() {

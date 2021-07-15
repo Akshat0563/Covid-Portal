@@ -1,13 +1,13 @@
 const mongoose = require('mongoose')
-const districts_data = require('../data/districts.json')
 
 var district = new mongoose.Schema({
     district: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     state: {
-        type: String,
+        type: mongoose.Schema.Types.ObjectId,
         required: true
     },
     confirmed: {
@@ -29,7 +29,5 @@ var district = new mongoose.Schema({
 }, {timestamps: true})
 
 const District = mongoose.model('District', district)
-
-//District.insertMany(districts_data, (error, docs) => {})
 
 module.exports = District

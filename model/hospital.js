@@ -1,10 +1,10 @@
 const mongoose = require('mongoose')
-const hospitals_data = require('../data/hospitals.json')
 
 var hospital = new mongoose.Schema({
     hospital: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     address: {
         type: String,
@@ -33,7 +33,5 @@ var hospital = new mongoose.Schema({
 }, {timestamps: true})
 
 const Hospital = mongoose.model('Hospital', hospital)
-
-//Hospital.insertMany(hospitals_data, (error, docs) => {})
 
 module.exports = Hospital

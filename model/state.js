@@ -1,13 +1,13 @@
 const mongoose = require('mongoose')
-const states_data = require('../data/states.json')
 
 var state = new mongoose.Schema({
     state: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     country: {
-        type: String,
+        type: mongoose.Schema.Types.ObjectId,
         required: true
     },
     confirmed: {
@@ -29,7 +29,5 @@ var state = new mongoose.Schema({
 }, {timestamps: true})
 
 const State = mongoose.model('State', state)
-
-//State.insertMany(states_data, (error, docs) => {})
 
 module.exports = State

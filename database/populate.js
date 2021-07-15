@@ -1,0 +1,25 @@
+const mongoose = require('mongoose')
+const dotenv = require('dotenv')
+
+const connectDB = require('./connection')
+dotenv.config({ path: '../config.env' })
+connectDB()
+
+const User = require('../model/user')
+const Hospital = require('../model/hospital')
+const District = require('../model/district')
+const State = require('../model/state')
+const Country = require('../model/country')
+const Guideline = require('../model/guidelines')
+
+const countries_data = require('../data/countries.json')
+const states_data = require('../data/states.json')
+const districts_data = require('../data/districts.json')
+const hospitals_data = require('../data/hospitals.json')
+const guidelines_data = require('../data/guidelines.json')
+
+// Country.insertMany(countries_data, (error, docs) => {})
+// State.insertMany(states_data, (error, docs) => {})
+// District.insertMany(districts_data, (error, docs) => {})
+// Hospital.insertMany(hospitals_data, (error, docs) => {})
+// Guideline.insertMany(guidelines_data, (error, docs) => {})

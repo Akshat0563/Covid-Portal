@@ -1,10 +1,11 @@
 const mongoose = require('mongoose')
 
 var guideline = new mongoose.Schema({
-  Guideline: {
-   type: String
-  }
-})
+	guideline: {
+		type: String,
+		required: true
+	}
+}, {timestamps:true})
 
 const Guideline = mongoose.model('Guideline', guideline)
 
