@@ -56,6 +56,7 @@ class Dashboard extends React.Component {
           <Cards data={data} />
           <CountryPicker handleCountryChange={this.handleCountryChange} handleStateChange={this.handleStateChange} handleDistrictChange={this.handleDistrictChange}state={state} country={country} statelist={statelist} districtlist={districtlist}/>
           <Chart data={data} country={country} state={state} district={district}/>
+          
         </div>
       </>
     );

@@ -15,14 +15,14 @@ export const fetchData = async (mode, id) => {
     const { data } = await axios.get(changeableUrl);
     //console.log(data);
     return {
-      country: data.country,
-      state: data.state,
-      district: data.district,
-      confirmed: data.confirmed,
-      active: data.active,
-      recovered: data.recovered,
-      deaths: data.deaths,
-      lastUpdate: data.updatedAt,
+        country:data.country,
+        district:data.district,
+        state:data.state,
+        confirmed : data.confirmed,
+        active : data.active,
+        recovered : data.recovered,
+        deaths : data.deaths,
+        lastUpdate : data.updatedAt
     };
   } catch (error) {}
 };
