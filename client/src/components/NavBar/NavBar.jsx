@@ -1,13 +1,26 @@
 import './NavBar.css';
-import { useLocation } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom';
+import axios from 'axios';
+import { useContext } from 'react';
+import { UserContext } from '../../UserContext';
 
-const NavBars = () => {
-    return <NavBar />
-}
 
 const NavBar = () => {
-
+    const {user,setUser} = useContext(UserContext);
     const location = useLocation();
+
+    const handleSignOut = async () => {
+        try{
+            const {data} = await axios.get("http://localhost:2000/api/signOut", user.auth)
+            //console.log(data)
+            setUser({
+              signedIn:false
+            })
+          }
+          catch(e){
+            console.log(e)
+          }
+    }
 
     return (
         <>
@@ -24,21 +37,28 @@ const NavBar = () => {
                 </div> */}
                 <nav>
                     <ul>
-                    <li className="sidebar-brand"><a href="./">Covid Portal</a></li>
-                    <li className="list"><a href="./Hospital">Hospital</a></li>
-                    <li className="list"><a href="./Vaccination">Vaccination</a></li>
-                    <li className="list"><a href="./Guidelines">Guideline</a></li>
+                    <li className="sidebar-brand"><Link to="/">Covid Portal</Link></li>
+                    <li className="list"><Link to="./Hospital">Hospital</Link></li>
+                    <li className="list"><Link to="./Vaccination">Vaccination</Link></li>
+                    <li className="list"><Link to="./Guidelines">Guideline</Link></li>
                     </ul>
                 </nav>
             </div>
             <div className="nav1">
-                <div className="nav">
+            <div className="nav">
                     <ul></ul>
-                    {/* <ul className="navList">
-                        {location.pathname==='/Hospital' && <li><input type="text" placeholder="Search Hospital" className="inputSearch"/></li>}
-                    </ul> */}
+                    <ul>
+                        <li className="navItem">{user.signedIn ? user.email : "Sign In to Edit"}</li>
+                    </ul>
                     <ul className="navList">
-                        <li className="navItem"><a href="./SignUp">SIGNUP / SIGNIN</a></li>
+                        <li className="navItem">
+                            {user.signedIn ?
+                                <a onClick={handleSignOut}>SIGNOUT</a>
+                                :                                
+                                <a href="./SignUp">SIGNUP / SIGNIN</a>
+                            }
+                            
+                        </li>
                     </ul>
                 </div>
             </div>

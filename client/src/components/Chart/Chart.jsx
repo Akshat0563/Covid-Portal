@@ -17,7 +17,7 @@ const Chart = ({
     };
 
     fetchAPI();
-    console.log(country_id);
+    //console.log(country_id);
   }, []);
 
   const barChart = confirmed ? (
@@ -133,7 +133,7 @@ const Chart = ({
     />
   ) : null;
 
-  console.log(state_id);
+  //console.log(state_id);
 
   return (
     <div style={{ width: "45%", height: "45%", backgroundColor: "white" }}>

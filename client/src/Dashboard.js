@@ -48,7 +48,7 @@ class Dashboard extends React.Component {
   
   render() {
     const { data,country,state,district,statelist,districtlist } = this.state;
-    console.log(data, country);
+    //console.log(data, country);
     return (
       <>
         <NavBar />

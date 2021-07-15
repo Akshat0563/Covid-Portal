@@ -14,8 +14,13 @@ exports.signIn = async (req, res) => {
   }
   try {
     const user = await User.findByCredentials(req.body.email, req.body.password)
+    const publicUser = {
+      _id: user._id,
+      email: user.email,
+      isAdmin: user.isAdmin
+    }
     const token = await user.generateToken()
-    return res.send({ user, token })
+    return res.send({ user:publicUser, token })
   } catch (error) {
     return res.status(400).send(error)
   }
@@ -34,7 +39,12 @@ exports.signUp = async (req, res) => {
   })
   try {
     const token = await newUser.generateToken()
-    return res.status(201).send({ newUser, token })
+    const publicUser = {
+      _id: newUser._id,
+      email: newUser.email,
+      isAdmin: newUser.isAdmin
+    }
+    return res.status(201).send({ user:publicUser, token })
   } catch (e) {
     return res.status(400).send(e)
   }
