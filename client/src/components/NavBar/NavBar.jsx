@@ -27,15 +27,16 @@ const NavBar = () => {
                     <li className="sidebar-brand"><a href="./">Covid Portal</a></li>
                     <li className="list"><a href="./Hospital">Hospital</a></li>
                     <li className="list"><a href="./Vaccination">Vaccination</a></li>
-                    <li className="list"><a href="#">Guideline</a></li>
+                    <li className="list"><a href="./Guidelines">Guideline</a></li>
                     </ul>
                 </nav>
             </div>
             <div className="nav1">
                 <div className="nav">
-                    <ul className="navList">
+                    <ul></ul>
+                    {/* <ul className="navList">
                         {location.pathname==='/Hospital' && <li><input type="text" placeholder="Search Hospital" className="inputSearch"/></li>}
-                    </ul>
+                    </ul> */}
                     <ul className="navList">
                         <li className="navItem"><a href="./SignUp">SIGNUP / SIGNIN</a></li>
                     </ul>

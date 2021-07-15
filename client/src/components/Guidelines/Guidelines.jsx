@@ -3,134 +3,177 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { NavBar } from "..";
 
+import "./Guidelines.css";
+
 const api = axios.create({
-  baseURL: "http://localhost:2000/api/guidelines",
+  baseURL: "http://localhost:2000/api/guideline",
 });
 
-const url = "http://localhost:2000/api";
+const url = "http://localhost:2000/api/guideline";
 
 const Guidelines = () => {
   const [guidelines, setGuidelines] = useState("");
   const [editid, seteditid] = useState("");
   const [editguide, seteditguide] = useState({
-      guideline:""
+    guideline: "",
   });
   const [add, setadd] = useState("");
-  const [addguide, setaddguide] = useState("");
-
-  const retrieve_guidelines = async () => {
-    const response = await api.get();
-    return response.data;
-  };
+  const [addguide, setaddguide] = useState({
+    guideline: "",
+  });
 
   useEffect(() => {
-    const getAllGuidelines = async () => {
-      const allGuidelines = await retrieve_guidelines();
-      if (allGuidelines) setGuidelines(allGuidelines);
+    const retrieve_guidelines = async () => {
+      const response = await axios.get(url);
+      setGuidelines(response.data);
+      return response.data;
     };
-    getAllGuidelines();
+    retrieve_guidelines();
   }, []);
+
+  const handleEdit = (guide) => {
+    seteditid(guide._id);
+    seteditguide({
+      guideline: guide.guideline,
+    });
+  };
+
+  const handleadd = () => {
+    setadd("Yes");
+  };
 
   if (!guidelines) {
     return <NavBar />;
   }
 
-  const updateguide=async(new_guide)=>{
-      console.log(new_guide);
-    const response=await axios.put(`${url}/guidelines/${editid}`,new_guide);
-    
-  }
+  const updateguideline = async (new_guide) => {
+    const response = await axios.put(`${url}/${editid}`, new_guide);
+    const retrieve_guidelines = async () => {
+      const response = await axios.get(url);
+      setGuidelines(response.data);
+      return response.data;
+    };
+    retrieve_guidelines();
+  };
 
-  const update=(e)=>{
+  const update = (e) => {
     e.preventDefault();
-    if(editguide.guideline===undefined){
-        alert("Please fill in a guideline");
-        return;
+    console.log(editguide);
+    if (editguide.guideline === undefined) {
+      alert("Please fill in a guideline");
+      return;
     }
-     updateguide(editguide);
-     seteditid("");
-     seteditguide("");
-  }
+    updateguideline(editguide);
+    seteditid("");
+    seteditguide({ guideline: "" });
+  };
 
-  const newguide=async(new_guide)=>{
-      console.log(new_guide);
-  }
+  const newguide = async (new_guide) => {
+    const response = await axios.post(`${url}/`, new_guide);
+    const retrieve_guidelines = async () => {
+      const response = await axios.get(url);
+      setGuidelines(response.data);
+      return response.data;
+    };
+    retrieve_guidelines();
+    console.log(new_guide);
+  };
 
-  const add_g=(e)=>{
-      e.preventDefault();
-      if(!addguide){
-        alert("Please fill in a guideline");
-        return;
-      }
-      newguide(addguide);
-      setadd("");
-      setaddguide("");
-  }
-
-  const handleedit=(guide)=>{
-      seteditid(guide._id);
-      seteditguide({
-          guideline:guide.guideline
-      })
-  }
+  const add_g = (e) => {
+    e.preventDefault();
+    if (addguide.guideline === undefined) {
+      alert("Please fill in a guideline");
+      return;
+    }
+    newguide(addguide);
+    setadd("");
+    setaddguide({ guideline: "" });
+  };
 
   console.log(guidelines);
 
   return (
     <>
       <NavBar />
-      <div className="hospitalMain">
-     {editid===""&&add===""?<button onClick={()=>setadd("Yes")}>Add Guideline</button>:<></>}
-     { add===""?<>
-        {guidelines.map((guide) => (
-          <div className="hospitalCard">
-        { editid!==guide._id ?
-           <>
-            <h1 className="hospitalHeader">{guide.guideline}</h1>
-            <button style={{float: 'right'}} type='submit' onClick={() => handleedit(guide)}>Edit</button>
-           </>:
-           <>
-           <form className="hospitalHeader" onSubmit={update}>
-          <div>
-            <label>Guideline</label>
-            <input
-              type="text"
-             // className="form-control"
-              placeholder="New Guideline"
-              value={editguide}
-              onChange={(e) => seteditguide({...editguide,guideline:e.target.value}) }
-            />
+      <div className="main">
+        {editid === "" && add === "" ? (
+          <div style={{ margin: "auto" }}>
+            <button onClick={(e) => handleadd()} className="addBtnG">
+              Add Guideline
+            </button>
           </div>
-          <button type="submit" className="ui button blue">Edit</button>
-          </form>
-           </>} 
-          </div>
-        ))}
-        </>:
-        <>
-        <div className="hospitalMain">
-        {guidelines.map((guide) => (
-          <div className="hospitalCard">
-            <h1 className="hospitalHeader">{guide.guideline}</h1>
-          </div>  
-        ))}
-        <div className="hospitalCard">
-        <form className="hospitalHeader" onSubmit={add_g}>
-          <div>
-            <label>Guideline</label>
-            <input
-              type="text"
-             // className="form-control"
-              placeholder="New Guideline"
-              value={addguide}
-              onChange={(e) => setaddguide(e.target.value) }
-            />
-          </div>
-          <button type="submit" className="ui button blue">Add</button>
-          </form>
-        </div>
-      </div>
-        </>}
+        ) : (
+          <></>
+        )}
+        {add === "" ? (
+          <>
+            {guidelines.map((guide) => (
+              <div className="guideCardG">
+                {editid !== guide._id ? (
+                  <>
+                    <h1>
+                      {guide.guideline}
+                      <button
+                        className="btnEditG"
+                        type="submit"
+                        onClick={(e) => handleEdit(guide)}
+                      >
+                        Edit
+                      </button>
+                    </h1>
+                  </>
+                ) : (
+                  <>
+                    <form onSubmit={update}>
+                      <div>
+                        <label>Guideline</label>
+                        <input
+                          type="text"
+                          // className="form-control"
+                          placeholder="New Guideline"
+                          value={editguide.guideline}
+                          onChange={(e) =>
+                            seteditguide({
+                              ...editguide,
+                              guideline: e.target.value,
+                            })
+                          }
+                        />
+                      </div>
+                      <button type="submit" className="btnSaveG">
+                        Save
+                      </button>
+                    </form>
+                  </>
+                )}
+              </div>
+            ))}
+          </>
+        ) : (
+          <>
+            <div className="flexG">
+              <div>
+                <form className="formEditG" onSubmit={add_g}>
+                  <div>
+                    <label>Guideline</label>
+                    <input
+                      type="text"
+                      // className="form-control"
+                      placeholder="New Guideline"
+                      value={addguide.guideline}
+                      onChange={(e) =>
+                        setaddguide({ ...editguide, guideline: e.target.value })
+                      }
+                    />
+                  </div>
+                  <button type="submit" className="addBtnG">
+                    Add
+                  </button>
+                </form>
+              </div>
+            </div>
+          </>
+        )}
       </div>
     </>
   );

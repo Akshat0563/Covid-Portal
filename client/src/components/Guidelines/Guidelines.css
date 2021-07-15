@@ -1,0 +1,86 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+.addBtnG {
+  padding: 5px 10px;
+  background: rgb(9, 170, 9);
+  color: aliceblue;
+  border: 1px solid aqua;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 700px;
+  margin-right: 700px;
+}
+
+.btnEditG {
+  color: rgb(23, 187, 23);
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  padding: 2px;
+  float: right;
+}
+.btnSaveG {
+  color: rgb(23, 187, 23);
+  background: none;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
+
+.guideCardG {
+  margin: 20px;
+  width: 600px;
+  font-size: 1.05rem;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 3px #f1f1f1;
+  overflow: hidden;
+  border-bottom: 5px solid #e0eaf7;
+  padding: 10px 20px;
+  background-color: #d4dff0;
+}
+
+.flexG {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.formEditG label {
+  margin-left: 640px;
+  text-align: center;
+  flex: 2;
+  font-size: 20px;
+}
+
+.formEditG input {
+  /* background: hsl(207, 39%, 95%); */
+  border: 1px solid black;
+  /* padding: 0.35rem 0.5rem; */
+  /* border-radius: 10px; */
+  width: 70px;
+  padding: 4px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.formEditG input:active {
+  border: 1px solid black;
+}
+
+.inputs {
+  width: 80%;
+  margin: 2px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}

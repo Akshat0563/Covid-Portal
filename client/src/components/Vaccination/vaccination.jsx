@@ -6,7 +6,7 @@ const Vaccination = () => {
         <>
             <NavBar />
             <div className="wrapper">
-                <div className="typing-demo">
+                <div className="typing">
                     Coming Soon.
                 </div>
             </div>

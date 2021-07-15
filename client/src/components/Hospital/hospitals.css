@@ -64,3 +64,60 @@
 .beds {
   margin-right: 10px;
 }
+
+.btnEdit {
+  color: rgb(23, 187, 23);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btnSave {
+  color: rgb(22, 177, 177);
+  padding: 2px 5px;
+  margin-left: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formEdit label {
+  text-align: left;
+  flex: 2;
+  width: 200px;
+}
+
+.formEdit input {
+  /* background: hsl(207, 39%, 95%); */
+  border: 1px solid black;
+  /* padding: 0.35rem 0.5rem; */
+  /* border-radius: 10px; */
+  width: 70px;
+  flex: 1;
+}
+
+.formEdit input:active {
+  border: 1px solid black;
+}
+
+.inputs {
+  width: 80%;
+  margin: 2px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.inputSearch2 {
+  position: fixed;
+  top: 50px;
+  margin-top: -30px;
+  text-align: center;
+  font-size: 1.05rem;
+  background: hsl(207, 53%, 93%);
+  border: none;
+  border-left: 10px solid rgb(28, 123, 179);
+  padding: 0.5rem 1.8rem;
+  margin-left: 90px;
+  border-radius: 5px;
+}

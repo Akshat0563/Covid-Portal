@@ -22,7 +22,7 @@ const Chart = ({data:{confirmed,recovered,deaths},country,state,district}) => {
         data={{
          labels:['Infected','Recovered','Deaths'],
          datasets:[{
-           label:`Current state in ${country}`,
+           label:`Current Cases in ${country}`,
            backgroundColor:[
              '#09a9f3','#43e97b','hsl(352, 93%, 50%)'
            ],
@@ -99,7 +99,7 @@ const Chart = ({data:{confirmed,recovered,deaths},country,state,district}) => {
            backgroundColor:[
              '#09a9f3','#43e97b','hsl(352, 93%, 50%)'
            ],
-           borderWidth:1,
+          borderWidth:1,
           borderColor:`#777`,
           hoverBorderWidth:3,
           hoverBorderColor:`#000`,

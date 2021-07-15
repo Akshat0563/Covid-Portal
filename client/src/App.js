@@ -26,7 +26,7 @@ function App() {
               <Hospital />
             </Route>
             <Route path='/Guidelines'>
-              <Guidelines />
+              <Guidelines/>
             </Route>
           </Switch>
         </Router>
