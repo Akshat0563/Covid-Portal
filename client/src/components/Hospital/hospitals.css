@@ -75,17 +75,18 @@
 .btnSave {
   color: rgb(22, 177, 177);
   padding: 2px 5px;
+  margin-left: 80px;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.form label {
+.formEdit label {
   text-align: left;
   flex: 2;
   width: 200px;
 }
 
-.form input {
+.formEdit input {
   /* background: hsl(207, 39%, 95%); */
   border: 1px solid black;
   /* padding: 0.35rem 0.5rem; */
@@ -94,7 +95,7 @@
   flex: 1;
 }
 
-.form input:active {
+.formEdit input:active {
   border: 1px solid black;
 }
 
@@ -105,4 +106,18 @@
   align-items: center;
   justify-content: space-between;
   padding-bottom: 5px;
+}
+
+.inputSearch2 {
+  position: fixed;
+  top: 50px;
+  margin-top: -30px;
+  text-align: center;
+  font-size: 1.05rem;
+  background: hsl(207, 53%, 93%);
+  border: none;
+  border-left: 10px solid rgb(28, 123, 179);
+  padding: 0.5rem 1.8rem;
+  margin-left: 90px;
+  border-radius: 5px;
 }

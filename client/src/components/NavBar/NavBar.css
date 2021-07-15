@@ -19,7 +19,7 @@ input[type="checkbox"] {
   transition: all 0.3s;
   box-sizing: border-box;
   cursor: pointer;
-  position: absolute;
+  position: fixed;
   z-index: 99;
   height: 100%;
   width: 100%;
@@ -83,14 +83,13 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
   border-radius: 5px;
   padding: 0;
-  position: sticky;
   top: 0px;
   overflow-y: hidden;
   width: 180px;
   margin-top: 70px;
   height: 87%;
   background: rgb(255, 255, 255);
-  position: absolute;
+  position: fixed;
   transform: translateX(-180px);
   transition: transform 250ms ease-in-out;
 }
@@ -107,7 +106,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 
 #sidebar .toggle-btn {
-  position: absolute;
+  position: fixed;
   left: 230px;
   top: 15px;
 }
