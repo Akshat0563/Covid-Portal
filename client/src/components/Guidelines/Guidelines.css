@@ -1,0 +1,24 @@
+.addBtn {
+  padding: 5px 10px;
+  background: rgb(9, 170, 9);
+  color: aliceblue;
+  border: 1px solid aqua;
+}
+
+.btnEdit {
+  color: rgb(23, 187, 23);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.guideCard {
+  margin: 20px;
+  width: 600px;
+  font-size: 1.05rem;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 3px #f1f1f1;
+  overflow: hidden;
+  border-bottom: 5px solid #e0eaf7;
+  padding-bottom: 5px;
+}

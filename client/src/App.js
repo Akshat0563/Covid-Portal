@@ -5,6 +5,7 @@ import SignUp from './components/SignUp-SignIn/SignUp';
 import Hospital from './components/Hospital/hospital';
 import Vaccination from './components/Vaccination/vaccination';
 import Dashboard from './Dashboard'
+import Guidelines from './components/Guidelines/Guidelines';
 
 function App() {
   
@@ -23,6 +24,9 @@ function App() {
             </Route>
             <Route path='/Hospital'>
               <Hospital />
+            </Route>
+            <Route path='/Guidelines'>
+              <Guidelines/>
             </Route>
           </Switch>
         </Router>
