@@ -10,6 +10,8 @@ const url = "http://localhost:2000/api/hospital";
 const Hospital = () => {
 	///////// Component State ///////////////////
 	const [hospitals, setHospitals] = useState();
+	const [filter, setFilter] = useState();
+  	const [search, setSearch] = useState(' ');
 
 	const [editid, seteditid] = useState("");
 	const [edithospital, setedithospital] = useState({
@@ -30,6 +32,7 @@ const Hospital = () => {
 			return response.data;
 		}
 		retrieve_hospitals();
+		setSearch('')
 	}, []);
 
 	////// Editing Hospital data
@@ -62,17 +65,42 @@ const Hospital = () => {
 		retrieve_hospitals();
 	}
 
-  
-	if(!hospitals){
-		return <NavBar/>
+	const handleSearch = (event) => {
+		let searchedString = event.target.value.toLowerCase()
+		setSearch(searchedString)
 	}
+	
+	useEffect(() => {
+		// console.log(search)
+		// console.log(hospitals)
+		if(hospitals) {
+			console.log(hospitals)
+		let displayedHospitals = hospitals.filter((hospital) => {
+			let name = hospital['hospital'].toLowerCase();
+			let address = hospital['address'].toLowerCase();
+			let district = hospital['district'].toLowerCase();
+			// let pincode = hospital['pincode'].toLowerCase();
+			return name.indexOf(search) !== -1 || address.indexOf(search) !== -1 || district.indexOf(search) !== -1;
+		})
+		setFilter(displayedHospitals)
+		console.log(displayedHospitals)
+		}
+	}, [search, hospitals]);
+
+    if (!hospitals || !filter) {
+        return <>
+        <NavBar/>
+        <input type="text" placeholder="Search Hospital" className='inputSearch2' onChange={handleSearch}/>
+        </>
+    }
 	return (
     //  let occ="";
 	<>
 		<NavBar/>
+		<input type="text" placeholder="Search Hospital" className='inputSearch2' onChange={handleSearch}/>
 		<div className='hospitalMain'>
 			{
-				hospitals.map((hospital  => 
+				filter.map((hospital  => 
 				<div className='hospitalCard'>
 					<h1 className='hospitalHeader'>{hospital['hospital']}</h1>
 					<div className='card__body'>
@@ -86,44 +114,44 @@ const Hospital = () => {
 								<span className='beds bedstotal'>Beds Total - {hospital['beds_total']}</span>
 								<span className='beds bedsoccupied'>Beds Occupied - {hospital['beds_occupied']}</span>
 								<span className='beds bedsavailable'>Beds Available - {hospital['beds_available']}</span>
-								<button type='submit' onClick={(e) => handleEdit(hospital)}>Edit</button>
+								<button type='submit' onClick={(e) => handleEdit(hospital)} className='btnEdit'>Edit</button>
 							</> 
 							:
-							<form onSubmit={update}>
-								<div className="field">
+							<form className='formEdit' onSubmit={update}>
+								<div className="field inputs">
 									<label>Beds Total</label>
 									<input
 									type="number"
 									//  name="Beds_total"
 									className="form-control"
-									placeholder="Total Beds"
+									// placeholder="Total Beds"
 									value = {edithospital.beds_total}
 									onChange={(e) =>  setedithospital({ ...edithospital, beds_total: e.target.value,})}
 									/>
 								</div>
-								<div className="field">
+								<div className="field inputs">
 									<label>Beds Occupied</label>
 									<input
 									type="number"
 									//  name="Beds_occupied"
 									className="form-control"
-									placeholder="Occupied Beds"
+									// placeholder="Occupied Beds"
 									value={edithospital.beds_occupied}
 									onChange={(e) => setedithospital({ ...edithospital, beds_occupied: e.target.value })}
 									/>
 								</div>
-								<div className="field">
+								<div className="field inputs">
 									<label>Beds Available</label>
 									<input
 									type="number"
 									//  name="Beds_available"
 									className="form-control"
-									placeholder="Available Beds"
+									// placeholder="Available Beds"
 									value={edithospital.beds_available}
 									onChange={(e) => setedithospital({ ...edithospital, beds_available: e.target.value })}
 									/>
 								</div>
-								<button type="submit" className="ui button blue">Edit</button>
+								<button type="submit" className="ui button blue btnSave">Save</button>
 							</form>
 						}
 						</div>

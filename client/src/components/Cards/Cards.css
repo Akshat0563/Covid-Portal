@@ -1,0 +1,65 @@
+:root {
+  --color-infected: #2682fc;
+  --color-infected2: #1e75e6;
+  --color-recovered: rgb(21, 230, 38);
+  --color-recovered2: rgb(21, 206, 36);
+  --color-death: rgb(230, 21, 73);
+  --color-death2: rgb(204, 16, 63);
+}
+
+.container1 {
+  border: none;
+  display: flex;
+  margin-top: 60px;
+}
+
+.card {
+  margin: 20px;
+  width: 300px;
+  font-size: 1.05rem;
+  border-radius: 10px;
+  box-shadow: 0 0 25px 12.5px #f1f1f1;
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+
+.card__header {
+  padding: 10px 25px;
+  font-size: 1.4rem;
+  color: #fff;
+  transition: 0.5s ease;
+}
+
+.card__body {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+.card__body > div {
+  padding-top: 10px;
+}
+
+.card--infected .card__header {
+  background: var(--color-infected);
+}
+.card--infected:hover .card__header {
+  background: var(--color-infected2);
+}
+
+.card--recovered .card__header {
+  background: var(--color-recovered);
+}
+.card--recovered:hover .card__header {
+  background: var(--color-recovered2);
+}
+
+.card--death .card__header {
+  background: var(--color-death);
+}
+.card--death:hover .card__header {
+  background: var(--color-death2);
+}
+
+.date {
+  color: #a19f9f;
+}

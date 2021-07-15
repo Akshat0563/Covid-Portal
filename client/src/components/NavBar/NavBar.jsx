@@ -33,9 +33,10 @@ const NavBar = () => {
             </div>
             <div className="nav1">
                 <div className="nav">
-                    <ul className="navList">
+                    <ul></ul>
+                    {/* <ul className="navList">
                         {location.pathname==='/Hospital' && <li><input type="text" placeholder="Search Hospital" className="inputSearch"/></li>}
-                    </ul>
+                    </ul> */}
                     <ul className="navList">
                         <li className="navItem"><a href="./SignUp">SIGNUP / SIGNIN</a></li>
                     </ul>
