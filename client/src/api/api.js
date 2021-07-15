@@ -16,6 +16,9 @@ let changeableUrl = `${url}/${mode}/${id}`
     const {data} = await axios.get(changeableUrl);
     //console.log(data);
     return {
+        country:data.country,
+        district:data.district,
+        state:data.state,
         confirmed : data.confirmed,
         active : data.active,
         recovered : data.recovered,

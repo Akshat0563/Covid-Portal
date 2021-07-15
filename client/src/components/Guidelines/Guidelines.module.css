@@ -1,0 +1,66 @@
+:root {
+    --color1: #e0eaf7;
+    --color2: #d4dff0;
+  }
+  
+  .body {
+    background: rgb(255, 255, 255);
+  }
+  
+  .hospitalMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+  }
+  
+  .hospitalCard {
+    margin: 20px;
+    width: 600px;
+    font-size: 25rem;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 3px #f1f1f1;
+    overflow: hidden;
+    border-bottom: 5px solid var(--color1);
+    padding-bottom: 5px;
+  }
+  
+  .hospitalHeader {
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    color: black;
+    transition: 0.5s ease;
+    background-color: var(--color1);
+  }
+  
+  .card__body {
+    color: #828386;
+    padding: 10px 20px;
+  }
+  
+  .flex {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card__body > div {
+    padding-top: 10px;
+  }
+  
+  .card__body > p {
+    margin-bottom: 5px;
+  }
+  
+  .card__body > span {
+    padding-right: 10px;
+  }
+  
+  .hospitalCard:hover .hospitalHeader {
+    background: var(--color2);
+  }
+  
+  .beds {
+    margin-right: 10px;
+  }
