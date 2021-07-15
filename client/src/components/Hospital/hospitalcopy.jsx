@@ -65,6 +65,7 @@ const Hospital = () => {
     return (
       <>
       <NavBar/>
+
         <div className='hospitalMain'>
           {hospitals['data'].map((hospital  => 
           <div className='hospitalCard'>
@@ -94,7 +95,7 @@ const Hospital = () => {
               name="Beds_total"
               placeholder="Total Beds"
               value={edithospital.Beds_total}
-              onChange={(e) =>  setedithospital({ Beds_total: e.target.value , Hospital:hospital.hospital , Address:hospital.address })}
+              onChange={(e) => setedithospital({ Beds_total: e.target.value , Hospital:hospital.hospital , Address:hospital.address })}
             />
           </div>
           <div className="field">

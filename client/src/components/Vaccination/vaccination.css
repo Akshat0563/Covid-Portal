@@ -1,12 +1,11 @@
 .wrapper {
   height: 100vh;
-  /*This part is important for centering*/
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.typing-demo {
+.typing {
   width: 12ch;
   animation: typing 2.5s steps(12), blink 0.5s step-end infinite alternate;
   white-space: nowrap;

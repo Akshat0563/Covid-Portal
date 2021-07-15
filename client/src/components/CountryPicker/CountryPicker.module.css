@@ -1,3 +1,36 @@
-.container{
-    margin: 35px;
+.container {
+  margin: 35px;
+  /* border: 2px solid blue; */
+  outline: none;
+  /* background:; */
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+select {
+  width: 200px;
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 2px solid rgb(115, 114, 116);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1.1rem;
+  cursor: pointer;
+  line-height: 1.1;
+  display: grid;
+  grid-template-areas: "select";
+  align-items: center;
+}
+
+select:hover {
+  background: rgb(247, 244, 239);
+}
+
+select:focus {
+  border: 2px solid rgb(108, 41, 233);
+  background: white;
 }
