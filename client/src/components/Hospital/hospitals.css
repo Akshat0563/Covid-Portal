@@ -64,3 +64,45 @@
 .beds {
   margin-right: 10px;
 }
+
+.btnEdit {
+  color: rgb(23, 187, 23);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btnSave {
+  color: rgb(22, 177, 177);
+  padding: 2px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form label {
+  text-align: left;
+  flex: 2;
+  width: 200px;
+}
+
+.form input {
+  /* background: hsl(207, 39%, 95%); */
+  border: 1px solid black;
+  /* padding: 0.35rem 0.5rem; */
+  /* border-radius: 10px; */
+  width: 70px;
+  flex: 1;
+}
+
+.form input:active {
+  border: 1px solid black;
+}
+
+.inputs {
+  width: 80%;
+  margin: 2px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}

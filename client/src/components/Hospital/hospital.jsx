@@ -86,44 +86,44 @@ const Hospital = () => {
 								<span className='beds bedstotal'>Beds Total - {hospital['beds_total']}</span>
 								<span className='beds bedsoccupied'>Beds Occupied - {hospital['beds_occupied']}</span>
 								<span className='beds bedsavailable'>Beds Available - {hospital['beds_available']}</span>
-								<button type='submit' onClick={(e) => handleEdit(hospital)}>Edit</button>
+								<button type='submit' onClick={(e) => handleEdit(hospital)} className='btnEdit'>Edit</button>
 							</> 
 							:
-							<form onSubmit={update}>
-								<div className="field">
+							<form className='form' onSubmit={update}>
+								<div className="field inputs">
 									<label>Beds Total</label>
 									<input
 									type="number"
 									//  name="Beds_total"
 									className="form-control"
-									placeholder="Total Beds"
+									// placeholder="Total Beds"
 									value = {edithospital.beds_total}
 									onChange={(e) =>  setedithospital({ ...edithospital, beds_total: e.target.value,})}
 									/>
 								</div>
-								<div className="field">
+								<div className="field inputs">
 									<label>Beds Occupied</label>
 									<input
 									type="number"
 									//  name="Beds_occupied"
 									className="form-control"
-									placeholder="Occupied Beds"
+									// placeholder="Occupied Beds"
 									value={edithospital.beds_occupied}
 									onChange={(e) => setedithospital({ ...edithospital, beds_occupied: e.target.value })}
 									/>
 								</div>
-								<div className="field">
+								<div className="field inputs">
 									<label>Beds Available</label>
 									<input
 									type="number"
 									//  name="Beds_available"
 									className="form-control"
-									placeholder="Available Beds"
+									// placeholder="Available Beds"
 									value={edithospital.beds_available}
 									onChange={(e) => setedithospital({ ...edithospital, beds_available: e.target.value })}
 									/>
 								</div>
-								<button type="submit" className="ui button blue">Edit</button>
+								<button type="submit" className="ui button blue btnSave">Save</button>
 							</form>
 						}
 						</div>

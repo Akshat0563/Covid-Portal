@@ -20,6 +20,7 @@
   border-radius: 10px;
   box-shadow: 0 0 25px 12.5px #f1f1f1;
   overflow: hidden;
+  padding-bottom: 5px;
 }
 
 .card__header {

@@ -7,11 +7,13 @@
 }
 
 .flexContainer {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 select {
+  margin: 10px 30px;
   width: 200px;
   min-width: 15ch;
   max-width: 30ch;
@@ -24,6 +26,7 @@ select {
   display: grid;
   grid-template-areas: "select";
   align-items: center;
+  margin-bottom: 40px;
 }
 
 select:hover {
