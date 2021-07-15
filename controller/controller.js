@@ -193,6 +193,11 @@ exports.updateOneDistrict = async (req, res) => {
       .status(400)
       .send({ message: `Data to be updated cannot be empty` })
   }
+  if(!req.user.isAdmin){
+    return res
+      .status(401)
+      .send({ message: `Unauthorized : Not an Admin` })
+  }
 
   const id = req.params.id
 
@@ -276,6 +281,11 @@ exports.updateOneHospital = (req, res) => {
       .status(400)
       .send({ message: `Data to be updated cannot be empty` })
   }
+  if(!req.user.isAdmin){
+    return res
+      .status(401)
+      .send({ message: `Unauthorized : Not an Admin` })
+  }
 
   const id = req.params.id
 
@@ -312,6 +322,11 @@ exports.postGuidelines = async (req,res) => {
   if (req.body.guideline == '') {
     return res.status(400).json({ message: 'No field can be empty!' })
   }
+  if(!req.user.isAdmin){
+    return res
+      .status(401)
+      .send({ message: `Unauthorized : Not an Admin` })
+  }
   const guideline = new Guideline({
     guideline: req.body.guideline
   })
@@ -335,6 +350,11 @@ exports.updateGuidelines = (req, res) => {
       .status(400)
       .send({ message: `Data to be updated cannot be empty` })
   }
+  if(!req.user.isAdmin){
+    return res
+      .status(401)
+      .send({ message: `Unauthorized : Not an Admin` })
+  }
 
   const id = req.params.id
   const newGuideline = {guideline: req.body.guideline}
@@ -357,6 +377,12 @@ exports.updateGuidelines = (req, res) => {
 }
 
 exports.deleteGuidelines = (req, res) => {
+  if(!req.user.isAdmin){
+    return res
+      .status(401)
+      .send({ message: `Unauthorized : Not an Admin` })
+  }
+
   Guideline.findByIdAndRemove(req.params.id)
   .then(note => {
       if(!note) {

@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import './hospitals.css'
 import NavBar from "../NavBar/NavBar";
+import { UserContext } from "../../UserContext";
 
 const url = "http://localhost:2000/api/hospital";
 
 const Hospital = () => {
 	///////// Component State ///////////////////
+	const {user} = useContext(UserContext);
+
 	const [hospitals, setHospitals] = useState();
 	const [filter, setFilter] = useState();
   	const [search, setSearch] = useState(' ');
@@ -55,7 +58,7 @@ const Hospital = () => {
 		setedithospital({ beds_total: null,	beds_occupied: null, beds_available: null})
 	}
 	const updatehospital = async (hospital) => {
-		const response = await axios.put(`${url}/${editid}`,hospital);
+		const response = await axios.put(`${url}/${editid}`,hospital, user.auth);
 		const retrieve_hospitals = async () => {
 			const response = await axios.get(url);
 			setHospitals(response.data);

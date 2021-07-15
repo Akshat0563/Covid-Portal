@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { UserContext } from "../../UserContext";
 
 const url = "http://localhost:2000/api";
+
+const {user} = useContext(UserContext);
 
 const Districtedit = ({ data: { confirmed, recovered, deaths, district, state,country },handleDistrictChange,district_id}) => {
   const [editid, seteditid] = useState("");  
@@ -34,7 +37,7 @@ const update = (e) => {
 }
 
 const updatedistrict=async(new_district)=>{
-   const response=await axios.put(`${url}/district/${district_id}`,new_district);
+   const response=await axios.put(`${url}/district/${district_id}`,new_district, user.auth);
    console.log(response);
    handleDistrictChange(country,state,district_id);
 }

@@ -1,19 +1,21 @@
-import React, {useState,useEffect} from "react";
+import React, {useState,useEffect, useContext} from "react";
 import { NativeSelect,FormControl } from "@material-ui/core";
 import styles from "./CountryPicker.module.css";
 import {fetchCountries} from "../../api/api";
 import { fetchStates } from "../../api/api";
+import { UserContext } from "../../UserContext";
 
 const CountryPicker = ({handleCountryChange,handleStateChange,handleDistrictChange,state,country,statelist,districtlist}) => {
-
+  const {user} = useContext(UserContext);
+  
   const [fetchedCountries, setfetchedCountries] = useState([]);
 
- useEffect(()=>{
-   const fetchAPI=async()=>{
-    setfetchedCountries(await fetchCountries());
-   }
-   fetchAPI();
- },[setfetchedCountries]);
+  useEffect(()=>{
+    const fetchAPI=async()=>{
+      setfetchedCountries(await fetchCountries());
+    }
+    fetchAPI();
+  },[setfetchedCountries]);
 
 
   return (

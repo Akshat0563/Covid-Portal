@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Cards, Chart, CountryPicker, NavBar } from "./components";
 import styles from "./App.module.css";
 import { fetchData, fetchDistricts } from "./api/api";
 import { fetchStates } from "./api/api";
+import { UserContext } from "./UserContext";
+
+//const {user} = useContext(UserContext);
+/*
+Cant use hooks in class component !!!
+Convert Dashboard to functional component
+Or Show Button for District edit in CountryPicker
+*/
 
 class Dashboard extends React.Component {
   state = {

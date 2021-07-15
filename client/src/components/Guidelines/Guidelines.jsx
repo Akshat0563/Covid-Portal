@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { NavBar } from "..";
-
+import { UserContext } from "../../UserContext";
 import "./Guidelines.css";
 
 const api = axios.create({
@@ -12,6 +12,9 @@ const api = axios.create({
 const url = "http://localhost:2000/api/guideline";
 
 const Guidelines = () => {
+
+  const {user} = useContext(UserContext);
+
   const [guidelines, setGuidelines] = useState("");
   const [editid, seteditid] = useState("");
   const [editguide, seteditguide] = useState({
@@ -47,7 +50,7 @@ const Guidelines = () => {
   }
 
   const updateguideline = async (new_guide) => {
-    const response = await axios.put(`${url}/${editid}`, new_guide);
+    const response = await axios.put(`${url}/${editid}`, new_guide, user.auth);
     const retrieve_guidelines = async () => {
       const response = await axios.get(url);
       setGuidelines(response.data);
@@ -69,7 +72,7 @@ const Guidelines = () => {
   };
 
   const newguide = async (new_guide) => {
-    const response = await axios.post(`${url}/`, new_guide);
+    const response = await axios.post(`${url}/`, new_guide, user.auth);
     const retrieve_guidelines = async () => {
       const response = await axios.get(url);
       setGuidelines(response.data);
