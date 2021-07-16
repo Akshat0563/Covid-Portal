@@ -54,15 +54,15 @@ const SignUp = () => {
     catch(e){
       console.log(e)
     }
-    history.push("/");
+    history.push("/Dashboard");
   }
   
   return (
     <>
-    <div className="back">
+    {/* <div className="back">
       <img src={image1} alt="" />
       <Link to="/">Back to Dashboard</Link>
-    </div>
+    </div> */}
     <div className='flex'>
     <div className={"container "+className1}>
       <div className="container__form container--signup">

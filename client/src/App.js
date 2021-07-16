@@ -19,10 +19,10 @@ function App() {
 
             <UserContext.Provider value={{user,setUser}}>
               <Route exact path='/'>
-                <Dashboard />
-              </Route>
-              <Route path="/SignUp">
                 <SignUp />
+              </Route>
+              <Route path="/Dashboard">
+                <Dashboard />
               </Route>
               <Route path="/Vaccination">
                 <Vaccination />

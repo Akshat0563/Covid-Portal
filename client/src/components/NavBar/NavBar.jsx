@@ -1,5 +1,5 @@
 import './NavBar.css';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useHistory, useLocation } from 'react-router-dom';
 import axios from 'axios';
 import { useContext } from 'react';
 import { UserContext } from '../../UserContext';
@@ -8,6 +8,7 @@ import { UserContext } from '../../UserContext';
 const NavBar = () => {
     const {user,setUser} = useContext(UserContext);
     const location = useLocation();
+    const history = useHistory();
 
     const handleSignOut = async () => {
         try{
@@ -16,6 +17,7 @@ const NavBar = () => {
             setUser({
               signedIn:false
             })
+            history.push("/")
           }
           catch(e){
             console.log(e)
@@ -37,10 +39,10 @@ const NavBar = () => {
                 </div> */}
                 <nav>
                     <ul>
-                    <li className="sidebar-brand"><Link to="/">Covid Portal</Link></li>
-                    <li className="list"><Link to="./Hospital">Hospital</Link></li>
-                    <li className="list"><Link to="./Vaccination">Vaccination</Link></li>
-                    <li className="list"><Link to="./Guidelines">Guideline</Link></li>
+                    <li className="sidebar-brand"><Link to="/Dashboard">Covid Portal</Link></li>
+                    <li className="list"><Link to="/Hospital">Hospital</Link></li>
+                    <li className="list"><Link to="/Vaccination">Vaccination</Link></li>
+                    <li className="list"><Link to="/Guidelines">Guideline</Link></li>
                     </ul>
                 </nav>
             </div>
