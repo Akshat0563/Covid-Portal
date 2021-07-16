@@ -129,10 +129,10 @@ const Guidelines = () => {
                   <>
                     <form onSubmit={update}>
                       <div>
-                        <label>Guideline</label>
+                        {/* <label>Guideline</label> */}
                         <input
                           type="text"
-                          // className="form-control"
+                          className="inputGuideline"
                           placeholder="New Guideline"
                           value={editguide.guideline}
                           onChange={(e) =>
@@ -142,10 +142,10 @@ const Guidelines = () => {
                             })
                           }
                         />
-                      </div>
-                      <button type="submit" className="btnSaveG">
+                        <button type="submit" className="btnSaveG">
                         Save
-                      </button>
+                        </button>
+                      </div>
                     </form>
                   </>
                 )}
@@ -156,12 +156,13 @@ const Guidelines = () => {
           <>
             <div className="flexG">
               <div>
-                <form className="formEditG" onSubmit={add_g}>
+                <form className="formEditG" style={{marginTop:'20px'}} onSubmit={add_g}>
                   <div>
-                    <label>Guideline</label>
+                    <label>New Guideline </label>
                     <input
                       type="text"
-                      // className="form-control"
+                      className="inputGuideline"
+                      style={{padding:'7px'}}
                       placeholder="New Guideline"
                       value={addguide.guideline}
                       onChange={(e) =>
@@ -169,7 +170,7 @@ const Guidelines = () => {
                       }
                     />
                   </div>
-                  <button type="submit" className="addBtnG">
+                  <button type="submit" className="addBtnG" style={{marginTop:'20px'}}>
                     Add
                   </button>
                 </form>
