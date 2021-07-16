@@ -14,6 +14,9 @@ exports.signIn = async (req, res) => {
   }
   try {
     const user = await User.findByCredentials(req.body.email, req.body.password)
+    if(user instanceof Error){
+      throw user
+    }
     const publicUser = {
       _id: user._id,
       email: user.email,
@@ -21,8 +24,9 @@ exports.signIn = async (req, res) => {
     }
     const token = await user.generateToken()
     return res.send({ user:publicUser, token })
-  } catch (error) {
-    return res.status(400).send(error)
+  }
+  catch (error) {
+    return res.status(200).send({error: error.message})
   }
 }
 
@@ -32,12 +36,12 @@ exports.signUp = async (req, res) => {
     res.status(400).json({ message: 'No field can be empty!' })
     return
   }
-  const newUser = new User({
-    email: req.body.email,
-    password: req.body.password,
-    tokens: [],
-  })
   try {
+    const newUser = new User({
+      email: req.body.email,
+      password: req.body.password,
+      tokens: [],
+    })
     const token = await newUser.generateToken()
     const publicUser = {
       _id: newUser._id,
@@ -45,8 +49,9 @@ exports.signUp = async (req, res) => {
       isAdmin: newUser.isAdmin
     }
     return res.status(201).send({ user:publicUser, token })
-  } catch (e) {
-    return res.status(400).send(e)
+  }
+  catch (error) {
+    return res.status(200).send({error:"Email ID taken"})
   }
 }
 

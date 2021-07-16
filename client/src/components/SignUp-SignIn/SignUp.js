@@ -37,24 +37,32 @@ const SignUp = () => {
 
   ////////// API call /////////////
   const {user, setUser} = useContext(UserContext);
+  const [error1, setError1] = useState("");
+  const [error2, setError2] = useState("");
   const history = useHistory();
 
   const handleSignUpIn = async(upin) => {
     const credentials = (upin === 'signUp' ? user1 : user2)
+    const setError = (upin === 'signUp' ? setError1 : setError2)
     try{
       const {data} = await axios.post("http://localhost:2000/api/"+upin, credentials)
       //console.log(data)
+      if(data.error){
+        console.log('data', data)
+        throw new Error(data.error)
+      }
       setUser({
         signedIn:true,
         email: data.user.email,
         isAdmin: data.user.isAdmin,
         auth: {headers: {Authorization: "Bearer " + data.token}}
       })
+      history.push("/Dashboard");
     }
-    catch(e){
-      console.log(e)
-    }
-    history.push("/Dashboard");
+    catch(error){
+      console.log(error)
+      setError(error.message)
+    }    
   }
   
   return (
@@ -68,6 +76,7 @@ const SignUp = () => {
       <div className="container__form container--signup">
         <form className="form" id="form1">
           <h2 className="formtitle">Sign Up</h2>
+          <h4 className="error" style={{color:"red"}}>{error1}</h4>
           <input type="email" placeholder="Email" name='email1' className="input" onChange={handleChange} noValidate/>
           <input type="password" placeholder="Password" name='password1' className="input" onChange={handleChange} noValidate/>
           <button className="btn" onClick={(e) => {e.preventDefault(); handleSignUpIn('signUp');}}>Sign Up</button>
@@ -77,9 +86,9 @@ const SignUp = () => {
       <div className="container__form container--signin">
         <form className="form" id="form2">
           <h2 className="formtitle">Sign In</h2>
+          <h4 className="error" style={{color:"red"}}>{error2}</h4>
           <input type="email" placeholder="Email" className="input" name='email2' onChange={handleChange} noValidate/>
           <input type="password" placeholder="Password" className="input" name='password2' onChange={handleChange} noValidate/>
-          <a href="#" className="link">Forgot your password?</a>
           <button className="btn" onClick={(e) => {e.preventDefault(); handleSignUpIn('signIn');}}>Sign In</button>
         </form>
       </div>

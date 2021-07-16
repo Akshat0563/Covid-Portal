@@ -45,8 +45,8 @@ user.statics.findByCredentials = async (email, password) => {
         }
         return user
     }
-    catch(e){
-        return e
+    catch(error){
+        return error
     }
 }
 
