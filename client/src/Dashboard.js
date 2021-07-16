@@ -76,7 +76,7 @@ class Dashboard extends React.Component {
         <NavBar />
         <div className={styles.container}>  
           <Cards data={data} />
-          <CountryPicker handleCountryChange={this.handleCountryChange} handleStateChange={this.handleStateChange} handleDistrictChange={this.handleDistrictChange}state={state} country={country} statelist={statelist} districtlist={districtlist}/>
+          <CountryPicker handleCountryChange={this.handleCountryChange} handleStateChange={this.handleStateChange} handleDistrictChange={this.handleDistrictChange} district={district} state={state} country={country} statelist={statelist} districtlist={districtlist}/>
           <Chart data={data} country={country} state={state} district={district}/>
           
         </div>
