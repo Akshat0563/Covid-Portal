@@ -4,6 +4,7 @@ import styles from "./App.module.css";
 import { fetchData, fetchDistricts } from "./api/api";
 import { fetchStates } from "./api/api";
 import { UserContext } from "./UserContext";
+import { Redirect } from "react-router-dom";
 
 //const {user} = useContext(UserContext);
 /*
@@ -13,14 +14,25 @@ Or Show Button for District edit in CountryPicker
 */
 
 class Dashboard extends React.Component {
-  state = {
-    data: {},
-    country: '60ed9fa52e6270563025e445', //Global ID
-    state: '',
-    district: '',
-    statelist:[],
-    districtlist:[]
-  };
+  constructor(props){
+    super(props);
+    this.state = {
+      data: {},
+      country: '60ed9fa52e6270563025e445', //Global ID
+      state: '',
+      district: '',
+      statelist:[],
+      districtlist:[]
+    };
+  }
+  // state = {
+  //   data: {},
+  //   country: '60ed9fa52e6270563025e445', //Global ID
+  //   state: '',
+  //   district: '',
+  //   statelist:[],
+  //   districtlist:[]
+  // };
 
 
   async componentDidMount() {
@@ -55,6 +67,8 @@ class Dashboard extends React.Component {
   }
   
   render() {
+    if(! this.props.user.signedIn) {return <Redirect to="/"/>}
+
     const { data,country,state,district,statelist,districtlist } = this.state;
     //console.log(data, country);
     return (

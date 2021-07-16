@@ -4,6 +4,7 @@ import axios from "axios";
 import './hospitals.css'
 import NavBar from "../NavBar/NavBar";
 import { UserContext } from "../../UserContext";
+import { Redirect } from "react-router-dom";
 
 const url = "http://localhost:2000/api/hospital";
 
@@ -89,7 +90,8 @@ const Hospital = () => {
 		}
 	}, [search, hospitals]);
 
-    if (!hospitals || !filter) {
+    if(! user.signedIn) {return <Redirect to="/"/>}
+	if (!hospitals || !filter) {
         return <>
         <NavBar/>
         <input type="text" placeholder="Search Hospital" className='inputSearch2' onChange={handleSearch}/>

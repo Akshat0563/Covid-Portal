@@ -22,7 +22,7 @@ function App() {
                 <SignUp />
               </Route>
               <Route path="/Dashboard">
-                <Dashboard />
+                <Dashboard user={user}/>
               </Route>
               <Route path="/Vaccination">
                 <Vaccination />

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { NavBar } from "..";
 import { UserContext } from "../../UserContext";
 import "./Guidelines.css";
+import { Redirect } from "react-router-dom";
 
 const api = axios.create({
   baseURL: "http://localhost:2000/api/guideline",
@@ -45,6 +46,7 @@ const Guidelines = () => {
     setadd("Yes");
   };
 
+  if(! user.signedIn) {return <Redirect to="/"/>}
   if (!guidelines) {
     return <NavBar />;
   }
