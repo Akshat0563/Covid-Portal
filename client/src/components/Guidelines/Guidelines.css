@@ -1,8 +1,8 @@
 .main {
+  width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
   margin-top: 80px;
 }
 
@@ -10,7 +10,7 @@
   padding: 5px 10px;
   background: rgb(15, 123, 224);
   color: aliceblue;
-  border: 3px solid aqua;
+  border: 2px solid aqua;
   border-radius: 15px;
   position: relative;
   display: flex;
@@ -20,6 +20,7 @@
   margin-right: 700px;
   width: 200px;
   cursor: pointer;
+  font-size: large;
 }
 
 .btnEditG {
@@ -42,14 +43,16 @@
 }
 
 .guideCardG {
-  margin: 20px;
-  width: 600px;
+  margin: 15px;
+  width: 800px;
   font-size: 1.05rem;
   border-radius: 10px;
   box-shadow: 0 0 6px 3px #f1f1f1;
+  border-left: 7px solid rgb(115, 175, 185);
+  border-right: 3px solid rgb(115, 175, 185);
   overflow: hidden;
   /* border-bottom: 5px solid #e0eaf7; */
-  padding: 10px 40px;
+  padding: 15px 40px;
   background-color: #d4dff0;
 }
 
@@ -68,10 +71,10 @@
 
 .inputGuideline {
   /* background: hsl(207, 39%, 95%); */
-  border: 1px solid rgb(83, 121, 245);
+  border: 2px solid rgb(149, 170, 201);
   /* padding: 0.35rem 0.5rem; */
   border-radius: 10px;
-  width: 400px;
+  width: 680px;
   padding: 4px;
   margin-left: 10px;
   margin-bottom: 5px;
