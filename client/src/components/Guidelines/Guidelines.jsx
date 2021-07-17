@@ -104,7 +104,7 @@ const Guidelines = () => {
         {editid === "" && add === "" ? (
           <div>
             <button onClick={(e) => handleadd()} className="addBtnG">
-              Add Guideline
+              Add New Guideline
             </button>
           </div>
         ) : (

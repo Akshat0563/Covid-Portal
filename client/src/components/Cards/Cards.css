@@ -21,6 +21,7 @@
   box-shadow: 0 0 25px 12.5px #f1f1f1;
   overflow: hidden;
   padding-bottom: 5px;
+  margin-top: 50px;
 }
 
 .card__header {
