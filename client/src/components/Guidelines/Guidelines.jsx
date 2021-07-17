@@ -102,7 +102,7 @@ const Guidelines = () => {
       <NavBar />
       <div className="main">
         {editid === "" && add === "" ? (
-          <div style={{ margin: "auto" }}>
+          <div>
             <button onClick={(e) => handleadd()} className="addBtnG">
               Add Guideline
             </button>
@@ -158,13 +158,13 @@ const Guidelines = () => {
           <>
             <div className="flexG">
               <div>
-                <form className="formEditG" style={{marginTop:'20px'}} onSubmit={add_g}>
+                <form className="formEditG" style={{marginTop:'20px', marginLeft:'-180px'}} onSubmit={add_g}>
                   <div>
                     <label>New Guideline </label>
                     <input
                       type="text"
                       className="inputGuideline"
-                      style={{padding:'7px'}}
+                      style={{padding:'7px', width:'500px'}}
                       placeholder="New Guideline"
                       value={addguide.guideline}
                       onChange={(e) =>
@@ -172,12 +172,21 @@ const Guidelines = () => {
                       }
                     />
                   </div>
-                  <button type="submit" className="addBtnG" style={{marginTop:'20px'}}>
+                  <div style={{marginLeft:'180px'}}>
+                    <button type="submit" className="addBtnG" style={{marginTop:'20px'}}>
                     Add
-                  </button>
+                    </button>
+                  </div>
                 </form>
               </div>
             </div>
+            {guidelines.map((guide) => (
+              <div className="guideCardG">
+                <h1>
+                  {guide.guideline}
+                </h1>
+              </div>
+            ))}
           </>
         )}
       </div>

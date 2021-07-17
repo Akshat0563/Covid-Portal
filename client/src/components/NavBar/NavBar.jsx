@@ -55,7 +55,7 @@ const NavBar = () => {
                     <ul className="navList">
                         <li className="navItem">
                             {user.signedIn ?
-                                <a onClick={handleSignOut}>SIGNOUT</a>
+                                <a onClick={handleSignOut} style={{cursor:'pointer'}}>SIGNOUT</a>
                                 :                                
                                 <a href="./SignUp">SIGNUP / SIGNIN</a>
                             }
