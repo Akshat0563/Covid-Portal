@@ -13,7 +13,7 @@ const Vaccination = () => {
             <NavBar />
             <div className="wrapper">
                 <div className="typing">
-                    Coming Soon.
+                    Coming Soon..
                 </div>
             </div>
         </>

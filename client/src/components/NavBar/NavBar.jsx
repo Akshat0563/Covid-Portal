@@ -49,9 +49,9 @@ const NavBar = () => {
             <div className="nav1">
             <div className="nav">
                     <ul></ul>
-                    <ul>
-                        <li className="navItem">{user.signedIn ? user.email : "Sign In to Edit"}</li>
-                    </ul>
+                    <span style={{marginTop:"15px", fontSize:'1.1rem'}}>
+                        {user.signedIn ? "Welcome, "+user.email : "Sign In to Edit"}
+                    </span>
                     <ul className="navList">
                         <li className="navItem">
                             {user.signedIn ?
