@@ -18,6 +18,7 @@
   align-items: center;
   margin-left: 700px;
   margin-right: 700px;
+  margin-bottom: 20px;
   width: 200px;
   cursor: pointer;
   font-size: large;
@@ -43,8 +44,8 @@
 }
 
 .guideCardG {
-  margin: 15px;
-  width: 800px;
+  margin: 5px;
+  width: 900px;
   font-size: 1.05rem;
   border-radius: 10px;
   box-shadow: 0 0 6px 3px #f1f1f1;
@@ -52,8 +53,9 @@
   border-right: 3px solid rgb(115, 175, 185);
   overflow: hidden;
   /* border-bottom: 5px solid #e0eaf7; */
-  padding: 15px 40px;
-  background-color: #d4dff0;
+  padding: 20px 40px;
+  background-color: #ecf1f7;
+  font-weight: 200;
 }
 
 .flexG {
