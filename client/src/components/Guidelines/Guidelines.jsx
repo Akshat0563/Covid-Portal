@@ -5,6 +5,7 @@ import { NavBar } from "..";
 import { UserContext } from "../../UserContext";
 import "./Guidelines.css";
 import { Redirect } from "react-router-dom";
+import Ticker from "react-ticker";
 
 const api = axios.create({
   baseURL: "http://localhost:2000/api/guideline",
@@ -13,8 +14,7 @@ const api = axios.create({
 const url = "http://localhost:2000/api/guideline";
 
 const Guidelines = () => {
-
-  const {user} = useContext(UserContext);
+  const { user } = useContext(UserContext);
 
   const [guidelines, setGuidelines] = useState("");
   const [editid, seteditid] = useState("");
@@ -46,7 +46,9 @@ const Guidelines = () => {
     setadd("Yes");
   };
 
-  if(! user.signedIn) {return <Redirect to="/"/>}
+  if (!user.signedIn) {
+    return <Redirect to="/" />;
+  }
   if (!guidelines) {
     return <NavBar />;
   }
@@ -95,7 +97,14 @@ const Guidelines = () => {
     setaddguide({ guideline: "" });
   };
 
-  console.log(guidelines);
+  let dist = guidelines.length;
+  console.log(dist);
+  function rand(min, max) {
+    var offset = min;
+    var range = max - min + 1;
+    var randomNumber = Math.floor(Math.random() * range) + offset;
+    return randomNumber;
+  }
 
   return (
     <>
@@ -145,7 +154,7 @@ const Guidelines = () => {
                           }
                         />
                         <button type="submit" className="btnSaveG">
-                        Save
+                          Save
                         </button>
                       </div>
                     </form>
@@ -158,13 +167,17 @@ const Guidelines = () => {
           <>
             <div className="flexG">
               <div>
-                <form className="formEditG" style={{marginTop:'20px', marginLeft:'-180px'}} onSubmit={add_g}>
+                <form
+                  className="formEditG"
+                  style={{ marginTop: "20px", marginLeft: "-180px" }}
+                  onSubmit={add_g}
+                >
                   <div>
                     <label>New Guideline </label>
                     <input
                       type="text"
                       className="inputGuideline"
-                      style={{padding:'7px', width:'500px'}}
+                      style={{ padding: "7px", width: "500px" }}
                       placeholder="New Guideline"
                       value={addguide.guideline}
                       onChange={(e) =>
@@ -172,9 +185,13 @@ const Guidelines = () => {
                       }
                     />
                   </div>
-                  <div style={{marginLeft:'180px'}}>
-                    <button type="submit" className="addBtnG" style={{marginTop:'20px'}}>
-                    Add
+                  <div style={{ marginLeft: "180px" }}>
+                    <button
+                      type="submit"
+                      className="addBtnG"
+                      style={{ marginTop: "20px" }}
+                    >
+                      Add
                     </button>
                   </div>
                 </form>
@@ -182,13 +199,20 @@ const Guidelines = () => {
             </div>
             {guidelines.map((guide) => (
               <div className="guideCardG">
-                <h1>
-                  {guide.guideline}
-                </h1>
+                <h1>{guide.guideline}</h1>
               </div>
             ))}
           </>
         )}
+      </div>
+      <div className="tick">
+        <Ticker speed={9}>
+          {() => (
+            <div className="ticker">
+              <h1>{guidelines[rand(0, guidelines.length - 1)].guideline}</h1>
+            </div>
+          )}
+        </Ticker>
       </div>
     </>
   );
