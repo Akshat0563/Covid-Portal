@@ -5,9 +5,9 @@ import { UserContext } from "../../UserContext";
 
 const url = "http://localhost:2000/api";
 
-const {user} = useContext(UserContext);
 
 const Districtedit = ({ data: { confirmed, recovered, deaths, district, state,country },handleDistrictChange,district_id}) => {
+  const {user} = useContext(UserContext);
   const [editid, seteditid] = useState("");  
   const [editdistrict, seteditdistrict] = useState({
     confirmed: null,
@@ -31,14 +31,18 @@ const update = (e) => {
         alert("All the fields are required");
         return;
     }
+    console.log(editdistrict);
     updatedistrict(editdistrict);
     seteditid("");
     seteditdistrict({ confirmed: null, recovered: null, deaths: null})
 }
 
 const updatedistrict=async(new_district)=>{
+  console.log(new_district);
+  console.log(district_id);
+  console.log(district);
    const response=await axios.put(`${url}/district/${district_id}`,new_district, user.auth);
-   console.log(response);
+   console.log(response.data);
    handleDistrictChange(country,state,district_id);
 }
 
@@ -47,7 +51,7 @@ const updatedistrict=async(new_district)=>{
     
       {editid!==district_id?
       <>
-      <button style={{marginTop:"75px"}} type='submit' onClick={(e) => handleEdit()}>Edit</button>
+      {user.isAdmin && <button style={{marginTop:"75px"}} type='submit' onClick={(e) => handleEdit()}>Edit</button>}
       </>
       :
       <>

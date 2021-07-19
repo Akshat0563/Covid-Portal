@@ -118,7 +118,7 @@ const Hospital = () => {
 								<span className='beds bedstotal'>Beds Total - {hospital['beds_total']}</span>
 								<span className='beds bedsoccupied'>Beds Occupied - {hospital['beds_occupied']}</span>
 								<span className='beds bedsavailable'>Beds Available - {hospital['beds_available']}</span>
-								<button type='submit' onClick={(e) => handleEdit(hospital)} className='btnEdit'>Edit</button>
+								{user.isAdmin && <button type='submit' onClick={(e) => handleEdit(hospital)} className='btnEdit'>Edit</button>}
 							</> 
 							:
 							<form className='formEdit' onSubmit={update}>

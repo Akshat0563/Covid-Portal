@@ -1,11 +1,12 @@
 import React, {useState,useEffect, useContext} from "react";
 import { NativeSelect,FormControl } from "@material-ui/core";
 import styles from "./CountryPicker.module.css";
+import Districtedit from "../Districtedit/Districtedit";
 import {fetchCountries} from "../../api/api";
 import { fetchStates } from "../../api/api";
 import { UserContext } from "../../UserContext";
 
-const CountryPicker = ({handleCountryChange,handleStateChange,handleDistrictChange,district,state,country,statelist,districtlist}) => {
+const CountryPicker = ({data,handleCountryChange,handleStateChange,handleDistrictChange,district,state,country,statelist,districtlist}) => {
   const {user} = useContext(UserContext);
   
   const [fetchedCountries, setfetchedCountries] = useState([]);
@@ -20,6 +21,7 @@ const CountryPicker = ({handleCountryChange,handleStateChange,handleDistrictChan
 
   return (
     <div>
+      {district && <Districtedit data={data} handleDistrictChange={handleDistrictChange} district_id={district}/>}
       <div className={styles.flexContainer}>
         <div className="select">
         <select id="standard-select" onChange={(e)=>handleCountryChange(e.target.value)}>

@@ -110,7 +110,7 @@ const Guidelines = () => {
     <>
       <NavBar />
       <div className="main">
-        {editid === "" && add === "" ? (
+        {user.isAdmin && editid === "" && add === "" ? (
           <div>
             <button onClick={(e) => handleadd()} className="addBtnG">
               Add New Guideline
@@ -127,13 +127,13 @@ const Guidelines = () => {
                   <>
                     <h1>
                       {guide.guideline}
-                      <button
+                     { user.isAdmin && <button
                         className="btnEditG"
                         type="submit"
                         onClick={(e) => handleEdit(guide)}
                       >
                         Edit
-                      </button>
+                      </button> }
                     </h1>
                   </>
                 ) : (
