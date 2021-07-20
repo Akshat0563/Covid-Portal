@@ -3,6 +3,7 @@ import { Link, useHistory, useLocation } from 'react-router-dom';
 import axios from 'axios';
 import { useContext } from 'react';
 import { UserContext } from '../../UserContext';
+import image from '../../Images/profile.png';
 
 
 const NavBar = () => {
@@ -48,10 +49,14 @@ const NavBar = () => {
             </div>
             <div className="nav1">
             <div className="nav">
-                    <ul></ul>
+                    <ul></ul>                        
+                    
+                    {/* <ul> */}
+                    <span className='profile' style={{position:'absolute', left:'520px', top:'5px'}}></span>
                     <span style={{marginTop:"15px", fontSize:'1.1rem'}}>
                         {user.signedIn ? "Welcome, "+user.email : "Sign In to Edit"}
                     </span>
+                    {/* </ul> */}
                     <ul className="navList">
                         <li className="navItem">
                             {user.signedIn ?

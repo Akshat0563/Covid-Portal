@@ -75,6 +75,7 @@ const SignUp = () => {
     <div className={"container "+className1}>
       <div className="container__form container--signup">
         <form className="form" id="form1">
+          <span className='profile'></span>
           <h2 className="formtitle">Sign Up</h2>
           <h4 className="error" style={{color:"red"}}>{error1}</h4>
           <input type="email" placeholder="Email" name='email1' className="input" onChange={handleChange} noValidate/>
@@ -85,7 +86,8 @@ const SignUp = () => {
 
       <div className="container__form container--signin">
         <form className="form" id="form2">
-          <h2 className="formtitle">Sign In</h2>
+            <span className='profile'></span>
+            <span><h2 className="formtitle">Sign In</h2></span>
           <h4 className="error" style={{color:"red"}}>{error2}</h4>
           <input type="email" placeholder="Email" className="input" name='email2' onChange={handleChange} noValidate/>
           <input type="password" placeholder="Password" className="input" name='password2' onChange={handleChange} noValidate/>
