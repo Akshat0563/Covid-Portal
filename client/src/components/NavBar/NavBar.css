@@ -245,3 +245,11 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   margin-left: 50px;
   border-radius: 5px;
 }
+
+.profile {
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  background: url("../../Images/profile.png");
+  background-size: 100%;
+}

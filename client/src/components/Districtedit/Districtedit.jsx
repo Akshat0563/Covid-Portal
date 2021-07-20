@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { UserContext } from "../../UserContext";
+// import 'Districtedit.css';
 
 const url = "http://localhost:2000/api";
 
@@ -51,12 +52,13 @@ const updatedistrict=async(new_district)=>{
     
       {editid!==district_id?
       <>
-      {user.isAdmin && <button style={{marginTop:"75px"}} type='submit' onClick={(e) => handleEdit()}>Edit</button>}
+      {user.isAdmin && <button style={{position:'absolute', left:'1180px', top:'315px'}} className='btnEdit' type='submit' onClick={(e) => handleEdit()}>Edit</button>}
       </>
       :
       <>
-      <form style={{marginTop:"75px"}} onSubmit={update}>
-        <div className="field">
+      <div style={{marginLeft:'270px'}}>
+            <form style={{marginTop:"75px", marginBottom: '100px'}} className='formEdit' style={{width:"300px"}} onSubmit={update}>
+        <div className="field inputs">
           <label>Infected</label>
           <input
             type="number"
@@ -69,7 +71,7 @@ const updatedistrict=async(new_district)=>{
             }
           />
         </div>
-        <div className="field">
+        <div className="field inputs">
           <label>Recovered</label>
           <input
             type="number"
@@ -82,7 +84,7 @@ const updatedistrict=async(new_district)=>{
             }
           />
         </div>
-        <div className="field">
+        <div className="field inputs" style={{paddingRight:'20px'}}>
           <label>Deaths</label>
           <input
             type="number"
@@ -95,8 +97,9 @@ const updatedistrict=async(new_district)=>{
             }
           />
         </div>
-        <button type="submit" className="ui button blue">Edit</button>
+        <button type="submit" className="btnSave">Save</button>
       </form>
+      </div>
       </>
     }
     </>

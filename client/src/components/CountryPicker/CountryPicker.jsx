@@ -21,8 +21,7 @@ const CountryPicker = ({data,handleCountryChange,handleStateChange,handleDistric
 
   return (
     <div>
-      {district && <Districtedit data={data} handleDistrictChange={handleDistrictChange} district_id={district}/>}
-      <div className={styles.flexContainer}>
+      <span className={styles.flexContainer}>
         <div className="select">
         <select id="standard-select" onChange={(e)=>handleCountryChange(e.target.value)}>
           {!country && <option value="">Select Country</option>}
@@ -41,7 +40,8 @@ const CountryPicker = ({data,handleCountryChange,handleStateChange,handleDistric
           {districtlist.map((district,i)=><option key={i} value={district._id}>{district.district}</option>)}
         </select>
         </div>
-      </div>
+      </span>
+      {district && <Districtedit data={data} handleDistrictChange={handleDistrictChange} district_id={district}/>}
     </div>
   );
 };
